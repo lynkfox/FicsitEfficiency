@@ -15,18 +15,7 @@ class BaseComponents():
 
 
 component_mapping = {
-    BaseComponents.LIMESTONE: "Limestone",
-    BaseComponents.IRON: "Iron Ore",
-    BaseComponents.COPPER: "Copper Ore",
-    BaseComponents.QUARTZ: "Raw Quartz",
-    BaseComponents.COAL: "Raw Coal",
-    BaseComponents.SULFUR: "Raw Sulfur",
-    BaseComponents.CATERIUM: "Caterium Ore",
-    BaseComponents.BAUXITE: "Bauxite Ore",
-    BaseComponents.URANIUM: "Uranium Ore",
-    BaseComponents.WATER: "Water",
-    BaseComponents.OIL: "Oil",
-    BaseComponents.NITROGEN: "Nitrogen Gas"
+    
 }
 
 class ManufacturedComponents():
@@ -90,7 +79,7 @@ class ManufacturedComponents():
     URANIUM_FUEL_ROD = "nuclearFuelRod"
     WIRE = "wire"
 
-    # Space Elevator Parts
+class ProjectAssemblyPart():
     SMART_PLATING = "spaceElevatorPart1"
     VERSITLE_FRAMEWORK = "spaceElevatorPart2"
     AUTOMATED_WIRING = "spaceElevatorPart3"
@@ -101,12 +90,24 @@ class ManufacturedComponents():
     THERMAL_PROPULSION_ROCKET = "spaceElevatorPart8"
     NUCLEAR_PASTA = "spaceElevatorPart9"
 
-    # Equipment
+class Equipment():
     BEACON = "beacon"
     RIFLE_CARTRIDGE = "cartridgeStandard"
 
 
-manufactured_mapping = {
+display_name_mapping = {
+    BaseComponents.LIMESTONE: "Limestone",
+    BaseComponents.IRON: "Iron Ore",
+    BaseComponents.COPPER: "Copper Ore",
+    BaseComponents.QUARTZ: "Raw Quartz",
+    BaseComponents.COAL: "Raw Coal",
+    BaseComponents.SULFUR: "Raw Sulfur",
+    BaseComponents.CATERIUM: "Caterium Ore",
+    BaseComponents.BAUXITE: "Bauxite Ore",
+    BaseComponents.URANIUM: "Uranium Ore",
+    BaseComponents.WATER: "Water",
+    BaseComponents.OIL: "Oil",
+    BaseComponents.NITROGEN: "Nitrogen Gas",
     ManufacturedComponents.AI_LIMITER: "AI Limiter",
     ManufacturedComponents.ALCLAD_ALUMINUM_SHEET: "Alclad Aluminum Sheet",
     ManufacturedComponents.ALUMNIUM_CASING: "Alumnium Casing",
@@ -166,15 +167,15 @@ manufactured_mapping = {
     ManufacturedComponents.TURBO_MOTOR: "Turbo Motor",
     ManufacturedComponents.URANIUM_FUEL_ROD: "Uranium Fuel Rod",
     ManufacturedComponents.WIRE: "Wire",
-    ManufacturedComponents.SMART_PLATING: "Smart Plating",
-    ManufacturedComponents.VERSITLE_FRAMEWORK: "Versitile Framework",
-    ManufacturedComponents.AUTOMATED_WIRING: "Automated Wiring",
-    ManufacturedComponents.MODULAR_ENGINE: "Modular Engine",
-    ManufacturedComponents.ADAPTIVE_CONTROL_UNIT: "Adaptive Control Unit",
-    ManufacturedComponents.MAGNETIC_FIELD_GENERATOR: "Magnetic Field Generator",
-    ManufacturedComponents.ASSEMBLY_DIRECTOR_SYSTEM: "Assembly Director System",
-    ManufacturedComponents.THERMAL_PROPULSION_ROCKET: "Thermal Propulsion Rocket",
-    ManufacturedComponents.NUCLEAR_PASTA: "Nuclear Pasta",
-    ManufacturedComponents.BEACON: "Beacon",
-    ManufacturedComponents.RIFLE_CARTRIDGE: "Rifle Cartridge"
+    ProjectAssemblyPart.SMART_PLATING: "Smart Plating",
+    ProjectAssemblyPart.VERSITLE_FRAMEWORK: "Versitile Framework",
+    ProjectAssemblyPart.AUTOMATED_WIRING: "Automated Wiring",
+    ProjectAssemblyPart.MODULAR_ENGINE: "Modular Engine",
+    ProjectAssemblyPart.ADAPTIVE_CONTROL_UNIT: "Adaptive Control Unit",
+    ProjectAssemblyPart.MAGNETIC_FIELD_GENERATOR: "Magnetic Field Generator",
+    ProjectAssemblyPart.ASSEMBLY_DIRECTOR_SYSTEM: "Assembly Director System",
+    ProjectAssemblyPart.THERMAL_PROPULSION_ROCKET: "Thermal Propulsion Rocket",
+    ProjectAssemblyPart.NUCLEAR_PASTA: "Nuclear Pasta",
+    Equipment.BEACON: "Beacon",
+    Equipment.RIFLE_CARTRIDGE: "Rifle Cartridge"
 }
