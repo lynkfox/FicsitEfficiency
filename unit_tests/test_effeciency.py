@@ -1,4 +1,4 @@
-from ficsit.effeciency import *
+from ficsit.effeciency_calculations import *
 
 class Test_calculate_produced_per_minute():
 
