@@ -25,17 +25,19 @@ def get_recipes(xml_tree):
         if recipe is None:
             continue
 
-        component_produced = buildable.find("Products/ItemAmount").attrib["item"]
+        components_produced = [ clean_item_name(item.attrib["item"]) for item in buildable.findall("Products/ItemAmount")]
+        
+        for component in components_produced:
 
-        if component_produced in all_recipies:
-            all_recipies[component_produced].append(recipe)
+            if component in all_recipies:
+                all_recipies[component].append(recipe)
 
-        else:
-            entry = {
-                component_produced: [ recipe ]
-            }
+            else:
+                entry = {
+                    component: [ recipe ]
+                }
 
-            all_recipies.update(entry)
+                all_recipies.update(entry)
 
 
         
@@ -66,13 +68,19 @@ def get_recipe_details(buildable, name):
 
 
     return {
-        "recipieName": name,
+        "recipeName": name,
         "producedIn": machine,
-        "components": { ingredient.attrib['item']:ingredient.attrib['amount'] for ingredient in buildable.findall(".//Ingredients/ItemAmount")},
+        "components": { clean_item_name(ingredient.attrib['item']): int(ingredient.attrib['amount']) for ingredient in buildable.findall(".//Ingredients/ItemAmount")},
         "timeToProduce": int(buildable.find("ManufactoringDuration").text),
         "manualMultiplier": float(buildable.find("ManualManufacturingMultiplier").text)
     }
 
+
+def clean_item_name(name):
+    removed_ixs = name.split("_")
+    small_name = "".join(removed_ixs[1:-1]).replace("ItemDescriptor", "").replace("EquipmentDescriptor", "")
+
+    return small_name[0].lower() + small_name[1:]
 
 
 def main():

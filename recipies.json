@@ -1,0 +1,2528 @@
+{
+    "circuitBoardHighSpeed": [
+        {
+            "recipeName": "AI Limiter",
+            "producedIn": "Assembler",
+            "components": {
+                "copperSheet": 5,
+                "highSpeedWire": 20
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "ironPlateReinforced": [
+        {
+            "recipeName": "Alternate: Adhered Iron Plate",
+            "producedIn": "Assembler",
+            "components": {
+                "ironPlate": 3,
+                "rubber": 1
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Bolted Iron Plate",
+            "producedIn": "Assembler",
+            "components": {
+                "ironPlate": 18,
+                "ironScrew": 50
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Stitched Iron Plate",
+            "producedIn": "Assembler",
+            "components": {
+                "ironPlate": 10,
+                "wire": 20
+            },
+            "timeToProduce": 32,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Reinforced Iron Plate",
+            "producedIn": "Assembler",
+            "components": {
+                "ironPlate": 6,
+                "ironScrew": 12
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "aluminumCasing": [
+        {
+            "recipeName": "Alternate: Alclad Casing",
+            "producedIn": "Assembler",
+            "components": {
+                "aluminumIngot": 20,
+                "copperIngot": 10
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Aluminum Casing",
+            "producedIn": "Constructor",
+            "components": {
+                "aluminumIngot": 3
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 2.0
+        }
+    ],
+    "portableMiner": [
+        {
+            "recipeName": "Alternate: Automated Miner",
+            "producedIn": "Manufacturer",
+            "components": {
+                "motor": 1,
+                "steelPipe": 4,
+                "ironRod": 4,
+                "ironPlate": 2
+            },
+            "timeToProduce": 60,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "beacon": [
+        {
+            "recipeName": "Alternate: Crystal Beacon",
+            "producedIn": "Manufacturer",
+            "components": {
+                "steelPlate": 4,
+                "steelPipe": 16,
+                "crystalOscillator": 1
+            },
+            "timeToProduce": 120,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Beacon",
+            "producedIn": "Manufacturer",
+            "components": {
+                "ironPlate": 3,
+                "ironRod": 1,
+                "wire": 15,
+                "cable": 2
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "modularFrame": [
+        {
+            "recipeName": "Alternate: Bolted Frame",
+            "producedIn": "Assembler",
+            "components": {
+                "ironPlateReinforced": 3,
+                "ironScrew": 56
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Steeled Frame",
+            "producedIn": "Assembler",
+            "components": {
+                "ironPlateReinforced": 2,
+                "steelPipe": 10
+            },
+            "timeToProduce": 60,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Modular Frame",
+            "producedIn": "Assembler",
+            "components": {
+                "ironPlateReinforced": 3,
+                "ironRod": 12
+            },
+            "timeToProduce": 60,
+            "manualMultiplier": 0.5
+        }
+    ],
+    "cable": [
+        {
+            "recipeName": "Alternate: Insulated Cable",
+            "producedIn": "Assembler",
+            "components": {
+                "wire": 9,
+                "rubber": 6
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Quickwire Cable",
+            "producedIn": "Assembler",
+            "components": {
+                "highSpeedWire": 3,
+                "rubber": 2
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Coated Cable",
+            "producedIn": "OilRefinery",
+            "components": {
+                "wire": 5,
+                "heavyOilResidue": 2000
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Cable",
+            "producedIn": "Constructor",
+            "components": {
+                "wire": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "circuitBoard": [
+        {
+            "recipeName": "Alternate: Silicon Circuit Board",
+            "producedIn": "Assembler",
+            "components": {
+                "copperSheet": 11,
+                "silica": 11
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Caterium Circuit Board",
+            "producedIn": "Assembler",
+            "components": {
+                "plastic": 10,
+                "highSpeedWire": 30
+            },
+            "timeToProduce": 48,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Electrode Circuit Board",
+            "producedIn": "Assembler",
+            "components": {
+                "rubber": 6,
+                "petroleumCoke": 9
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Circuit Board",
+            "producedIn": "Assembler",
+            "components": {
+                "copperSheet": 2,
+                "plastic": 4
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 1.5
+        }
+    ],
+    "battery": [
+        {
+            "recipeName": "Alternate: Classic Battery",
+            "producedIn": "Manufacturer",
+            "components": {
+                "sulfur": 6,
+                "aluminumPlate": 7,
+                "plastic": 8,
+                "wire": 12
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Battery",
+            "producedIn": "Blender",
+            "components": {
+                "sulfuricAcid": 2500,
+                "aluminaSolution": 2000,
+                "aluminumCasing": 1
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "coal": [
+        {
+            "recipeName": "Alternate: Charcoal",
+            "producedIn": "Constructor",
+            "components": {
+                "wood": 1
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Biocoal",
+            "producedIn": "Constructor",
+            "components": {
+                "genericBiomass": 5
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "fluidCanister": [
+        {
+            "recipeName": "Alternate: Coated Iron Canister",
+            "producedIn": "Assembler",
+            "components": {
+                "ironPlate": 2,
+                "copperSheet": 1
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Steel Canister",
+            "producedIn": "Constructor",
+            "components": {
+                "steelIngot": 3
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Empty Canister",
+            "producedIn": "Constructor",
+            "components": {
+                "plastic": 2
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Alumina Solution",
+            "producedIn": "Packager",
+            "components": {
+                "packagedAlumina": 2
+            },
+            "timeToProduce": 0,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Liquid Biofuel",
+            "producedIn": "Packager",
+            "components": {
+                "packagedBiofuel": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Fuel",
+            "producedIn": "Packager",
+            "components": {
+                "fuel": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Oil",
+            "producedIn": "Packager",
+            "components": {
+                "packagedOil": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Heavy Oil Residue",
+            "producedIn": "Packager",
+            "components": {
+                "packagedOilResidue": 2
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Sulfuric Acid",
+            "producedIn": "Packager",
+            "components": {
+                "packagedSulfuricAcid": 1
+            },
+            "timeToProduce": 0,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Turbofuel",
+            "producedIn": "Packager",
+            "components": {
+                "turboFuel": 2
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Water",
+            "producedIn": "Packager",
+            "components": {
+                "packagedWater": 2
+            },
+            "timeToProduce": 0,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "ironPlate": [
+        {
+            "recipeName": "Alternate: Coated Iron Plate",
+            "producedIn": "Assembler",
+            "components": {
+                "ironIngot": 10,
+                "plastic": 2
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Steel Coated Plate",
+            "producedIn": "Assembler",
+            "components": {
+                "steelIngot": 3,
+                "plastic": 2
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Iron Plate",
+            "producedIn": "Constructor",
+            "components": {
+                "ironIngot": 3
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "steelIngot": [
+        {
+            "recipeName": "Alternate: Coke Steel Ingot",
+            "producedIn": "Foundry",
+            "components": {
+                "oreIron": 15,
+                "petroleumCoke": 15
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Solid Steel Ingot",
+            "producedIn": "Foundry",
+            "components": {
+                "ironIngot": 2,
+                "coal": 2
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Compacted Steel Ingot",
+            "producedIn": "Foundry",
+            "components": {
+                "oreIron": 6,
+                "compactedCoal": 3
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Steel Ingot",
+            "producedIn": "Foundry",
+            "components": {
+                "oreIron": 3,
+                "coal": 3
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 3.0
+        }
+    ],
+    "computer": [
+        {
+            "recipeName": "Alternate: Caterium Computer",
+            "producedIn": "Manufacturer",
+            "components": {
+                "circuitBoard": 7,
+                "highSpeedWire": 28,
+                "rubber": 12
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Crystal Computer",
+            "producedIn": "Assembler",
+            "components": {
+                "circuitBoard": 8,
+                "crystalOscillator": 3
+            },
+            "timeToProduce": 64,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Computer",
+            "producedIn": "Manufacturer",
+            "components": {
+                "circuitBoard": 10,
+                "cable": 9,
+                "plastic": 18,
+                "ironScrew": 52
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 1.5
+        }
+    ],
+    "cement": [
+        {
+            "recipeName": "Alternate: Fine Concrete",
+            "producedIn": "Assembler",
+            "components": {
+                "silica": 3,
+                "stone": 12
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Rubber Concrete",
+            "producedIn": "Assembler",
+            "components": {
+                "stone": 10,
+                "rubber": 2
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Wet Concrete",
+            "producedIn": "OilRefinery",
+            "components": {
+                "stone": 6,
+                "water": 5000
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Concrete",
+            "producedIn": "Constructor",
+            "components": {
+                "stone": 3
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "coolingSystem": [
+        {
+            "recipeName": "Alternate: Cooling Device",
+            "producedIn": "Blender",
+            "components": {
+                "aluminumPlateReinforced": 5,
+                "motor": 1,
+                "nitrogenGas": 24000
+            },
+            "timeToProduce": 32,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Cooling System",
+            "producedIn": "Blender",
+            "components": {
+                "aluminumPlateReinforced": 2,
+                "rubber": 2,
+                "water": 5000,
+                "nitrogenGas": 25000
+            },
+            "timeToProduce": 10,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "copperIngot": [
+        {
+            "recipeName": "Alternate: Copper Alloy Ingot",
+            "producedIn": "Foundry",
+            "components": {
+                "oreCopper": 10,
+                "oreIron": 5
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Pure Copper Ingot",
+            "producedIn": "OilRefinery",
+            "components": {
+                "oreCopper": 6,
+                "water": 4000
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Copper Ingot",
+            "producedIn": "Smelter",
+            "components": {
+                "oreCopper": 1
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 3.0
+        }
+    ],
+    "rotor": [
+        {
+            "recipeName": "Alternate: Copper Rotor",
+            "producedIn": "Assembler",
+            "components": {
+                "copperSheet": 6,
+                "ironScrew": 52
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Steel Rotor",
+            "producedIn": "Assembler",
+            "components": {
+                "steelPipe": 2,
+                "wire": 6
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Rotor",
+            "producedIn": "Assembler",
+            "components": {
+                "ironRod": 5,
+                "ironScrew": 25
+            },
+            "timeToProduce": 15,
+            "manualMultiplier": 0.8
+        }
+    ],
+    "crystalOscillator": [
+        {
+            "recipeName": "Alternate: Insulated Crystal Oscillator",
+            "producedIn": "Manufacturer",
+            "components": {
+                "quartzCrystal": 10,
+                "rubber": 7,
+                "circuitBoardHighSpeed": 1
+            },
+            "timeToProduce": 32,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Crystal Oscillator",
+            "producedIn": "Manufacturer",
+            "components": {
+                "quartzCrystal": 36,
+                "cable": 28,
+                "ironPlateReinforced": 5
+            },
+            "timeToProduce": 120,
+            "manualMultiplier": 0.3
+        }
+    ],
+    "liquidFuel": [
+        {
+            "recipeName": "Alternate: Diluted Fuel",
+            "producedIn": "Blender",
+            "components": {
+                "heavyOilResidue": 5000,
+                "water": 10000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Fuel",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 6000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Residual Fuel",
+            "producedIn": "OilRefinery",
+            "components": {
+                "heavyOilResidue": 6000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Fuel",
+            "producedIn": "Packager",
+            "components": {
+                "fuel": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "fuel": [
+        {
+            "recipeName": "Alternate: Diluted Packaged Fuel",
+            "producedIn": "OilRefinery",
+            "components": {
+                "heavyOilResidue": 1000,
+                "packagedWater": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Packaged Fuel",
+            "producedIn": "Packager",
+            "components": {
+                "liquidFuel": 2000,
+                "fluidCanister": 2
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "motor": [
+        {
+            "recipeName": "Alternate: Electric Motor",
+            "producedIn": "Assembler",
+            "components": {
+                "electromagneticControlRod": 1,
+                "rotor": 2
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Rigour Motor",
+            "producedIn": "Manufacturer",
+            "components": {
+                "rotor": 3,
+                "stator": 3,
+                "crystalOscillator": 1
+            },
+            "timeToProduce": 48,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Motor",
+            "producedIn": "Assembler",
+            "components": {
+                "rotor": 2,
+                "stator": 2
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 2.0
+        }
+    ],
+    "aluminumScrap": [
+        {
+            "recipeName": "Alternate: Electrode - Aluminum Scrap",
+            "producedIn": "OilRefinery",
+            "components": {
+                "aluminaSolution": 12000,
+                "petroleumCoke": 4
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Instant Scrap",
+            "producedIn": "Blender",
+            "components": {
+                "oreBauxite": 15,
+                "coal": 10,
+                "sulfuricAcid": 5000,
+                "water": 6000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "water": [
+        {
+            "recipeName": "Alternate: Electrode - Aluminum Scrap",
+            "producedIn": "OilRefinery",
+            "components": {
+                "aluminaSolution": 12000,
+                "petroleumCoke": 4
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Fertile Uranium",
+            "producedIn": "Blender",
+            "components": {
+                "oreUranium": 5,
+                "nuclearWaste": 5,
+                "nitricAcid": 3000,
+                "sulfuricAcid": 5000
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Instant Scrap",
+            "producedIn": "Blender",
+            "components": {
+                "oreBauxite": 15,
+                "coal": 10,
+                "sulfuricAcid": 5000,
+                "water": 6000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Battery",
+            "producedIn": "Blender",
+            "components": {
+                "sulfuricAcid": 2500,
+                "aluminaSolution": 2000,
+                "aluminumCasing": 1
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Non-fissile Uranium",
+            "producedIn": "Blender",
+            "components": {
+                "nuclearWaste": 15,
+                "silica": 10,
+                "nitricAcid": 6000,
+                "sulfuricAcid": 6000
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Water",
+            "producedIn": "Packager",
+            "components": {
+                "packagedWater": 2
+            },
+            "timeToProduce": 0,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "electromagneticControlRod": [
+        {
+            "recipeName": "Alternate: Electromagnetic Connection Rod",
+            "producedIn": "Assembler",
+            "components": {
+                "stator": 2,
+                "highSpeedConnector": 1
+            },
+            "timeToProduce": 15,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Electromagnetic Control Rod",
+            "producedIn": "Assembler",
+            "components": {
+                "stator": 3,
+                "circuitBoardHighSpeed": 2
+            },
+            "timeToProduce": 30,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "steelPlateReinforced": [
+        {
+            "recipeName": "Alternate: Encased Industrial Pipe",
+            "producedIn": "Assembler",
+            "components": {
+                "steelPipe": 7,
+                "cement": 5
+            },
+            "timeToProduce": 15,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Encased Industrial Beam",
+            "producedIn": "Assembler",
+            "components": {
+                "steelPlate": 4,
+                "cement": 5
+            },
+            "timeToProduce": 10,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "compactedCoal": [
+        {
+            "recipeName": "Alternate: Compacted Coal",
+            "producedIn": "Assembler",
+            "components": {
+                "coal": 5,
+                "sulfur": 5
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "nonFissibleUranium": [
+        {
+            "recipeName": "Alternate: Fertile Uranium",
+            "producedIn": "Blender",
+            "components": {
+                "oreUranium": 5,
+                "nuclearWaste": 5,
+                "nitricAcid": 3000,
+                "sulfuricAcid": 5000
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Non-fissile Uranium",
+            "producedIn": "Blender",
+            "components": {
+                "nuclearWaste": 15,
+                "silica": 10,
+                "nitricAcid": 6000,
+                "sulfuricAcid": 6000
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spaceElevatorPart2": [
+        {
+            "recipeName": "Alternate: Flexible Framework",
+            "producedIn": "Manufacturer",
+            "components": {
+                "modularFrame": 1,
+                "steelPlate": 6,
+                "rubber": 8
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Versatile Framework",
+            "producedIn": "Assembler",
+            "components": {
+                "modularFrame": 1,
+                "steelPlate": 12
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "wire": [
+        {
+            "recipeName": "Alternate: Fused Wire",
+            "producedIn": "Assembler",
+            "components": {
+                "copperIngot": 4,
+                "goldIngot": 1
+            },
+            "timeToProduce": 20,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Iron Wire",
+            "producedIn": "Constructor",
+            "components": {
+                "ironIngot": 5
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Caterium Wire",
+            "producedIn": "Constructor",
+            "components": {
+                "goldIngot": 1
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Wire",
+            "producedIn": "Constructor",
+            "components": {
+                "copperIngot": 1
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "gunpowder": [
+        {
+            "recipeName": "Alternate: Fine Black Powder",
+            "producedIn": "Assembler",
+            "components": {
+                "sulfur": 2,
+                "compactedCoal": 1
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Black Powder",
+            "producedIn": "Assembler",
+            "components": {
+                "coal": 1,
+                "sulfur": 2
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.5
+        }
+    ],
+    "modularFrameFused": [
+        {
+            "recipeName": "Alternate: Heat-Fused Frame",
+            "producedIn": "Blender",
+            "components": {
+                "modularFrameHeavy": 1,
+                "aluminumIngot": 50,
+                "nitricAcid": 8000,
+                "liquidFuel": 10000
+            },
+            "timeToProduce": 20,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Fused Modular Frame",
+            "producedIn": "Blender",
+            "components": {
+                "modularFrameHeavy": 1,
+                "aluminumCasing": 50,
+                "nitrogenGas": 25000
+            },
+            "timeToProduce": 40,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "aluminumPlateReinforced": [
+        {
+            "recipeName": "Alternate: Heat Exchanger",
+            "producedIn": "Assembler",
+            "components": {
+                "aluminumCasing": 3,
+                "rubber": 3
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Heat Sink",
+            "producedIn": "Assembler",
+            "components": {
+                "aluminumPlate": 5,
+                "copperSheet": 3
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 1.5
+        }
+    ],
+    "modularFrameHeavy": [
+        {
+            "recipeName": "Alternate: Heavy Flexible Frame",
+            "producedIn": "Manufacturer",
+            "components": {
+                "modularFrame": 5,
+                "steelPlateReinforced": 3,
+                "rubber": 20,
+                "ironScrew": 104
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Heavy Encased Frame",
+            "producedIn": "Manufacturer",
+            "components": {
+                "modularFrame": 8,
+                "steelPlateReinforced": 10,
+                "steelPipe": 36,
+                "cement": 22
+            },
+            "timeToProduce": 64,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Heavy Modular Frame",
+            "producedIn": "Manufacturer",
+            "components": {
+                "modularFrame": 5,
+                "steelPipe": 15,
+                "steelPlateReinforced": 5,
+                "ironScrew": 100
+            },
+            "timeToProduce": 30,
+            "manualMultiplier": 0.6
+        }
+    ],
+    "heavyOilResidue": [
+        {
+            "recipeName": "Alternate: Heavy Oil Residue",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 3000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Polymer Resin",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 6000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Plastic",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 3000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Rubber",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 3000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Heavy Oil Residue",
+            "producedIn": "Packager",
+            "components": {
+                "packagedOilResidue": 2
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "polymerResin": [
+        {
+            "recipeName": "Alternate: Heavy Oil Residue",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 3000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Polymer Resin",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 6000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Fuel",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 6000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "highSpeedConnector": [
+        {
+            "recipeName": "Alternate: Silicon High-Speed Connector",
+            "producedIn": "Manufacturer",
+            "components": {
+                "highSpeedWire": 60,
+                "silica": 25,
+                "circuitBoard": 2
+            },
+            "timeToProduce": 40,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "High-Speed Connector",
+            "producedIn": "Manufacturer",
+            "components": {
+                "highSpeedWire": 56,
+                "cable": 10,
+                "circuitBoard": 1
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spaceElevatorPart3": [
+        {
+            "recipeName": "Alternate: Automated Speed Wiring",
+            "producedIn": "Manufacturer",
+            "components": {
+                "stator": 2,
+                "wire": 40,
+                "highSpeedConnector": 1
+            },
+            "timeToProduce": 32,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Automated Wiring",
+            "producedIn": "Assembler",
+            "components": {
+                "stator": 1,
+                "cable": 20
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "ironIngot": [
+        {
+            "recipeName": "Alternate: Iron Alloy Ingot",
+            "producedIn": "Foundry",
+            "components": {
+                "oreIron": 2,
+                "oreCopper": 2
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Pure Iron Ingot",
+            "producedIn": "OilRefinery",
+            "components": {
+                "oreIron": 7,
+                "water": 4000
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Iron Ingot",
+            "producedIn": "Smelter",
+            "components": {
+                "oreIron": 1
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 3.0
+        }
+    ],
+    "plutoniumCell": [
+        {
+            "recipeName": "Alternate: Instant Plutonium Cell",
+            "producedIn": "ParticleAccelerator",
+            "components": {
+                "nonFissibleUranium": 150,
+                "aluminumCasing": 20
+            },
+            "timeToProduce": 120,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Encased Plutonium Cell",
+            "producedIn": "Assembler",
+            "components": {
+                "plutoniumPellet": 2,
+                "cement": 4
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.5
+        }
+    ],
+    "nobeliskExplosive": [
+        {
+            "recipeName": "Alternate: Seismic Nobelisk",
+            "producedIn": "Manufacturer",
+            "components": {
+                "gunpowder": 8,
+                "steelPipe": 8,
+                "crystalOscillator": 1
+            },
+            "timeToProduce": 40,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Nobelisk",
+            "producedIn": "Assembler",
+            "components": {
+                "gunpowder": 5,
+                "steelPipe": 10
+            },
+            "timeToProduce": 20,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "nuclearFuelRod": [
+        {
+            "recipeName": "Alternate: Uranium Fuel Unit",
+            "producedIn": "Manufacturer",
+            "components": {
+                "uraniumCell": 100,
+                "electromagneticControlRod": 10,
+                "crystalOscillator": 3,
+                "beacon": 6
+            },
+            "timeToProduce": 300,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Uranium Fuel Rod",
+            "producedIn": "Manufacturer",
+            "components": {
+                "uraniumCell": 50,
+                "steelPlateReinforced": 3,
+                "electromagneticControlRod": 5
+            },
+            "timeToProduce": 150,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "computerSuper": [
+        {
+            "recipeName": "Alternate: OC Supercomputer",
+            "producedIn": "Assembler",
+            "components": {
+                "modularFrameLightweight": 3,
+                "coolingSystem": 3
+            },
+            "timeToProduce": 20,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Super-State Computer",
+            "producedIn": "Manufacturer",
+            "components": {
+                "computer": 3,
+                "electromagneticControlRod": 2,
+                "battery": 20,
+                "wire": 45
+            },
+            "timeToProduce": 50,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Supercomputer",
+            "producedIn": "Manufacturer",
+            "components": {
+                "computer": 2,
+                "circuitBoardHighSpeed": 2,
+                "highSpeedConnector": 3,
+                "plastic": 28
+            },
+            "timeToProduce": 32,
+            "manualMultiplier": 1.5
+        }
+    ],
+    "plastic": [
+        {
+            "recipeName": "Alternate: Recycled Plastic",
+            "producedIn": "OilRefinery",
+            "components": {
+                "rubber": 6,
+                "liquidFuel": 6000
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Plastic",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 3000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Residual Plastic",
+            "producedIn": "OilRefinery",
+            "components": {
+                "polymerResin": 6,
+                "water": 2000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spaceElevatorPart1": [
+        {
+            "recipeName": "Alternate: Plastic Smart Plating",
+            "producedIn": "Manufacturer",
+            "components": {
+                "ironPlateReinforced": 1,
+                "rotor": 1,
+                "plastic": 3
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Smart Plating",
+            "producedIn": "Assembler",
+            "components": {
+                "ironPlateReinforced": 1,
+                "rotor": 1
+            },
+            "timeToProduce": 30,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "plutoniumFuelRod": [
+        {
+            "recipeName": "Alternate: Plutonium Fuel Unit",
+            "producedIn": "Assembler",
+            "components": {
+                "plutoniumCell": 20,
+                "pressureConversionCube": 1
+            },
+            "timeToProduce": 120,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Plutonium Fuel Rod",
+            "producedIn": "Manufacturer",
+            "components": {
+                "plutoniumCell": 30,
+                "steelPlate": 18,
+                "electromagneticControlRod": 6,
+                "aluminumPlateReinforced": 10
+            },
+            "timeToProduce": 240,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "fabric": [
+        {
+            "recipeName": "Alternate: Polyester Fabric",
+            "producedIn": "OilRefinery",
+            "components": {
+                "polymerResin": 16,
+                "water": 10000
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Fabric",
+            "producedIn": "Assembler",
+            "components": {
+                "mycelia": 1,
+                "genericBiomass": 5
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "goldIngot": [
+        {
+            "recipeName": "Alternate: Pure Caterium Ingot",
+            "producedIn": "OilRefinery",
+            "components": {
+                "oreGold": 2,
+                "water": 2000
+            },
+            "timeToProduce": 5,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Caterium Ingot",
+            "producedIn": "Smelter",
+            "components": {
+                "oreGold": 3
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 2.0
+        }
+    ],
+    "quartzCrystal": [
+        {
+            "recipeName": "Alternate: Pure Quartz Crystal",
+            "producedIn": "OilRefinery",
+            "components": {
+                "rawQuartz": 9,
+                "water": 5000
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Quartz Crystal",
+            "producedIn": "Constructor",
+            "components": {
+                "rawQuartz": 5
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 2.0
+        }
+    ],
+    "highSpeedWire": [
+        {
+            "recipeName": "Alternate: Fused Quickwire",
+            "producedIn": "Assembler",
+            "components": {
+                "goldIngot": 1,
+                "copperIngot": 5
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Quickwire",
+            "producedIn": "Constructor",
+            "components": {
+                "goldIngot": 1
+            },
+            "timeToProduce": 5,
+            "manualMultiplier": 2.0
+        }
+    ],
+    "modularFrameLightweight": [
+        {
+            "recipeName": "Alternate: Radio Control System",
+            "producedIn": "Manufacturer",
+            "components": {
+                "crystalOscillator": 1,
+                "circuitBoard": 10,
+                "aluminumCasing": 60,
+                "rubber": 30
+            },
+            "timeToProduce": 40,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Radio Connection Unit",
+            "producedIn": "Manufacturer",
+            "components": {
+                "aluminumPlateReinforced": 4,
+                "highSpeedConnector": 2,
+                "quartzCrystal": 12
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Radio Control Unit",
+            "producedIn": "Manufacturer",
+            "components": {
+                "aluminumCasing": 32,
+                "crystalOscillator": 1,
+                "computer": 1
+            },
+            "timeToProduce": 48,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "rubber": [
+        {
+            "recipeName": "Alternate: Recycled Rubber",
+            "producedIn": "OilRefinery",
+            "components": {
+                "plastic": 6,
+                "liquidFuel": 6000
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Residual Rubber",
+            "producedIn": "OilRefinery",
+            "components": {
+                "polymerResin": 4,
+                "water": 4000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Rubber",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidOil": 3000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "ironScrew": [
+        {
+            "recipeName": "Alternate: Steel Screw",
+            "producedIn": "Constructor",
+            "components": {
+                "steelPlate": 1
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Cast Screw",
+            "producedIn": "Constructor",
+            "components": {
+                "ironIngot": 5
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Screw",
+            "producedIn": "Constructor",
+            "components": {
+                "ironRod": 1
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "silica": [
+        {
+            "recipeName": "Alternate: Cheap Silica",
+            "producedIn": "Assembler",
+            "components": {
+                "rawQuartz": 3,
+                "stone": 5
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alumina Solution",
+            "producedIn": "OilRefinery",
+            "components": {
+                "oreBauxite": 12,
+                "water": 18000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Silica",
+            "producedIn": "Constructor",
+            "components": {
+                "rawQuartz": 3
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 2.0
+        }
+    ],
+    "aluminaSolution": [
+        {
+            "recipeName": "Alternate: Sloppy Alumina",
+            "producedIn": "OilRefinery",
+            "components": {
+                "oreBauxite": 10,
+                "water": 10000
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alumina Solution",
+            "producedIn": "OilRefinery",
+            "components": {
+                "oreBauxite": 12,
+                "water": 18000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Alumina Solution",
+            "producedIn": "Packager",
+            "components": {
+                "packagedAlumina": 2
+            },
+            "timeToProduce": 0,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "stator": [
+        {
+            "recipeName": "Alternate: Quickwire Stator",
+            "producedIn": "Assembler",
+            "components": {
+                "steelPipe": 4,
+                "highSpeedWire": 15
+            },
+            "timeToProduce": 15,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Stator",
+            "producedIn": "Assembler",
+            "components": {
+                "steelPipe": 3,
+                "wire": 8
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 1.5
+        }
+    ],
+    "copperSheet": [
+        {
+            "recipeName": "Alternate: Steamed Copper Sheet",
+            "producedIn": "OilRefinery",
+            "components": {
+                "copperIngot": 3,
+                "water": 3000
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Copper Sheet",
+            "producedIn": "Constructor",
+            "components": {
+                "copperIngot": 2
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "ironRod": [
+        {
+            "recipeName": "Alternate: Steel Rod",
+            "producedIn": "Constructor",
+            "components": {
+                "steelIngot": 1
+            },
+            "timeToProduce": 5,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Iron Rod",
+            "producedIn": "Constructor",
+            "components": {
+                "ironIngot": 1
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.5
+        }
+    ],
+    "liquidTurboFuel": [
+        {
+            "recipeName": "Alternate: Turbo Blend Fuel",
+            "producedIn": "Blender",
+            "components": {
+                "liquidFuel": 2000,
+                "heavyOilResidue": 4000,
+                "sulfur": 3,
+                "petroleumCoke": 3
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Turbofuel",
+            "producedIn": "OilRefinery",
+            "components": {
+                "liquidFuel": 6000,
+                "compactedCoal": 4
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Turbo Heavy Fuel",
+            "producedIn": "OilRefinery",
+            "components": {
+                "heavyOilResidue": 5000,
+                "compactedCoal": 4
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Turbofuel",
+            "producedIn": "Packager",
+            "components": {
+                "turboFuel": 2
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "motorLightweight": [
+        {
+            "recipeName": "Alternate: Turbo Electric Motor",
+            "producedIn": "Manufacturer",
+            "components": {
+                "motor": 7,
+                "modularFrameLightweight": 9,
+                "electromagneticControlRod": 5,
+                "rotor": 7
+            },
+            "timeToProduce": 64,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Alternate: Turbo Pressure Motor",
+            "producedIn": "Manufacturer",
+            "components": {
+                "motor": 4,
+                "pressureConversionCube": 1,
+                "packagedNitrogenGas": 24,
+                "stator": 8
+            },
+            "timeToProduce": 32,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Turbo Motor",
+            "producedIn": "Manufacturer",
+            "components": {
+                "coolingSystem": 4,
+                "modularFrameLightweight": 2,
+                "motor": 4,
+                "rubber": 24
+            },
+            "timeToProduce": 32,
+            "manualMultiplier": 2.0
+        }
+    ],
+    "uraniumCell": [
+        {
+            "recipeName": "Alternate: Infused Uranium Cell",
+            "producedIn": "Manufacturer",
+            "components": {
+                "oreUranium": 5,
+                "silica": 3,
+                "sulfur": 5,
+                "highSpeedWire": 15
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Encased Uranium Cell",
+            "producedIn": "Blender",
+            "components": {
+                "oreUranium": 10,
+                "cement": 3,
+                "sulfuricAcid": 8000
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.5
+        }
+    ],
+    "aluminumPlate": [
+        {
+            "recipeName": "Alclad Aluminum Sheet",
+            "producedIn": "Assembler",
+            "components": {
+                "aluminumIngot": 3,
+                "copperIngot": 1
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 2.0
+        }
+    ],
+    "biofuel": [
+        {
+            "recipeName": "Solid Biofuel",
+            "producedIn": "Constructor",
+            "components": {
+                "genericBiomass": 8
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 5.0
+        }
+    ],
+    "genericBiomass": [
+        {
+            "recipeName": "Biomass (Alien Carapace)",
+            "producedIn": "Constructor",
+            "components": {
+                "hogParts": 1
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Biomass (Alien Organs)",
+            "producedIn": "Constructor",
+            "components": {
+                "spitterParts": 1
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Biomass (Leaves)",
+            "producedIn": "Constructor",
+            "components": {
+                "leaves": 10
+            },
+            "timeToProduce": 5,
+            "manualMultiplier": 0.4
+        },
+        {
+            "recipeName": "Biomass (Mycelia)",
+            "producedIn": "Constructor",
+            "components": {
+                "mycelia": 10
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.5
+        },
+        {
+            "recipeName": "Biomass (Wood)",
+            "producedIn": "Constructor",
+            "components": {
+                "wood": 4
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "candyCane": [
+        {
+            "recipeName": "Candy Cane",
+            "producedIn": "Constructor",
+            "components": {
+                "gift": 3
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "cartridgeStandard": [
+        {
+            "recipeName": "Rifle Cartridge",
+            "producedIn": "Manufacturer",
+            "components": {
+                "beacon": 1,
+                "steelPipe": 10,
+                "gunpowder": 10,
+                "rubber": 10
+            },
+            "timeToProduce": 20,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "colorCartridge": [
+        {
+            "recipeName": "Color Cartridge",
+            "producedIn": "Constructor",
+            "components": {
+                "flowerPetals": 5
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "copperDust": [
+        {
+            "recipeName": "Copper Powder",
+            "producedIn": "Constructor",
+            "components": {
+                "copperIngot": 30
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "filter": [
+        {
+            "recipeName": "Gas Filter",
+            "producedIn": "Manufacturer",
+            "components": {
+                "coal": 5,
+                "rubber": 2,
+                "fabric": 2
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "hazmatFilter": [
+        {
+            "recipeName": "Iodine Infused Filter",
+            "producedIn": "Manufacturer",
+            "components": {
+                "filter": 1,
+                "highSpeedWire": 8,
+                "aluminumCasing": 1
+            },
+            "timeToProduce": 16,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "fireworksProjectile01": [
+        {
+            "recipeName": "Sweet Fireworks",
+            "producedIn": "Assembler",
+            "components": {
+                "xmasBranch": 6,
+                "candyCane": 3
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "fireworksProjectile02": [
+        {
+            "recipeName": "Fancy Fireworks",
+            "producedIn": "Assembler",
+            "components": {
+                "xmasBranch": 4,
+                "xmasBow": 3
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "fireworksProjectile03": [
+        {
+            "recipeName": "Sparkly Fireworks",
+            "producedIn": "Assembler",
+            "components": {
+                "xmasBranch": 3,
+                "snow": 2
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "aluminumIngot": [
+        {
+            "recipeName": "Aluminum Ingot",
+            "producedIn": "Foundry",
+            "components": {
+                "aluminumScrap": 6,
+                "silica": 5
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 3.0
+        },
+        {
+            "recipeName": "Alternate: Pure Aluminum Ingot",
+            "producedIn": "Smelter",
+            "components": {
+                "aluminumScrap": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "liquidBiofuel": [
+        {
+            "recipeName": "Liquid Biofuel",
+            "producedIn": "OilRefinery",
+            "components": {
+                "biofuel": 6,
+                "water": 3000
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Liquid Biofuel",
+            "producedIn": "Packager",
+            "components": {
+                "packagedBiofuel": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "nitricAcid": [
+        {
+            "recipeName": "Nitric Acid",
+            "producedIn": "Blender",
+            "components": {
+                "nitrogenGas": 12000,
+                "water": 3000,
+                "ironPlate": 1
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Nitric Acid",
+            "producedIn": "Packager",
+            "components": {
+                "packagedNitricAcid": 1
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "packagedBiofuel": [
+        {
+            "recipeName": "Packaged Liquid Biofuel",
+            "producedIn": "Packager",
+            "components": {
+                "liquidBiofuel": 2000,
+                "fluidCanister": 2
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "packagedOil": [
+        {
+            "recipeName": "Packaged Oil",
+            "producedIn": "Packager",
+            "components": {
+                "liquidOil": 2000,
+                "fluidCanister": 2
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "packagedNitricAcid": [
+        {
+            "recipeName": "Packaged Nitric Acid",
+            "producedIn": "Packager",
+            "components": {
+                "nitricAcid": 1000,
+                "gasTank": 1
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "packagedOilResidue": [
+        {
+            "recipeName": "Packaged Heavy Oil Residue",
+            "producedIn": "Packager",
+            "components": {
+                "heavyOilResidue": 2000,
+                "fluidCanister": 2
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "packagedSulfuricAcid": [
+        {
+            "recipeName": "Packaged Sulfuric Acid",
+            "producedIn": "Packager",
+            "components": {
+                "sulfuricAcid": 2000,
+                "fluidCanister": 2
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "turboFuel": [
+        {
+            "recipeName": "Packaged Turbofuel",
+            "producedIn": "Packager",
+            "components": {
+                "liquidTurboFuel": 2000,
+                "fluidCanister": 2
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "packagedWater": [
+        {
+            "recipeName": "Packaged Water",
+            "producedIn": "Packager",
+            "components": {
+                "water": 2000,
+                "fluidCanister": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "petroleumCoke": [
+        {
+            "recipeName": "Petroleum Coke",
+            "producedIn": "OilRefinery",
+            "components": {
+                "heavyOilResidue": 4000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "plutoniumPellet": [
+        {
+            "recipeName": "Plutonium Pellet",
+            "producedIn": "ParticleAccelerator",
+            "components": {
+                "nonFissibleUranium": 100,
+                "nuclearWaste": 25
+            },
+            "timeToProduce": 60,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "crystalShard": [
+        {
+            "recipeName": "Power Shard (1)",
+            "producedIn": "Constructor",
+            "components": {
+                "crystal": 1
+            },
+            "timeToProduce": 8,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Power Shard (2)",
+            "producedIn": "Constructor",
+            "components": {
+                "crystalmk2": 1
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Power Shard (5)",
+            "producedIn": "Constructor",
+            "components": {
+                "crystalmk3": 1
+            },
+            "timeToProduce": 24,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "pressureConversionCube": [
+        {
+            "recipeName": "Pressure Conversion Cube",
+            "producedIn": "Assembler",
+            "components": {
+                "modularFrameFused": 1,
+                "modularFrameLightweight": 2
+            },
+            "timeToProduce": 60,
+            "manualMultiplier": 2.0
+        }
+    ],
+    "snow": [
+        {
+            "recipeName": "Actual Snow",
+            "producedIn": "Constructor",
+            "components": {
+                "gift": 5
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "snowballProjectile": [
+        {
+            "recipeName": "Snowball",
+            "producedIn": "Constructor",
+            "components": {
+                "snow": 3
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spaceElevatorPart4": [
+        {
+            "recipeName": "Modular Engine",
+            "producedIn": "Manufacturer",
+            "components": {
+                "motor": 2,
+                "rubber": 15,
+                "spaceElevatorPart1": 2
+            },
+            "timeToProduce": 60,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spaceElevatorPart5": [
+        {
+            "recipeName": "Adaptive Control Unit",
+            "producedIn": "Manufacturer",
+            "components": {
+                "spaceElevatorPart3": 15,
+                "circuitBoard": 10,
+                "modularFrameHeavy": 2,
+                "computer": 2
+            },
+            "timeToProduce": 120,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spaceElevatorPart6": [
+        {
+            "recipeName": "Magnetic Field Generator",
+            "producedIn": "Manufacturer",
+            "components": {
+                "spaceElevatorPart2": 5,
+                "electromagneticControlRod": 2,
+                "battery": 10
+            },
+            "timeToProduce": 120,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spaceElevatorPart7": [
+        {
+            "recipeName": "Assembly Director System",
+            "producedIn": "Assembler",
+            "components": {
+                "spaceElevatorPart5": 2,
+                "computerSuper": 1
+            },
+            "timeToProduce": 80,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spaceElevatorPart8": [
+        {
+            "recipeName": "Thermal Propulsion Rocket",
+            "producedIn": "Manufacturer",
+            "components": {
+                "spaceElevatorPart4": 5,
+                "motorLightweight": 2,
+                "coolingSystem": 6,
+                "modularFrameFused": 2
+            },
+            "timeToProduce": 120,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spaceElevatorPart9": [
+        {
+            "recipeName": "Nuclear Pasta",
+            "producedIn": "ParticleAccelerator",
+            "components": {
+                "copperDust": 200,
+                "pressureConversionCube": 1
+            },
+            "timeToProduce": 120,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "spikedRebar": [
+        {
+            "recipeName": "Spiked Rebar",
+            "producedIn": "Constructor",
+            "components": {
+                "ironRod": 1
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "steelPlate": [
+        {
+            "recipeName": "Steel Beam",
+            "producedIn": "Constructor",
+            "components": {
+                "steelIngot": 4
+            },
+            "timeToProduce": 4,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "steelPipe": [
+        {
+            "recipeName": "Steel Pipe",
+            "producedIn": "Constructor",
+            "components": {
+                "steelIngot": 3
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "sulfuricAcid": [
+        {
+            "recipeName": "Sulfuric Acid",
+            "producedIn": "OilRefinery",
+            "components": {
+                "sulfur": 5,
+                "water": 5000
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Sulfuric Acid",
+            "producedIn": "Packager",
+            "components": {
+                "packagedSulfuricAcid": 1
+            },
+            "timeToProduce": 0,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Encased Uranium Cell",
+            "producedIn": "Blender",
+            "components": {
+                "oreUranium": 10,
+                "cement": 3,
+                "sulfuricAcid": 8000
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.5
+        }
+    ],
+    "gasTank": [
+        {
+            "recipeName": "Unpackage Nitric Acid",
+            "producedIn": "Packager",
+            "components": {
+                "packagedNitricAcid": 1
+            },
+            "timeToProduce": 3,
+            "manualMultiplier": 0.0
+        },
+        {
+            "recipeName": "Unpackage Nitrogen Gas",
+            "producedIn": "Packager",
+            "components": {
+                "packagedNitrogenGas": 1
+            },
+            "timeToProduce": 0,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "nitrogenGas": [
+        {
+            "recipeName": "Unpackage Nitrogen Gas",
+            "producedIn": "Packager",
+            "components": {
+                "packagedNitrogenGas": 1
+            },
+            "timeToProduce": 0,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "liquidOil": [
+        {
+            "recipeName": "Unpackage Oil",
+            "producedIn": "Packager",
+            "components": {
+                "packagedOil": 2
+            },
+            "timeToProduce": 2,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "xmasBall1": [
+        {
+            "recipeName": "Red FICSMAS Ornament",
+            "producedIn": "Smelter",
+            "components": {
+                "gift": 1
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "xmasBall2": [
+        {
+            "recipeName": "Blue FICSMAS Ornament",
+            "producedIn": "Smelter",
+            "components": {
+                "gift": 1
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "xmasBall3": [
+        {
+            "recipeName": "Copper FICSMAS Ornament",
+            "producedIn": "Foundry",
+            "components": {
+                "xmasBall1": 2,
+                "copperIngot": 2
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "xmasBall4": [
+        {
+            "recipeName": "Iron FICSMAS Ornament",
+            "producedIn": "Foundry",
+            "components": {
+                "xmasBall2": 3,
+                "ironIngot": 3
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "xmasBallCluster": [
+        {
+            "recipeName": "FICSMAS Ornament Bundle",
+            "producedIn": "Assembler",
+            "components": {
+                "xmasBall3": 1,
+                "xmasBall4": 1
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "xmasBow": [
+        {
+            "recipeName": "FICSMAS Bow",
+            "producedIn": "Constructor",
+            "components": {
+                "gift": 2
+            },
+            "timeToProduce": 12,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "xmasBranch": [
+        {
+            "recipeName": "FICSMAS Tree Branch",
+            "producedIn": "Constructor",
+            "components": {
+                "gift": 1
+            },
+            "timeToProduce": 6,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "xmasStar": [
+        {
+            "recipeName": "FICSMAS Wonder Star",
+            "producedIn": "Assembler",
+            "components": {
+                "xmasWreath": 5,
+                "candyCane": 20
+            },
+            "timeToProduce": 60,
+            "manualMultiplier": 0.0
+        }
+    ],
+    "xmasWreath": [
+        {
+            "recipeName": "FICSMAS Decoration",
+            "producedIn": "Assembler",
+            "components": {
+                "xmasBranch": 15,
+                "xmasBallCluster": 6
+            },
+            "timeToProduce": 60,
+            "manualMultiplier": 0.0
+        }
+    ]
+}
