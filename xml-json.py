@@ -81,7 +81,7 @@ def main():
     recipies = get_recipes(xml)
 
     with open("recipies.json", "w") as json_file:
-        json_file = json.dumps(recipies)
+        json.dump(recipies, json_file)
 
 
 if __name__ == "__main__":
