@@ -109,6 +109,7 @@ class ProjectAssemblyPart():
 class Equipment():
     BEACON = "beacon"
     RIFLE_CARTRIDGE = "cartridgeStandard"
+    PORTABLE_MINER = "portableMiner"
 
 class Ingots():
     IRON = "ironIngot"
@@ -205,5 +206,6 @@ display_name_mapping = {
     Ingots.CATERIUM: "Caterium Ingot",
     Ingots.ALUMINUM: "Aluminum Ingot",
     Equipment.BEACON: "Beacon",
-    Equipment.RIFLE_CARTRIDGE: "Rifle Cartridge"
+    Equipment.RIFLE_CARTRIDGE: "Rifle Cartridge",
+    Equipment.PORTABLE_MINER: "Portable Miner"
 }
