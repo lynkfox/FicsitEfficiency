@@ -110,6 +110,13 @@ class Equipment():
     BEACON = "beacon"
     RIFLE_CARTRIDGE = "cartridgeStandard"
 
+class Ingots():
+    IRON = "ironIngot"
+    COPPER = "copperIngot"
+    STEEL = "steelIngot"
+    CATERIUM = "goldIngot"
+    ALUMINUM = "aluminumIngot"
+
 
 display_name_mapping = {
     BaseComponents.LIMESTONE: "Limestone",
@@ -192,6 +199,11 @@ display_name_mapping = {
     ProjectAssemblyPart.ASSEMBLY_DIRECTOR_SYSTEM: "Assembly Director System",
     ProjectAssemblyPart.THERMAL_PROPULSION_ROCKET: "Thermal Propulsion Rocket",
     ProjectAssemblyPart.NUCLEAR_PASTA: "Nuclear Pasta",
+    Ingots.IRON : "Iron Ingot",
+    Ingots.COPPER: "Copper Ingot",
+    Ingots.STEEL: "Steel Ingot",
+    Ingots.CATERIUM: "Caterium Ingot",
+    Ingots.ALUMINUM: "Aluminum Ingot",
     Equipment.BEACON: "Beacon",
     Equipment.RIFLE_CARTRIDGE: "Rifle Cartridge"
 }

@@ -1,7 +1,7 @@
 {
     "circuitBoardHighSpeed": [
         {
-            "recipeName": "AI Limiter",
+            "recipeName": "Standard: AI Limiter",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -47,7 +47,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Reinforced Iron Plate",
+            "recipeName": "Standard: Reinforced Iron Plate",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -71,7 +71,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Aluminum Casing",
+            "recipeName": "Standard: Aluminum Casing",
             "producedIn": "Constructor",
             "produces": 2,
             "components": {
@@ -110,7 +110,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Beacon",
+            "recipeName": "Standard: Beacon",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -147,7 +147,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Modular Frame",
+            "recipeName": "Standard: Modular Frame",
             "producedIn": "Assembler",
             "produces": 2,
             "components": {
@@ -193,7 +193,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Cable",
+            "recipeName": "Standard: Cable",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -238,7 +238,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Circuit Board",
+            "recipeName": "Standard: Circuit Board",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -264,7 +264,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Battery",
+            "recipeName": "Standard: Battery",
             "producedIn": "Blender",
             "produces": 1,
             "components": {
@@ -321,7 +321,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Empty Canister",
+            "recipeName": "Standard: Empty Canister",
             "producedIn": "Constructor",
             "produces": 4,
             "components": {
@@ -355,7 +355,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Iron Plate",
+            "recipeName": "Standard: Iron Plate",
             "producedIn": "Constructor",
             "produces": 2,
             "components": {
@@ -400,7 +400,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Steel Ingot",
+            "recipeName": "Standard: Steel Ingot",
             "producedIn": "Foundry",
             "produces": 3,
             "components": {
@@ -436,7 +436,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Computer",
+            "recipeName": "Standard: Computer",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -484,7 +484,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Concrete",
+            "recipeName": "Standard: Concrete",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -508,7 +508,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Cooling System",
+            "recipeName": "Standard: Cooling System",
             "producedIn": "Blender",
             "produces": 1,
             "components": {
@@ -545,7 +545,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Copper Ingot",
+            "recipeName": "Standard: Copper Ingot",
             "producedIn": "Smelter",
             "produces": 1,
             "components": {
@@ -579,7 +579,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Rotor",
+            "recipeName": "Standard: Rotor",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -604,7 +604,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Crystal Oscillator",
+            "recipeName": "Standard: Crystal Oscillator",
             "producedIn": "Manufacturer",
             "produces": 2,
             "components": {
@@ -629,7 +629,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Fuel",
+            "recipeName": "Standard: Fuel",
             "producedIn": "OilRefinery",
             "produces": 4000,
             "components": {
@@ -639,7 +639,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Residual Fuel",
+            "recipeName": "Standard: Residual Fuel",
             "producedIn": "OilRefinery",
             "produces": 4000,
             "components": {
@@ -662,7 +662,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Packaged Fuel",
+            "recipeName": "Standard: Packaged Fuel",
             "producedIn": "Packager",
             "produces": 2,
             "components": {
@@ -698,7 +698,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Motor",
+            "recipeName": "Standard: Motor",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -774,7 +774,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Battery",
+            "recipeName": "Standard: Battery",
             "producedIn": "Blender",
             "produces": 1,
             "components": {
@@ -786,7 +786,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Non-fissile Uranium",
+            "recipeName": "Standard: Non-fissile Uranium",
             "producedIn": "Blender",
             "produces": 20,
             "components": {
@@ -812,7 +812,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Electromagnetic Control Rod",
+            "recipeName": "Standard: Electromagnetic Control Rod",
             "producedIn": "Assembler",
             "produces": 2,
             "components": {
@@ -836,7 +836,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Encased Industrial Beam",
+            "recipeName": "Standard: Encased Industrial Beam",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -875,7 +875,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Non-fissile Uranium",
+            "recipeName": "Standard: Non-fissile Uranium",
             "producedIn": "Blender",
             "produces": 20,
             "components": {
@@ -902,7 +902,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Versatile Framework",
+            "recipeName": "Standard: Versatile Framework",
             "producedIn": "Assembler",
             "produces": 2,
             "components": {
@@ -946,7 +946,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Wire",
+            "recipeName": "Standard: Wire",
             "producedIn": "Constructor",
             "produces": 2,
             "components": {
@@ -969,7 +969,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Black Powder",
+            "recipeName": "Standard: Black Powder",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -995,7 +995,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Fused Modular Frame",
+            "recipeName": "Standard: Fused Modular Frame",
             "producedIn": "Blender",
             "produces": 1,
             "components": {
@@ -1020,7 +1020,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Heat Sink",
+            "recipeName": "Standard: Heat Sink",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -1059,7 +1059,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Heavy Modular Frame",
+            "recipeName": "Standard: Heavy Modular Frame",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -1094,7 +1094,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Plastic",
+            "recipeName": "Standard: Plastic",
             "producedIn": "OilRefinery",
             "produces": 2,
             "components": {
@@ -1104,7 +1104,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Rubber",
+            "recipeName": "Standard: Rubber",
             "producedIn": "OilRefinery",
             "produces": 2,
             "components": {
@@ -1136,7 +1136,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Fuel",
+            "recipeName": "Standard: Fuel",
             "producedIn": "OilRefinery",
             "produces": 4000,
             "components": {
@@ -1160,7 +1160,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "High-Speed Connector",
+            "recipeName": "Standard: High-Speed Connector",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -1186,7 +1186,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Automated Wiring",
+            "recipeName": "Standard: Automated Wiring",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -1221,7 +1221,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Iron Ingot",
+            "recipeName": "Standard: Iron Ingot",
             "producedIn": "Smelter",
             "produces": 1,
             "components": {
@@ -1244,7 +1244,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Encased Plutonium Cell",
+            "recipeName": "Standard: Encased Plutonium Cell",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -1269,7 +1269,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Nobelisk",
+            "recipeName": "Standard: Nobelisk",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -1295,7 +1295,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Uranium Fuel Rod",
+            "recipeName": "Standard: Uranium Fuel Rod",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -1333,7 +1333,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Supercomputer",
+            "recipeName": "Standard: Supercomputer",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -1359,7 +1359,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Plastic",
+            "recipeName": "Standard: Plastic",
             "producedIn": "OilRefinery",
             "produces": 2,
             "components": {
@@ -1369,7 +1369,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Residual Plastic",
+            "recipeName": "Standard: Residual Plastic",
             "producedIn": "OilRefinery",
             "produces": 2,
             "components": {
@@ -1394,7 +1394,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Smart Plating",
+            "recipeName": "Standard: Smart Plating",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -1418,7 +1418,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Plutonium Fuel Rod",
+            "recipeName": "Standard: Plutonium Fuel Rod",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -1444,7 +1444,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Fabric",
+            "recipeName": "Standard: Fabric",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -1468,7 +1468,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Caterium Ingot",
+            "recipeName": "Standard: Caterium Ingot",
             "producedIn": "Smelter",
             "produces": 1,
             "components": {
@@ -1491,7 +1491,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Quartz Crystal",
+            "recipeName": "Standard: Quartz Crystal",
             "producedIn": "Constructor",
             "produces": 3,
             "components": {
@@ -1514,7 +1514,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Quickwire",
+            "recipeName": "Standard: Quickwire",
             "producedIn": "Constructor",
             "produces": 5,
             "components": {
@@ -1551,7 +1551,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Radio Control Unit",
+            "recipeName": "Standard: Radio Control Unit",
             "producedIn": "Manufacturer",
             "produces": 2,
             "components": {
@@ -1576,7 +1576,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Residual Rubber",
+            "recipeName": "Standard: Residual Rubber",
             "producedIn": "OilRefinery",
             "produces": 2,
             "components": {
@@ -1587,7 +1587,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Rubber",
+            "recipeName": "Standard: Rubber",
             "producedIn": "OilRefinery",
             "produces": 2,
             "components": {
@@ -1619,7 +1619,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Screw",
+            "recipeName": "Standard: Screw",
             "producedIn": "Constructor",
             "produces": 4,
             "components": {
@@ -1642,7 +1642,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Alumina Solution",
+            "recipeName": "Standard: Alumina Solution",
             "producedIn": "OilRefinery",
             "produces": 12000,
             "components": {
@@ -1653,7 +1653,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Silica",
+            "recipeName": "Standard: Silica",
             "producedIn": "Constructor",
             "produces": 5,
             "components": {
@@ -1676,7 +1676,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Alumina Solution",
+            "recipeName": "Standard: Alumina Solution",
             "producedIn": "OilRefinery",
             "produces": 12000,
             "components": {
@@ -1700,7 +1700,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Stator",
+            "recipeName": "Standard: Stator",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -1724,7 +1724,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Copper Sheet",
+            "recipeName": "Standard: Copper Sheet",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -1746,7 +1746,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Iron Rod",
+            "recipeName": "Standard: Iron Rod",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -1771,7 +1771,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Turbofuel",
+            "recipeName": "Standard: Turbofuel",
             "producedIn": "OilRefinery",
             "produces": 5000,
             "components": {
@@ -1821,7 +1821,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Turbo Motor",
+            "recipeName": "Standard: Turbo Motor",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -1849,7 +1849,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Encased Uranium Cell",
+            "recipeName": "Standard: Encased Uranium Cell",
             "producedIn": "Blender",
             "produces": 5,
             "components": {
@@ -1863,7 +1863,7 @@
     ],
     "aluminumPlate": [
         {
-            "recipeName": "Alclad Aluminum Sheet",
+            "recipeName": "Standard: Alclad Aluminum Sheet",
             "producedIn": "Assembler",
             "produces": 3,
             "components": {
@@ -1876,7 +1876,7 @@
     ],
     "biofuel": [
         {
-            "recipeName": "Solid Biofuel",
+            "recipeName": "Standard: Solid Biofuel",
             "producedIn": "Constructor",
             "produces": 4,
             "components": {
@@ -1888,7 +1888,7 @@
     ],
     "genericBiomass": [
         {
-            "recipeName": "Biomass (Alien Carapace)",
+            "recipeName": "Standard: Biomass (Alien Carapace)",
             "producedIn": "Constructor",
             "produces": 100,
             "components": {
@@ -1898,7 +1898,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Biomass (Alien Organs)",
+            "recipeName": "Standard: Biomass (Alien Organs)",
             "producedIn": "Constructor",
             "produces": 200,
             "components": {
@@ -1908,7 +1908,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Biomass (Leaves)",
+            "recipeName": "Standard: Biomass (Leaves)",
             "producedIn": "Constructor",
             "produces": 5,
             "components": {
@@ -1918,7 +1918,7 @@
             "manualMultiplier": 0.4
         },
         {
-            "recipeName": "Biomass (Mycelia)",
+            "recipeName": "Standard: Biomass (Mycelia)",
             "producedIn": "Constructor",
             "produces": 10,
             "components": {
@@ -1928,7 +1928,7 @@
             "manualMultiplier": 0.5
         },
         {
-            "recipeName": "Biomass (Wood)",
+            "recipeName": "Standard: Biomass (Wood)",
             "producedIn": "Constructor",
             "produces": 20,
             "components": {
@@ -1940,7 +1940,7 @@
     ],
     "candyCane": [
         {
-            "recipeName": "Candy Cane",
+            "recipeName": "Standard: Candy Cane",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -1952,7 +1952,7 @@
     ],
     "cartridgeStandard": [
         {
-            "recipeName": "Rifle Cartridge",
+            "recipeName": "Standard: Rifle Cartridge",
             "producedIn": "Manufacturer",
             "produces": 5,
             "components": {
@@ -1967,7 +1967,7 @@
     ],
     "colorCartridge": [
         {
-            "recipeName": "Color Cartridge",
+            "recipeName": "Standard: Color Cartridge",
             "producedIn": "Constructor",
             "produces": 10,
             "components": {
@@ -1979,7 +1979,7 @@
     ],
     "copperDust": [
         {
-            "recipeName": "Copper Powder",
+            "recipeName": "Standard: Copper Powder",
             "producedIn": "Constructor",
             "produces": 5,
             "components": {
@@ -1991,7 +1991,7 @@
     ],
     "filter": [
         {
-            "recipeName": "Gas Filter",
+            "recipeName": "Standard: Gas Filter",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -2005,7 +2005,7 @@
     ],
     "hazmatFilter": [
         {
-            "recipeName": "Iodine Infused Filter",
+            "recipeName": "Standard: Iodine Infused Filter",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -2019,7 +2019,7 @@
     ],
     "fireworksProjectile01": [
         {
-            "recipeName": "Sweet Fireworks",
+            "recipeName": "Standard: Sweet Fireworks",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -2032,7 +2032,7 @@
     ],
     "fireworksProjectile02": [
         {
-            "recipeName": "Fancy Fireworks",
+            "recipeName": "Standard: Fancy Fireworks",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -2045,7 +2045,7 @@
     ],
     "fireworksProjectile03": [
         {
-            "recipeName": "Sparkly Fireworks",
+            "recipeName": "Standard: Sparkly Fireworks",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -2058,7 +2058,7 @@
     ],
     "aluminumIngot": [
         {
-            "recipeName": "Aluminum Ingot",
+            "recipeName": "Standard: Aluminum Ingot",
             "producedIn": "Foundry",
             "produces": 4,
             "components": {
@@ -2081,7 +2081,7 @@
     ],
     "liquidBiofuel": [
         {
-            "recipeName": "Liquid Biofuel",
+            "recipeName": "Standard: Liquid Biofuel",
             "producedIn": "OilRefinery",
             "produces": 4000,
             "components": {
@@ -2094,7 +2094,7 @@
     ],
     "nitricAcid": [
         {
-            "recipeName": "Nitric Acid",
+            "recipeName": "Standard: Nitric Acid",
             "producedIn": "Blender",
             "produces": 3000,
             "components": {
@@ -2108,7 +2108,7 @@
     ],
     "packagedBiofuel": [
         {
-            "recipeName": "Packaged Liquid Biofuel",
+            "recipeName": "Standard: Packaged Liquid Biofuel",
             "producedIn": "Packager",
             "produces": 2,
             "components": {
@@ -2121,7 +2121,7 @@
     ],
     "packagedOil": [
         {
-            "recipeName": "Packaged Oil",
+            "recipeName": "Standard: Packaged Oil",
             "producedIn": "Packager",
             "produces": 2,
             "components": {
@@ -2134,7 +2134,7 @@
     ],
     "packagedNitricAcid": [
         {
-            "recipeName": "Packaged Nitric Acid",
+            "recipeName": "Standard: Packaged Nitric Acid",
             "producedIn": "Packager",
             "produces": 1,
             "components": {
@@ -2147,7 +2147,7 @@
     ],
     "packagedOilResidue": [
         {
-            "recipeName": "Packaged Heavy Oil Residue",
+            "recipeName": "Standard: Packaged Heavy Oil Residue",
             "producedIn": "Packager",
             "produces": 2,
             "components": {
@@ -2160,7 +2160,7 @@
     ],
     "packagedSulfuricAcid": [
         {
-            "recipeName": "Packaged Sulfuric Acid",
+            "recipeName": "Standard: Packaged Sulfuric Acid",
             "producedIn": "Packager",
             "produces": 2,
             "components": {
@@ -2173,7 +2173,7 @@
     ],
     "turboFuel": [
         {
-            "recipeName": "Packaged Turbofuel",
+            "recipeName": "Standard: Packaged Turbofuel",
             "producedIn": "Packager",
             "produces": 2,
             "components": {
@@ -2186,7 +2186,7 @@
     ],
     "packagedWater": [
         {
-            "recipeName": "Packaged Water",
+            "recipeName": "Standard: Packaged Water",
             "producedIn": "Packager",
             "produces": 2,
             "components": {
@@ -2199,7 +2199,7 @@
     ],
     "petroleumCoke": [
         {
-            "recipeName": "Petroleum Coke",
+            "recipeName": "Standard: Petroleum Coke",
             "producedIn": "OilRefinery",
             "produces": 12,
             "components": {
@@ -2211,7 +2211,7 @@
     ],
     "plutoniumPellet": [
         {
-            "recipeName": "Plutonium Pellet",
+            "recipeName": "Standard: Plutonium Pellet",
             "producedIn": "ParticleAccelerator",
             "produces": 30,
             "components": {
@@ -2224,7 +2224,7 @@
     ],
     "crystalShard": [
         {
-            "recipeName": "Power Shard (1)",
+            "recipeName": "Standard: Power Shard (1)",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -2234,7 +2234,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Power Shard (2)",
+            "recipeName": "Standard: Power Shard (2)",
             "producedIn": "Constructor",
             "produces": 2,
             "components": {
@@ -2244,7 +2244,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Power Shard (5)",
+            "recipeName": "Standard: Power Shard (5)",
             "producedIn": "Constructor",
             "produces": 5,
             "components": {
@@ -2256,7 +2256,7 @@
     ],
     "pressureConversionCube": [
         {
-            "recipeName": "Pressure Conversion Cube",
+            "recipeName": "Standard: Pressure Conversion Cube",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -2269,7 +2269,7 @@
     ],
     "snow": [
         {
-            "recipeName": "Actual Snow",
+            "recipeName": "Standard: Actual Snow",
             "producedIn": "Constructor",
             "produces": 2,
             "components": {
@@ -2281,7 +2281,7 @@
     ],
     "snowballProjectile": [
         {
-            "recipeName": "Snowball",
+            "recipeName": "Standard: Snowball",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -2293,7 +2293,7 @@
     ],
     "spaceElevatorPart4": [
         {
-            "recipeName": "Modular Engine",
+            "recipeName": "Standard: Modular Engine",
             "producedIn": "Manufacturer",
             "produces": 1,
             "components": {
@@ -2307,7 +2307,7 @@
     ],
     "spaceElevatorPart5": [
         {
-            "recipeName": "Adaptive Control Unit",
+            "recipeName": "Standard: Adaptive Control Unit",
             "producedIn": "Manufacturer",
             "produces": 2,
             "components": {
@@ -2322,7 +2322,7 @@
     ],
     "spaceElevatorPart6": [
         {
-            "recipeName": "Magnetic Field Generator",
+            "recipeName": "Standard: Magnetic Field Generator",
             "producedIn": "Manufacturer",
             "produces": 2,
             "components": {
@@ -2336,7 +2336,7 @@
     ],
     "spaceElevatorPart7": [
         {
-            "recipeName": "Assembly Director System",
+            "recipeName": "Standard: Assembly Director System",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -2349,7 +2349,7 @@
     ],
     "spaceElevatorPart8": [
         {
-            "recipeName": "Thermal Propulsion Rocket",
+            "recipeName": "Standard: Thermal Propulsion Rocket",
             "producedIn": "Manufacturer",
             "produces": 2,
             "components": {
@@ -2364,7 +2364,7 @@
     ],
     "spaceElevatorPart9": [
         {
-            "recipeName": "Nuclear Pasta",
+            "recipeName": "Standard: Nuclear Pasta",
             "producedIn": "ParticleAccelerator",
             "produces": 1,
             "components": {
@@ -2377,7 +2377,7 @@
     ],
     "spikedRebar": [
         {
-            "recipeName": "Spiked Rebar",
+            "recipeName": "Standard: Spiked Rebar",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -2389,7 +2389,7 @@
     ],
     "steelPlate": [
         {
-            "recipeName": "Steel Beam",
+            "recipeName": "Standard: Steel Beam",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -2401,7 +2401,7 @@
     ],
     "steelPipe": [
         {
-            "recipeName": "Steel Pipe",
+            "recipeName": "Standard: Steel Pipe",
             "producedIn": "Constructor",
             "produces": 2,
             "components": {
@@ -2413,7 +2413,7 @@
     ],
     "sulfuricAcid": [
         {
-            "recipeName": "Sulfuric Acid",
+            "recipeName": "Standard: Sulfuric Acid",
             "producedIn": "OilRefinery",
             "produces": 5000,
             "components": {
@@ -2424,7 +2424,7 @@
             "manualMultiplier": 0.0
         },
         {
-            "recipeName": "Encased Uranium Cell",
+            "recipeName": "Standard: Encased Uranium Cell",
             "producedIn": "Blender",
             "produces": 5,
             "components": {
@@ -2438,7 +2438,7 @@
     ],
     "xmasBall1": [
         {
-            "recipeName": "Red FICSMAS Ornament",
+            "recipeName": "Standard: Red FICSMAS Ornament",
             "producedIn": "Smelter",
             "produces": 1,
             "components": {
@@ -2450,7 +2450,7 @@
     ],
     "xmasBall2": [
         {
-            "recipeName": "Blue FICSMAS Ornament",
+            "recipeName": "Standard: Blue FICSMAS Ornament",
             "producedIn": "Smelter",
             "produces": 2,
             "components": {
@@ -2462,7 +2462,7 @@
     ],
     "xmasBall3": [
         {
-            "recipeName": "Copper FICSMAS Ornament",
+            "recipeName": "Standard: Copper FICSMAS Ornament",
             "producedIn": "Foundry",
             "produces": 1,
             "components": {
@@ -2475,7 +2475,7 @@
     ],
     "xmasBall4": [
         {
-            "recipeName": "Iron FICSMAS Ornament",
+            "recipeName": "Standard: Iron FICSMAS Ornament",
             "producedIn": "Foundry",
             "produces": 1,
             "components": {
@@ -2488,7 +2488,7 @@
     ],
     "xmasBallCluster": [
         {
-            "recipeName": "FICSMAS Ornament Bundle",
+            "recipeName": "Standard: FICSMAS Ornament Bundle",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -2501,7 +2501,7 @@
     ],
     "xmasBow": [
         {
-            "recipeName": "FICSMAS Bow",
+            "recipeName": "Standard: FICSMAS Bow",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -2513,7 +2513,7 @@
     ],
     "xmasBranch": [
         {
-            "recipeName": "FICSMAS Tree Branch",
+            "recipeName": "Standard: FICSMAS Tree Branch",
             "producedIn": "Constructor",
             "produces": 1,
             "components": {
@@ -2525,7 +2525,7 @@
     ],
     "xmasStar": [
         {
-            "recipeName": "FICSMAS Wonder Star",
+            "recipeName": "Standard: FICSMAS Wonder Star",
             "producedIn": "Assembler",
             "produces": 1,
             "components": {
@@ -2538,7 +2538,7 @@
     ],
     "xmasWreath": [
         {
-            "recipeName": "FICSMAS Decoration",
+            "recipeName": "Standard: FICSMAS Decoration",
             "producedIn": "Assembler",
             "produces": 2,
             "components": {

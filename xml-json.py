@@ -88,7 +88,7 @@ def get_recipe_details(buildable, name):
         return None
 
     return {
-        "recipeName": name,
+        "recipeName": name if "Alternate:" in name else f"Standard: {name}",
         "producedIn": machine,
         "produces": int(buildable.find(".//Products/ItemAmount").attrib['amount']),
         "components": {clean_item_name(ingredient.attrib['item']): int(ingredient.attrib['amount']) for ingredient in buildable.findall(".//Ingredients/ItemAmount")},

@@ -65,10 +65,31 @@ class Test_calculate_components_per_minute():
 
 
 class Test_Effeciency():
+    def setup(self):
+        self.test_class = CompareRecipies(ManufacturedComponents.IRON_PLATE)
 
-    def test_explore(self):
-        setup_class = CompareRecipies(ManufacturedComponents.IRON_PLATE)
+    def teardown(self):
+        del self.test_class
 
-        result = setup_class.get_all_recipe_paths_to_base_component(BaseComponents.IRON)
+    def test_is_all_components_returns_true_if_all_base_components(self):
+        # Arrange:
+        test_ingredients = {
+            BaseComponents.IRON: 4,
+            BaseComponents.LIMESTONE: 4
+        }
 
-        assert True
+        # Act, assert
+        assert self.test_class._is_all_components(test_ingredients)
+
+    def test_is_all_components_returns_false_if_any_not_base_component(self):
+        # Arrange:
+        test_ingredients = {
+            ManufacturedComponents.IRON_PLATE: 4,
+            BaseComponents.LIMESTONE: 4
+        }
+
+        # Act, assert
+        assert not self.test_class._is_all_components(test_ingredients)
+
+
+    
