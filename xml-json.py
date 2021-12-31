@@ -84,7 +84,7 @@ def get_recipe_details(buildable, name):
             else:
                 machine = producer
 
-    if machine is None:
+    if machine is None or "unpackage" in name.lower():
         return None
 
     return {
