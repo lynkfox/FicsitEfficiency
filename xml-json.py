@@ -53,6 +53,10 @@ def get_recipes(xml_tree):
                     "nuclearFuelRod": 1,
                     "water": 1500
                 },
+                "componentsPerOneProduced": {
+                    "nuclearFuelRod": 1/50,
+                    "water": 1500/50
+                },
                 "timeToProduce": 300,
                 "manualMultiplier": 0.0
             }
@@ -87,11 +91,14 @@ def get_recipe_details(buildable, name):
     if machine is None or "unpackage" in name.lower():
         return None
 
+    produced_amount = int(buildable.find(".//Products/ItemAmount").attrib['amount'])
+
     return {
         "recipeName": name if "Alternate:" in name else f"Standard: {name}",
         "producedIn": machine,
-        "produces": int(buildable.find(".//Products/ItemAmount").attrib['amount']),
+        "produces": produced_amount,
         "components": {clean_item_name(ingredient.attrib['item']): int(ingredient.attrib['amount']) for ingredient in buildable.findall(".//Ingredients/ItemAmount")},
+        "componentsPerOneProduced": {clean_item_name(ingredient.attrib['item']): (float(ingredient.attrib['amount'])/produced_amount) for ingredient in buildable.findall(".//Ingredients/ItemAmount")},
         "timeToProduce": int(buildable.find("ManufactoringDuration").text),
         "manualMultiplier": float(buildable.find("ManualManufacturingMultiplier").text)
     }
