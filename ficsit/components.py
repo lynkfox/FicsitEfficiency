@@ -13,10 +13,26 @@ class BaseComponents():
     OIL = "liquidOil"
     NITROGEN = "nitrogenGas"
 
+    BIOMASS = "genericBiomass"
+    WOOD = "wood"
 
-component_mapping = {
-    
-}
+
+endpoints = [
+    BaseComponents.LIMESTONE,
+    BaseComponents.IRON,
+    BaseComponents.COPPER,
+    BaseComponents.QUARTZ,
+    BaseComponents.COAL,
+    BaseComponents.SULFUR,
+    BaseComponents.CATERIUM,
+    BaseComponents.BAUXITE,
+    BaseComponents.URANIUM,
+    BaseComponents.WATER,
+    BaseComponents.OIL,
+    BaseComponents.NITROGEN,
+    BaseComponents.BIOMASS,
+    BaseComponents.WOOD
+]
 
 class ManufacturedComponents():
     AI_LIMITER = "circuitBoardHighSpeed"

@@ -3,7 +3,7 @@ from xml.etree import ElementTree
 
 
 def load_xml():
-    with open("./recipes/RecipeTable.xml") as file:
+    with open("./ficsit/recipes/RecipeTable.xml") as file:
         xml = ElementTree.parse(file)
 
     return xml
@@ -13,7 +13,7 @@ def get_recipes(xml_tree):
 
     all_buildables = xml_tree.findall(".//Recipe")
 
-    all_recipies = {}
+    all_recipes = {}
 
     for buildable in all_buildables:
         name = buildable.find("DisplayName")
@@ -31,17 +31,36 @@ def get_recipes(xml_tree):
 
         for component in components_produced:
 
-            if component in all_recipies:
-                all_recipies[component].append(recipe)
+            if component in all_recipes:
+                all_recipes[component].append(recipe)
 
             else:
                 entry = {
                     component: [recipe]
                 }
 
-                all_recipies.update(entry)
+                all_recipes.update(entry)
 
-    return all_recipies
+    # add Nuclear Waste from Powerplant
+
+    nuclearWaste = {
+        "nuclearWaste": [
+            {
+                "recipeName": "Nuclear Waste",
+                "producedIn": "Nuclear Power Plant",
+                "produces": 50,
+                "components": {
+                    "nuclearFuelRod": 1,
+                    "water": 1500
+                },
+                "timeToProduce": 300,
+                "manualMultiplier": 0.0
+            }
+        ]}
+
+    all_recipes.update(nuclearWaste)
+
+    return all_recipes
 
 
 def get_recipe_details(buildable, name):
@@ -71,6 +90,7 @@ def get_recipe_details(buildable, name):
     return {
         "recipeName": name,
         "producedIn": machine,
+        "produces": int(buildable.find(".//Products/ItemAmount").attrib['amount']),
         "components": {clean_item_name(ingredient.attrib['item']): int(ingredient.attrib['amount']) for ingredient in buildable.findall(".//Ingredients/ItemAmount")},
         "timeToProduce": int(buildable.find("ManufactoringDuration").text),
         "manualMultiplier": float(buildable.find("ManualManufacturingMultiplier").text)
@@ -90,7 +110,7 @@ def main():
 
     recipies = get_recipes(xml)
 
-    with open("recipies.json", "w") as json_file:
+    with open("./ficsit/recipes/recipes.json", "w") as json_file:
         json.dump(recipies, json_file)
 
 
