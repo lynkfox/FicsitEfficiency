@@ -3,6 +3,6 @@ class DataNames():
     PRODUCED_IN = "producedIn"
     PRODUCED_PER_CYCLE = "produces"
     COMPONENTS = "components"
-    COMPONENTS_PER_ONE = "compontentsPerOneProduced"
+    COMPONENTS_PER_ONE = "componentsPerOneProduced"
     TIME_TO_PRODUCE = "timeToProduce"
-    MANUAL_CRAFT_MODIFIER = "manualMultipler"
+    MANUAL_CRAFT_MODIFIER = "manualMultiplier"

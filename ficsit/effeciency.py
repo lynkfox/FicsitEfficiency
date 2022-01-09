@@ -1,6 +1,7 @@
 from ficsit.utils import load_recipes
 from ficsit import components as GameComponents
 from functools import reduce
+from ficsit.com.graph_node import Graph, Node
 
 
 class CompareRecipies():
@@ -8,6 +9,7 @@ class CompareRecipies():
         self.item = item
         self.recipe_tree = load_recipes()
         self.all_paths = []
+        self.graph = Graph()
 
     def _get_recipes(self, item: str) -> list:
         component_recipes = self.recipe_tree.get(item)
@@ -21,6 +23,8 @@ class CompareRecipies():
 
         path = []
 
+        
+
         for alternate in self._get_recipes(self.item):
             self._get_recipe_paths(
                 alternate, path, self.item)
@@ -33,7 +37,9 @@ class CompareRecipies():
         recipe_name = produced_recipe.get("recipeName")
         if item_name == self.item:
             recipe_name = f"[{recipe_name}]"
-        else:
+            self.graph.add_root(Node(self.item, produced_recipe))
+            
+        else:            
             recipe_name = f"{item_name}[{recipe_name}]"
 
         path.append(recipe_name)
