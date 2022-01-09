@@ -209,3 +209,8 @@ display_name_mapping = {
     Equipment.RIFLE_CARTRIDGE: "Rifle Cartridge",
     Equipment.PORTABLE_MINER: "Portable Miner"
 }
+
+
+class LogisticalInput():
+    PIPE = "Pipeline"
+    CONVEYOR = "Conveyor"
