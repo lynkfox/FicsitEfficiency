@@ -1,0 +1,92 @@
+all:
+	@echo "   * Making all Layers\n"
+	@echo "     ** Making Data Libraries Layer"
+	@make data_libraries.zip >/dev/null
+	@echo "     ** Making Integration Libraries Layer"
+	@make integration_libraries.zip >/dev/null
+	@echo "     ** Making Pysolr Layer"
+	@make pysolr.zip >/dev/null
+	@echo "     ** Making Various Helpers Layers"
+	@make helpers.zip >/dev/null
+	@make testing_layer.zip  >/dev/null
+	@make pipeline_layer.zip >/dev/null
+
+
+
+#####
+# Contains libraries that are needed to interact with other services
+####
+integration_libraries.zip:
+
+	@mkdir python
+	@pip3 install -qqq --no-deps -r layer_generation/requirements-integration-libraries-layer.txt -t python
+	@zip -r integration_libraries.zip python
+	@rm -rf python
+
+#####
+# Contains libraries that manipulate data
+####
+data_libraries.zip:
+	@mkdir python
+	@unzip linux_dependencies/pygithub.zip
+	@pip3 install -qqq --no-deps -r layer_generation/requirements-data_libraries-layer.txt -t python
+	@zip -r data_libraries.zip python
+	@rm -rf python
+
+#####
+# Pysolar library specifically for the SOLR lambdas
+####
+pysolr.zip:
+	@mkdir python
+	@pip3 -qqq install pysolr --target='python' --disable-pip-version-check
+	@cp -R data_push_solr python
+	@zip -r pysolr.zip python
+	@rm -rf python
+
+#####
+# Common functionality to be shared between all lambdas
+####
+helpers.zip:
+	@mkdir python
+	@pip3 install -qqq --no-deps -r layer_generation/requirements-helpers-layer.txt -t python
+	@cp -R helpers python
+	@zip -r helpers.zip python
+	@rm -rf python
+
+
+#####
+# Specific functionality for various Testing tools.
+####
+testing_layer.zip:
+	@mkdir python
+	@cp -R helpers python
+	@pip3 install -qqq pycryptodome --target='python' --disable-pip-version-check
+	@pip3 install -qqq rstr --target='python' --disable-pip-version-check
+	@pip3 install -qqq dictdiffer --target='python' --disable-pip-version-check
+	@pip3 install -qqq requests --target='python' --disable-pip-version-check
+	@zip -r testing_layer python
+	@rm -rf python
+
+
+####
+# Layers for the Pipeline  and Utilities/Tools Lambdas
+# first get the pygithub linux version - it already has a python folder in the zip, so unzipping reveals that same python folder.
+# then move over the pytest_utilities to the same path as in repo
+# then add all necessary libraries
+# then add helpers
+# then zip
+####
+pipeline_layer.zip:
+	@unzip linux_dependencies/pygithub.zip
+	@mkdir python/all_tests
+	@cp -R all_tests/pytest_utilities python/all_tests
+	@pip3 install -qqq aws-lambda-powertools --target='python' --disable-pip-version-check
+	@pip3 install -qqq fastavro --target='python' --disable-pip-version-check
+	@pip3 install -qqq jsonpath_ng --target='python' --disable-pip-version-check
+	@pip3 install -qqq PyGithub --target='python' --disable-pip-version-check
+	@pip3 install -qqq jira --target='python' --disable-pip-version-check
+	@pip3 install -qqq exrex --target='python' --disable-pip-version-check
+	@pip3 install -qqq faker --target='python' --disable-pip-version-check
+	@cp -R helpers python
+	@zip -r pipeline_layer.zip python
+	@rm -rf python
