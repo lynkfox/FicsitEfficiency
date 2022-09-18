@@ -8,38 +8,47 @@ from ficsit.components import (
     display_name_mapping,
     endpoints,
 )
-from ficsit.com.graph_node import Node
-import matplotlib as mpl
-import matplotlib.pyplot as plt
-import networkx as nx
+from ficsit.utils import display_name
+from ficsit.com.graph_node import Node, Graph
+import plotly.graph_objects as go
+from dataclasses import dataclass
 
-def build_dag(recipe_graph: CompareRecipes):
-    graph = nx.DiGraph()
-    labels = {}
-    edge_labels = {}
-    for node in recipe_graph.graph.Nodes.values():
-        graph.add_node(node.ID, subset=-node.depth)
-        labels[node.ID] = "\n".join(node.display_name.split(" "))
-        
-    node: Node
-    for node in recipe_graph.graph.Nodes.values():
-        if node.parent is not None:
-            graph.add_edge(node.parent.ID, node.ID, label=node.parent_child_edge_name)
-    
-    options = {
-        "node_size": 3000,
-        "node_color": "gray",
-        "linewidths": 5,
+
+def build_visual(graph: Graph):
+
+    data = {
+        "ids": [node.ID for node in graph.Nodes.values()],
+        "labels": [node.display_name for node in graph.Nodes.values()],
+        "parents": [node.parent.ID if node.parent is not None else "" for node in graph.Nodes.values()],
+        "values":  [
+            node.parent_needs_for_one
+            if node.parent_needs_for_one < 100
+            else node.parent_needs_for_one / 1000
+            for node in graph.Nodes.values()
+        ],
+        "hovertext": [
+            visual_display_components(node.components) if node.components is not None else "" for node in graph.Nodes.values()
+        ],
+        "root_color": "lightgrey",
+        "tiling": {
+            "orientation":"h"
+        }
     }
-    nx.draw_networkx_labels(graph, pos= nx.drawing.layout.multipartite_layout(graph, align='horizontal'), font_size=6, labels=labels)
-    nx.draw_networkx_nodes(graph, pos= nx.drawing.layout.multipartite_layout(graph, align='horizontal'), **options)
-    nx.draw_networkx_edges(graph, pos= nx.drawing.layout.multipartite_layout(graph, align='horizontal'))
-    plt.axis("off")
-    #plt.show()
+
+    fig = go.Figure(go.Icicle(arg=data))
+
+    fig.update_layout(title_text=graph.Root.display_name, font_size=10, margin = dict(t=50, l=25, r=25, b=25))
+    fig.show()
 
     return graph
 
 
+def visual_display_components(components:dict):
+    """
+    creates a string that is human eye pleasing for components
+    """
+    return "Uses:<br \>" + "<br \>".join([f"{value} {display_name(key)}" for key,value in components.items()])
+        
 
 def main(recipe_name):
     display_name = display_name_mapping.get(recipe_name, recipe_name)
@@ -49,10 +58,10 @@ def main(recipe_name):
 
     setup_class.build_all_alternates()
 
-    graph = build_dag(setup_class)
+    graph = build_visual(setup_class.graph)
     recipe_paths = setup_class.build_display_paths()
     total_paths = len(recipe_paths)
-    
+
     output = {"item": display_name, "totalPaths": total_paths, "allPaths": recipe_paths}
 
     filename = display_name.lower().replace(" ", "_")
@@ -63,6 +72,7 @@ def main(recipe_name):
     print(f"... saved with {total_paths} possible paths")
 
     del setup_class
+
 
 if __name__ == "__main__":
 

@@ -47,6 +47,7 @@ class Node:
         self.components_per_one = data[DataNames.COMPONENTS_PER_ONE]
         self.parent: Node = None
         self.parent_child_edge_name: str = None
+        self.parent_needs_for_one: int = 0
         self.children: List[Node] = []
         self.path_to_root: List[Node] = []
         self.depth: int = 0
@@ -59,6 +60,7 @@ class Node:
         child.parent_child_edge_name = parent_child_path_name
         child.parent = self
         child.depth = self.depth+1
+        child.parent_needs_for_one = self.components_per_one.get(child.NODE_NAME, 0) if self.components_per_one is not None else 0
         child.path_to_root = [*self.path_to_root, *[self]]
 
     def add_parent(self, parent: Node):
