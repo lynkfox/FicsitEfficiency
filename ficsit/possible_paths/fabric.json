@@ -1,11 +1,12 @@
 {
     "item": "Fabric",
-    "totalPaths": 5,
+    "totalPaths": 6,
     "allPaths": [
-        "Alternate: Polyester Fabric ({'Polymer Resin + Water'}) -> [Polymer Resin] Alternate: Polymer Resin ({'Oil'})",
-        "Alternate: Polyester Fabric ({'Polymer Resin + Water'}) -> [Polymer Resin] Standard: Fuel ({'Oil'})",
-        "Alternate: Polyester Fabric ({'Polymer Resin + Water'})",
-        "Alternate: Polyester Fabric ({'Polymer Resin + Water'}) -> [Polymer Resin] Alternate: Heavy Oil Residue ({'Oil'})",
-        "Standard: Fabric ({'mycelia + genericBiomass'})"
+        "Alternate: Polyester Fabric (Polymer Resin + Water) -> [Polymer Resin] Alternate: Heavy Oil Residue (Oil) -> Oil",
+        "Alternate: Polyester Fabric (Polymer Resin + Water) -> [Polymer Resin] Alternate: Polymer Resin (Oil) -> Oil",
+        "Alternate: Polyester Fabric (Polymer Resin + Water) -> [Polymer Resin] Standard: Fuel (Oil) -> Oil",
+        "Alternate: Polyester Fabric (Polymer Resin + Water) -> Water",
+        "Standard: Fabric (mycelia + genericBiomass) -> mycelia",
+        "Standard: Fabric (mycelia + genericBiomass) -> genericBiomass"
     ]
 }

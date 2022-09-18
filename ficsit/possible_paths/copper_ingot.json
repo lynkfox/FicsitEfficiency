@@ -1,9 +1,11 @@
 {
     "item": "Copper Ingot",
-    "totalPaths": 3,
+    "totalPaths": 5,
     "allPaths": [
-        "Alternate: Pure Copper Ingot ({'Copper Ore + Water'})",
-        "Alternate: Copper Alloy Ingot ({'Copper Ore + Iron Ore'})",
-        "Standard: Copper Ingot ({'Copper Ore'})"
+        "Alternate: Copper Alloy Ingot (Copper Ore + Iron Ore) -> Copper Ore",
+        "Alternate: Copper Alloy Ingot (Copper Ore + Iron Ore) -> Iron Ore",
+        "Alternate: Pure Copper Ingot (Copper Ore + Water) -> Copper Ore",
+        "Alternate: Pure Copper Ingot (Copper Ore + Water) -> Water",
+        "Standard: Copper Ingot (Copper Ore) -> Copper Ore"
     ]
 }

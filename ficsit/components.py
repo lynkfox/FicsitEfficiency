@@ -38,9 +38,9 @@ endpoints = [
 class ManufacturedComponents:
     AI_LIMITER = "circuitBoardHighSpeed"
     ALCLAD_ALUMINUM_SHEET = "aluminumPlate"
-    ALUMNIUM_CASING = "aluminumCasing"
-    ALUMNIUM_INGOT = "aluminumIngot"
-    ALUMNIUM_SCRAP = "aluminumScrap"
+    ALUMINUM_CASING = "aluminumCasing"
+    ALUMINUM_INGOT = "aluminumIngot"
+    ALUMINUM_SCRAP = "aluminumScrap"
     ALUMINA_SOLUTION = "aluminaSolution"
     BATTERY = "battery"
     BLACK_POWDER = "gunpowder"
@@ -55,7 +55,7 @@ class ManufacturedComponents:
     COPPER_SHEET = "copperSheet"
     CRYSTAL_OSCILLATOR = "crystalOscillator"
     ELECTROMAGNETIC_CONTROL_ROD = "electromagneticControlRod"
-    ENCASED_INDUTRIAL_BEAM = "steelPlateReinforced"
+    ENCASED_INDUSTRIAL_BEAM = "steelPlateReinforced"
     ENCASED_PLUTONIUM_CELL = "plutoniumCell"
     ENCASED_URANIUM_CELL = "uraniumCell"
     EMPTY_CANISTER = "fluidCanister"
@@ -71,7 +71,7 @@ class ManufacturedComponents:
     MODULAR_FRAME = "modularFrame"
     MOTOR = "motor"
     NITRIC_ACID = "nitricAcid"
-    NON_FISSIBLE_URANIUM = "nonFissibleUranium"
+    NON_FISSILE_URANIUM = "nonFissibleUranium"
     NUCLEAR_WASTE = "nuclearWaste"
     PETROLEUM_COKE = "petroleumCoke"
     PLASTIC = "plastic"
@@ -99,7 +99,7 @@ class ManufacturedComponents:
 
 class ProjectAssemblyPart:
     SMART_PLATING = "spaceElevatorPart1"
-    VERSITLE_FRAMEWORK = "spaceElevatorPart2"
+    VERSATILE_FRAMEWORK = "spaceElevatorPart2"
     AUTOMATED_WIRING = "spaceElevatorPart3"
     MODULAR_ENGINE = "spaceElevatorPart4"
     ADAPTIVE_CONTROL_UNIT = "spaceElevatorPart5"
@@ -138,9 +138,9 @@ display_name_mapping = {
     BaseComponents.NITROGEN: "Nitrogen Gas",
     ManufacturedComponents.AI_LIMITER: "AI Limiter",
     ManufacturedComponents.ALCLAD_ALUMINUM_SHEET: "Alclad Aluminum Sheet",
-    ManufacturedComponents.ALUMNIUM_CASING: "Alumnium Casing",
-    ManufacturedComponents.ALUMNIUM_INGOT: "Alumnium Ingot",
-    ManufacturedComponents.ALUMNIUM_SCRAP: "Aluminum Scrap",
+    ManufacturedComponents.ALUMINUM_CASING: "Aluminum Casing",
+    ManufacturedComponents.ALUMINUM_INGOT: "Aluminum Ingot",
+    ManufacturedComponents.ALUMINUM_SCRAP: "Aluminum Scrap",
     ManufacturedComponents.ALUMINA_SOLUTION: "Alumina Solution",
     ManufacturedComponents.BATTERY: "Battery",
     ManufacturedComponents.BLACK_POWDER: "Black Powder",
@@ -156,7 +156,7 @@ display_name_mapping = {
     ManufacturedComponents.CRYSTAL_OSCILLATOR: "Crystal Oscillator",
     ManufacturedComponents.ELECTROMAGNETIC_CONTROL_ROD: "Electromagnetic Control Rod",
     ManufacturedComponents.EMPTY_CANISTER: "Empty Canister",
-    ManufacturedComponents.ENCASED_INDUTRIAL_BEAM: "Encased Industrial Beam",
+    ManufacturedComponents.ENCASED_INDUSTRIAL_BEAM: "Encased Industrial Beam",
     ManufacturedComponents.ENCASED_PLUTONIUM_CELL: "Encased Plutonium Cell",
     ManufacturedComponents.ENCASED_URANIUM_CELL: "Encased Uranium Cell",
     ManufacturedComponents.FABRIC: "Fabric",
@@ -171,7 +171,7 @@ display_name_mapping = {
     ManufacturedComponents.MODULAR_FRAME: "Modular Frame",
     ManufacturedComponents.MOTOR: "Motor",
     ManufacturedComponents.NITRIC_ACID: "Nitric Acid",
-    ManufacturedComponents.NON_FISSIBLE_URANIUM: "Non-Fissible Uranium",
+    ManufacturedComponents.NON_FISSILE_URANIUM: "Non-Fissile Uranium",
     ManufacturedComponents.NUCLEAR_WASTE: "Nuclear Waste",
     ManufacturedComponents.PETROLEUM_COKE: "Petroleum Coke",
     ManufacturedComponents.PLASTIC: "Plastic",
@@ -196,7 +196,7 @@ display_name_mapping = {
     ManufacturedComponents.URANIUM_FUEL_ROD: "Uranium Fuel Rod",
     ManufacturedComponents.WIRE: "Wire",
     ProjectAssemblyPart.SMART_PLATING: "Smart Plating",
-    ProjectAssemblyPart.VERSITLE_FRAMEWORK: "Versitile Framework",
+    ProjectAssemblyPart.VERSATILE_FRAMEWORK: "Versatile Framework",
     ProjectAssemblyPart.AUTOMATED_WIRING: "Automated Wiring",
     ProjectAssemblyPart.MODULAR_ENGINE: "Modular Engine",
     ProjectAssemblyPart.ADAPTIVE_CONTROL_UNIT: "Adaptive Control Unit",

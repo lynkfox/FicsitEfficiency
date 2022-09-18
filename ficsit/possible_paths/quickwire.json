@@ -1,13 +1,17 @@
 {
     "item": "Quickwire",
-    "totalPaths": 7,
+    "totalPaths": 11,
     "allPaths": [
-        "Alternate: Fused Quickwire ({'Caterium Ingot + Copper Ingot'}) -> [Copper Ingot] Alternate: Pure Copper Ingot ({'Copper Ore + Water'})",
-        "Alternate: Fused Quickwire ({'Caterium Ingot + Copper Ingot'}) -> [Caterium Ingot] Alternate: Pure Caterium Ingot ({'Caterium Ore + Water'})",
-        "Alternate: Fused Quickwire ({'Caterium Ingot + Copper Ingot'}) -> [Copper Ingot] Standard: Copper Ingot ({'Copper Ore'})",
-        "Standard: Quickwire ({'Caterium Ingot'}) -> [Caterium Ingot] Alternate: Pure Caterium Ingot ({'Caterium Ore + Water'})",
-        "Alternate: Fused Quickwire ({'Caterium Ingot + Copper Ingot'}) -> [Caterium Ingot] Standard: Caterium Ingot ({'Caterium Ore'})",
-        "Alternate: Fused Quickwire ({'Caterium Ingot + Copper Ingot'}) -> [Copper Ingot] Alternate: Copper Alloy Ingot ({'Copper Ore + Iron Ore'})",
-        "Standard: Quickwire ({'Caterium Ingot'}) -> [Caterium Ingot] Standard: Caterium Ingot ({'Caterium Ore'})"
+        "Alternate: Fused Quickwire (Caterium Ingot + Copper Ingot) -> [Caterium Ingot] Alternate: Pure Caterium Ingot (Caterium Ore + Water) -> Caterium Ore",
+        "Alternate: Fused Quickwire (Caterium Ingot + Copper Ingot) -> [Caterium Ingot] Alternate: Pure Caterium Ingot (Caterium Ore + Water) -> Water",
+        "Alternate: Fused Quickwire (Caterium Ingot + Copper Ingot) -> [Caterium Ingot] Standard: Caterium Ingot (Caterium Ore) -> Caterium Ore",
+        "Alternate: Fused Quickwire (Caterium Ingot + Copper Ingot) -> [Copper Ingot] Alternate: Copper Alloy Ingot (Copper Ore + Iron Ore) -> Copper Ore",
+        "Alternate: Fused Quickwire (Caterium Ingot + Copper Ingot) -> [Copper Ingot] Alternate: Copper Alloy Ingot (Copper Ore + Iron Ore) -> Iron Ore",
+        "Alternate: Fused Quickwire (Caterium Ingot + Copper Ingot) -> [Copper Ingot] Alternate: Pure Copper Ingot (Copper Ore + Water) -> Copper Ore",
+        "Alternate: Fused Quickwire (Caterium Ingot + Copper Ingot) -> [Copper Ingot] Alternate: Pure Copper Ingot (Copper Ore + Water) -> Water",
+        "Alternate: Fused Quickwire (Caterium Ingot + Copper Ingot) -> [Copper Ingot] Standard: Copper Ingot (Copper Ore) -> Copper Ore",
+        "Standard: Quickwire (Caterium Ingot) -> [Caterium Ingot] Alternate: Pure Caterium Ingot (Caterium Ore + Water) -> Caterium Ore",
+        "Standard: Quickwire (Caterium Ingot) -> [Caterium Ingot] Alternate: Pure Caterium Ingot (Caterium Ore + Water) -> Water",
+        "Standard: Quickwire (Caterium Ingot) -> [Caterium Ingot] Standard: Caterium Ingot (Caterium Ore) -> Caterium Ore"
     ]
 }

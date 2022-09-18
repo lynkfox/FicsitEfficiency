@@ -1,7 +1,8 @@
 {
     "item": "Compacted Coal",
-    "totalPaths": 1,
+    "totalPaths": 2,
     "allPaths": [
-        "Alternate: Compacted Coal ({'Raw Coal + Raw Sulfur'})"
+        "Alternate: Compacted Coal (Raw Coal + Raw Sulfur) -> Raw Coal",
+        "Alternate: Compacted Coal (Raw Coal + Raw Sulfur) -> Raw Sulfur"
     ]
 }

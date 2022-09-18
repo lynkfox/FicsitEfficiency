@@ -8,6 +8,7 @@ from ficsit.components import (
     display_name_mapping,
     endpoints,
 )
+from ficsit.com.graph_node import Node
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import networkx as nx
@@ -19,25 +20,22 @@ def build_dag(recipe_graph: CompareRecipes):
     for node in recipe_graph.graph.Nodes.values():
         graph.add_node(node.ID, subset=-node.depth)
         labels[node.ID] = "\n".join(node.display_name.split(" "))
-        edge_labels[node.ID] = node.parent_component
         
-
+    node: Node
     for node in recipe_graph.graph.Nodes.values():
         if node.parent is not None:
-            graph.add_edge(node.parent.ID, node.ID)
+            graph.add_edge(node.parent.ID, node.ID, label=node.parent_child_edge_name)
     
     options = {
         "node_size": 3000,
-        "node_color": "white",
+        "node_color": "gray",
         "linewidths": 5,
     }
     nx.draw_networkx_labels(graph, pos= nx.drawing.layout.multipartite_layout(graph, align='horizontal'), font_size=6, labels=labels)
     nx.draw_networkx_nodes(graph, pos= nx.drawing.layout.multipartite_layout(graph, align='horizontal'), **options)
     nx.draw_networkx_edges(graph, pos= nx.drawing.layout.multipartite_layout(graph, align='horizontal'))
-    ax = plt.gca()
-    ax.margins(tight=None)
     plt.axis("off")
-    plt.show()
+    #plt.show()
 
     return graph
 

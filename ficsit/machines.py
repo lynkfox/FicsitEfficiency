@@ -1,4 +1,4 @@
-from ficsit.components import ManufacturedComponents, LogisticalInput
+from ficsit.components import ManufacturedComponents, LogisticalInput, Equipment
 
 
 class iMachine:
@@ -11,6 +11,37 @@ class iMachine:
     inputs: dict  # of type:number
     outputs: dict  # of type: number
     cost: dict  # of component:number
+
+class Miner(iMachine):
+    tierRequired = (0.5, 4.1, 8.3)
+    powerUse = (5, 12, 30)
+    width = 6
+    length = 14
+    height = 18
+    footprint = 84
+    inputs = None
+    outputs = {LogisticalInput.CONVEYOR: 1}
+    cost = ({Equipment.PORTABLE_MINER: 1, ManufacturedComponents.IRON_PLATE: 10, ManufacturedComponents.CONCRETE: 10},
+        {Equipment.PORTABLE_MINER: 2, ManufacturedComponents.ENCASED_INDUSTRIAL_BEAM: 10, ManufacturedComponents.STEEL_PIPE: 20, ManufacturedComponents.MODULAR_FRAME: 10},
+        {Equipment.PORTABLE_MINER: 3, ManufacturedComponents.STEEL_PIPE: 50, ManufacturedComponents.SUPERCOMPUTER: 5, ManufacturedComponents.FUSED_MODULAR_FRAME: 10, ManufacturedComponents.TURBO_MOTOR:3}
+    )
+    output_values= (
+            {
+                "impure":30,
+                "normal": 60,
+                "pure": 120
+            },
+            {
+                "impure":60,
+                "normal": 120,
+                "pure": 240
+            },
+            {
+                "impure":120,
+                "normal": 240,
+                "pure": 480
+            }
+    )
 
 
 class Smelter(iMachine):
@@ -100,7 +131,7 @@ class Refinery(iMachine):
     outputs = {LogisticalInput.CONVEYOR: 1, LogisticalInput.PIPE: 1}
     cost = {
         ManufacturedComponents.MOTOR: 10,
-        ManufacturedComponents.ENCASED_INDUTRIAL_BEAM: 10,
+        ManufacturedComponents.ENCASED_INDUSTRIAL_BEAM: 10,
         ManufacturedComponents.STEEL_PIPE: 30,
         ManufacturedComponents.COPPER_SHEET: 20,
     }
@@ -134,7 +165,7 @@ class Blender(iMachine):
     cost = {
         ManufacturedComponents.MOTOR: 20,
         ManufacturedComponents.HEAVY_MODULAR_FRAME: 10,
-        ManufacturedComponents.ALUMNIUM_CASING: 50,
+        ManufacturedComponents.ALUMINUM_CASING: 50,
         ManufacturedComponents.RADIO_CONTROL_UNIT: 5,
     }
 

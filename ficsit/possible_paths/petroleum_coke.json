@@ -2,9 +2,9 @@
     "item": "Petroleum Coke",
     "totalPaths": 4,
     "allPaths": [
-        "Standard: Petroleum Coke ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Standard: Plastic ({'Oil'})",
-        "Standard: Petroleum Coke ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Standard: Rubber ({'Oil'})",
-        "Standard: Petroleum Coke ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Alternate: Heavy Oil Residue ({'Oil'})",
-        "Standard: Petroleum Coke ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Alternate: Polymer Resin ({'Oil'})"
+        "Standard: Petroleum Coke (Heavy Oil Residue) -> [Heavy Oil Residue] Alternate: Heavy Oil Residue (Oil) -> Oil",
+        "Standard: Petroleum Coke (Heavy Oil Residue) -> [Heavy Oil Residue] Alternate: Polymer Resin (Oil) -> Oil",
+        "Standard: Petroleum Coke (Heavy Oil Residue) -> [Heavy Oil Residue] Standard: Plastic (Oil) -> Oil",
+        "Standard: Petroleum Coke (Heavy Oil Residue) -> [Heavy Oil Residue] Standard: Rubber (Oil) -> Oil"
     ]
 }

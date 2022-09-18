@@ -1,9 +1,11 @@
 {
     "item": "Black Powder",
-    "totalPaths": 3,
+    "totalPaths": 5,
     "allPaths": [
-        "Standard: Black Powder ({'Raw Coal + Raw Sulfur'})",
-        "Alternate: Fine Black Powder ({'Raw Sulfur + Compacted Coal'})",
-        "Alternate: Fine Black Powder ({'Raw Sulfur + Compacted Coal'}) -> [Compacted Coal] Alternate: Compacted Coal ({'Raw Coal + Raw Sulfur'})"
+        "Alternate: Fine Black Powder (Raw Sulfur + Compacted Coal) -> Raw Sulfur",
+        "Alternate: Fine Black Powder (Raw Sulfur + Compacted Coal) -> [Compacted Coal] Alternate: Compacted Coal (Raw Coal + Raw Sulfur) -> Raw Coal",
+        "Alternate: Fine Black Powder (Raw Sulfur + Compacted Coal) -> [Compacted Coal] Alternate: Compacted Coal (Raw Coal + Raw Sulfur) -> Raw Sulfur",
+        "Standard: Black Powder (Raw Coal + Raw Sulfur) -> Raw Coal",
+        "Standard: Black Powder (Raw Coal + Raw Sulfur) -> Raw Sulfur"
     ]
 }

@@ -2,15 +2,15 @@
     "item": "Fuel",
     "totalPaths": 10,
     "allPaths": [
-        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'}) -> [Heavy Oil Residue] Standard: Rubber ({'Oil'})",
-        "Standard: Residual Fuel ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Standard: Plastic ({'Oil'})",
-        "Standard: Residual Fuel ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Standard: Rubber ({'Oil'})",
-        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'}) -> [Heavy Oil Residue] Alternate: Heavy Oil Residue ({'Oil'})",
-        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'}) -> [Heavy Oil Residue] Standard: Plastic ({'Oil'})",
-        "Standard: Fuel ({'Oil'})",
-        "Standard: Residual Fuel ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Alternate: Heavy Oil Residue ({'Oil'})",
-        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'})",
-        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'}) -> [Heavy Oil Residue] Alternate: Polymer Resin ({'Oil'})",
-        "Standard: Residual Fuel ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Alternate: Polymer Resin ({'Oil'})"
+        "Alternate: Diluted Fuel (Heavy Oil Residue + Water) -> [Heavy Oil Residue] Alternate: Heavy Oil Residue (Oil) -> Oil",
+        "Alternate: Diluted Fuel (Heavy Oil Residue + Water) -> [Heavy Oil Residue] Alternate: Polymer Resin (Oil) -> Oil",
+        "Alternate: Diluted Fuel (Heavy Oil Residue + Water) -> [Heavy Oil Residue] Standard: Plastic (Oil) -> Oil",
+        "Alternate: Diluted Fuel (Heavy Oil Residue + Water) -> [Heavy Oil Residue] Standard: Rubber (Oil) -> Oil",
+        "Alternate: Diluted Fuel (Heavy Oil Residue + Water) -> Water",
+        "Standard: Fuel (Oil) -> Oil",
+        "Standard: Residual Fuel (Heavy Oil Residue) -> [Heavy Oil Residue] Alternate: Heavy Oil Residue (Oil) -> Oil",
+        "Standard: Residual Fuel (Heavy Oil Residue) -> [Heavy Oil Residue] Alternate: Polymer Resin (Oil) -> Oil",
+        "Standard: Residual Fuel (Heavy Oil Residue) -> [Heavy Oil Residue] Standard: Plastic (Oil) -> Oil",
+        "Standard: Residual Fuel (Heavy Oil Residue) -> [Heavy Oil Residue] Standard: Rubber (Oil) -> Oil"
     ]
 }

@@ -1,8 +1,10 @@
 {
     "item": "Alumina Solution",
-    "totalPaths": 2,
+    "totalPaths": 4,
     "allPaths": [
-        "Alternate: Sloppy Alumina ({'Bauxite Ore + Water'})",
-        "Standard: Alumina Solution ({'Bauxite Ore + Water'})"
+        "Alternate: Sloppy Alumina (Bauxite Ore + Water) -> Bauxite Ore",
+        "Alternate: Sloppy Alumina (Bauxite Ore + Water) -> Water",
+        "Standard: Alumina Solution (Bauxite Ore + Water) -> Bauxite Ore",
+        "Standard: Alumina Solution (Bauxite Ore + Water) -> Water"
     ]
 }

@@ -1,9 +1,11 @@
 {
     "item": "Silica",
-    "totalPaths": 3,
+    "totalPaths": 5,
     "allPaths": [
-        "Standard: Silica ({'Raw Quartz'})",
-        "Alternate: Cheap Silica ({'Raw Quartz + Limestone'})",
-        "Standard: Alumina Solution ({'Bauxite Ore + Water'})"
+        "Alternate: Cheap Silica (Raw Quartz + Limestone) -> Raw Quartz",
+        "Alternate: Cheap Silica (Raw Quartz + Limestone) -> Limestone",
+        "Standard: Alumina Solution (Bauxite Ore + Water) -> Bauxite Ore",
+        "Standard: Alumina Solution (Bauxite Ore + Water) -> Water",
+        "Standard: Silica (Raw Quartz) -> Raw Quartz"
     ]
 }

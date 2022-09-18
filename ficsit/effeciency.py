@@ -1,7 +1,8 @@
-from ficsit.utils import load_recipes
+from ficsit.utils import load_recipes, display_name
 from ficsit import components as GameComponents
-from ficsit.com.graph_node import Graph, Node
+from ficsit.com.graph_node import Graph, Node, NodeProps
 from typing import Optional, List
+from ficsit.machines import Miner
 
 
 class CompareRecipes:
@@ -24,6 +25,7 @@ class CompareRecipes:
         for alternate in self._get_recipes(self.item):
             self.build_graph(alternate, self.item, None)
 
+        print("built")
 
     def build_graph(self, produced_recipe: dict, child_node_name: str, parent_node:Optional[Node], component_name: Optional[str]=None):
         """
@@ -35,15 +37,16 @@ class CompareRecipes:
         if parent_node is None:
             self.graph.add_root(current_node)
         else:
-            self.graph.attach_child(parent_node, current_node, self.display_name(component_name))
+            self.graph.attach_child(parent_node, current_node, display_name(component_name))
         
  
         components = produced_recipe.get("components")
 
-        for component in components.keys():
+        for component, amount in components.items():
             next_recipes = self._get_recipes(component)
             if next_recipes is None or component in GameComponents.endpoints:
-                self.graph.update_endpoints(current_node)
+                component_child = self.graph.attach_child(current_node, self._create_component_node(component, amount), "Base Component")
+                self.graph.define_endpoint(component_child)
                 continue
             for child_recipe in next_recipes:
                 if self._prevent_infinite_loops(current_node, child_recipe):
@@ -56,7 +59,10 @@ class CompareRecipes:
         Builds an output of all unique paths from the recipe to the base components.
         """
 
-        return list(set([self.format_display_path(path) for path in self.graph.all_paths_to_root]))
+
+        output = ([self.format_display_path(path[-1].path_to_root) for path in self.graph.all_paths_to_root])
+        return output
+        #return list(set(output))
 
 
     def format_display_path(self, path: List[Node]) -> str:
@@ -69,15 +75,19 @@ class CompareRecipes:
         complete_path = []
         for i, node in enumerate(path):
             recipe_name = node.display_name
-            if i != 0:
-                recipe_name = f"[{self.display_name(node.NODE_NAME)}] {recipe_name}"
-            components = {' + '.join([self.display_name(component) for component in node.components.keys()])}
-            complete_path.append(f"{recipe_name} ({components})")
+            if i != 0 and node.components is not None:
+                recipe_name = f"[{display_name(node.NODE_NAME)}] {recipe_name}" 
+                
+            if node.components is not None:
+                components = ' + '.join([display_name(component) for component in node.components])
+                components = f" ({components})"
+            else:
+                components = ""
+            complete_path.append(f"{recipe_name}{components}")
+            
     
         return " -> ".join(complete_path)
 
-    def display_name(self, component):
-        return GameComponents.display_name_mapping.get(component, component)
 
     def record_path(self, path: list, components: dict) -> str:
 
@@ -105,10 +115,27 @@ class CompareRecipes:
 
         return True
 
+    def _create_component_node(self, component: str, amount: int):
+        """
+        wrapper for creating a node for the graph that is just a component
+        """
+        return Node(
+            component,
+            NodeProps(
+                recipeName= display_name(component),
+                produces=Miner,
+                producedIn=amount,
+                components=None,
+                componentsPerOneProduced=None,
+                timeToProduce=0,
+                manualMultiplier=0
+            )
+        )
+
     def add_base_components_string(self, ingredients: dict, separator: str) -> str:
 
         string = ""
         for component in ingredients:
-            string += f"{self.display_name(component)} + "
+            string += f"{display_name(component)} + "
 
         return f"{separator} ({string[:-3]})" if len(ingredients) > 0 else ""
