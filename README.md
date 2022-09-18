@@ -2,7 +2,7 @@
 
 A set of scripts and graphs for comparing any possible permutiation of recipes (standard and alternates) for any component in the game Satisfactory by Coffee Stain Studios
 
-All data about in game assets is Copywrite CSS; 
+All data about in game assets is Copywrite CSS;
 
 
 ## xml-json.py
@@ -22,7 +22,7 @@ main module
 
 ## ficsit/effeciency.py
 
-contains the class for creating recipe paths 
+contains the class for creating recipe paths
 
 TODO: Update to a proper weighted directed graph (utilizing the recipe.json objects)
 

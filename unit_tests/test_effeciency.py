@@ -2,8 +2,8 @@ from ficsit.effeciency_calculations import *
 from ficsit.effeciency import CompareRecipies
 from ficsit.components import *
 
-class Test_calculate_produced_per_minute():
 
+class Test_calculate_produced_per_minute:
     def setup(self):
         pass
 
@@ -31,40 +31,44 @@ class Test_calculate_produced_per_minute():
         # Assert
         assert result == 0.5
 
-class Test_calculate_components_per_minute():
+
+class Test_calculate_components_per_minute:
     def setup(self):
-        self.test_components = {
-                "testOne": 3,
-                "testTwo": 1
-            }
+        self.test_components = {"testOne": 3, "testTwo": 1}
 
     def teardown(self):
         del self.test_components
 
     def test_returns_dictionary(self):
         # Arrange, Act
-        result = calculate_components_per_minute(components=self.test_components, time=30)
+        result = calculate_components_per_minute(
+            components=self.test_components, time=30
+        )
 
         # Assert
         assert isinstance(result, dict)
 
     def test_does_not_modify_original_dict(self):
         # Arrange, Act
-        result = calculate_components_per_minute(components=self.test_components, time=30)
+        result = calculate_components_per_minute(
+            components=self.test_components, time=30
+        )
 
         # Assert
         assert result != self.test_components
 
     def test_calculates_item_per_minute_for_each_component(self):
         # Arrange, Act
-        result = calculate_components_per_minute(components=self.test_components, time=30)
+        result = calculate_components_per_minute(
+            components=self.test_components, time=30
+        )
 
         # Assert
         assert result["testOne"] == 6.0
         assert result["testTwo"] == 2.0
 
 
-class Test_Effeciency():
+class Test_Effeciency:
     def setup(self):
         self.test_class = CompareRecipies(ManufacturedComponents.IRON_PLATE)
 
@@ -73,10 +77,7 @@ class Test_Effeciency():
 
     def test_is_all_components_returns_true_if_all_base_components(self):
         # Arrange:
-        test_ingredients = {
-            BaseComponents.IRON: 4,
-            BaseComponents.LIMESTONE: 4
-        }
+        test_ingredients = {BaseComponents.IRON: 4, BaseComponents.LIMESTONE: 4}
 
         # Act, assert
         assert self.test_class._is_all_components(test_ingredients)
@@ -85,11 +86,8 @@ class Test_Effeciency():
         # Arrange:
         test_ingredients = {
             ManufacturedComponents.IRON_PLATE: 4,
-            BaseComponents.LIMESTONE: 4
+            BaseComponents.LIMESTONE: 4,
         }
 
         # Act, assert
         assert not self.test_class._is_all_components(test_ingredients)
-
-
-    

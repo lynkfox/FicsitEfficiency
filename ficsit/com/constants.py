@@ -1,4 +1,4 @@
-class DataNames():
+class DataNames:
     DISPLAY_NAME = "recipeName"
     PRODUCED_IN = "producedIn"
     PRODUCED_PER_CYCLE = "produces"

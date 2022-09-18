@@ -26,8 +26,10 @@ def get_recipes(xml_tree):
         if recipe is None:
             continue
 
-        components_produced = [clean_item_name(
-            item.attrib["item"]) for item in buildable.findall("Products/ItemAmount")]
+        components_produced = [
+            clean_item_name(item.attrib["item"])
+            for item in buildable.findall("Products/ItemAmount")
+        ]
 
         for component in components_produced:
 
@@ -35,9 +37,7 @@ def get_recipes(xml_tree):
                 all_recipes[component].append(recipe)
 
             else:
-                entry = {
-                    component: [recipe]
-                }
+                entry = {component: [recipe]}
 
                 all_recipes.update(entry)
 
@@ -49,18 +49,16 @@ def get_recipes(xml_tree):
                 "recipeName": "Nuclear Waste",
                 "producedIn": "Nuclear Power Plant",
                 "produces": 50,
-                "components": {
-                    "nuclearFuelRod": 1,
-                    "water": 1500
-                },
+                "components": {"nuclearFuelRod": 1, "water": 1500},
                 "componentsPerOneProduced": {
-                    "nuclearFuelRod": 1/50,
-                    "water": 1500/50
+                    "nuclearFuelRod": 1 / 50,
+                    "water": 1500 / 50,
                 },
                 "timeToProduce": 300,
-                "manualMultiplier": 0.0
+                "manualMultiplier": 0.0,
             }
-        ]}
+        ]
+    }
 
     all_recipes.update(nuclearWaste)
 
@@ -71,15 +69,23 @@ def get_recipe_details(buildable, name):
 
     produced_in = buildable.findall(".//ProducedIn/string")
 
-    MACHINES = ["Smelter", "Foundry", "Constructor", "Assembler",
-                "Manufacturer", "OilRefinery", "Blender", "Packager", "HadronCollider"]
+    MACHINES = [
+        "Smelter",
+        "Foundry",
+        "Constructor",
+        "Assembler",
+        "Manufacturer",
+        "OilRefinery",
+        "Blender",
+        "Packager",
+        "HadronCollider",
+    ]
 
     machine = None
 
     for source in produced_in:
         producers = source.text.split("/")
-        producer = producers[-2].replace("Mk1",
-                                         "") if len(producers) > 2 else None
+        producer = producers[-2].replace("Mk1", "") if len(producers) > 2 else None
         if producer not in MACHINES:
             continue
         else:
@@ -91,23 +97,34 @@ def get_recipe_details(buildable, name):
     if machine is None or "unpackage" in name.lower():
         return None
 
-    produced_amount = int(buildable.find(".//Products/ItemAmount").attrib['amount'])
+    produced_amount = int(buildable.find(".//Products/ItemAmount").attrib["amount"])
 
     return {
         "recipeName": name if "Alternate:" in name else f"Standard: {name}",
         "producedIn": machine,
         "produces": produced_amount,
-        "components": {clean_item_name(ingredient.attrib['item']): int(ingredient.attrib['amount']) for ingredient in buildable.findall(".//Ingredients/ItemAmount")},
-        "componentsPerOneProduced": {clean_item_name(ingredient.attrib['item']): (float(ingredient.attrib['amount'])/produced_amount) for ingredient in buildable.findall(".//Ingredients/ItemAmount")},
+        "components": {
+            clean_item_name(ingredient.attrib["item"]): int(ingredient.attrib["amount"])
+            for ingredient in buildable.findall(".//Ingredients/ItemAmount")
+        },
+        "componentsPerOneProduced": {
+            clean_item_name(ingredient.attrib["item"]): (
+                float(ingredient.attrib["amount"]) / produced_amount
+            )
+            for ingredient in buildable.findall(".//Ingredients/ItemAmount")
+        },
         "timeToProduce": int(buildable.find("ManufactoringDuration").text),
-        "manualMultiplier": float(buildable.find("ManualManufacturingMultiplier").text)
+        "manualMultiplier": float(buildable.find("ManualManufacturingMultiplier").text),
     }
 
 
 def clean_item_name(name):
     removed_ixs = name.split("_")
-    small_name = "".join(
-        removed_ixs[1:-1]).replace("ItemDescriptor", "").replace("EquipmentDescriptor", "")
+    small_name = (
+        "".join(removed_ixs[1:-1])
+        .replace("ItemDescriptor", "")
+        .replace("EquipmentDescriptor", "")
+    )
 
     return small_name[0].lower() + small_name[1:]
 

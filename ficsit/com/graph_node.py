@@ -2,7 +2,8 @@ from ficsit.com.constants import DataNames
 from typing import Dict, List, Union
 import random
 
-class Node():
+
+class Node:
     def __init__(self, node_name: str, data: dict) -> None:
         self.NODE_NAME = node_name
         self.ID = f"{self.NODE_NAME}{str(random.random())[2:5]}"
@@ -25,7 +26,7 @@ class Node():
         self.children.append(child)
 
 
-class Graph():
+class Graph:
     def __init__(self) -> None:
         self.Nodes: Dict[Node] = {}
         self.Root: Node = None
@@ -46,8 +47,7 @@ class Graph():
             parent_in_graph.add_child(child)
             child.add_parent(parent_in_graph)
 
-            child.depth = parent_in_graph.depth+1
+            child.depth = parent_in_graph.depth + 1
 
             if child.depth > self.depth:
                 self.depth = child.depth
-            

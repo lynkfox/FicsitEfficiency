@@ -4,7 +4,7 @@ from functools import reduce
 from ficsit.com.graph_node import Graph, Node
 
 
-class CompareRecipies():
+class CompareRecipies:
     def __init__(self, item: str):
         self.item = item
         self.recipe_tree = load_recipes()
@@ -23,23 +23,22 @@ class CompareRecipies():
 
         path = []
 
-        
-
         for alternate in self._get_recipes(self.item):
-            self._get_recipe_paths(
-                alternate, path, self.item)
+            self._get_recipe_paths(alternate, path, self.item)
             path = []
 
         return self.all_paths
 
-    def _get_recipe_paths(self, produced_recipe: dict, path: list, item_name: str) -> list:
+    def _get_recipe_paths(
+        self, produced_recipe: dict, path: list, item_name: str
+    ) -> list:
 
         recipe_name = produced_recipe.get("recipeName")
         if item_name == self.item:
             recipe_name = f"[{recipe_name}]"
             self.graph.add_root(Node(self.item, produced_recipe))
-            
-        else:            
+
+        else:
             recipe_name = f"{item_name}[{recipe_name}]"
 
         path.append(recipe_name)
@@ -58,10 +57,14 @@ class CompareRecipies():
                 else:
                     for child_recipe in next_recipes:
                         if child_recipe.get("recipeName") not in str(path):
-                            path[-1] += self.add_base_components_string(
-                                components, "") if path[-1][-1] != ")" else ""
+                            path[-1] += (
+                                self.add_base_components_string(components, "")
+                                if path[-1][-1] != ")"
+                                else ""
+                            )
                             self._get_recipe_paths(
-                                child_recipe, path, self.display_name(component))
+                                child_recipe, path, self.display_name(component)
+                            )
                             del path[-1]
 
     def display_name(self, component):
@@ -70,10 +73,10 @@ class CompareRecipies():
     def record_path(self, path: list, components: dict) -> str:
 
         component_string = self.add_base_components_string(
-            components, " -> Resource Node")
+            components, " -> Resource Node"
+        )
 
-        self.all_paths.append(
-            f"{' -> '.join(path)} {component_string}")
+        self.all_paths.append(f"{' -> '.join(path)} {component_string}")
 
     def _is_all_components(self, ingredients: dict) -> bool:
 

@@ -1,4 +1,4 @@
-class BaseComponents():
+class BaseComponents:
     LIMESTONE = "stone"
     IRON = "oreIron"
     COPPER = "oreCopper"
@@ -31,10 +31,11 @@ endpoints = [
     BaseComponents.OIL,
     BaseComponents.NITROGEN,
     BaseComponents.BIOMASS,
-    BaseComponents.WOOD
+    BaseComponents.WOOD,
 ]
 
-class ManufacturedComponents():
+
+class ManufacturedComponents:
     AI_LIMITER = "circuitBoardHighSpeed"
     ALCLAD_ALUMINUM_SHEET = "aluminumPlate"
     ALUMNIUM_CASING = "aluminumCasing"
@@ -95,7 +96,8 @@ class ManufacturedComponents():
     URANIUM_FUEL_ROD = "nuclearFuelRod"
     WIRE = "wire"
 
-class ProjectAssemblyPart():
+
+class ProjectAssemblyPart:
     SMART_PLATING = "spaceElevatorPart1"
     VERSITLE_FRAMEWORK = "spaceElevatorPart2"
     AUTOMATED_WIRING = "spaceElevatorPart3"
@@ -106,12 +108,14 @@ class ProjectAssemblyPart():
     THERMAL_PROPULSION_ROCKET = "spaceElevatorPart8"
     NUCLEAR_PASTA = "spaceElevatorPart9"
 
-class Equipment():
+
+class Equipment:
     BEACON = "beacon"
     RIFLE_CARTRIDGE = "cartridgeStandard"
     PORTABLE_MINER = "portableMiner"
 
-class Ingots():
+
+class Ingots:
     IRON = "ironIngot"
     COPPER = "copperIngot"
     STEEL = "steelIngot"
@@ -200,17 +204,17 @@ display_name_mapping = {
     ProjectAssemblyPart.ASSEMBLY_DIRECTOR_SYSTEM: "Assembly Director System",
     ProjectAssemblyPart.THERMAL_PROPULSION_ROCKET: "Thermal Propulsion Rocket",
     ProjectAssemblyPart.NUCLEAR_PASTA: "Nuclear Pasta",
-    Ingots.IRON : "Iron Ingot",
+    Ingots.IRON: "Iron Ingot",
     Ingots.COPPER: "Copper Ingot",
     Ingots.STEEL: "Steel Ingot",
     Ingots.CATERIUM: "Caterium Ingot",
     Ingots.ALUMINUM: "Aluminum Ingot",
     Equipment.BEACON: "Beacon",
     Equipment.RIFLE_CARTRIDGE: "Rifle Cartridge",
-    Equipment.PORTABLE_MINER: "Portable Miner"
+    Equipment.PORTABLE_MINER: "Portable Miner",
 }
 
 
-class LogisticalInput():
+class LogisticalInput:
     PIPE = "Pipeline"
     CONVEYOR = "Conveyor"
