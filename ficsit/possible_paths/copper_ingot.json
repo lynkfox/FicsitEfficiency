@@ -1,1 +1,9 @@
-{"item": "Copper Ingot", "totalPaths": 3, "allPaths": ["[Alternate: Copper Alloy Ingot]  -> Resource Node (Copper Ore + Iron Ore)", "[Alternate: Pure Copper Ingot]  -> Resource Node (Copper Ore + Water)", "[Standard: Copper Ingot]  -> Resource Node (Copper Ore)"]}
+{
+    "item": "Copper Ingot",
+    "totalPaths": 3,
+    "allPaths": [
+        "Alternate: Copper Alloy Ingot (oreCopper + oreIron)",
+        "Alternate: Pure Copper Ingot (oreCopper + water)",
+        "Standard: Copper Ingot (oreCopper)"
+    ]
+}

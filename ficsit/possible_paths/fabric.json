@@ -1,1 +1,11 @@
-{"item": "Fabric", "totalPaths": 3, "allPaths": ["[Alternate: Polyester Fabric] (Polymer Resin + Water) -> Polymer Resin[Alternate: Heavy Oil Residue]  -> Resource Node (Oil)", "[Alternate: Polyester Fabric] (Polymer Resin + Water) -> Polymer Resin[Alternate: Polymer Resin]  -> Resource Node (Oil)", "[Alternate: Polyester Fabric] (Polymer Resin + Water) -> Polymer Resin[Standard: Fuel]  -> Resource Node (Oil)"]}
+{
+    "item": "Fabric",
+    "totalPaths": 5,
+    "allPaths": [
+        "Standard: Fabric (mycelia + genericBiomass)",
+        "Alternate: Polyester Fabric (polymerResin + water) -> Standard: Fuel (liquidOil)",
+        "Alternate: Polyester Fabric (polymerResin + water) -> Alternate: Heavy Oil Residue (liquidOil)",
+        "Alternate: Polyester Fabric (polymerResin + water)",
+        "Alternate: Polyester Fabric (polymerResin + water) -> Alternate: Polymer Resin (liquidOil)"
+    ]
+}

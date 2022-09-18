@@ -1,1 +1,20 @@
-{"item": "AI Limiter", "totalPaths": 13, "allPaths": ["AI Limiter (Copper Sheet + Quickwire) -> Copper Sheet (Copper Ingot + Water) -> Copper Ingot  -> Resource Node (Copper Ore + Iron Ore)", "AI Limiter (Copper Sheet + Quickwire) -> Copper Sheet (Copper Ingot + Water) -> Copper Ingot  -> Resource Node (Copper Ore + Water)", "AI Limiter (Copper Sheet + Quickwire) -> Copper Sheet (Copper Ingot + Water) -> Copper Ingot  -> Resource Node (Copper Ore)", "AI Limiter (Copper Sheet + Quickwire) -> Copper Sheet (Copper Ingot) -> Copper Ingot  -> Resource Node (Copper Ore + Iron Ore)", "AI Limiter (Copper Sheet + Quickwire) -> Copper Sheet (Copper Ingot) -> Copper Ingot  -> Resource Node (Copper Ore + Water)", "AI Limiter (Copper Sheet + Quickwire) -> Copper Sheet (Copper Ingot) -> Copper Ingot  -> Resource Node (Copper Ore)", "AI Limiter (Copper Sheet + Quickwire) -> Quickwire (Caterium Ingot + Copper Ingot) -> Caterium Ingot  -> Resource Node (Caterium Ore + Water)", "AI Limiter (Copper Sheet + Quickwire) -> Quickwire (Caterium Ingot + Copper Ingot) -> Caterium Ingot  -> Resource Node (Caterium Ore)", "AI Limiter (Copper Sheet + Quickwire) -> Quickwire (Caterium Ingot + Copper Ingot) -> Copper Ingot  -> Resource Node (Copper Ore + Iron Ore)", "AI Limiter (Copper Sheet + Quickwire) -> Quickwire (Caterium Ingot + Copper Ingot) -> Copper Ingot  -> Resource Node (Copper Ore + Water)", "AI Limiter (Copper Sheet + Quickwire) -> Quickwire (Caterium Ingot + Copper Ingot) -> Copper Ingot  -> Resource Node (Copper Ore)", "AI Limiter (Copper Sheet + Quickwire) -> Quickwire (Caterium Ingot) -> Caterium Ingot  -> Resource Node (Caterium Ore + Water)", "AI Limiter (Copper Sheet + Quickwire) -> Quickwire (Caterium Ingot) -> Caterium Ingot  -> Resource Node (Caterium Ore)"]}
+{
+    "item": "AI Limiter",
+    "totalPaths": 14,
+    "allPaths": [
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Standard: Copper Sheet (copperIngot) -> Alternate: Copper Alloy Ingot (oreCopper + oreIron)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Alternate: Fused Quickwire (goldIngot + copperIngot) -> Alternate: Copper Alloy Ingot (oreCopper + oreIron)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Alternate: Fused Quickwire (goldIngot + copperIngot) -> Alternate: Pure Caterium Ingot (oreGold + water)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Alternate: Fused Quickwire (goldIngot + copperIngot) -> Standard: Caterium Ingot (oreGold)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Alternate: Fused Quickwire (goldIngot + copperIngot) -> Alternate: Pure Copper Ingot (oreCopper + water)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Alternate: Steamed Copper Sheet (copperIngot + water)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Standard: Quickwire (goldIngot) -> Standard: Caterium Ingot (oreGold)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Standard: Copper Sheet (copperIngot) -> Alternate: Pure Copper Ingot (oreCopper + water)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Standard: Copper Sheet (copperIngot) -> Standard: Copper Ingot (oreCopper)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Alternate: Steamed Copper Sheet (copperIngot + water) -> Alternate: Pure Copper Ingot (oreCopper + water)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Standard: Quickwire (goldIngot) -> Alternate: Pure Caterium Ingot (oreGold + water)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Alternate: Steamed Copper Sheet (copperIngot + water) -> Alternate: Copper Alloy Ingot (oreCopper + oreIron)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Alternate: Steamed Copper Sheet (copperIngot + water) -> Standard: Copper Ingot (oreCopper)",
+        "Standard: AI Limiter (copperSheet + highSpeedWire) -> Alternate: Fused Quickwire (goldIngot + copperIngot) -> Standard: Copper Ingot (oreCopper)"
+    ]
+}

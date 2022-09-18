@@ -6,7 +6,7 @@ from uuid import uuid4
 class Node:
     def __init__(self, node_name: str, data: dict) -> None:
         self.NODE_NAME = node_name
-        self.ID = f"{self.NODE_NAME}-ID-{str(uuid4()).replace('-', '')}"
+        self.ID = f"{self.NODE_NAME[:4]}-ID-{str(uuid4()).replace('-', '')}"
 
         self.display_name = data[DataNames.DISPLAY_NAME]
         self.machine_used = data[DataNames.PRODUCED_IN]
@@ -44,26 +44,31 @@ class Graph:
         self.Nodes: Dict[Node] = {}
         self.Root: Node = None
         self.max_depth: int = 0
+        self.endpoints: List[Node] = []
+        self.all_paths_to_root = []
 
     def add_root(self, root: Node) -> None:
         self.Root = root
         self.Nodes[root.ID] = root
 
-    def add_child(self, parent: Union[Node, str], child: Node) -> Node:
-        if isinstance(parent, str):
-            id = parent
-        else:
-            id = parent.ID
+    def attach_child(self, parent: Node, child: Optional[Node]) -> Node:
+        """
+        Adds a child to a parent node. Increments max_depth if necessary,
+        if child is None adds the parent to the endpoints list.
+        If no root, sets parent as root.
+        """
 
-        parent_in_graph = self.Nodes.get(id)
-        if parent_in_graph is not None:
-            parent_in_graph.add_child(child)
-            child.add_parent(parent_in_graph)
+        parent.add_child(child)
+        self.Nodes[child.ID] = child
+        self.max_depth = child.depth if child.depth > self.max_depth else self.max_depth
+            
 
-            child.depth = parent_in_graph.depth + 1
-
-            if child.depth > self.max_depth:
-                self.max_depth = child.depth
+    def update_endpoints(self, end_node: Node):
+        """
+        Adds the path of nodes from an endpoint
+        """
+        self.endpoints.append(end_node)
+        self.all_paths_to_root.append([*end_node.path_to_root, *[end_node]])
 
 
     def json_output(self, node: Optional[Node] = None) -> dict:

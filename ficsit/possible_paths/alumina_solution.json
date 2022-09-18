@@ -1,1 +1,8 @@
-{"item": "Alumina Solution", "totalPaths": 2, "allPaths": ["[Alternate: Sloppy Alumina]  -> Resource Node (Bauxite Ore + Water)", "[Standard: Alumina Solution]  -> Resource Node (Bauxite Ore + Water)"]}
+{
+    "item": "Alumina Solution",
+    "totalPaths": 2,
+    "allPaths": [
+        "Alternate: Sloppy Alumina (oreBauxite + water)",
+        "Standard: Alumina Solution (oreBauxite + water)"
+    ]
+}

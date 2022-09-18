@@ -11,18 +11,23 @@ from ficsit.components import (
 
 
 def main(recipe_name):
+    display_name = display_name_mapping.get(recipe_name, recipe_name)
+
+    print(f"Creating document for {display_name}")
     setup_class = CompareRecipes(recipe_name)
 
-    recipes = setup_class.get_all_recipe_paths_to_base_component()
+    setup_class.build_all_alternates()
+    recipe_paths = setup_class.build_display_paths()
 
-    display_name = display_name_mapping.get(recipe_name, recipe_name)
-    output = {"item": display_name, "totalPaths": len(recipes), "allPaths": recipes}
+    
+    output = {"item": display_name, "totalPaths": len(recipe_paths), "allPaths": recipe_paths}
 
     filename = display_name.lower().replace(" ", "_")
 
     with open(f"./ficsit/possible_paths/{filename}.json", "w") as json_file:
-        json.dump(output, json_file)
+        json.dump(output, json_file, indent=4)
 
+    del display_name
 
 if __name__ == "__main__":
 

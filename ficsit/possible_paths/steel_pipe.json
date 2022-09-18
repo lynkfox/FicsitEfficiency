@@ -1,1 +1,18 @@
-{"item": "Steel Pipe", "totalPaths": 9, "allPaths": ["[Standard: Steel Pipe] (Steel Ingot) -> Steel Ingot[Alternate: Coke Steel Ingot] (Iron Ore + Petroleum Coke) -> Petroleum Coke[Standard: Petroleum Coke] (Heavy Oil Residue) -> Heavy Oil Residue[Alternate: Heavy Oil Residue]  -> Resource Node (Oil)", "[Standard: Steel Pipe] (Steel Ingot) -> Steel Ingot[Alternate: Coke Steel Ingot] (Iron Ore + Petroleum Coke) -> Petroleum Coke[Standard: Petroleum Coke] (Heavy Oil Residue) -> Heavy Oil Residue[Alternate: Polymer Resin]  -> Resource Node (Oil)", "[Standard: Steel Pipe] (Steel Ingot) -> Steel Ingot[Alternate: Coke Steel Ingot] (Iron Ore + Petroleum Coke) -> Petroleum Coke[Standard: Petroleum Coke] (Heavy Oil Residue) -> Heavy Oil Residue[Standard: Plastic]  -> Resource Node (Oil)", "[Standard: Steel Pipe] (Steel Ingot) -> Steel Ingot[Alternate: Coke Steel Ingot] (Iron Ore + Petroleum Coke) -> Petroleum Coke[Standard: Petroleum Coke] (Heavy Oil Residue) -> Heavy Oil Residue[Standard: Rubber]  -> Resource Node (Oil)", "[Standard: Steel Pipe] (Steel Ingot) -> Steel Ingot[Alternate: Solid Steel Ingot] (Iron Ingot + Raw Coal) -> Iron Ingot[Alternate: Iron Alloy Ingot]  -> Resource Node (Iron Ore + Copper Ore)", "[Standard: Steel Pipe] (Steel Ingot) -> Steel Ingot[Alternate: Solid Steel Ingot] (Iron Ingot + Raw Coal) -> Iron Ingot[Alternate: Pure Iron Ingot]  -> Resource Node (Iron Ore + Water)", "[Standard: Steel Pipe] (Steel Ingot) -> Steel Ingot[Alternate: Solid Steel Ingot] (Iron Ingot + Raw Coal) -> Iron Ingot[Standard: Iron Ingot]  -> Resource Node (Iron Ore)", "[Standard: Steel Pipe] (Steel Ingot) -> Steel Ingot[Alternate: Compacted Steel Ingot] (Iron Ore + Compacted Coal) -> Compacted Coal[Alternate: Compacted Coal]  -> Resource Node (Raw Coal + Raw Sulfur)", "[Standard: Steel Pipe] (Steel Ingot) -> Steel Ingot[Standard: Steel Ingot]  -> Resource Node (Iron Ore + Raw Coal)"]}
+{
+    "item": "Steel Pipe",
+    "totalPaths": 12,
+    "allPaths": [
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Solid Steel Ingot (ironIngot + coal)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Compacted Steel Ingot (oreIron + compactedCoal)",
+        "Standard: Steel Pipe (steelIngot) -> Standard: Steel Ingot (oreIron + coal)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Coke Steel Ingot (oreIron + petroleumCoke) -> Standard: Petroleum Coke (heavyOilResidue) -> Alternate: Heavy Oil Residue (liquidOil)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Compacted Steel Ingot (oreIron + compactedCoal) -> Alternate: Compacted Coal (coal + sulfur)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Coke Steel Ingot (oreIron + petroleumCoke) -> Standard: Petroleum Coke (heavyOilResidue) -> Standard: Plastic (liquidOil)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Coke Steel Ingot (oreIron + petroleumCoke) -> Standard: Petroleum Coke (heavyOilResidue) -> Alternate: Polymer Resin (liquidOil)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Solid Steel Ingot (ironIngot + coal) -> Alternate: Iron Alloy Ingot (oreIron + oreCopper)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Solid Steel Ingot (ironIngot + coal) -> Alternate: Pure Iron Ingot (oreIron + water)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Solid Steel Ingot (ironIngot + coal) -> Standard: Iron Ingot (oreIron)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Coke Steel Ingot (oreIron + petroleumCoke) -> Standard: Petroleum Coke (heavyOilResidue) -> Standard: Rubber (liquidOil)",
+        "Standard: Steel Pipe (steelIngot) -> Alternate: Coke Steel Ingot (oreIron + petroleumCoke)"
+    ]
+}

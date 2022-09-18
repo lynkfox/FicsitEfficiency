@@ -1,1 +1,9 @@
-{"item": "Silica", "totalPaths": 3, "allPaths": ["[Alternate: Cheap Silica]  -> Resource Node (Raw Quartz + Limestone)", "[Standard: Alumina Solution]  -> Resource Node (Bauxite Ore + Water)", "[Standard: Silica]  -> Resource Node (Raw Quartz)"]}
+{
+    "item": "Silica",
+    "totalPaths": 3,
+    "allPaths": [
+        "Standard: Silica (rawQuartz)",
+        "Alternate: Cheap Silica (rawQuartz + stone)",
+        "Standard: Alumina Solution (oreBauxite + water)"
+    ]
+}
