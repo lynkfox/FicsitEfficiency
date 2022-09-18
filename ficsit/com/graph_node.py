@@ -1,12 +1,12 @@
+from __future__ import annotations
 from ficsit.com.constants import DataNames
-from typing import Dict, List, Union
-import random
-
+from typing import Dict, List, Union, Optional
+from uuid import uuid4
 
 class Node:
     def __init__(self, node_name: str, data: dict) -> None:
         self.NODE_NAME = node_name
-        self.ID = f"{self.NODE_NAME}{str(random.random())[2:5]}"
+        self.ID = f"{self.NODE_NAME}-ID-{str(uuid4()).replace('-', '')}"
 
         self.display_name = data[DataNames.DISPLAY_NAME]
         self.machine_used = data[DataNames.PRODUCED_IN]
@@ -17,20 +17,33 @@ class Node:
         self.components_per_one = data[DataNames.COMPONENTS_PER_ONE]
         self.parent: Node = None
         self.children: List[Node] = []
-        self.depth: int = 1
+        self.path_to_root: List[Node] = []
+        self.depth: int = 0
 
-    def add_parent(self, parent):
+    def add_child(self, child: Node):
+        """
+        Adds a child to this node and increments the depth of the child by 1.
+        """
+        self.children.append(child)
+        child.parent = self
+        child.depth = self.depth+1
+        child.path_to_root = [*self.path_to_root, *[self]]
+
+    def add_parent(self, parent: Node):
+        """
+        Adds the parent node of this node.
+        """
         self.parent_node = parent
 
-    def add_child(self, child):
-        self.children.append(child)
+    def as_dict(self):
+        return { key:value for key, value in self.__dict__ if not key.startswith("__")}
 
 
 class Graph:
     def __init__(self) -> None:
         self.Nodes: Dict[Node] = {}
         self.Root: Node = None
-        self.depth: int = 0
+        self.max_depth: int = 0
 
     def add_root(self, root: Node) -> None:
         self.Root = root
@@ -49,5 +62,23 @@ class Graph:
 
             child.depth = parent_in_graph.depth + 1
 
-            if child.depth > self.depth:
-                self.depth = child.depth
+            if child.depth > self.max_depth:
+                self.max_depth = child.depth
+
+
+    def json_output(self, node: Optional[Node] = None) -> dict:
+        """
+        Outputs the Graph as a json of objects of objects.
+        """
+
+        if node is None:
+            node = self.Root
+        
+        parent = node.as_dict()
+        parent["children"] = [self.json_output(node=child) for child in node.children()]
+        return parent
+
+             
+            
+            
+    

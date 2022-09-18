@@ -1,4 +1,4 @@
-from ficsit.effeciency import CompareRecipies
+from ficsit.effeciency import CompareRecipes
 import json
 from ficsit.components import (
     Equipment,
@@ -11,7 +11,7 @@ from ficsit.components import (
 
 
 def main(recipe_name):
-    setup_class = CompareRecipies(recipe_name)
+    setup_class = CompareRecipes(recipe_name)
 
     recipes = setup_class.get_all_recipe_paths_to_base_component()
 

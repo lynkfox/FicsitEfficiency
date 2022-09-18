@@ -1,5 +1,5 @@
 from ficsit.effeciency_calculations import *
-from ficsit.effeciency import CompareRecipies
+from ficsit.effeciency import CompareRecipes
 from ficsit.components import *
 
 
@@ -12,21 +12,21 @@ class Test_calculate_produced_per_minute:
 
     def test_returns_a_float(self):
         # Arrange, Act
-        result = calculate_item_per_minute(item_count=10, time=45)
+        result = items_per_minute(item_count=10, time=45)
 
         # Assert
         assert isinstance(result, float)
 
     def test_returns_valid_answer_with_sub_60_second_production_time(self):
         # Arrange, Act
-        result = calculate_item_per_minute(item_count=2, time=30)
+        result = items_per_minute(item_count=2, time=30)
 
         # Assert
         assert result == 4.0
 
     def test_returns_valid_answer_with_greater_than_60_second_production_time(self):
         # Arrange, Act
-        result = calculate_item_per_minute(item_count=1, time=120)
+        result = items_per_minute(item_count=1, time=120)
 
         # Assert
         assert result == 0.5
@@ -70,7 +70,7 @@ class Test_calculate_components_per_minute:
 
 class Test_Effeciency:
     def setup(self):
-        self.test_class = CompareRecipies(ManufacturedComponents.IRON_PLATE)
+        self.test_class = CompareRecipes(ManufacturedComponents.IRON_PLATE)
 
     def teardown(self):
         del self.test_class

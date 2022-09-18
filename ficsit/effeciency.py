@@ -2,9 +2,10 @@ from ficsit.utils import load_recipes
 from ficsit import components as GameComponents
 from functools import reduce
 from ficsit.com.graph_node import Graph, Node
+from typing import Optional
 
 
-class CompareRecipies:
+class CompareRecipes:
     def __init__(self, item: str):
         self.item = item
         self.recipe_tree = load_recipes()
@@ -24,24 +25,64 @@ class CompareRecipies:
         path = []
 
         for alternate in self._get_recipes(self.item):
-            self._get_recipe_paths(alternate, path, self.item)
-            path = []
+            self.build_graph(alternate, self.item, None)
+        # for alternate in self._get_recipes(self.item):
+        #     self._get_recipe_paths(alternate, path, self.item, None)
+        #     path = []
 
         return self.all_paths
 
+    def build_graph(self, produced_recipe: dict, child_node_name: str, parent_node:Optional[Node]):
+        """
+        Builds the graph for the given recipe
+        """
+        current_node = None
+        recipe_name = produced_recipe.get("recipeName")
+        if parent_node is None:
+            current_node = Node(self.item, produced_recipe)
+            self.graph.add_root(current_node)
+
+        else:
+            current_node = Node(child_node_name, produced_recipe)
+            parent_node.add_child(current_node)
+            self.graph.Nodes[current_node.ID] = current_node
+        
+        self.graph.max_depth = current_node.depth if current_node.depth > self.graph.max_depth else self.graph.max_depth
+
+        components = produced_recipe.get("components")
+
+        for component in components.keys():
+            next_recipes = self._get_recipes(component)
+            if next_recipes is None or component in GameComponents.endpoints:
+                continue
+            else:
+                for child_recipe in next_recipes:
+                    self.build_graph( child_recipe, component, current_node )
+
     def _get_recipe_paths(
-        self, produced_recipe: dict, path: list, item_name: str
+        self, produced_recipe: dict, path: list, item_name: str, parent_node: Optional[Node]
     ) -> list:
 
+        current_node = None
         recipe_name = produced_recipe.get("recipeName")
         if item_name == self.item:
             recipe_name = f"[{recipe_name}]"
-            self.graph.add_root(Node(self.item, produced_recipe))
+            current_node = Node(self.item, produced_recipe)
+            self.graph.add_root(current_node)
 
         else:
+            
+            current_node = Node(item_name, produced_recipe)
+            current_node.add_parent(parent_node)
+            parent_node.add_child(current_node)
+            current_node.depth = parent_node.depth+1
+            self.graph.Nodes[current_node.ID] = current_node
             recipe_name = f"{item_name}[{recipe_name}]"
 
-        path.append(recipe_name)
+        if current_node.depth > self.graph.max_depth:
+            self.graph.max_depth = current_node.depth
+
+        path.append(self.display_name(item_name))
 
         components = produced_recipe.get("components")
 
@@ -63,7 +104,7 @@ class CompareRecipies:
                                 else ""
                             )
                             self._get_recipe_paths(
-                                child_recipe, path, self.display_name(component)
+                                child_recipe, path, component, current_node
                             )
                             del path[-1]
 
@@ -86,10 +127,10 @@ class CompareRecipies:
 
         return True
 
-    def add_base_components_string(self, ingredients: dict, seperator: str) -> str:
+    def add_base_components_string(self, ingredients: dict, separator: str) -> str:
 
         string = ""
         for component in ingredients:
             string += f"{self.display_name(component)} + "
 
-        return f"{seperator} ({string[:-3]})" if len(ingredients) > 0 else ""
+        return f"{separator} ({string[:-3]})" if len(ingredients) > 0 else ""
