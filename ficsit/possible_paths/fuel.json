@@ -2,15 +2,15 @@
     "item": "Fuel",
     "totalPaths": 10,
     "allPaths": [
-        "Alternate: Diluted Fuel (heavyOilResidue + water) -> Standard: Plastic (liquidOil)",
-        "Standard: Fuel (liquidOil)",
-        "Standard: Residual Fuel (heavyOilResidue) -> Alternate: Heavy Oil Residue (liquidOil)",
-        "Alternate: Diluted Fuel (heavyOilResidue + water)",
-        "Alternate: Diluted Fuel (heavyOilResidue + water) -> Alternate: Heavy Oil Residue (liquidOil)",
-        "Standard: Residual Fuel (heavyOilResidue) -> Alternate: Polymer Resin (liquidOil)",
-        "Alternate: Diluted Fuel (heavyOilResidue + water) -> Standard: Rubber (liquidOil)",
-        "Alternate: Diluted Fuel (heavyOilResidue + water) -> Alternate: Polymer Resin (liquidOil)",
-        "Standard: Residual Fuel (heavyOilResidue) -> Standard: Plastic (liquidOil)",
-        "Standard: Residual Fuel (heavyOilResidue) -> Standard: Rubber (liquidOil)"
+        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'}) -> [Heavy Oil Residue] Standard: Rubber ({'Oil'})",
+        "Standard: Residual Fuel ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Standard: Plastic ({'Oil'})",
+        "Standard: Residual Fuel ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Standard: Rubber ({'Oil'})",
+        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'}) -> [Heavy Oil Residue] Alternate: Heavy Oil Residue ({'Oil'})",
+        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'}) -> [Heavy Oil Residue] Standard: Plastic ({'Oil'})",
+        "Standard: Fuel ({'Oil'})",
+        "Standard: Residual Fuel ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Alternate: Heavy Oil Residue ({'Oil'})",
+        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'})",
+        "Alternate: Diluted Fuel ({'Heavy Oil Residue + Water'}) -> [Heavy Oil Residue] Alternate: Polymer Resin ({'Oil'})",
+        "Standard: Residual Fuel ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Alternate: Polymer Resin ({'Oil'})"
     ]
 }

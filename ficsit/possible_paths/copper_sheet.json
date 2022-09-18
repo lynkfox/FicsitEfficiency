@@ -2,12 +2,12 @@
     "item": "Copper Sheet",
     "totalPaths": 7,
     "allPaths": [
-        "Standard: Copper Sheet (copperIngot) -> Standard: Copper Ingot (oreCopper)",
-        "Alternate: Steamed Copper Sheet (copperIngot + water) -> Alternate: Copper Alloy Ingot (oreCopper + oreIron)",
-        "Standard: Copper Sheet (copperIngot) -> Alternate: Pure Copper Ingot (oreCopper + water)",
-        "Alternate: Steamed Copper Sheet (copperIngot + water)",
-        "Standard: Copper Sheet (copperIngot) -> Alternate: Copper Alloy Ingot (oreCopper + oreIron)",
-        "Alternate: Steamed Copper Sheet (copperIngot + water) -> Standard: Copper Ingot (oreCopper)",
-        "Alternate: Steamed Copper Sheet (copperIngot + water) -> Alternate: Pure Copper Ingot (oreCopper + water)"
+        "Standard: Copper Sheet ({'Copper Ingot'}) -> [Copper Ingot] Alternate: Copper Alloy Ingot ({'Copper Ore + Iron Ore'})",
+        "Standard: Copper Sheet ({'Copper Ingot'}) -> [Copper Ingot] Standard: Copper Ingot ({'Copper Ore'})",
+        "Standard: Copper Sheet ({'Copper Ingot'}) -> [Copper Ingot] Alternate: Pure Copper Ingot ({'Copper Ore + Water'})",
+        "Alternate: Steamed Copper Sheet ({'Copper Ingot + Water'}) -> [Copper Ingot] Alternate: Copper Alloy Ingot ({'Copper Ore + Iron Ore'})",
+        "Alternate: Steamed Copper Sheet ({'Copper Ingot + Water'})",
+        "Alternate: Steamed Copper Sheet ({'Copper Ingot + Water'}) -> [Copper Ingot] Standard: Copper Ingot ({'Copper Ore'})",
+        "Alternate: Steamed Copper Sheet ({'Copper Ingot + Water'}) -> [Copper Ingot] Alternate: Pure Copper Ingot ({'Copper Ore + Water'})"
     ]
 }

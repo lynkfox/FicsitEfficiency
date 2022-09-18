@@ -16,15 +16,17 @@ class Node:
         self.manual_time_modifier = data[DataNames.MANUAL_CRAFT_MODIFIER]
         self.components_per_one = data[DataNames.COMPONENTS_PER_ONE]
         self.parent: Node = None
+        self.parent_component: str = None
         self.children: List[Node] = []
         self.path_to_root: List[Node] = []
         self.depth: int = 0
 
-    def add_child(self, child: Node):
+    def add_child(self, child: Node, child_identifier:str):
         """
         Adds a child to this node and increments the depth of the child by 1.
         """
         self.children.append(child)
+        child.parent_component = child_identifier
         child.parent = self
         child.depth = self.depth+1
         child.path_to_root = [*self.path_to_root, *[self]]
@@ -51,16 +53,18 @@ class Graph:
         self.Root = root
         self.Nodes[root.ID] = root
 
-    def attach_child(self, parent: Node, child: Optional[Node]) -> Node:
+    def attach_child(self, parent: Node, child: Optional[Node], child_identifier: Optional[str]=None):
         """
         Adds a child to a parent node. Increments max_depth if necessary,
         if child is None adds the parent to the endpoints list.
-        If no root, sets parent as root.
         """
-
-        parent.add_child(child)
+        if parent is None:
+            return
+        parent.add_child(child, child_identifier)
         self.Nodes[child.ID] = child
         self.max_depth = child.depth if child.depth > self.max_depth else self.max_depth
+
+        return child
             
 
     def update_endpoints(self, end_node: Node):

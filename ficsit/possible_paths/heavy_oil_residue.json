@@ -2,9 +2,9 @@
     "item": "Heavy Oil Residue",
     "totalPaths": 4,
     "allPaths": [
-        "Alternate: Heavy Oil Residue (liquidOil)",
-        "Standard: Plastic (liquidOil)",
-        "Alternate: Polymer Resin (liquidOil)",
-        "Standard: Rubber (liquidOil)"
+        "Standard: Rubber ({'Oil'})",
+        "Alternate: Heavy Oil Residue ({'Oil'})",
+        "Standard: Plastic ({'Oil'})",
+        "Alternate: Polymer Resin ({'Oil'})"
     ]
 }

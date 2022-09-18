@@ -2,17 +2,17 @@
     "item": "Steel Ingot",
     "totalPaths": 12,
     "allPaths": [
-        "Alternate: Coke Steel Ingot (oreIron + petroleumCoke) -> Standard: Petroleum Coke (heavyOilResidue) -> Standard: Rubber (liquidOil)",
-        "Alternate: Coke Steel Ingot (oreIron + petroleumCoke)",
-        "Alternate: Compacted Steel Ingot (oreIron + compactedCoal) -> Alternate: Compacted Coal (coal + sulfur)",
-        "Alternate: Solid Steel Ingot (ironIngot + coal) -> Alternate: Pure Iron Ingot (oreIron + water)",
-        "Alternate: Solid Steel Ingot (ironIngot + coal)",
-        "Alternate: Coke Steel Ingot (oreIron + petroleumCoke) -> Standard: Petroleum Coke (heavyOilResidue) -> Alternate: Polymer Resin (liquidOil)",
-        "Alternate: Solid Steel Ingot (ironIngot + coal) -> Standard: Iron Ingot (oreIron)",
-        "Alternate: Coke Steel Ingot (oreIron + petroleumCoke) -> Standard: Petroleum Coke (heavyOilResidue) -> Alternate: Heavy Oil Residue (liquidOil)",
-        "Alternate: Solid Steel Ingot (ironIngot + coal) -> Alternate: Iron Alloy Ingot (oreIron + oreCopper)",
-        "Alternate: Compacted Steel Ingot (oreIron + compactedCoal)",
-        "Alternate: Coke Steel Ingot (oreIron + petroleumCoke) -> Standard: Petroleum Coke (heavyOilResidue) -> Standard: Plastic (liquidOil)",
-        "Standard: Steel Ingot (oreIron + coal)"
+        "Alternate: Coke Steel Ingot ({'Iron Ore + Petroleum Coke'}) -> [Petroleum Coke] Standard: Petroleum Coke ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Standard: Plastic ({'Oil'})",
+        "Alternate: Solid Steel Ingot ({'Iron Ingot + Raw Coal'})",
+        "Standard: Steel Ingot ({'Iron Ore + Raw Coal'})",
+        "Alternate: Compacted Steel Ingot ({'Iron Ore + Compacted Coal'}) -> [Compacted Coal] Alternate: Compacted Coal ({'Raw Coal + Raw Sulfur'})",
+        "Alternate: Coke Steel Ingot ({'Iron Ore + Petroleum Coke'})",
+        "Alternate: Solid Steel Ingot ({'Iron Ingot + Raw Coal'}) -> [Iron Ingot] Alternate: Pure Iron Ingot ({'Iron Ore + Water'})",
+        "Alternate: Coke Steel Ingot ({'Iron Ore + Petroleum Coke'}) -> [Petroleum Coke] Standard: Petroleum Coke ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Alternate: Polymer Resin ({'Oil'})",
+        "Alternate: Coke Steel Ingot ({'Iron Ore + Petroleum Coke'}) -> [Petroleum Coke] Standard: Petroleum Coke ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Alternate: Heavy Oil Residue ({'Oil'})",
+        "Alternate: Solid Steel Ingot ({'Iron Ingot + Raw Coal'}) -> [Iron Ingot] Alternate: Iron Alloy Ingot ({'Iron Ore + Copper Ore'})",
+        "Alternate: Compacted Steel Ingot ({'Iron Ore + Compacted Coal'})",
+        "Alternate: Solid Steel Ingot ({'Iron Ingot + Raw Coal'}) -> [Iron Ingot] Standard: Iron Ingot ({'Iron Ore'})",
+        "Alternate: Coke Steel Ingot ({'Iron Ore + Petroleum Coke'}) -> [Petroleum Coke] Standard: Petroleum Coke ({'Heavy Oil Residue'}) -> [Heavy Oil Residue] Standard: Rubber ({'Oil'})"
     ]
 }

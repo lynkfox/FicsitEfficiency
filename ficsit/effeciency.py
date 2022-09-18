@@ -25,7 +25,7 @@ class CompareRecipes:
             self.build_graph(alternate, self.item, None)
 
 
-    def build_graph(self, produced_recipe: dict, child_node_name: str, parent_node:Optional[Node]):
+    def build_graph(self, produced_recipe: dict, child_node_name: str, parent_node:Optional[Node], component_name: Optional[str]=None):
         """
         Builds the graph for the given recipe
         """
@@ -34,9 +34,8 @@ class CompareRecipes:
 
         if parent_node is None:
             self.graph.add_root(current_node)
-            
         else:
-            self.graph.attach_child(parent_node, current_node)
+            self.graph.attach_child(parent_node, current_node, self.display_name(component_name))
         
  
         components = produced_recipe.get("components")
@@ -49,7 +48,8 @@ class CompareRecipes:
             for child_recipe in next_recipes:
                 if self._prevent_infinite_loops(current_node, child_recipe):
                     continue
-                self.build_graph( child_recipe, component, current_node )
+                
+                self.build_graph( child_recipe, component, current_node, component)
                 
     def build_display_paths(self) -> List[str]:
         """
@@ -65,8 +65,16 @@ class CompareRecipes:
 
         formats it as "Display_Name (Component + Component + Component...) -> Next_Node (Component + Component)
         """
+
+        complete_path = []
+        for i, node in enumerate(path):
+            recipe_name = node.display_name
+            if i != 0:
+                recipe_name = f"[{self.display_name(node.NODE_NAME)}] {recipe_name}"
+            components = {' + '.join([self.display_name(component) for component in node.components.keys()])}
+            complete_path.append(f"{recipe_name} ({components})")
     
-        return " -> ".join([f"{node.display_name} ({' + '.join([component for component in node.components.keys()])})" for node in path])
+        return " -> ".join(complete_path)
 
     def display_name(self, component):
         return GameComponents.display_name_mapping.get(component, component)

@@ -2,18 +2,18 @@
     "item": "Wire",
     "totalPaths": 13,
     "allPaths": [
-        "Alternate: Iron Wire (ironIngot) -> Standard: Iron Ingot (oreIron)",
-        "Alternate: Fused Wire (copperIngot + goldIngot) -> Standard: Caterium Ingot (oreGold)",
-        "Alternate: Caterium Wire (goldIngot) -> Alternate: Pure Caterium Ingot (oreGold + water)",
-        "Alternate: Caterium Wire (goldIngot) -> Standard: Caterium Ingot (oreGold)",
-        "Standard: Wire (copperIngot) -> Alternate: Pure Copper Ingot (oreCopper + water)",
-        "Alternate: Fused Wire (copperIngot + goldIngot) -> Alternate: Pure Caterium Ingot (oreGold + water)",
-        "Alternate: Fused Wire (copperIngot + goldIngot) -> Standard: Copper Ingot (oreCopper)",
-        "Alternate: Iron Wire (ironIngot) -> Alternate: Iron Alloy Ingot (oreIron + oreCopper)",
-        "Alternate: Fused Wire (copperIngot + goldIngot) -> Alternate: Pure Copper Ingot (oreCopper + water)",
-        "Alternate: Fused Wire (copperIngot + goldIngot) -> Alternate: Copper Alloy Ingot (oreCopper + oreIron)",
-        "Standard: Wire (copperIngot) -> Alternate: Copper Alloy Ingot (oreCopper + oreIron)",
-        "Standard: Wire (copperIngot) -> Standard: Copper Ingot (oreCopper)",
-        "Alternate: Iron Wire (ironIngot) -> Alternate: Pure Iron Ingot (oreIron + water)"
+        "Alternate: Fused Wire ({'Copper Ingot + Caterium Ingot'}) -> [Copper Ingot] Alternate: Pure Copper Ingot ({'Copper Ore + Water'})",
+        "Alternate: Fused Wire ({'Copper Ingot + Caterium Ingot'}) -> [Copper Ingot] Standard: Copper Ingot ({'Copper Ore'})",
+        "Alternate: Fused Wire ({'Copper Ingot + Caterium Ingot'}) -> [Caterium Ingot] Alternate: Pure Caterium Ingot ({'Caterium Ore + Water'})",
+        "Alternate: Fused Wire ({'Copper Ingot + Caterium Ingot'}) -> [Copper Ingot] Alternate: Copper Alloy Ingot ({'Copper Ore + Iron Ore'})",
+        "Alternate: Iron Wire ({'Iron Ingot'}) -> [Iron Ingot] Standard: Iron Ingot ({'Iron Ore'})",
+        "Standard: Wire ({'Copper Ingot'}) -> [Copper Ingot] Standard: Copper Ingot ({'Copper Ore'})",
+        "Standard: Wire ({'Copper Ingot'}) -> [Copper Ingot] Alternate: Copper Alloy Ingot ({'Copper Ore + Iron Ore'})",
+        "Alternate: Caterium Wire ({'Caterium Ingot'}) -> [Caterium Ingot] Standard: Caterium Ingot ({'Caterium Ore'})",
+        "Standard: Wire ({'Copper Ingot'}) -> [Copper Ingot] Alternate: Pure Copper Ingot ({'Copper Ore + Water'})",
+        "Alternate: Iron Wire ({'Iron Ingot'}) -> [Iron Ingot] Alternate: Pure Iron Ingot ({'Iron Ore + Water'})",
+        "Alternate: Fused Wire ({'Copper Ingot + Caterium Ingot'}) -> [Caterium Ingot] Standard: Caterium Ingot ({'Caterium Ore'})",
+        "Alternate: Iron Wire ({'Iron Ingot'}) -> [Iron Ingot] Alternate: Iron Alloy Ingot ({'Iron Ore + Copper Ore'})",
+        "Alternate: Caterium Wire ({'Caterium Ingot'}) -> [Caterium Ingot] Alternate: Pure Caterium Ingot ({'Caterium Ore + Water'})"
     ]
 }

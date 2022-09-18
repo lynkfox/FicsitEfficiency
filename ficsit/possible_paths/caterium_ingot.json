@@ -2,7 +2,7 @@
     "item": "Caterium Ingot",
     "totalPaths": 2,
     "allPaths": [
-        "Alternate: Pure Caterium Ingot (oreGold + water)",
-        "Standard: Caterium Ingot (oreGold)"
+        "Alternate: Pure Caterium Ingot ({'Caterium Ore + Water'})",
+        "Standard: Caterium Ingot ({'Caterium Ore'})"
     ]
 }

@@ -2,8 +2,8 @@
     "item": "Iron Ingot",
     "totalPaths": 3,
     "allPaths": [
-        "Alternate: Iron Alloy Ingot (oreIron + oreCopper)",
-        "Standard: Iron Ingot (oreIron)",
-        "Alternate: Pure Iron Ingot (oreIron + water)"
+        "Standard: Iron Ingot ({'Iron Ore'})",
+        "Alternate: Iron Alloy Ingot ({'Iron Ore + Copper Ore'})",
+        "Alternate: Pure Iron Ingot ({'Iron Ore + Water'})"
     ]
 }

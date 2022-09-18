@@ -2,8 +2,8 @@
     "item": "Copper Dust",
     "totalPaths": 3,
     "allPaths": [
-        "Standard: Copper Powder (copperIngot) -> Alternate: Copper Alloy Ingot (oreCopper + oreIron)",
-        "Standard: Copper Powder (copperIngot) -> Standard: Copper Ingot (oreCopper)",
-        "Standard: Copper Powder (copperIngot) -> Alternate: Pure Copper Ingot (oreCopper + water)"
+        "Standard: Copper Powder ({'Copper Ingot'}) -> [Copper Ingot] Alternate: Pure Copper Ingot ({'Copper Ore + Water'})",
+        "Standard: Copper Powder ({'Copper Ingot'}) -> [Copper Ingot] Alternate: Copper Alloy Ingot ({'Copper Ore + Iron Ore'})",
+        "Standard: Copper Powder ({'Copper Ingot'}) -> [Copper Ingot] Standard: Copper Ingot ({'Copper Ore'})"
     ]
 }

@@ -2,8 +2,8 @@
     "item": "Polymer Resin",
     "totalPaths": 3,
     "allPaths": [
-        "Alternate: Heavy Oil Residue (liquidOil)",
-        "Standard: Fuel (liquidOil)",
-        "Alternate: Polymer Resin (liquidOil)"
+        "Alternate: Heavy Oil Residue ({'Oil'})",
+        "Alternate: Polymer Resin ({'Oil'})",
+        "Standard: Fuel ({'Oil'})"
     ]
 }
