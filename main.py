@@ -75,13 +75,13 @@ def extract_display_info_from_node(node: Node):
 
         component_display.extend(
                 [
-                    f"  - {value if value < 1000 else value/100}/min {display_name(key)}"
+                    f"  -- {value if value < 1000 else value/100}/min {display_name(key)}"
                     for key, value in point.items()
                     if value is not None and key != "Path"
                 ]
             )
         full_display.append("<br \>".join(component_display))
-    return "Base Components per:<br \>" + "<br \> :: ".join(full_display)
+    return "Base Components per:<br \>### " + "<br \>### ".join(full_display)
 
 
 def main(recipe_name):
