@@ -13,6 +13,7 @@ class iMachine:
     outputs: dict  # of type: number
     cost: dict  # of component:number
 
+
 class Miner(iMachine):
     display_name = "Miner"
     tierRequired = (0.5, 4.1, 8.3)
@@ -23,26 +24,30 @@ class Miner(iMachine):
     footprint = 84
     inputs = None
     outputs = {LogisticalInput.CONVEYOR: 1}
-    cost = ({Equipment.PORTABLE_MINER: 1, ManufacturedComponents.IRON_PLATE: 10, ManufacturedComponents.CONCRETE: 10},
-        {Equipment.PORTABLE_MINER: 2, ManufacturedComponents.ENCASED_INDUSTRIAL_BEAM: 10, ManufacturedComponents.STEEL_PIPE: 20, ManufacturedComponents.MODULAR_FRAME: 10},
-        {Equipment.PORTABLE_MINER: 3, ManufacturedComponents.STEEL_PIPE: 50, ManufacturedComponents.SUPERCOMPUTER: 5, ManufacturedComponents.FUSED_MODULAR_FRAME: 10, ManufacturedComponents.TURBO_MOTOR:3}
+    cost = (
+        {
+            Equipment.PORTABLE_MINER: 1,
+            ManufacturedComponents.IRON_PLATE: 10,
+            ManufacturedComponents.CONCRETE: 10,
+        },
+        {
+            Equipment.PORTABLE_MINER: 2,
+            ManufacturedComponents.ENCASED_INDUSTRIAL_BEAM: 10,
+            ManufacturedComponents.STEEL_PIPE: 20,
+            ManufacturedComponents.MODULAR_FRAME: 10,
+        },
+        {
+            Equipment.PORTABLE_MINER: 3,
+            ManufacturedComponents.STEEL_PIPE: 50,
+            ManufacturedComponents.SUPERCOMPUTER: 5,
+            ManufacturedComponents.FUSED_MODULAR_FRAME: 10,
+            ManufacturedComponents.TURBO_MOTOR: 3,
+        },
     )
-    output_values= (
-            {
-                "impure":30,
-                "normal": 60,
-                "pure": 120
-            },
-            {
-                "impure":60,
-                "normal": 120,
-                "pure": 240
-            },
-            {
-                "impure":120,
-                "normal": 240,
-                "pure": 480
-            }
+    output_values = (
+        {"impure": 30, "normal": 60, "pure": 120},
+        {"impure": 60, "normal": 120, "pure": 240},
+        {"impure": 120, "normal": 240, "pure": 480},
     )
 
 

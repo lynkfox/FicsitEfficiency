@@ -29,16 +29,15 @@ def build_visual(graph: Graph):
             else node.needed_for_parent_cycle / 100
             for node in graph.Nodes.values()
         ],
-        "text": [
-            extract_display_info_from_node(node) for node in graph.Nodes.values()
-        ],
+        "text": [extract_display_info_from_node(node) for node in graph.Nodes.values()],
         "root_color": "lightgrey",
         "tiling": {"orientation": "h"},
         "textposition": "top left",
         "count": "leaves",
-        "textinfo": "label+text"
+        "textinfo": "text",
+        "hoverinfo": "text",
     }
-    
+
     data["values"][0] = 1
 
     fig = go.Figure(go.Icicle(arg=data))
@@ -55,8 +54,9 @@ def build_visual(graph: Graph):
 
 def extract_display_info_from_node(node: Node):
     """
-    creates a string that is human eye pleasing for components
+    creates a string that is human eye pleasing for displaying the text on the graph
     """
+    full_display = []
     components_list = (
         node.base_components_per_minute_totals
         if node.base_components_per_minute_totals is not None
@@ -64,24 +64,50 @@ def extract_display_info_from_node(node: Node):
     )
 
     if components_list is None or len(components_list) == 0:
-        return "Base Component"
+        return node.display_name + "<br \>Base Component"
 
-    full_display = []
     for point in components_list:
-            
-        component_display = []
-        if "Path" in point.keys():
-            component_display.append(point["Path"])
+        format_base_components_values(full_display, point)
 
-        component_display.extend(
-                [
-                    f"  -- {value if value < 1000 else value/100}/min {display_name(key)}"
-                    for key, value in point.items()
-                    if value is not None and key != "Path"
-                ]
-            )
-        full_display.append("<br \>".join(component_display))
-    return "Base Components per:<br \>### " + "<br \>### ".join(full_display)
+    base_values = format_node_basics(node)
+
+    return (
+        base_values
+        + "<br \><br \>Base Components/min of:<br \>### "
+        + "<br \>### ".join(full_display)
+    )
+
+
+def format_node_basics(node: Node) -> str:
+
+    components = [
+        f" - {value}/min of {display_name(key)}"
+        for key, value in node.components_per_minute.items()
+    ]
+
+    return (
+        f"{node.display_name}"
+        + "<br \># Recipe Per Minute:<br \>"
+        + "<br \>".join(components)
+    )
+
+
+def format_base_components_values(full_display: list, point: dict):
+    """
+    Formats a component and adds it to the list (that is updated by reference)
+    """
+    component_display = []
+    if "Path" in point.keys():
+        component_display.append(point["Path"])
+
+    component_display.extend(
+        [
+            f"  -- {value if value < 1000 else value/100}/min {display_name(key)}"
+            for key, value in point.items()
+            if value is not None and key != "Path"
+        ]
+    )
+    full_display.append("<br \>".join(component_display))
 
 
 def main(recipe_name):

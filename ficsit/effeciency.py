@@ -27,7 +27,13 @@ class CompareRecipes:
 
         print("built")
 
-    def build_graph(self, produced_recipe: dict, child_node_name: str, parent_node:Optional[Node], component_name: Optional[str]=None):
+    def build_graph(
+        self,
+        produced_recipe: dict,
+        child_node_name: str,
+        parent_node: Optional[Node],
+        component_name: Optional[str] = None,
+    ):
         """
         Builds the graph for the given recipe
         """
@@ -38,32 +44,36 @@ class CompareRecipes:
             self.graph.add_root(current_node)
         else:
             self.graph.attach_child(parent_node, current_node, component_name)
-        
- 
+
         components = produced_recipe.get("components")
 
         for component, amount in components.items():
             next_recipes = self._get_recipes(component)
             if next_recipes is None or component in GameComponents.endpoints:
-                component_child = self.graph.attach_child(current_node, self._create_component_node(component, amount), "Base Component")
+                component_child = self.graph.attach_child(
+                    current_node,
+                    self._create_component_node(component, amount),
+                    "Base Component",
+                )
                 self.graph.define_endpoint(component_child)
                 continue
             for child_recipe in next_recipes:
                 if self._prevent_infinite_loops(current_node, child_recipe):
                     continue
-                
-                self.build_graph( child_recipe, component, current_node, component)
-                
+
+                self.build_graph(child_recipe, component, current_node, component)
+
     def build_display_paths(self) -> List[str]:
         """
         Builds an output of all unique paths from the recipe to the base components.
         """
 
-
-        output = ([self.format_display_path(path[-1].path_to_root) for path in self.graph.all_paths_to_root])
+        output = [
+            self.format_display_path(path[-1].path_to_root)
+            for path in self.graph.all_paths_to_root
+        ]
         return output
-        #return list(set(output))
-
+        # return list(set(output))
 
     def format_display_path(self, path: List[Node]) -> str:
         """
@@ -76,18 +86,18 @@ class CompareRecipes:
         for i, node in enumerate(path):
             recipe_name = node.display_name
             if i != 0 and node.components_per_cycle is not None:
-                recipe_name = f"[{display_name(node.NODE_NAME)}] {recipe_name}" 
-                
+                recipe_name = f"[{display_name(node.NODE_NAME)}] {recipe_name}"
+
             if node.components_per_cycle is not None:
-                components = ' + '.join([display_name(component) for component in node.components_per_cycle])
+                components = " + ".join(
+                    [display_name(component) for component in node.components_per_cycle]
+                )
                 components = f" ({components})"
             else:
                 components = ""
             complete_path.append(f"{recipe_name}{components}")
-            
-    
-        return " -> ".join(complete_path)
 
+        return " -> ".join(complete_path)
 
     def record_path(self, path: list, components: dict) -> str:
 
@@ -97,15 +107,12 @@ class CompareRecipes:
 
         self.all_paths.append(f"{' -> '.join(path)} {component_string}")
 
-            
     def _prevent_infinite_loops(self, current_node: Node, next_recipe: str):
         current_chain = [node.display_name for node in current_node.path_to_root]
-        current_chain.append(next_recipe['recipeName'])
+        current_chain.append(next_recipe["recipeName"])
         reduced_chain = list(set(current_chain))
 
         return len(current_chain) != len(reduced_chain)
-
-            
 
     def _is_all_components(self, ingredients: dict) -> bool:
 
@@ -122,15 +129,15 @@ class CompareRecipes:
         return Node(
             component,
             NodeProps(
-                recipeName= display_name(component),
+                recipeName=display_name(component),
                 producesPerCycle=amount,
                 producedIn=Miner,
                 components=None,
                 componentsPerMinute=None,
                 cycleTime=0,
                 cyclesPerMinute=0,
-                manualMultiplier=0
-            )
+                manualMultiplier=0,
+            ),
         )
 
     def add_base_components_string(self, ingredients: dict, separator: str) -> str:

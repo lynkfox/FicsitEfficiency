@@ -49,14 +49,11 @@ def get_recipes(xml_tree):
                 "recipeName": "Nuclear Waste",
                 "producedIn": "Nuclear Power Plant",
                 "producesPerCycle": 50,
-                "producedPerMinute": 50*.2, # .2 cycles per minute
-                "components": {
-                    "nuclearFuelRod": 1, 
-                    "water": 1500
-                    },
+                "producedPerMinute": 50 * 0.2,  # .2 cycles per minute
+                "components": {"nuclearFuelRod": 1, "water": 1500},
                 "componentsPerMinute": {
-                    "nuclearFuelRod": 1 *.2,
-                    "water": 1500 *.2,
+                    "nuclearFuelRod": 1 * 0.2,
+                    "water": 1500 * 0.2,
                 },
                 "cycleTime": 300,
                 "cyclesPerMinute": 0.2,
@@ -104,13 +101,13 @@ def get_recipe_details(buildable, name):
 
     produced_amount = int(buildable.find(".//Products/ItemAmount").attrib["amount"])
     cycle_time = int(buildable.find("ManufactoringDuration").text)
-    cycles_per_minute = 60/cycle_time
+    cycles_per_minute = 60 / cycle_time
 
     return {
         "recipeName": name if "Alternate:" in name else f"Standard: {name}",
         "producedIn": machine,
         "producesPerCycle": produced_amount,
-        "producedPerMinute": produced_amount*cycles_per_minute,
+        "producedPerMinute": produced_amount * cycles_per_minute,
         "components": {
             clean_item_name(ingredient.attrib["item"]): int(ingredient.attrib["amount"])
             for ingredient in buildable.findall(".//Ingredients/ItemAmount")
