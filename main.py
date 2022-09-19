@@ -1,6 +1,6 @@
 from ficsit.effeciency import CompareRecipes
 import json
-from ficsit.components import (
+from ficsit.com.components import (
     Equipment,
     ManufacturedComponents,
     ProjectAssemblyPart,
@@ -8,7 +8,7 @@ from ficsit.components import (
     display_name_mapping,
     endpoints,
 )
-from ficsit.utils import display_name
+from ficsit.com.utils import display_name
 from ficsit.com.graph_node import Node, Graph
 import plotly.graph_objects as go
 from dataclasses import dataclass
@@ -20,10 +20,11 @@ def build_visual(graph: Graph):
         "ids": [node.ID for node in graph.Nodes.values()],
         "labels": [node.display_name for node in graph.Nodes.values()],
         "parents": [node.parent.ID if node.parent is not None else "" for node in graph.Nodes.values()],
+        "customdata": [node.as_dict() for node in graph.Nodes.values()],
         "values":  [
-            node.parent_needs_for_one
-            if node.parent_needs_for_one < 100
-            else node.parent_needs_for_one / 1000
+            node.needed_for_parent_cycle
+            if node.needed_for_parent_cycle < 100
+            else node.needed_for_parent_cycle / 100
             for node in graph.Nodes.values()
         ],
         "hovertext": [
@@ -32,7 +33,9 @@ def build_visual(graph: Graph):
         "root_color": "lightgrey",
         "tiling": {
             "orientation":"h"
-        }
+        },
+        "textposition": "middle left",
+        "count": "leaves"
     }
 
     fig = go.Figure(go.Icicle(arg=data))
@@ -47,7 +50,7 @@ def visual_display_components(components:dict):
     """
     creates a string that is human eye pleasing for components
     """
-    return "Uses:<br \>" + "<br \>".join([f"{value} {display_name(key)}" for key,value in components.items()])
+    return "Uses:<br \>" + "<br \>".join([f"{value if value < 1000 else value/100} {display_name(key)}" for key,value in components.items()])
         
 
 def main(recipe_name):

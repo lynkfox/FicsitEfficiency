@@ -1,8 +1,8 @@
-from ficsit.utils import load_recipes, display_name
-from ficsit import components as GameComponents
+from ficsit.com.utils import load_recipes, display_name
+from ficsit.com import components as GameComponents
 from ficsit.com.graph_node import Graph, Node, NodeProps
 from typing import Optional, List
-from ficsit.machines import Miner
+from ficsit.com.machines import Miner
 
 
 class CompareRecipes:
@@ -37,7 +37,7 @@ class CompareRecipes:
         if parent_node is None:
             self.graph.add_root(current_node)
         else:
-            self.graph.attach_child(parent_node, current_node, display_name(component_name))
+            self.graph.attach_child(parent_node, current_node, component_name)
         
  
         components = produced_recipe.get("components")
@@ -123,11 +123,11 @@ class CompareRecipes:
             component,
             NodeProps(
                 recipeName= display_name(component),
-                produces=Miner,
-                producedIn=amount,
+                producesPerCycle=amount,
+                producedIn=Miner,
                 components=None,
-                componentsPerOneProduced=None,
-                timeToProduce=0,
+                componentsPerMinute=None,
+                cycleTime=0,
                 manualMultiplier=0
             )
         )

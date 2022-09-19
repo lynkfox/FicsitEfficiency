@@ -1,6 +1,6 @@
 from ficsit.effeciency_calculations import *
 from ficsit.effeciency import CompareRecipes
-from ficsit.components import *
+from ficsit.com.components import *
 
 
 class Test_calculate_produced_per_minute:

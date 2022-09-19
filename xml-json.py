@@ -48,13 +48,14 @@ def get_recipes(xml_tree):
             {
                 "recipeName": "Nuclear Waste",
                 "producedIn": "Nuclear Power Plant",
-                "produces": 50,
+                "producesPerCycle": 50,
+                "producedPerMinute": 50*.2, # .2 cycles per minute
                 "components": {"nuclearFuelRod": 1, "water": 1500},
-                "componentsPerOneProduced": {
-                    "nuclearFuelRod": 1 / 50,
-                    "water": 1500 / 50,
+                "componentsPerMinute": {
+                    "nuclearFuelRod": 1 *.2,
+                    "water": 1500 *.2,
                 },
-                "timeToProduce": 300,
+                "cycleTime": 300,
                 "manualMultiplier": 0.0,
             }
         ]
@@ -98,22 +99,25 @@ def get_recipe_details(buildable, name):
         return None
 
     produced_amount = int(buildable.find(".//Products/ItemAmount").attrib["amount"])
+    cycle_time = int(buildable.find("ManufactoringDuration").text)
+    cycles_per_minute = 60/cycle_time
 
     return {
         "recipeName": name if "Alternate:" in name else f"Standard: {name}",
         "producedIn": machine,
-        "produces": produced_amount,
+        "producesPerCycle": produced_amount,
+        "producedPerMinute": produced_amount*cycles_per_minute,
         "components": {
             clean_item_name(ingredient.attrib["item"]): int(ingredient.attrib["amount"])
             for ingredient in buildable.findall(".//Ingredients/ItemAmount")
         },
-        "componentsPerOneProduced": {
+        "componentsPerMinute": {
             clean_item_name(ingredient.attrib["item"]): (
-                float(ingredient.attrib["amount"]) / produced_amount
+                float(ingredient.attrib["amount"]) * cycles_per_minute
             )
             for ingredient in buildable.findall(".//Ingredients/ItemAmount")
         },
-        "timeToProduce": int(buildable.find("ManufactoringDuration").text),
+        "cycleTime": cycle_time,
         "manualMultiplier": float(buildable.find("ManualManufacturingMultiplier").text),
     }
 
@@ -132,10 +136,10 @@ def clean_item_name(name):
 def main():
     xml = load_xml()
 
-    recipies = get_recipes(xml)
+    recipes = get_recipes(xml)
 
     with open("./ficsit/recipes/recipes.json", "w") as json_file:
-        json.dump(recipies, json_file)
+        json.dump(recipes, json_file, indent=4)
 
 
 if __name__ == "__main__":

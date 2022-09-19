@@ -3,26 +3,26 @@ from ficsit.com.constants import DataNames
 from typing import Dict, List, Union, Optional
 from uuid import uuid4
 from dataclasses import dataclass
-from ficsit.machines import iMachine
+from ficsit.com.machines import iMachine, Miner
 
 @dataclass
 class NodeProps():
     recipeName: str
     producedIn: Union[str,iMachine]
-    produces: int
+    producesPerCycle: int
     components: Optional[dict]
-    componentsPerOneProduced: Optional[dict]
-    timeToProduce: int
+    componentsPerMinute: Optional[dict]
+    cycleTime: int
     manualMultiplier: int
 
     def as_dict(self):
         return {
             DataNames.DISPLAY_NAME: self.recipeName,
             DataNames.PRODUCED_IN: self.producedIn,
-            DataNames.PRODUCED_PER_CYCLE: self.produces,
+            DataNames.PRODUCED_PER_CYCLE: self.producesPerCycle,
             DataNames.COMPONENTS: self.components,
-            DataNames.TIME_TO_PRODUCE: self.componentsPerOneProduced,
-            DataNames.MANUAL_CRAFT_MODIFIER: self.timeToProduce,
+            DataNames.TIME_TO_PRODUCE: self.componentsPerMinute,
+            DataNames.MANUAL_CRAFT_MODIFIER: self.cycleTime,
             DataNames.COMPONENTS_PER_ONE: self.manualMultiplier
         }
 
@@ -47,7 +47,8 @@ class Node:
         self.components_per_one = data[DataNames.COMPONENTS_PER_ONE]
         self.parent: Node = None
         self.parent_child_edge_name: str = None
-        self.parent_needs_for_one: int = 0
+        self.needed_for_one_parent: int = 0
+        self.needed_for_parent_cycle: int = 0
         self.children: List[Node] = []
         self.path_to_root: List[Node] = []
         self.depth: int = 0
@@ -60,7 +61,9 @@ class Node:
         child.parent_child_edge_name = parent_child_path_name
         child.parent = self
         child.depth = self.depth+1
-        child.parent_needs_for_one = self.components_per_one.get(child.NODE_NAME, 0) if self.components_per_one is not None else 0
+        child.needed_for_parent_cycle = self.components.get(child.NODE_NAME, 0)
+        # parent_asks_for = self.components_per_one.get(child.NODE_NAME, 0) if self.components_per_one is not None else 0
+        # child.needed_for_one_parent = self.parent.needed_for_one_parent if self.needed_for_one_parent != 0 else parent_asks_for
         child.path_to_root = [*self.path_to_root, *[self]]
 
     def add_parent(self, parent: Node):
@@ -70,7 +73,23 @@ class Node:
         self.parent_node = parent
 
     def as_dict(self):
-        return { key:value for key, value in self.__dict__ if not key.startswith("__")}
+        return { key:self._Node_list_serialize(value) for key, value in self.__dict__.items() if not key.startswith("__")}
+
+    def _Node_list_serialize(self, value):
+        """
+        for handling the List[Node] in as_dict
+        """
+        if isinstance(value, Node):
+            return value.NODE_NAME
+
+        if value is Miner:
+            return value.display_name
+
+        if not isinstance(value, List) or (isinstance(value, List) and (len(value) == 0 or not isinstance(value[0], Node))):
+            print(value)
+            return value
+
+        return [node.NODE_NAME for node in value]
 
 
 class Graph:
@@ -106,6 +125,9 @@ class Graph:
         self.endpoints.append(end_node)
         end_node.path_to_root.append(end_node)
         self.all_paths_to_root.append(end_node.path_to_root)
+
+    def calculate_weights(self):
+        pass
 
 
     def json_output(self, node: Optional[Node] = None) -> dict:

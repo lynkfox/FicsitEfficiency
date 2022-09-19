@@ -1,5 +1,5 @@
 import json
-from ficsit.components import display_name_mapping
+from ficsit.com.components import display_name_mapping
 
 
 def load_recipes():
