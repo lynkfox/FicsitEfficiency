@@ -4,6 +4,7 @@ from typing import Dict, List, Union, Optional
 from uuid import uuid4
 from dataclasses import dataclass
 from ficsit.com.machines import iMachine, Miner
+from copy import deepcopy
 
 @dataclass
 class NodeProps():
@@ -13,6 +14,7 @@ class NodeProps():
     components: Optional[dict]
     componentsPerMinute: Optional[dict]
     cycleTime: int
+    cyclesPerMinute: float
     manualMultiplier: int
 
     def as_dict(self):
@@ -20,10 +22,11 @@ class NodeProps():
             DataNames.DISPLAY_NAME: self.recipeName,
             DataNames.PRODUCED_IN: self.producedIn,
             DataNames.PRODUCED_PER_CYCLE: self.producesPerCycle,
-            DataNames.COMPONENTS: self.components,
-            DataNames.TIME_TO_PRODUCE: self.componentsPerMinute,
+            DataNames.COMPONENTS_PER_CYCLE: self.components,
+            DataNames.CYCLE_TIME: self.componentsPerMinute,
             DataNames.MANUAL_CRAFT_MODIFIER: self.cycleTime,
-            DataNames.COMPONENTS_PER_ONE: self.manualMultiplier
+            DataNames.CYCLES_PER_MINUTE: self.cyclesPerMinute,
+            DataNames.COMPONENTS_PER_MINUTE: self.manualMultiplier
         }
 
 
@@ -37,21 +40,23 @@ class Node:
         if isinstance(data, NodeProps):
             data = data.as_dict()
 
-        self.display_name = data[DataNames.DISPLAY_NAME]
-        self.machine_used = data[DataNames.PRODUCED_IN]
-        self.number_produced = data[DataNames.PRODUCED_PER_CYCLE]
-        self.components = data[DataNames.COMPONENTS]
-        self.cycle_time = data[DataNames.TIME_TO_PRODUCE]
-        self.cycles_per_minute = 60/self.cycle_time if self.cycle_time is not None and self.cycle_time > 0 else 0
-        self.manual_time_modifier = data[DataNames.MANUAL_CRAFT_MODIFIER]
-        self.components_per_one = data[DataNames.COMPONENTS_PER_ONE]
-        self.parent: Node = None
-        self.parent_child_edge_name: str = None
-        self.needed_for_one_parent: int = 0
-        self.needed_for_parent_cycle: int = 0
+        self.display_name:str = data[DataNames.DISPLAY_NAME]
+        self.produced_in: Union[str, iMachine] = data[DataNames.PRODUCED_IN]
+        self.cycle_time: float = data[DataNames.CYCLE_TIME]
+        self.produced_per_cycle: int = data[DataNames.PRODUCED_PER_CYCLE]
+        self.components_per_cycle: Dict[str, Union[float, int]] = data[DataNames.COMPONENTS_PER_CYCLE]
+        self.cycles_per_minute: float = data[DataNames.CYCLES_PER_MINUTE]
+        self.components_per_minute: Dict[str, float] = data[DataNames.COMPONENTS_PER_MINUTE]
+        self.depth: int = 0
         self.children: List[Node] = []
         self.path_to_root: List[Node] = []
-        self.depth: int = 0
+        self.parent: Node = None
+        self.parent_child_edge_name: str = None
+        self.needed_for_parent_per_minute: int = 0
+        self.needed_for_parent_cycle: int = 0
+       
+        self.base_components_per_minute_totals: List[Dict[str, float]] = []
+        
 
     def add_child(self, child: Node, parent_child_path_name:str):
         """
@@ -61,7 +66,8 @@ class Node:
         child.parent_child_edge_name = parent_child_path_name
         child.parent = self
         child.depth = self.depth+1
-        child.needed_for_parent_cycle = self.components.get(child.NODE_NAME, 0)
+        child.needed_for_parent_cycle = self.components_per_cycle.get(child.NODE_NAME, 0)
+        child.needed_for_parent_per_minute = self.components_per_minute.get(child.NODE_NAME, 0)
         # parent_asks_for = self.components_per_one.get(child.NODE_NAME, 0) if self.components_per_one is not None else 0
         # child.needed_for_one_parent = self.parent.needed_for_one_parent if self.needed_for_one_parent != 0 else parent_asks_for
         child.path_to_root = [*self.path_to_root, *[self]]
@@ -86,7 +92,6 @@ class Node:
             return value.display_name
 
         if not isinstance(value, List) or (isinstance(value, List) and (len(value) == 0 or not isinstance(value[0], Node))):
-            print(value)
             return value
 
         return [node.NODE_NAME for node in value]
@@ -125,6 +130,41 @@ class Graph:
         self.endpoints.append(end_node)
         end_node.path_to_root.append(end_node)
         self.all_paths_to_root.append(end_node.path_to_root)
+        self._update_parent_base_materials(end_node)
+
+    def _update_parent_base_materials(self, current: Node, uplift: dict = None):
+        """
+        Traverses back up the tree from an leaf, updating each parent with new totals for the given paths below
+        """
+
+        next_uplift = deepcopy(current.parent.components_per_minute) if uplift is None else deepcopy(uplift)
+        
+        
+        if current.parent is not None:
+            
+            for component, amount in next_uplift.items():
+                if component == "Path":
+                    next_uplift["Path"] = f"{current.parent.display_name}->{next_uplift['Path']}" 
+                    continue
+                
+                if current.parent.needed_for_parent_cycle > 0:
+                    next_uplift[component] = amount * current.parent.needed_for_parent_cycle
+
+            if "Path" not in next_uplift.keys():
+                next_uplift["Path"] = current.parent.display_name
+            
+            current.parent.base_components_per_minute_totals.append(next_uplift)
+            self._update_parent_base_materials(current.parent, next_uplift)
+        
+
+
+
+
+
+        
+
+        
+        
 
     def calculate_weights(self):
         pass

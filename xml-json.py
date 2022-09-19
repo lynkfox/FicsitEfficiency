@@ -50,12 +50,16 @@ def get_recipes(xml_tree):
                 "producedIn": "Nuclear Power Plant",
                 "producesPerCycle": 50,
                 "producedPerMinute": 50*.2, # .2 cycles per minute
-                "components": {"nuclearFuelRod": 1, "water": 1500},
+                "components": {
+                    "nuclearFuelRod": 1, 
+                    "water": 1500
+                    },
                 "componentsPerMinute": {
                     "nuclearFuelRod": 1 *.2,
                     "water": 1500 *.2,
                 },
                 "cycleTime": 300,
+                "cyclesPerMinute": 0.2,
                 "manualMultiplier": 0.0,
             }
         ]
@@ -118,6 +122,7 @@ def get_recipe_details(buildable, name):
             for ingredient in buildable.findall(".//Ingredients/ItemAmount")
         },
         "cycleTime": cycle_time,
+        "cyclesPerMinute": cycles_per_minute,
         "manualMultiplier": float(buildable.find("ManualManufacturingMultiplier").text),
     }
 

@@ -75,11 +75,11 @@ class CompareRecipes:
         complete_path = []
         for i, node in enumerate(path):
             recipe_name = node.display_name
-            if i != 0 and node.components is not None:
+            if i != 0 and node.components_per_cycle is not None:
                 recipe_name = f"[{display_name(node.NODE_NAME)}] {recipe_name}" 
                 
-            if node.components is not None:
-                components = ' + '.join([display_name(component) for component in node.components])
+            if node.components_per_cycle is not None:
+                components = ' + '.join([display_name(component) for component in node.components_per_cycle])
                 components = f" ({components})"
             else:
                 components = ""
@@ -128,6 +128,7 @@ class CompareRecipes:
                 components=None,
                 componentsPerMinute=None,
                 cycleTime=0,
+                cyclesPerMinute=0,
                 manualMultiplier=0
             )
         )

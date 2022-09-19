@@ -14,6 +14,7 @@
                 "highSpeedWire": 100.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -32,6 +33,7 @@
                 "rubber": 3.75
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -48,6 +50,7 @@
                 "ironScrew": 250.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -64,6 +67,7 @@
                 "wire": 37.5
             },
             "cycleTime": 32,
+            "cyclesPerMinute": 1.875,
             "manualMultiplier": 0.0
         },
         {
@@ -80,6 +84,7 @@
                 "ironScrew": 60.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -98,6 +103,7 @@
                 "copperIngot": 75.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         },
         {
@@ -112,6 +118,7 @@
                 "aluminumIngot": 90.0
             },
             "cycleTime": 2,
+            "cyclesPerMinute": 30.0,
             "manualMultiplier": 2.0
         }
     ],
@@ -134,6 +141,7 @@
                 "ironPlate": 2.0
             },
             "cycleTime": 60,
+            "cyclesPerMinute": 1.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -154,6 +162,7 @@
                 "crystalOscillator": 0.5
             },
             "cycleTime": 120,
+            "cyclesPerMinute": 0.5,
             "manualMultiplier": 0.0
         },
         {
@@ -174,6 +183,7 @@
                 "cable": 15.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -192,6 +202,7 @@
                 "ironScrew": 140.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         },
         {
@@ -208,6 +219,7 @@
                 "steelPipe": 10.0
             },
             "cycleTime": 60,
+            "cyclesPerMinute": 1.0,
             "manualMultiplier": 0.0
         },
         {
@@ -224,6 +236,7 @@
                 "ironRod": 12.0
             },
             "cycleTime": 60,
+            "cyclesPerMinute": 1.0,
             "manualMultiplier": 0.5
         }
     ],
@@ -242,6 +255,7 @@
                 "rubber": 30.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -258,6 +272,7 @@
                 "rubber": 5.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         },
         {
@@ -274,6 +289,7 @@
                 "heavyOilResidue": 15000.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         },
         {
@@ -288,6 +304,7 @@
                 "wire": 60.0
             },
             "cycleTime": 2,
+            "cyclesPerMinute": 30.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -306,6 +323,7 @@
                 "silica": 27.5
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         },
         {
@@ -322,6 +340,7 @@
                 "highSpeedWire": 37.5
             },
             "cycleTime": 48,
+            "cyclesPerMinute": 1.25,
             "manualMultiplier": 0.0
         },
         {
@@ -338,6 +357,7 @@
                 "petroleumCoke": 45.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -354,6 +374,7 @@
                 "plastic": 30.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 1.5
         }
     ],
@@ -376,6 +397,7 @@
                 "wire": 90.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         },
         {
@@ -394,6 +416,7 @@
                 "aluminumCasing": 20.0
             },
             "cycleTime": 3,
+            "cyclesPerMinute": 20.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -410,6 +433,7 @@
                 "wood": 15.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         },
         {
@@ -424,6 +448,7 @@
                 "genericBiomass": 37.5
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -442,6 +467,7 @@
                 "copperSheet": 15.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         },
         {
@@ -456,6 +482,7 @@
                 "steelIngot": 60.0
             },
             "cycleTime": 3,
+            "cyclesPerMinute": 20.0,
             "manualMultiplier": 0.0
         },
         {
@@ -470,6 +497,7 @@
                 "plastic": 30.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -488,6 +516,7 @@
                 "plastic": 10.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -504,6 +533,7 @@
                 "plastic": 5.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         },
         {
@@ -518,6 +548,7 @@
                 "ironIngot": 30.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -536,6 +567,7 @@
                 "petroleumCoke": 75.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -552,6 +584,7 @@
                 "coal": 40.0
             },
             "cycleTime": 3,
+            "cyclesPerMinute": 20.0,
             "manualMultiplier": 0.0
         },
         {
@@ -568,6 +601,7 @@
                 "compactedCoal": 11.25
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -584,6 +618,7 @@
                 "coal": 45.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 3.0
         }
     ],
@@ -604,6 +639,7 @@
                 "rubber": 45.0
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -620,6 +656,7 @@
                 "crystalOscillator": 2.8125
             },
             "cycleTime": 64,
+            "cyclesPerMinute": 0.9375,
             "manualMultiplier": 0.0
         },
         {
@@ -640,6 +677,7 @@
                 "ironScrew": 130.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 1.5
         }
     ],
@@ -658,6 +696,7 @@
                 "stone": 30.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         },
         {
@@ -674,6 +713,7 @@
                 "rubber": 10.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -690,6 +730,7 @@
                 "water": 100000.0
             },
             "cycleTime": 3,
+            "cyclesPerMinute": 20.0,
             "manualMultiplier": 0.0
         },
         {
@@ -704,6 +745,7 @@
                 "stone": 45.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -724,6 +766,7 @@
                 "nitrogenGas": 45000.0
             },
             "cycleTime": 32,
+            "cyclesPerMinute": 1.875,
             "manualMultiplier": 0.0
         },
         {
@@ -744,6 +787,7 @@
                 "nitrogenGas": 150000.0
             },
             "cycleTime": 10,
+            "cyclesPerMinute": 6.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -762,6 +806,7 @@
                 "oreIron": 25.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -778,6 +823,7 @@
                 "water": 10000.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         },
         {
@@ -792,6 +838,7 @@
                 "oreCopper": 30.0
             },
             "cycleTime": 2,
+            "cyclesPerMinute": 30.0,
             "manualMultiplier": 3.0
         }
     ],
@@ -810,6 +857,7 @@
                 "ironScrew": 195.0
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -826,6 +874,7 @@
                 "wire": 30.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -842,6 +891,7 @@
                 "ironScrew": 100.0
             },
             "cycleTime": 15,
+            "cyclesPerMinute": 4.0,
             "manualMultiplier": 0.8
         }
     ],
@@ -862,6 +912,7 @@
                 "circuitBoardHighSpeed": 1.875
             },
             "cycleTime": 32,
+            "cyclesPerMinute": 1.875,
             "manualMultiplier": 0.0
         },
         {
@@ -880,6 +931,7 @@
                 "ironPlateReinforced": 2.5
             },
             "cycleTime": 120,
+            "cyclesPerMinute": 0.5,
             "manualMultiplier": 0.3
         }
     ],
@@ -898,6 +950,7 @@
                 "water": 100000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -912,6 +965,7 @@
                 "liquidOil": 60000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -926,6 +980,7 @@
                 "heavyOilResidue": 60000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -944,6 +999,7 @@
                 "packagedWater": 60.0
             },
             "cycleTime": 2,
+            "cyclesPerMinute": 30.0,
             "manualMultiplier": 0.0
         },
         {
@@ -960,6 +1016,7 @@
                 "fluidCanister": 40.0
             },
             "cycleTime": 3,
+            "cyclesPerMinute": 20.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -978,6 +1035,7 @@
                 "rotor": 7.5
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -996,6 +1054,7 @@
                 "crystalOscillator": 1.25
             },
             "cycleTime": 48,
+            "cyclesPerMinute": 1.25,
             "manualMultiplier": 0.0
         },
         {
@@ -1012,6 +1071,7 @@
                 "stator": 10.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 2.0
         }
     ],
@@ -1030,6 +1090,7 @@
                 "petroleumCoke": 60.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1050,6 +1111,7 @@
                 "water": 60000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -1068,6 +1130,7 @@
                 "petroleumCoke": 60.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1088,6 +1151,7 @@
                 "sulfuricAcid": 25000.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1108,6 +1172,7 @@
                 "water": 60000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1126,6 +1191,7 @@
                 "aluminumCasing": 20.0
             },
             "cycleTime": 3,
+            "cyclesPerMinute": 20.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1146,6 +1212,7 @@
                 "sulfuricAcid": 15000.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -1164,6 +1231,7 @@
                 "highSpeedConnector": 4.0
             },
             "cycleTime": 15,
+            "cyclesPerMinute": 4.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1180,6 +1248,7 @@
                 "circuitBoardHighSpeed": 4.0
             },
             "cycleTime": 30,
+            "cyclesPerMinute": 2.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -1198,6 +1267,7 @@
                 "cement": 20.0
             },
             "cycleTime": 15,
+            "cyclesPerMinute": 4.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1214,6 +1284,7 @@
                 "cement": 30.0
             },
             "cycleTime": 10,
+            "cyclesPerMinute": 6.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -1232,6 +1303,7 @@
                 "sulfur": 25.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -1254,6 +1326,7 @@
                 "sulfuricAcid": 25000.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1274,6 +1347,7 @@
                 "sulfuricAcid": 15000.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -1294,6 +1368,7 @@
                 "rubber": 30.0
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -1310,6 +1385,7 @@
                 "steelPlate": 30.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -1328,6 +1404,7 @@
                 "goldIngot": 3.0
             },
             "cycleTime": 20,
+            "cyclesPerMinute": 3.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1342,6 +1419,7 @@
                 "ironIngot": 12.5
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         },
         {
@@ -1356,6 +1434,7 @@
                 "goldIngot": 15.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1370,6 +1449,7 @@
                 "copperIngot": 15.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -1388,6 +1468,7 @@
                 "compactedCoal": 3.75
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -1404,6 +1485,7 @@
                 "sulfur": 15.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.5
         }
     ],
@@ -1426,6 +1508,7 @@
                 "liquidFuel": 30000.0
             },
             "cycleTime": 20,
+            "cyclesPerMinute": 3.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1444,6 +1527,7 @@
                 "nitrogenGas": 37500.0
             },
             "cycleTime": 40,
+            "cyclesPerMinute": 1.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -1462,6 +1546,7 @@
                 "rubber": 30.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1478,6 +1563,7 @@
                 "copperSheet": 22.5
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 1.5
         }
     ],
@@ -1500,6 +1586,7 @@
                 "ironScrew": 390.0
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -1520,6 +1607,7 @@
                 "cement": 20.625
             },
             "cycleTime": 64,
+            "cyclesPerMinute": 0.9375,
             "manualMultiplier": 0.0
         },
         {
@@ -1540,6 +1628,7 @@
                 "ironScrew": 200.0
             },
             "cycleTime": 30,
+            "cyclesPerMinute": 2.0,
             "manualMultiplier": 0.6
         }
     ],
@@ -1556,6 +1645,7 @@
                 "liquidOil": 30000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1570,6 +1660,7 @@
                 "liquidOil": 60000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1584,6 +1675,7 @@
                 "liquidOil": 30000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1598,6 +1690,7 @@
                 "liquidOil": 30000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -1614,6 +1707,7 @@
                 "liquidOil": 30000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1628,6 +1722,7 @@
                 "liquidOil": 60000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1642,6 +1737,7 @@
                 "liquidOil": 60000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -1662,6 +1758,7 @@
                 "circuitBoard": 3.0
             },
             "cycleTime": 40,
+            "cyclesPerMinute": 1.5,
             "manualMultiplier": 0.0
         },
         {
@@ -1680,6 +1777,7 @@
                 "circuitBoard": 3.75
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         }
     ],
@@ -1700,6 +1798,7 @@
                 "highSpeedConnector": 1.875
             },
             "cycleTime": 32,
+            "cyclesPerMinute": 1.875,
             "manualMultiplier": 0.0
         },
         {
@@ -1716,6 +1815,7 @@
                 "cable": 50.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -1734,6 +1834,7 @@
                 "oreCopper": 20.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1750,6 +1851,7 @@
                 "water": 20000.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1764,6 +1866,7 @@
                 "oreIron": 30.0
             },
             "cycleTime": 2,
+            "cyclesPerMinute": 30.0,
             "manualMultiplier": 3.0
         }
     ],
@@ -1782,6 +1885,7 @@
                 "aluminumCasing": 10.0
             },
             "cycleTime": 120,
+            "cyclesPerMinute": 0.5,
             "manualMultiplier": 0.0
         },
         {
@@ -1798,6 +1902,7 @@
                 "cement": 20.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.5
         }
     ],
@@ -1818,6 +1923,7 @@
                 "crystalOscillator": 1.5
             },
             "cycleTime": 40,
+            "cyclesPerMinute": 1.5,
             "manualMultiplier": 0.0
         },
         {
@@ -1834,6 +1940,7 @@
                 "steelPipe": 30.0
             },
             "cycleTime": 20,
+            "cyclesPerMinute": 3.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -1856,6 +1963,7 @@
                 "beacon": 1.2000000000000002
             },
             "cycleTime": 300,
+            "cyclesPerMinute": 0.2,
             "manualMultiplier": 0.0
         },
         {
@@ -1874,6 +1982,7 @@
                 "electromagneticControlRod": 2.0
             },
             "cycleTime": 150,
+            "cyclesPerMinute": 0.4,
             "manualMultiplier": 0.0
         }
     ],
@@ -1892,6 +2001,7 @@
                 "coolingSystem": 9.0
             },
             "cycleTime": 20,
+            "cyclesPerMinute": 3.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1912,6 +2022,7 @@
                 "wire": 54.0
             },
             "cycleTime": 50,
+            "cyclesPerMinute": 1.2,
             "manualMultiplier": 0.0
         },
         {
@@ -1932,6 +2043,7 @@
                 "plastic": 52.5
             },
             "cycleTime": 32,
+            "cyclesPerMinute": 1.875,
             "manualMultiplier": 1.5
         }
     ],
@@ -1950,6 +2062,7 @@
                 "liquidFuel": 30000.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1964,6 +2077,7 @@
                 "liquidOil": 30000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -1980,6 +2094,7 @@
                 "water": 20000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2000,6 +2115,7 @@
                 "plastic": 7.5
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         },
         {
@@ -2016,6 +2132,7 @@
                 "rotor": 2.0
             },
             "cycleTime": 30,
+            "cyclesPerMinute": 2.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2034,6 +2151,7 @@
                 "pressureConversionCube": 0.5
             },
             "cycleTime": 120,
+            "cyclesPerMinute": 0.5,
             "manualMultiplier": 0.0
         },
         {
@@ -2054,6 +2172,7 @@
                 "aluminumPlateReinforced": 2.5
             },
             "cycleTime": 240,
+            "cyclesPerMinute": 0.25,
             "manualMultiplier": 0.0
         }
     ],
@@ -2072,6 +2191,7 @@
                 "water": 50000.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2088,6 +2208,7 @@
                 "genericBiomass": 75.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2106,6 +2227,7 @@
                 "water": 24000.0
             },
             "cycleTime": 5,
+            "cyclesPerMinute": 12.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2120,6 +2242,7 @@
                 "oreGold": 45.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 2.0
         }
     ],
@@ -2138,6 +2261,7 @@
                 "water": 37500.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         },
         {
@@ -2152,6 +2276,7 @@
                 "rawQuartz": 37.5
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 2.0
         }
     ],
@@ -2170,6 +2295,7 @@
                 "copperIngot": 37.5
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         },
         {
@@ -2184,6 +2310,7 @@
                 "goldIngot": 12.0
             },
             "cycleTime": 5,
+            "cyclesPerMinute": 12.0,
             "manualMultiplier": 2.0
         }
     ],
@@ -2206,6 +2333,7 @@
                 "rubber": 45.0
             },
             "cycleTime": 40,
+            "cyclesPerMinute": 1.5,
             "manualMultiplier": 0.0
         },
         {
@@ -2224,6 +2352,7 @@
                 "quartzCrystal": 45.0
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -2242,6 +2371,7 @@
                 "computer": 1.25
             },
             "cycleTime": 48,
+            "cyclesPerMinute": 1.25,
             "manualMultiplier": 0.0
         }
     ],
@@ -2260,6 +2390,7 @@
                 "liquidFuel": 30000.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2276,6 +2407,7 @@
                 "water": 40000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2290,6 +2422,7 @@
                 "liquidOil": 30000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2306,6 +2439,7 @@
                 "steelPlate": 5.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2320,6 +2454,7 @@
                 "ironIngot": 12.5
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         },
         {
@@ -2334,6 +2469,7 @@
                 "ironRod": 10.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2352,6 +2488,7 @@
                 "stone": 18.75
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -2368,6 +2505,7 @@
                 "water": 180000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2382,6 +2520,7 @@
                 "rawQuartz": 22.5
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 2.0
         }
     ],
@@ -2400,6 +2539,7 @@
                 "water": 200000.0
             },
             "cycleTime": 3,
+            "cyclesPerMinute": 20.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2416,6 +2556,7 @@
                 "water": 180000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2434,6 +2575,7 @@
                 "highSpeedWire": 60.0
             },
             "cycleTime": 15,
+            "cyclesPerMinute": 4.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2450,6 +2592,7 @@
                 "wire": 40.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 1.5
         }
     ],
@@ -2468,6 +2611,7 @@
                 "water": 22500.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         },
         {
@@ -2482,6 +2626,7 @@
                 "copperIngot": 20.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2498,6 +2643,7 @@
                 "steelIngot": 12.0
             },
             "cycleTime": 5,
+            "cyclesPerMinute": 12.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2512,6 +2658,7 @@
                 "ironIngot": 15.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.5
         }
     ],
@@ -2534,6 +2681,7 @@
                 "petroleumCoke": 22.5
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         },
         {
@@ -2550,6 +2698,7 @@
                 "compactedCoal": 15.0
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         },
         {
@@ -2566,6 +2715,7 @@
                 "compactedCoal": 30.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -2588,6 +2738,7 @@
                 "rotor": 6.5625
             },
             "cycleTime": 64,
+            "cyclesPerMinute": 0.9375,
             "manualMultiplier": 0.0
         },
         {
@@ -2608,6 +2759,7 @@
                 "stator": 15.0
             },
             "cycleTime": 32,
+            "cyclesPerMinute": 1.875,
             "manualMultiplier": 0.0
         },
         {
@@ -2628,6 +2780,7 @@
                 "rubber": 45.0
             },
             "cycleTime": 32,
+            "cyclesPerMinute": 1.875,
             "manualMultiplier": 2.0
         }
     ],
@@ -2650,6 +2803,7 @@
                 "highSpeedWire": 75.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2668,6 +2822,7 @@
                 "sulfuricAcid": 40000.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.5
         }
     ],
@@ -2686,6 +2841,7 @@
                 "copperIngot": 10.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 2.0
         }
     ],
@@ -2702,6 +2858,7 @@
                 "genericBiomass": 120.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 5.0
         }
     ],
@@ -2718,6 +2875,7 @@
                 "hogParts": 15.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         },
         {
@@ -2732,6 +2890,7 @@
                 "spitterParts": 7.5
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         },
         {
@@ -2746,6 +2905,7 @@
                 "leaves": 120.0
             },
             "cycleTime": 5,
+            "cyclesPerMinute": 12.0,
             "manualMultiplier": 0.4
         },
         {
@@ -2760,6 +2920,7 @@
                 "mycelia": 150.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.5
         },
         {
@@ -2774,6 +2935,7 @@
                 "wood": 60.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2790,6 +2952,7 @@
                 "gift": 15.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2812,6 +2975,7 @@
                 "rubber": 30.0
             },
             "cycleTime": 20,
+            "cyclesPerMinute": 3.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2828,6 +2992,7 @@
                 "flowerPetals": 37.5
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -2844,6 +3009,7 @@
                 "copperIngot": 300.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2864,6 +3030,7 @@
                 "fabric": 15.0
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -2884,6 +3051,7 @@
                 "aluminumCasing": 3.75
             },
             "cycleTime": 16,
+            "cyclesPerMinute": 3.75,
             "manualMultiplier": 0.0
         }
     ],
@@ -2902,6 +3070,7 @@
                 "candyCane": 7.5
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -2920,6 +3089,7 @@
                 "xmasBow": 7.5
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -2938,6 +3108,7 @@
                 "snow": 5.0
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -2956,6 +3127,7 @@
                 "silica": 75.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 3.0
         },
         {
@@ -2970,6 +3142,7 @@
                 "aluminumScrap": 60.0
             },
             "cycleTime": 2,
+            "cyclesPerMinute": 30.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -2988,6 +3161,7 @@
                 "water": 45000.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3008,6 +3182,7 @@
                 "ironPlate": 10.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3026,6 +3201,7 @@
                 "fluidCanister": 40.0
             },
             "cycleTime": 3,
+            "cyclesPerMinute": 20.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3044,6 +3220,7 @@
                 "fluidCanister": 30.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3062,6 +3239,7 @@
                 "gasTank": 30.0
             },
             "cycleTime": 2,
+            "cyclesPerMinute": 30.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3080,6 +3258,7 @@
                 "fluidCanister": 30.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3098,6 +3277,7 @@
                 "fluidCanister": 40.0
             },
             "cycleTime": 3,
+            "cyclesPerMinute": 20.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3116,6 +3296,7 @@
                 "fluidCanister": 20.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3134,6 +3315,7 @@
                 "fluidCanister": 60.0
             },
             "cycleTime": 2,
+            "cyclesPerMinute": 30.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3150,6 +3332,7 @@
                 "heavyOilResidue": 40000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3168,6 +3351,7 @@
                 "nuclearWaste": 25.0
             },
             "cycleTime": 60,
+            "cyclesPerMinute": 1.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3184,6 +3368,7 @@
                 "crystal": 7.5
             },
             "cycleTime": 8,
+            "cyclesPerMinute": 7.5,
             "manualMultiplier": 0.0
         },
         {
@@ -3198,6 +3383,7 @@
                 "crystalmk2": 5.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         },
         {
@@ -3212,6 +3398,7 @@
                 "crystalmk3": 2.5
             },
             "cycleTime": 24,
+            "cyclesPerMinute": 2.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -3230,6 +3417,7 @@
                 "modularFrameLightweight": 2.0
             },
             "cycleTime": 60,
+            "cyclesPerMinute": 1.0,
             "manualMultiplier": 2.0
         }
     ],
@@ -3246,6 +3434,7 @@
                 "gift": 25.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3262,6 +3451,7 @@
                 "snow": 15.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3282,6 +3472,7 @@
                 "spaceElevatorPart1": 2.0
             },
             "cycleTime": 60,
+            "cyclesPerMinute": 1.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3304,6 +3495,7 @@
                 "computer": 1.0
             },
             "cycleTime": 120,
+            "cyclesPerMinute": 0.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -3324,6 +3516,7 @@
                 "battery": 5.0
             },
             "cycleTime": 120,
+            "cyclesPerMinute": 0.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -3342,6 +3535,7 @@
                 "computerSuper": 0.75
             },
             "cycleTime": 80,
+            "cyclesPerMinute": 0.75,
             "manualMultiplier": 0.0
         }
     ],
@@ -3364,6 +3558,7 @@
                 "modularFrameFused": 1.0
             },
             "cycleTime": 120,
+            "cyclesPerMinute": 0.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -3382,6 +3577,7 @@
                 "pressureConversionCube": 0.5
             },
             "cycleTime": 120,
+            "cyclesPerMinute": 0.5,
             "manualMultiplier": 0.0
         }
     ],
@@ -3398,6 +3594,7 @@
                 "ironRod": 15.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3414,6 +3611,7 @@
                 "steelIngot": 60.0
             },
             "cycleTime": 4,
+            "cyclesPerMinute": 15.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3430,6 +3628,7 @@
                 "steelIngot": 30.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3448,6 +3647,7 @@
                 "water": 50000.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         },
         {
@@ -3466,6 +3666,7 @@
                 "sulfuricAcid": 40000.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.5
         }
     ],
@@ -3482,6 +3683,7 @@
                 "gift": 5.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3498,6 +3700,7 @@
                 "gift": 5.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3516,6 +3719,7 @@
                 "copperIngot": 10.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3534,6 +3738,7 @@
                 "ironIngot": 15.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3552,6 +3757,7 @@
                 "xmasBall4": 5.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3568,6 +3774,7 @@
                 "gift": 10.0
             },
             "cycleTime": 12,
+            "cyclesPerMinute": 5.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3584,6 +3791,7 @@
                 "gift": 10.0
             },
             "cycleTime": 6,
+            "cyclesPerMinute": 10.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3602,6 +3810,7 @@
                 "candyCane": 20.0
             },
             "cycleTime": 60,
+            "cyclesPerMinute": 1.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3620,6 +3829,7 @@
                 "xmasBallCluster": 6.0
             },
             "cycleTime": 60,
+            "cyclesPerMinute": 1.0,
             "manualMultiplier": 0.0
         }
     ],
@@ -3638,6 +3848,7 @@
                 "water": 300.0
             },
             "cycleTime": 300,
+            "cyclesPerMinute": 0.2,
             "manualMultiplier": 0.0
         }
     ]
