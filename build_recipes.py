@@ -7,16 +7,16 @@ from ficsit2.com import lookup
 
 
 MACHINE_MAPPING = {
-        "Smelter": machines.get(Buildable.SMELTER),
-        "Foundry": machines.get(Buildable.FOUNDRY),
-        "Constructor": machines.get(Buildable.CONSTRUCTOR),
-        "Assembler": machines.get(Buildable.ASSEMBLER),
-        "Manufacturer": machines.get(Buildable.MANUFACTURER),
-        "OilRefinery": machines.get(Buildable.OILREFINERY),
-        "Blender": machines.get(Buildable.BLENDER),
-        "Packager": machines.get(Buildable.PACKAGER),
-        "HadronCollider": machines.get(Buildable.PARTICLEACCELERATOR),
-    }
+    "Smelter": machines.get(Buildable.SMELTER),
+    "Foundry": machines.get(Buildable.FOUNDRY),
+    "Constructor": machines.get(Buildable.CONSTRUCTOR),
+    "Assembler": machines.get(Buildable.ASSEMBLER),
+    "Manufacturer": machines.get(Buildable.MANUFACTURER),
+    "OilRefinery": machines.get(Buildable.OILREFINERY),
+    "Blender": machines.get(Buildable.BLENDER),
+    "Packager": machines.get(Buildable.PACKAGER),
+    "HadronCollider": machines.get(Buildable.PARTICLEACCELERATOR),
+}
 
 COMPONENT_MAPPING = {
     "goldIngot": ComponentName.CATERIUM_INGOT,
@@ -94,7 +94,7 @@ COMPONENT_MAPPING = {
     "liquidTurboFuel": ComponentName.TURBO_FUEL,
     "motorLightweight": ComponentName.TURBO_MOTOR,
     "nuclearFuelRod": ComponentName.URANIUM_FUEL_ROD,
-    "wire": ComponentName.WIRE,  
+    "wire": ComponentName.WIRE,
     "spaceElevatorPart1": ComponentName.SMART_PLATING,
     "spaceElevatorPart2": ComponentName.VERSATILE_FRAMEWORK,
     "spaceElevatorPart3": ComponentName.AUTOMATED_WIRING,
@@ -103,8 +103,9 @@ COMPONENT_MAPPING = {
     "spaceElevatorPart6": ComponentName.MAGNETIC_FIELD_GENERATOR,
     "spaceElevatorPart7": ComponentName.ASSEMBLY_DIRECTOR_SYSTEM,
     "spaceElevatorPart8": ComponentName.THERMAL_PROPULSION_ROCKET,
-    "spaceElevatorPart9": ComponentName.NUCLEAR_PASTA
+    "spaceElevatorPart9": ComponentName.NUCLEAR_PASTA,
 }
+
 
 def load_xml():
     with open("./ficsit/recipes/RecipeTable.xml") as file:
@@ -147,8 +148,8 @@ def get_recipes(xml_tree):
 
                 all_recipes.update(entry)
 
-    
     return all_recipes
+
 
 def clean_item_name(name):
     removed_ixs = name.split("_")
@@ -159,6 +160,7 @@ def clean_item_name(name):
     )
 
     return small_name[0].lower() + small_name[1:]
+
 
 def get_recipe_details(buildable, name):
 
@@ -187,6 +189,7 @@ def get_recipe_details(buildable, name):
         "cycleTime": cycle_time,
     }
 
+
 def build_components(ingredients) -> list:
 
     all_components = []
@@ -194,17 +197,16 @@ def build_components(ingredients) -> list:
     for ingredient in ingredients:
         name = COMPONENT_MAPPING.get(clean_item_name(ingredient.attrib["item"]))
         if name is None:
-            print(f"*****WARNING, {ingredient.attrib['item']} not found in COMPONENT_MAPPING******")
+            print(
+                f"*****WARNING, {ingredient.attrib['item']} not found in COMPONENT_MAPPING******"
+            )
             continue
         amount = int(ingredient.attrib["amount"])
         is_fluid = name in lookup.FLUIDS
-        
+
         all_components.append(
             Component(
-                name=name,
-                amount= amount,
-                is_fluid=is_fluid,
-                is_per_minute=False
+                name=name, amount=amount, is_fluid=is_fluid, is_per_minute=False
             ).as_dict()
         )
 

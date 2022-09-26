@@ -2,7 +2,6 @@ from __future__ import annotations
 from ficsit.com.components import ManufacturedComponents, LogisticalInput, Equipment
 
 
-
 class iMachine:
     display_name: str
     powerUse: float  # in MW
@@ -216,5 +215,5 @@ machine_mapping = {
     "OilRefinery": Refinery,
     "Blender": Blender,
     "Packager": Packager,
-    "ParticleAccelerator": ParticleAccelerator
+    "ParticleAccelerator": ParticleAccelerator,
 }

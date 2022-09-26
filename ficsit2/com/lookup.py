@@ -24,5 +24,5 @@ FLUIDS = [
     Component.NITROGEN,
     Component.SULFURIC_ACID,
     Component.NITRIC_ACID,
-    Component.ALUMINA_SOLUTION
+    Component.ALUMINA_SOLUTION,
 ]

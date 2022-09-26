@@ -2,16 +2,16 @@ from enum import Enum
 
 
 class Buildable(Enum):
-    MINER= "Miner"
-    SMELTER= "Smelter"
-    FOUNDRY= "Foundry"
-    CONSTRUCTOR= "Constructor"
-    ASSEMBLER= "Assembler"
-    MANUFACTURER= "Manufacturer"
-    OILREFINERY= "Oil Refinery"
-    BLENDER= "Blender"
-    PACKAGER= "Packager"
-    PARTICLEACCELERATOR= "Particle Accelerator"
+    MINER = "Miner"
+    SMELTER = "Smelter"
+    FOUNDRY = "Foundry"
+    CONSTRUCTOR = "Constructor"
+    ASSEMBLER = "Assembler"
+    MANUFACTURER = "Manufacturer"
+    OILREFINERY = "Oil Refinery"
+    BLENDER = "Blender"
+    PACKAGER = "Packager"
+    PARTICLEACCELERATOR = "Particle Accelerator"
 
 
 class Component(Enum):

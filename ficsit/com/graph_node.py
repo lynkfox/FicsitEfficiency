@@ -40,7 +40,9 @@ class Node:
             data = data.as_dict()
 
         self.display_name: str = data[DataNames.DISPLAY_NAME]
-        self.produced_in: Union[str, iMachine] = machine_mapping.get(data[DataNames.PRODUCED_IN], data[DataNames.PRODUCED_IN])
+        self.produced_in: Union[str, iMachine] = machine_mapping.get(
+            data[DataNames.PRODUCED_IN], data[DataNames.PRODUCED_IN]
+        )
         self.cycle_time: float = data[DataNames.CYCLE_TIME]
         self.produced_per_cycle: int = data[DataNames.PRODUCED_PER_CYCLE]
         self.components_per_cycle: Dict[str, Union[float, int]] = data[
