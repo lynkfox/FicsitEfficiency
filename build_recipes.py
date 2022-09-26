@@ -130,6 +130,16 @@ def get_recipes(xml_tree):
 
         if recipe is None:
             continue
+        
+        recipe_name = recipe.get('recipeName')
+        if "FICSMAS" in recipe_name or "Snow" in recipe_name:
+            print(f"\033[96m Xmas Recipe \033[0m {recipe_name} - skipped ")
+            continue
+
+        if "Packaged" in recipe_name or "Canister" in recipe_name:
+            print(f"\033[92m Packaged Liquid Recipe \033[0m {recipe_name} - skipped ")
+            continue
+
 
         components_produced = [
             COMPONENT_MAPPING.get(clean_item_name(item.attrib["item"]))
@@ -198,7 +208,7 @@ def build_components(ingredients) -> list:
         name = COMPONENT_MAPPING.get(clean_item_name(ingredient.attrib["item"]))
         if name is None:
             print(
-                f"*****WARNING, {ingredient.attrib['item']} not found in COMPONENT_MAPPING******"
+                f"\033[93m*****WARNING,\033[0m {ingredient.attrib['item']} not found in COMPONENT_MAPPING******"
             )
             continue
         amount = int(ingredient.attrib["amount"])
