@@ -135,7 +135,8 @@ def main(recipe_name):
 
 
 if __name__ == "__main__":
+    main(ManufacturedComponents.MODULAR_FRAME)
 
-    for key in display_name_mapping:
-        if key not in endpoints:
-            main(key)
+    # for key in display_name_mapping:
+    #     if key not in endpoints:
+    #         main(key)

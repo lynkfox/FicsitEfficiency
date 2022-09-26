@@ -1,0 +1,3636 @@
+{
+    "AI_LIMITER": [
+        {
+            "recipeName": "Standard: AI Limiter",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "COPPER_SHEET",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "QUICKWIRE",
+                    "amount": 20,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        }
+    ],
+    "REINFORCED_IRON_PLATE": [
+        {
+            "recipeName": "Alternate: Adhered Iron Plate",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "IRON_PLATE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Alternate: Bolted Iron Plate",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "IRON_PLATE",
+                    "amount": 18,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SCREWS",
+                    "amount": 50,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Alternate: Stitched Iron Plate",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "IRON_PLATE",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WIRE",
+                    "amount": 20,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 32
+        },
+        {
+            "recipeName": "Standard: Reinforced Iron Plate",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "IRON_PLATE",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SCREWS",
+                    "amount": 12,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        }
+    ],
+    "ALUMINUM_CASING": [
+        {
+            "recipeName": "Alternate: Alclad Casing",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 15,
+            "components": [
+                {
+                    "name": "ALUMINUM_INGOT",
+                    "amount": 20,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COPPER_INGOT",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        },
+        {
+            "recipeName": "Standard: Aluminum Casing",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "ALUMINUM_INGOT",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 2
+        }
+    ],
+    "MODULAR_FRAME": [
+        {
+            "recipeName": "Alternate: Bolted Frame",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "REINFORCED_IRON_PLATE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SCREWS",
+                    "amount": 56,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        },
+        {
+            "recipeName": "Alternate: Steeled Frame",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "REINFORCED_IRON_PLATE",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "STEEL_PIPE",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 60
+        },
+        {
+            "recipeName": "Standard: Modular Frame",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "REINFORCED_IRON_PLATE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "IRON_ROD",
+                    "amount": 12,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 60
+        }
+    ],
+    "CABLE": [
+        {
+            "recipeName": "Alternate: Insulated Cable",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "WIRE",
+                    "amount": 9,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Alternate: Quickwire Cable",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 11,
+            "components": [
+                {
+                    "name": "QUICKWIRE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        },
+        {
+            "recipeName": "Alternate: Coated Cable",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 9,
+            "components": [
+                {
+                    "name": "WIRE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "HEAVY_OIL_RESIDUE",
+                    "amount": 20.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 8
+        },
+        {
+            "recipeName": "Standard: Cable",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "WIRE",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 2
+        }
+    ],
+    "CIRCUIT_BOARD": [
+        {
+            "recipeName": "Alternate: Silicon Circuit Board",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "COPPER_SHEET",
+                    "amount": 11,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SILICA",
+                    "amount": 11,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        },
+        {
+            "recipeName": "Alternate: Caterium Circuit Board",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 7,
+            "components": [
+                {
+                    "name": "PLASTIC",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "QUICKWIRE",
+                    "amount": 30,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 48
+        },
+        {
+            "recipeName": "Alternate: Electrode Circuit Board",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "RUBBER",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PETROLEUM_COKE",
+                    "amount": 9,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Standard: Circuit Board",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "COPPER_SHEET",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PLASTIC",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        }
+    ],
+    "BATTERY": [
+        {
+            "recipeName": "Alternate: Classic Battery",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "SULFUR",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ALCLAD_ALUMINUM_SHEET",
+                    "amount": 7,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PLASTIC",
+                    "amount": 8,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WIRE",
+                    "amount": 12,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        },
+        {
+            "recipeName": "Standard: Battery",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 25.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "ALUMINA_SOLUTION",
+                    "amount": 20.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "ALUMINUM_CASING",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 3
+        }
+    ],
+    "COAL": [
+        {
+            "recipeName": "Alternate: Charcoal",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 10,
+            "components": [
+                {
+                    "name": "WOOD",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        },
+        {
+            "recipeName": "Alternate: Biocoal",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 6,
+            "components": [
+                {
+                    "name": "BIOMASS",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        }
+    ],
+    "IRON_PLATE": [
+        {
+            "recipeName": "Alternate: Coated Iron Plate",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 15,
+            "components": [
+                {
+                    "name": "IRON_INGOT",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PLASTIC",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Alternate: Steel Coated Plate",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 18,
+            "components": [
+                {
+                    "name": "STEEL_INGOT",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PLASTIC",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        },
+        {
+            "recipeName": "Standard: Iron Plate",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "IRON_INGOT",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "STEEL_INGOT": [
+        {
+            "recipeName": "Alternate: Coke Steel Ingot",
+            "producedIn": "FOUNDRY",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "IRON_ORE",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PETROLEUM_COKE",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Alternate: Solid Steel Ingot",
+            "producedIn": "FOUNDRY",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "IRON_INGOT",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COAL",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 3
+        },
+        {
+            "recipeName": "Alternate: Compacted Steel Ingot",
+            "producedIn": "FOUNDRY",
+            "producesPerCycle": 10,
+            "components": [
+                {
+                    "name": "IRON_ORE",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COMPACTED_COAL",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Standard: Steel Ingot",
+            "producedIn": "FOUNDRY",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "IRON_ORE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COAL",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        }
+    ],
+    "COMPUTER": [
+        {
+            "recipeName": "Alternate: Caterium Computer",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "CIRCUIT_BOARD",
+                    "amount": 7,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "QUICKWIRE",
+                    "amount": 28,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 12,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Alternate: Crystal Computer",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "CIRCUIT_BOARD",
+                    "amount": 8,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CRYSTAL_OSCILLATOR",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 64
+        },
+        {
+            "recipeName": "Standard: Computer",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "CIRCUIT_BOARD",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CABLE",
+                    "amount": 9,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PLASTIC",
+                    "amount": 18,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SCREWS",
+                    "amount": 52,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        }
+    ],
+    "CONCRETE": [
+        {
+            "recipeName": "Alternate: Fine Concrete",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 10,
+            "components": [
+                {
+                    "name": "SILICA",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "LIMESTONE",
+                    "amount": 12,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        },
+        {
+            "recipeName": "Alternate: Rubber Concrete",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 9,
+            "components": [
+                {
+                    "name": "LIMESTONE",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Alternate: Wet Concrete",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "LIMESTONE",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 3
+        },
+        {
+            "recipeName": "Standard: Concrete",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "LIMESTONE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        }
+    ],
+    "COOLING_SYSTEM": [
+        {
+            "recipeName": "Alternate: Cooling Device",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "HEAT_SINK",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "MOTOR",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NITROGEN",
+                    "amount": 240.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 32
+        },
+        {
+            "recipeName": "Standard: Cooling System",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "HEAT_SINK",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "NITROGEN",
+                    "amount": 250.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 10
+        }
+    ],
+    "COPPER_INGOT": [
+        {
+            "recipeName": "Alternate: Copper Alloy Ingot",
+            "producedIn": "FOUNDRY",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "COPPER_ORE",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "IRON_ORE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Alternate: Pure Copper Ingot",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 15,
+            "components": [
+                {
+                    "name": "COPPER_ORE",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 40.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 24
+        },
+        {
+            "recipeName": "Standard: Copper Ingot",
+            "producedIn": "SMELTER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "COPPER_ORE",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 2
+        }
+    ],
+    "ROTOR": [
+        {
+            "recipeName": "Alternate: Copper Rotor",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "COPPER_SHEET",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SCREWS",
+                    "amount": 52,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Alternate: Steel Rotor",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "STEEL_PIPE",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WIRE",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Standard: Rotor",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "IRON_ROD",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SCREWS",
+                    "amount": 25,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 15
+        }
+    ],
+    "CRYSTAL_OSCILLATOR": [
+        {
+            "recipeName": "Alternate: Insulated Crystal Oscillator",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "QUARTZ_CRYSTAL",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 7,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "AI_LIMITER",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 32
+        },
+        {
+            "recipeName": "Standard: Crystal Oscillator",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "QUARTZ_CRYSTAL",
+                    "amount": 36,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CABLE",
+                    "amount": 28,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "REINFORCED_IRON_PLATE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 120
+        }
+    ],
+    "FUEL": [
+        {
+            "recipeName": "Alternate: Diluted Fuel",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 10000,
+            "components": [
+                {
+                    "name": "HEAVY_OIL_RESIDUE",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "WATER",
+                    "amount": 100.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Fuel",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 4000,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Residual Fuel",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 4000,
+            "components": [
+                {
+                    "name": "HEAVY_OIL_RESIDUE",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "MOTOR": [
+        {
+            "recipeName": "Alternate: Electric Motor",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "ELECTROMAGNETIC_CONTROL_ROD",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ROTOR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Alternate: Rigour Motor",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 6,
+            "components": [
+                {
+                    "name": "ROTOR",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "STATOR",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CRYSTAL_OSCILLATOR",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 48
+        },
+        {
+            "recipeName": "Standard: Motor",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "ROTOR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "STATOR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        }
+    ],
+    "ALUMINUM_SCRAP": [
+        {
+            "recipeName": "Alternate: Electrode - Aluminum Scrap",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "ALUMINA_SOLUTION",
+                    "amount": 120.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "PETROLEUM_COKE",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        },
+        {
+            "recipeName": "Alternate: Instant Scrap",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 30,
+            "components": [
+                {
+                    "name": "BAUXITE_ORE",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COAL",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "WATER",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "WATER": [
+        {
+            "recipeName": "Alternate: Electrode - Aluminum Scrap",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "ALUMINA_SOLUTION",
+                    "amount": 120.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "PETROLEUM_COKE",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        },
+        {
+            "recipeName": "Alternate: Fertile Uranium",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "URANIUM_ORE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NUCLEAR_WASTE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NITRIC_ACID",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Alternate: Instant Scrap",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 30,
+            "components": [
+                {
+                    "name": "BAUXITE_ORE",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COAL",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "WATER",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Battery",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 25.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "ALUMINA_SOLUTION",
+                    "amount": 20.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "ALUMINUM_CASING",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 3
+        },
+        {
+            "recipeName": "Standard: Non-fissile Uranium",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "NUCLEAR_WASTE",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SILICA",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NITRIC_ACID",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 24
+        }
+    ],
+    "ELECTROMAGNETIC_CONTROL_ROD": [
+        {
+            "recipeName": "Alternate: Electromagnetic Connection Rod",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "STATOR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "HIGH_SPEED_CONNECTOR",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 15
+        },
+        {
+            "recipeName": "Standard: Electromagnetic Control Rod",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "STATOR",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "AI_LIMITER",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 30
+        }
+    ],
+    "ENCASED_INDUSTRIAL_BEAM": [
+        {
+            "recipeName": "Alternate: Encased Industrial Pipe",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "STEEL_PIPE",
+                    "amount": 7,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CONCRETE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 15
+        },
+        {
+            "recipeName": "Standard: Encased Industrial Beam",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "STEEL_BEAM",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CONCRETE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 10
+        }
+    ],
+    "COMPACTED_COAL": [
+        {
+            "recipeName": "Alternate: Compacted Coal",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "COAL",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SULFUR",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        }
+    ],
+    "NON_FISSILE_URANIUM": [
+        {
+            "recipeName": "Alternate: Fertile Uranium",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "URANIUM_ORE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NUCLEAR_WASTE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NITRIC_ACID",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Standard: Non-fissile Uranium",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "NUCLEAR_WASTE",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SILICA",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NITRIC_ACID",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 24
+        }
+    ],
+    "VERSATILE_FRAMEWORK": [
+        {
+            "recipeName": "Alternate: Flexible Framework",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "MODULAR_FRAME",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "STEEL_BEAM",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 8,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Standard: Versatile Framework",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "MODULAR_FRAME",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "STEEL_BEAM",
+                    "amount": 12,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        }
+    ],
+    "WIRE": [
+        {
+            "recipeName": "Alternate: Fused Wire",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 30,
+            "components": [
+                {
+                    "name": "COPPER_INGOT",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CATERIUM_INGOT",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 20
+        },
+        {
+            "recipeName": "Alternate: Iron Wire",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 9,
+            "components": [
+                {
+                    "name": "IRON_INGOT",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        },
+        {
+            "recipeName": "Alternate: Caterium Wire",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 8,
+            "components": [
+                {
+                    "name": "CATERIUM_INGOT",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        },
+        {
+            "recipeName": "Standard: Wire",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "COPPER_INGOT",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        }
+    ],
+    "BLACK_POWDER": [
+        {
+            "recipeName": "Alternate: Fine Black Powder",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "SULFUR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COMPACTED_COAL",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Standard: Black Powder",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "COAL",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SULFUR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        }
+    ],
+    "FUSED_MODULAR_FRAME": [
+        {
+            "recipeName": "Alternate: Heat-Fused Frame",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "HEAVY_MODULAR_FRAME",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ALUMINUM_INGOT",
+                    "amount": 50,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NITRIC_ACID",
+                    "amount": 80.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "FUEL",
+                    "amount": 100.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 20
+        },
+        {
+            "recipeName": "Standard: Fused Modular Frame",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "HEAVY_MODULAR_FRAME",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ALUMINUM_CASING",
+                    "amount": 50,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NITROGEN",
+                    "amount": 250.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 40
+        }
+    ],
+    "HEAT_SINK": [
+        {
+            "recipeName": "Alternate: Heat Exchanger",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "ALUMINUM_CASING",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Heat Sink",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "ALCLAD_ALUMINUM_SHEET",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COPPER_SHEET",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        }
+    ],
+    "HEAVY_MODULAR_FRAME": [
+        {
+            "recipeName": "Alternate: Heavy Flexible Frame",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "MODULAR_FRAME",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ENCASED_INDUSTRIAL_BEAM",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 20,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SCREWS",
+                    "amount": 104,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Alternate: Heavy Encased Frame",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "MODULAR_FRAME",
+                    "amount": 8,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ENCASED_INDUSTRIAL_BEAM",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "STEEL_PIPE",
+                    "amount": 36,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CONCRETE",
+                    "amount": 22,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 64
+        },
+        {
+            "recipeName": "Standard: Heavy Modular Frame",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "MODULAR_FRAME",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "STEEL_PIPE",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ENCASED_INDUSTRIAL_BEAM",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SCREWS",
+                    "amount": 100,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 30
+        }
+    ],
+    "HEAVY_OIL_RESIDUE": [
+        {
+            "recipeName": "Alternate: Heavy Oil Residue",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 4000,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Alternate: Polymer Resin",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 13,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Plastic",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Rubber",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "POLYMER_RESIN": [
+        {
+            "recipeName": "Alternate: Heavy Oil Residue",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 4000,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Alternate: Polymer Resin",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 13,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Fuel",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 4000,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "HIGH_SPEED_CONNECTOR": [
+        {
+            "recipeName": "Alternate: Silicon High-Speed Connector",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "QUICKWIRE",
+                    "amount": 60,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SILICA",
+                    "amount": 25,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CIRCUIT_BOARD",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 40
+        },
+        {
+            "recipeName": "Standard: High-Speed Connector",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "QUICKWIRE",
+                    "amount": 56,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CABLE",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CIRCUIT_BOARD",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        }
+    ],
+    "AUTOMATED_WIRING": [
+        {
+            "recipeName": "Alternate: Automated Speed Wiring",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "STATOR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WIRE",
+                    "amount": 40,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "HIGH_SPEED_CONNECTOR",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 32
+        },
+        {
+            "recipeName": "Standard: Automated Wiring",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "STATOR",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CABLE",
+                    "amount": 20,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        }
+    ],
+    "IRON_INGOT": [
+        {
+            "recipeName": "Alternate: Iron Alloy Ingot",
+            "producedIn": "FOUNDRY",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "IRON_ORE",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COPPER_ORE",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Alternate: Pure Iron Ingot",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 13,
+            "components": [
+                {
+                    "name": "IRON_ORE",
+                    "amount": 7,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 40.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Standard: Iron Ingot",
+            "producedIn": "SMELTER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "IRON_ORE",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 2
+        }
+    ],
+    "ENCASED_PLUTONIUM_CELL": [
+        {
+            "recipeName": "Alternate: Instant Plutonium Cell",
+            "producedIn": "PARTICLEACCELERATOR",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "NON_FISSILE_URANIUM",
+                    "amount": 150,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ALUMINUM_CASING",
+                    "amount": 20,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 120
+        },
+        {
+            "recipeName": "Standard: Encased Plutonium Cell",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "PLUTONIUM_PELLET",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CONCRETE",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        }
+    ],
+    "URANIUM_FUEL_ROD": [
+        {
+            "recipeName": "Alternate: Uranium Fuel Unit",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "ENCASED_URANIUM_CELL",
+                    "amount": 100,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ELECTROMAGNETIC_CONTROL_ROD",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CRYSTAL_OSCILLATOR",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 300
+        },
+        {
+            "recipeName": "Standard: Uranium Fuel Rod",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "ENCASED_URANIUM_CELL",
+                    "amount": 50,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ENCASED_INDUSTRIAL_BEAM",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ELECTROMAGNETIC_CONTROL_ROD",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 150
+        }
+    ],
+    "SUPERCOMPUTER": [
+        {
+            "recipeName": "Alternate: OC Supercomputer",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "RADIO_CONTROL_UNIT",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COOLING_SYSTEM",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 20
+        },
+        {
+            "recipeName": "Alternate: Super-State Computer",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "COMPUTER",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ELECTROMAGNETIC_CONTROL_ROD",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "BATTERY",
+                    "amount": 20,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WIRE",
+                    "amount": 45,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 50
+        },
+        {
+            "recipeName": "Standard: Supercomputer",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "COMPUTER",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "AI_LIMITER",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "HIGH_SPEED_CONNECTOR",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PLASTIC",
+                    "amount": 28,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 32
+        }
+    ],
+    "PLASTIC": [
+        {
+            "recipeName": "Alternate: Recycled Plastic",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 12,
+            "components": [
+                {
+                    "name": "RUBBER",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "FUEL",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Standard: Plastic",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Residual Plastic",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "POLYMER_RESIN",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 20.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "SMART_PLATING": [
+        {
+            "recipeName": "Alternate: Plastic Smart Plating",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "REINFORCED_IRON_PLATE",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ROTOR",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PLASTIC",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        },
+        {
+            "recipeName": "Standard: Smart Plating",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "REINFORCED_IRON_PLATE",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ROTOR",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 30
+        }
+    ],
+    "PLUTONIUM_FUEL_ROD": [
+        {
+            "recipeName": "Alternate: Plutonium Fuel Unit",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "ENCASED_PLUTONIUM_CELL",
+                    "amount": 20,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PRESSURE_CONVERSION_CUBE",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 120
+        },
+        {
+            "recipeName": "Standard: Plutonium Fuel Rod",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "ENCASED_PLUTONIUM_CELL",
+                    "amount": 30,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "STEEL_BEAM",
+                    "amount": 18,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ELECTROMAGNETIC_CONTROL_ROD",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "HEAT_SINK",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 240
+        }
+    ],
+    "FABRIC": [
+        {
+            "recipeName": "Alternate: Polyester Fabric",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "POLYMER_RESIN",
+                    "amount": 16,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 100.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Standard: Fabric",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "BIOMASS",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        }
+    ],
+    "CATERIUM_INGOT": [
+        {
+            "recipeName": "Alternate: Pure Caterium Ingot",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "CATERIUM_ORE",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 20.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 5
+        },
+        {
+            "recipeName": "Standard: Caterium Ingot",
+            "producedIn": "SMELTER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "CATERIUM_ORE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        }
+    ],
+    "QUARTZ_CRYSTAL": [
+        {
+            "recipeName": "Alternate: Pure Quartz Crystal",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 7,
+            "components": [
+                {
+                    "name": "RAW_QUARTZ",
+                    "amount": 9,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 8
+        },
+        {
+            "recipeName": "Standard: Quartz Crystal",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "RAW_QUARTZ",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        }
+    ],
+    "QUICKWIRE": [
+        {
+            "recipeName": "Alternate: Fused Quickwire",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 12,
+            "components": [
+                {
+                    "name": "CATERIUM_INGOT",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COPPER_INGOT",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        },
+        {
+            "recipeName": "Standard: Quickwire",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "CATERIUM_INGOT",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 5
+        }
+    ],
+    "RADIO_CONTROL_UNIT": [
+        {
+            "recipeName": "Alternate: Radio Control System",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "CRYSTAL_OSCILLATOR",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CIRCUIT_BOARD",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ALUMINUM_CASING",
+                    "amount": 60,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 30,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 40
+        },
+        {
+            "recipeName": "Alternate: Radio Connection Unit",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "HEAT_SINK",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "HIGH_SPEED_CONNECTOR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "QUARTZ_CRYSTAL",
+                    "amount": 12,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Standard: Radio Control Unit",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "ALUMINUM_CASING",
+                    "amount": 32,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CRYSTAL_OSCILLATOR",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COMPUTER",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 48
+        }
+    ],
+    "RUBBER": [
+        {
+            "recipeName": "Alternate: Recycled Rubber",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 12,
+            "components": [
+                {
+                    "name": "PLASTIC",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "FUEL",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Standard: Residual Rubber",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "POLYMER_RESIN",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 40.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Rubber",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "OIL",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "SCREWS": [
+        {
+            "recipeName": "Alternate: Steel Screw",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 52,
+            "components": [
+                {
+                    "name": "STEEL_BEAM",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Alternate: Cast Screw",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "IRON_INGOT",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 24
+        },
+        {
+            "recipeName": "Standard: Screw",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "IRON_ROD",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "SILICA": [
+        {
+            "recipeName": "Alternate: Cheap Silica",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 7,
+            "components": [
+                {
+                    "name": "RAW_QUARTZ",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "LIMESTONE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Standard: Alumina Solution",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 12000,
+            "components": [
+                {
+                    "name": "BAUXITE_ORE",
+                    "amount": 12,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 180.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Silica",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "RAW_QUARTZ",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        }
+    ],
+    "ALUMINA_SOLUTION": [
+        {
+            "recipeName": "Alternate: Sloppy Alumina",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 12000,
+            "components": [
+                {
+                    "name": "BAUXITE_ORE",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 100.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 3
+        },
+        {
+            "recipeName": "Standard: Alumina Solution",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 12000,
+            "components": [
+                {
+                    "name": "BAUXITE_ORE",
+                    "amount": 12,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 180.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "STATOR": [
+        {
+            "recipeName": "Alternate: Quickwire Stator",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "STEEL_PIPE",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "QUICKWIRE",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 15
+        },
+        {
+            "recipeName": "Standard: Stator",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "STEEL_PIPE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WIRE",
+                    "amount": 8,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        }
+    ],
+    "COPPER_SHEET": [
+        {
+            "recipeName": "Alternate: Steamed Copper Sheet",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "COPPER_INGOT",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 8
+        },
+        {
+            "recipeName": "Standard: Copper Sheet",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "COPPER_INGOT",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "IRON_ROD": [
+        {
+            "recipeName": "Alternate: Steel Rod",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "STEEL_INGOT",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 5
+        },
+        {
+            "recipeName": "Standard: Iron Rod",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "IRON_INGOT",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        }
+    ],
+    "TURBO_FUEL": [
+        {
+            "recipeName": "Alternate: Turbo Blend Fuel",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 6000,
+            "components": [
+                {
+                    "name": "FUEL",
+                    "amount": 20.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "HEAVY_OIL_RESIDUE",
+                    "amount": 40.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "SULFUR",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PETROLEUM_COKE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        },
+        {
+            "recipeName": "Standard: Turbofuel",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 5000,
+            "components": [
+                {
+                    "name": "FUEL",
+                    "amount": 60.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "COMPACTED_COAL",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 16
+        },
+        {
+            "recipeName": "Alternate: Turbo Heavy Fuel",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 4000,
+            "components": [
+                {
+                    "name": "HEAVY_OIL_RESIDUE",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "COMPACTED_COAL",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 8
+        }
+    ],
+    "TURBO_MOTOR": [
+        {
+            "recipeName": "Alternate: Turbo Electric Motor",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "MOTOR",
+                    "amount": 7,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RADIO_CONTROL_UNIT",
+                    "amount": 9,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ELECTROMAGNETIC_CONTROL_ROD",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ROTOR",
+                    "amount": 7,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 64
+        },
+        {
+            "recipeName": "Alternate: Turbo Pressure Motor",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "MOTOR",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PRESSURE_CONVERSION_CUBE",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "STATOR",
+                    "amount": 8,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 32
+        },
+        {
+            "recipeName": "Standard: Turbo Motor",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "COOLING_SYSTEM",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RADIO_CONTROL_UNIT",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "MOTOR",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 24,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 32
+        }
+    ],
+    "ENCASED_URANIUM_CELL": [
+        {
+            "recipeName": "Alternate: Infused Uranium Cell",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "URANIUM_ORE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SILICA",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SULFUR",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "QUICKWIRE",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 12
+        },
+        {
+            "recipeName": "Standard: Encased Uranium Cell",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "URANIUM_ORE",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CONCRETE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 80.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 12
+        }
+    ],
+    "ALCLAD_ALUMINUM_SHEET": [
+        {
+            "recipeName": "Standard: Alclad Aluminum Sheet",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 3,
+            "components": [
+                {
+                    "name": "ALUMINUM_INGOT",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COPPER_INGOT",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "BIOMASS": [
+        {
+            "recipeName": "Standard: Biomass (Alien Carapace)",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 100,
+            "components": [],
+            "cycleTime": 4
+        },
+        {
+            "recipeName": "Standard: Biomass (Alien Organs)",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 200,
+            "components": [],
+            "cycleTime": 8
+        },
+        {
+            "recipeName": "Standard: Biomass (Leaves)",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 5,
+            "components": [],
+            "cycleTime": 5
+        },
+        {
+            "recipeName": "Standard: Biomass (Mycelia)",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 10,
+            "components": [],
+            "cycleTime": 4
+        },
+        {
+            "recipeName": "Standard: Biomass (Wood)",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "WOOD",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        }
+    ],
+    "COPPER_POWDER": [
+        {
+            "recipeName": "Standard: Copper Powder",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "COPPER_INGOT",
+                    "amount": 30,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "ALUMINUM_INGOT": [
+        {
+            "recipeName": "Standard: Aluminum Ingot",
+            "producedIn": "FOUNDRY",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "ALUMINUM_SCRAP",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SILICA",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        },
+        {
+            "recipeName": "Alternate: Pure Aluminum Ingot",
+            "producedIn": "SMELTER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "ALUMINUM_SCRAP",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 2
+        }
+    ],
+    "NITRIC_ACID": [
+        {
+            "recipeName": "Standard: Nitric Acid",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 3000,
+            "components": [
+                {
+                    "name": "NITROGEN",
+                    "amount": 120.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "WATER",
+                    "amount": 30.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                },
+                {
+                    "name": "IRON_PLATE",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "PETROLEUM_COKE": [
+        {
+            "recipeName": "Standard: Petroleum Coke",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 12,
+            "components": [
+                {
+                    "name": "HEAVY_OIL_RESIDUE",
+                    "amount": 40.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "PLUTONIUM_PELLET": [
+        {
+            "recipeName": "Standard: Plutonium Pellet",
+            "producedIn": "PARTICLEACCELERATOR",
+            "producesPerCycle": 30,
+            "components": [
+                {
+                    "name": "NON_FISSILE_URANIUM",
+                    "amount": 100,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "NUCLEAR_WASTE",
+                    "amount": 25,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 60
+        }
+    ],
+    "PRESSURE_CONVERSION_CUBE": [
+        {
+            "recipeName": "Standard: Pressure Conversion Cube",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "FUSED_MODULAR_FRAME",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RADIO_CONTROL_UNIT",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 60
+        }
+    ],
+    "MODULAR_ENGINE": [
+        {
+            "recipeName": "Standard: Modular Engine",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "MOTOR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "RUBBER",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SMART_PLATING",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 60
+        }
+    ],
+    "ADAPTIVE_CONTROL_UNIT": [
+        {
+            "recipeName": "Standard: Adaptive Control Unit",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "AUTOMATED_WIRING",
+                    "amount": 15,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CIRCUIT_BOARD",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "HEAVY_MODULAR_FRAME",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COMPUTER",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 120
+        }
+    ],
+    "MAGNETIC_FIELD_GENERATOR": [
+        {
+            "recipeName": "Standard: Magnetic Field Generator",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "VERSATILE_FRAMEWORK",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "ELECTROMAGNETIC_CONTROL_ROD",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "BATTERY",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 120
+        }
+    ],
+    "ASSEMBLY_DIRECTOR_SYSTEM": [
+        {
+            "recipeName": "Standard: Assembly Director System",
+            "producedIn": "ASSEMBLER",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "ADAPTIVE_CONTROL_UNIT",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SUPERCOMPUTER",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 80
+        }
+    ],
+    "THERMAL_PROPULSION_ROCKET": [
+        {
+            "recipeName": "Standard: Thermal Propulsion Rocket",
+            "producedIn": "MANUFACTURER",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "MODULAR_ENGINE",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "TURBO_MOTOR",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "COOLING_SYSTEM",
+                    "amount": 6,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "FUSED_MODULAR_FRAME",
+                    "amount": 2,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 120
+        }
+    ],
+    "NUCLEAR_PASTA": [
+        {
+            "recipeName": "Standard: Nuclear Pasta",
+            "producedIn": "PARTICLEACCELERATOR",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "COPPER_POWDER",
+                    "amount": 200,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "PRESSURE_CONVERSION_CUBE",
+                    "amount": 1,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 120
+        }
+    ],
+    "STEEL_BEAM": [
+        {
+            "recipeName": "Standard: Steel Beam",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "STEEL_INGOT",
+                    "amount": 4,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 4
+        }
+    ],
+    "STEEL_PIPE": [
+        {
+            "recipeName": "Standard: Steel Pipe",
+            "producedIn": "CONSTRUCTOR",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "STEEL_INGOT",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                }
+            ],
+            "cycleTime": 6
+        }
+    ],
+    "SULFURIC_ACID": [
+        {
+            "recipeName": "Standard: Sulfuric Acid",
+            "producedIn": "OILREFINERY",
+            "producesPerCycle": 5000,
+            "components": [
+                {
+                    "name": "SULFUR",
+                    "amount": 5,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "WATER",
+                    "amount": 50.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 6
+        },
+        {
+            "recipeName": "Standard: Encased Uranium Cell",
+            "producedIn": "BLENDER",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "URANIUM_ORE",
+                    "amount": 10,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "CONCRETE",
+                    "amount": 3,
+                    "measurement": "items/productionCycle",
+                    "isFluid": false
+                },
+                {
+                    "name": "SULFURIC_ACID",
+                    "amount": 80.0,
+                    "measurement": "m^3/productionCycle",
+                    "isFluid": true
+                }
+            ],
+            "cycleTime": 12
+        }
+    ]
+}

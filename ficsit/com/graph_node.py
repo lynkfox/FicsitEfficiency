@@ -3,7 +3,7 @@ from ficsit.com.constants import DataNames
 from typing import Dict, List, Union, Optional
 from uuid import uuid4
 from dataclasses import dataclass
-from ficsit.com.machines import iMachine, Miner
+from ficsit.com.machines import iMachine, Miner, machine_mapping
 from copy import deepcopy
 
 
@@ -40,7 +40,7 @@ class Node:
             data = data.as_dict()
 
         self.display_name: str = data[DataNames.DISPLAY_NAME]
-        self.produced_in: Union[str, iMachine] = data[DataNames.PRODUCED_IN]
+        self.produced_in: Union[str, iMachine] = machine_mapping.get(data[DataNames.PRODUCED_IN], data[DataNames.PRODUCED_IN])
         self.cycle_time: float = data[DataNames.CYCLE_TIME]
         self.produced_per_cycle: int = data[DataNames.PRODUCED_PER_CYCLE]
         self.components_per_cycle: Dict[str, Union[float, int]] = data[
@@ -148,7 +148,7 @@ class Graph:
 
     def _update_parent_base_materials(self, current: Node, uplift: dict = None):
         """
-        Traverses back up the tree from an leaf, updating each parent with new totals for the given paths below
+        Traverses back up the tree from a leaf, updating each parent with new totals for the given paths below
         """
 
         next_uplift = (
@@ -189,6 +189,9 @@ class Graph:
             self._update_parent_base_materials(current.parent, next_uplift)
 
     def calculate_weights(self):
+        """
+        Calculates all values for a a full path from Leaf to Root
+        """
         pass
 
     def json_output(self, node: Optional[Node] = None) -> dict:

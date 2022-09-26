@@ -1,4 +1,6 @@
+from __future__ import annotations
 from ficsit.com.components import ManufacturedComponents, LogisticalInput, Equipment
+
 
 
 class iMachine:
@@ -203,3 +205,16 @@ class ParticleAccelerator(iMachine):
         ManufacturedComponents.FUSED_MODULAR_FRAME: 20,
         ManufacturedComponents.TURBO_MOTOR: 10,
     }
+
+
+machine_mapping = {
+    "Smelter": Smelter,
+    "Foundry": Foundry,
+    "Constructor": Constructor,
+    "Assembler": Assembler,
+    "Manufacturer": Manufacturer,
+    "OilRefinery": Refinery,
+    "Blender": Blender,
+    "Packager": Packager,
+    "ParticleAccelerator": ParticleAccelerator
+}
