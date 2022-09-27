@@ -14,7 +14,8 @@ class Buildable(Enum):
     PARTICLEACCELERATOR = "Particle Accelerator"
 
 
-class Component(Enum):
+class ComponentName(Enum):
+    PORTABLE_MINER = "Portable Miner"
     LIMESTONE = "Limestone"
     IRON_ORE = "Iron Ore"
     COPPER_ORE = "Copper Ore"

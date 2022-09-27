@@ -72,24 +72,6 @@
     <VariablePowerConsumptionConstant>0</VariablePowerConsumptionConstant>
     <VariablePowerConsumptionFactor>0</VariablePowerConsumptionFactor>
   </Recipe>
-  <Recipe name="Recipe_Alternate_Beacon_1_C" path="/Game/FactoryGame/Recipes/AlternateRecipes/Parts/Recipe_Alternate_Beacon_1">
-    <DisplayName hash="3288FA904BFB8F433BADC489A4C70AD1">Alternate: Crystal Beacon</DisplayName>
-    <Ingredients>
-      <ItemAmount item="Desc_SteelPlate_C" amount="4" />
-      <ItemAmount item="Desc_SteelPipe_C" amount="16" />
-      <ItemAmount item="Desc_CrystalOscillator_C" amount="1" />
-    </Ingredients>
-    <Products>
-      <ItemAmount item="BP_EquipmentDescriptorBeacon_C" amount="20" />
-    </Products>
-    <ProducedIn>
-      <string>/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C</string>
-    </ProducedIn>
-    <ManufactoringDuration>120</ManufactoringDuration>
-    <ManualManufacturingMultiplier>0</ManualManufacturingMultiplier>
-    <VariablePowerConsumptionConstant>0</VariablePowerConsumptionConstant>
-    <VariablePowerConsumptionFactor>0</VariablePowerConsumptionFactor>
-  </Recipe>
   <Recipe name="Recipe_Alternate_BoltedFrame_C" path="/Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_BoltedFrame">
     <DisplayName hash="4BEBCB214B4FF6DABA5D138DC43BE024">Alternate: Bolted Frame</DisplayName>
     <Ingredients>

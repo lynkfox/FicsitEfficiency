@@ -1,24 +1,25 @@
 import json
 from xml.etree import ElementTree
-from ficsit2.com.machines import machines
-from ficsit2.com.names import Buildable, Component as ComponentName
+from ficsit2.com.machines import machine_map
+from ficsit2.com.names import Buildable, ComponentName as ComponentName
 from ficsit2.com.recipe import Component, ComponentsUsed
 from ficsit2.com import lookup
 
 
 MACHINE_MAPPING = {
-    "Smelter": machines.get(Buildable.SMELTER),
-    "Foundry": machines.get(Buildable.FOUNDRY),
-    "Constructor": machines.get(Buildable.CONSTRUCTOR),
-    "Assembler": machines.get(Buildable.ASSEMBLER),
-    "Manufacturer": machines.get(Buildable.MANUFACTURER),
-    "OilRefinery": machines.get(Buildable.OILREFINERY),
-    "Blender": machines.get(Buildable.BLENDER),
-    "Packager": machines.get(Buildable.PACKAGER),
-    "HadronCollider": machines.get(Buildable.PARTICLEACCELERATOR),
+    "Smelter": machine_map.get(Buildable.SMELTER),
+    "Foundry": machine_map.get(Buildable.FOUNDRY),
+    "Constructor": machine_map.get(Buildable.CONSTRUCTOR),
+    "Assembler": machine_map.get(Buildable.ASSEMBLER),
+    "Manufacturer": machine_map.get(Buildable.MANUFACTURER),
+    "OilRefinery": machine_map.get(Buildable.OILREFINERY),
+    "Blender": machine_map.get(Buildable.BLENDER),
+    "Packager": machine_map.get(Buildable.PACKAGER),
+    "HadronCollider": machine_map.get(Buildable.PARTICLEACCELERATOR),
 }
 
 COMPONENT_MAPPING = {
+    "portableMiner": ComponentName.PORTABLE_MINER,
     "goldIngot": ComponentName.CATERIUM_INGOT,
     "steelIngot": ComponentName.STEEL_INGOT,
     "stone": ComponentName.LIMESTONE,
@@ -126,35 +127,34 @@ def get_recipes(xml_tree):
         if name is None:
             continue
 
+        if name.text in lookup.FICSMAS_RECIPES:
+            print(f"\033[96m Xmas Recipe \033[0m {name.text} - skipped ")
+            continue
+
+        if name.text in lookup.IGNORED_RECIPES:
+            print(f"\033[92m Recipe \033[0m {name.text} - skipped ")
+            continue
+
         recipe = get_recipe_details(buildable, name.text)
 
         if recipe is None:
             continue
-        
-        recipe_name = recipe.get('recipeName')
-        if "FICSMAS" in recipe_name or "Snow" in recipe_name:
-            print(f"\033[96m Xmas Recipe \033[0m {recipe_name} - skipped ")
-            continue
-
-        if "Packaged" in recipe_name or "Canister" in recipe_name:
-            print(f"\033[92m Packaged Liquid Recipe \033[0m {recipe_name} - skipped ")
-            continue
-
 
         components_produced = [
             COMPONENT_MAPPING.get(clean_item_name(item.attrib["item"]))
             for item in buildable.findall("Products/ItemAmount")
         ]
+        recipe["products"] = [x.value for x in components_produced]
 
         for component in components_produced:
             if component is None:
-                print(f"*****Probably OK: {recipe.get('recipeName')} is broken")
+                print(f"*****Look Into: {recipe.get('recipeName')} is broken")
                 continue
-            if component.name in all_recipes:
-                all_recipes[component.name].append(recipe)
+            if component.value in all_recipes:
+                all_recipes[component.value].append(recipe)
 
             else:
-                entry = {component.name: [recipe]}
+                entry = {component.value: [recipe]}
 
                 all_recipes.update(entry)
 
@@ -193,10 +193,11 @@ def get_recipe_details(buildable, name):
 
     return {
         "recipeName": name if "Alternate:" in name else f"Standard: {name}",
-        "producedIn": machine.display_name.name,
+        "producedIn": machine.display_name.value,
         "producesPerCycle": produced_amount,
         "components": build_components(buildable.findall(".//Ingredients/ItemAmount")),
         "cycleTime": cycle_time,
+        "products": [],
     }
 
 
@@ -216,7 +217,7 @@ def build_components(ingredients) -> list:
 
         all_components.append(
             Component(
-                name=name, amount=amount, is_fluid=is_fluid, is_per_minute=False
+                name=name, amount=amount/100 if is_fluid else amount
             ).as_dict()
         )
 

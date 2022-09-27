@@ -15,7 +15,7 @@ class Machine:
     height: float
 
 
-machines = {
+machine_map = {
     Buildable.MINER: Machine(
         display_name=Buildable.MINER,
         tierRequired=(0.5, 4.1, 8.3),
