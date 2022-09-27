@@ -55,14 +55,14 @@ IGNORED_RECIPES = [
     "Alternate: Seismic Nobelisk",
     "Rifle Cartridge",
     "Nobelisk",
-    "Spiked Rebar"
+    "Spiked Rebar",
 ]
 
 WEAPON_RECIPES = [
     "Nobelisk",
     "Alternate: Seismic Nobelisk",
     "Spiked Rebar",
-    "Rifle Cartridge"
+    "Rifle Cartridge",
 ]
 
 FICSMAS_RECIPES = [
@@ -80,5 +80,5 @@ FICSMAS_RECIPES = [
     "FICSMAS Bow",
     "FICSMAS Tree Branch",
     "FICSMAS Decoration",
-    "FICSMAS Wonder Star"
+    "FICSMAS Wonder Star",
 ]

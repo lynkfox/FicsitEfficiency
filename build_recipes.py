@@ -216,9 +216,7 @@ def build_components(ingredients) -> list:
         is_fluid = name in lookup.FLUIDS
 
         all_components.append(
-            Component(
-                name=name, amount=amount/100 if is_fluid else amount
-            ).as_dict()
+            Component(name=name, amount=amount / 100 if is_fluid else amount).as_dict()
         )
 
     return all_components

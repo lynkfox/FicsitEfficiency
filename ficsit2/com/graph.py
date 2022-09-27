@@ -37,15 +37,25 @@ class Graph:
 
         self.component_nodes.append(parent)
         self.recipe_nodes.extend(parent.add_children(recipes=children))
-        
-        self.total_depth = parent.node_depth+1 if not parent.node_is_leaf else parent.node_depth
+
+        self.total_depth = (
+            parent.node_depth + 1 if not parent.node_is_leaf else parent.node_depth
+        )
 
     def add_children_recipes_for(self, recipe_components: list):
         component: node.ComponentNode
         for component in recipe_components:
             if not component.node_is_leaf:
-                component_child_recipes = component.add_children(self.recipe_tree[component.name.value])
-                self.add_children_recipes_for(functools.reduce(operator.iconcat, [recipe.node_children for recipe in component_child_recipes], []))
+                component_child_recipes = component.add_children(
+                    self.recipe_tree[component.name.value]
+                )
+                self.add_children_recipes_for(
+                    functools.reduce(
+                        operator.iconcat,
+                        [recipe.node_children for recipe in component_child_recipes],
+                        [],
+                    )
+                )
                 print("")
             else:
                 self.leafs.append(component)

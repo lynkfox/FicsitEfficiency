@@ -19,18 +19,18 @@ class Component:
         self.measurement = f'{"m^3/" if self.is_fluid else "items/"}{"min" if self.is_per_minute else "productionCycle"}'
 
     def as_dict(self):
-        
+
         return {
             "name": self.name.value,
             "amount": self.amount,
-            "measurement": self.measurement
+            "measurement": self.measurement,
         }
 
-    def formatted(self) ->str:
+    def formatted(self) -> str:
         """
         returns a formatted string output for use in the output of a larger graph
         """
-        
+
         return f"{self.amount} {self.measurement} of {self.name.value}"
 
     def __str__(self):
@@ -43,9 +43,7 @@ class Component:
         if self.name != other.name:
             raise ValueError(f"{self.name} cannot be added to {other.name}")
 
-        return Component(
-            name=self.name, amount=self.amount + other.amount
-        )
+        return Component(name=self.name, amount=self.amount + other.amount)
 
     def __eq__(self, other: Component):
         if not isinstance(other, Component):

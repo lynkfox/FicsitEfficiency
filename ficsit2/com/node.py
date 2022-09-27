@@ -5,12 +5,13 @@ from typing import List, Optional
 from copy import copy
 
 
-@dataclass 
+@dataclass
 class RecipeJson:
     """
     Converts the JSON file format (camel case) dictionary loaded from the recipes.json for a single recipe
     into the necessary fields for the Recipe Node
     """
+
     recipeName: str
     products: list
     producedIn: str
@@ -25,10 +26,13 @@ class RecipeJson:
             "produced_in": machines.machine_map.get(names.Buildable(self.producedIn)),
             "cycle_time": self.cycleTime,
             "produces_per_cycle": self.producesPerCycle,
-            "components_per_cycle": [recipe.Component(name=names.ComponentName(x["name"]), amount=x["amount"]) for x in self.components]
-
+            "components_per_cycle": [
+                recipe.Component(
+                    name=names.ComponentName(x["name"]), amount=x["amount"]
+                )
+                for x in self.components
+            ],
         }
-
 
 
 @dataclass
@@ -55,7 +59,7 @@ class RecipeNode:
     # Node Values
     node_children: List[ComponentNode] = field(init=False, default_factory=list)
     node_parent: Optional[ComponentNode] = field(init=False, default=None)
-    node_depth: int = field(init=False, default = 0)
+    node_depth: int = field(init=False, default=0)
     node_path_to_root: List[any] = field(init=False, default_factory=list)
     node_is_leaf: bool = field(init=False, default=False)
 
@@ -72,25 +76,34 @@ class RecipeNode:
             self._update_component_child(component, child_component)
             self.node_children.append(child_component)
 
-    def _update_component_child(self, component:recipe.Component, child_component:ComponentNode):
+    def _update_component_child(
+        self, component: recipe.Component, child_component: ComponentNode
+    ):
         """
         Updates the new child ComponentNode object with all necessary data that is auto populated or calculated from the path to root.
         """
         child_component.recipe_needs_per_minute = (
-                component.amount * self.cycles_per_minute
-            )
+            component.amount * self.cycles_per_minute
+        )
         child_component.node_parent = self
         child_component.node_depth = self.node_depth + 2
         child_component.node_path_to_root = copy(self.node_path_to_root)
         child_component.node_path_to_root.append(child_component)
 
     def __str__(self) -> str:
-        depth_indent = " ".join(["" for i in range((self.node_depth * 4)+1)])
-        
-        return f"\n{depth_indent}### {self.name}:\n" + \
-            "\n".join([f"{depth_indent}  |- {ingredient.formatted()}" for ingredient in self.components_per_cycle]) + "\n" +\
-                "\n".join([f"{component}" for component in self.node_children])
+        depth_indent = " ".join(["" for i in range((self.node_depth * 4) + 1)])
 
+        return (
+            f"\n{depth_indent}### {self.name}:\n"
+            + "\n".join(
+                [
+                    f"{depth_indent}  |- {ingredient.formatted()}"
+                    for ingredient in self.components_per_cycle
+                ]
+            )
+            + "\n"
+            + "\n".join([f"{component}" for component in self.node_children])
+        )
 
 
 @dataclass
@@ -134,7 +147,7 @@ class ComponentNode:
 
         return self.node_children
 
-    def _update_recipe_child(self, child_recipe:RecipeNode):
+    def _update_recipe_child(self, child_recipe: RecipeNode):
         """
         Updates the new child RecipeNode with all necessary data that is auto populated or calculated from the path to root.
         """
@@ -143,7 +156,9 @@ class ComponentNode:
         child_recipe.node_path_to_root = copy(self.node_path_to_root)
         child_recipe.node_path_to_root.append(child_recipe)
 
-    def __str__(self) ->str:
-        depth_indent = " ".join(["" for i in range((self.node_depth * 4)+1)])
-        return f"{depth_indent} === {self.name.value} ( {self.parent_needs_per_minute} to satisfy parent)" +\
-        "\n".join([str(recipe) for recipe in self.node_children]) 
+    def __str__(self) -> str:
+        depth_indent = " ".join(["" for i in range((self.node_depth * 4) + 1)])
+        return (
+            f"{depth_indent} === {self.name.value} ( {self.parent_needs_per_minute} to satisfy parent)"
+            + "\n".join([str(recipe) for recipe in self.node_children])
+        )
