@@ -73,11 +73,15 @@ class RecipeNode:
 
         for component in self.components_per_cycle:
             child_component = ComponentNode(
-                name=component.name, parent_recipe_needs=component.amount, node_parent=self, is_per_minute=self.is_per_minute, parent_cycles_per_minute = self.cycles_per_minute
+                name=component.name,
+                parent_recipe_needs=component.amount,
+                node_parent=self,
+                is_per_minute=self.is_per_minute,
+                parent_cycles_per_minute=self.cycles_per_minute,
             )
             self._update_component_child(component, child_component)
             self.node_children.append(child_component)
-        
+
         self.node_path_to_root = copy(self.node_parent.node_path_to_root)
         self.node_path_to_root.append(self)
         self._update_production_chain_step_values()
@@ -89,11 +93,17 @@ class RecipeNode:
         self.production_chain_needs = [
             recipe.Component(
                 name=component.name,
-                is_per_minute= self.is_per_minute,
-                amount=self.node_parent.parent_recipe_wants_to_produce*(1 if not self.is_per_minute else self.node_parent.parent_recipe_wants_to_produce/self.produces_per_cycle))
-                for component in self.components_per_cycle
+                is_per_minute=self.is_per_minute,
+                amount=self.node_parent.parent_recipe_wants_to_produce
+                * (
+                    1
+                    if not self.is_per_minute
+                    else self.node_parent.parent_recipe_wants_to_produce
+                    / self.produces_per_cycle
+                ),
+            )
+            for component in self.components_per_cycle
         ]
-            
 
     def _update_component_child(
         self, component: recipe.Component, child_component: ComponentNode
@@ -107,12 +117,18 @@ class RecipeNode:
         child_component.node_depth = self.node_depth + 1
         child_component.node_path_to_root = copy(self.node_path_to_root)
         child_component.node_path_to_root.append(child_component)
-        child_component.parent_recipe_wants_to_produce = self.node_parent.parent_recipe_wants_to_produce/self.produces_per_cycle * self.cycles_per_minute
+        child_component.parent_recipe_wants_to_produce = (
+            self.node_parent.parent_recipe_wants_to_produce
+            / self.produces_per_cycle
+            * self.cycles_per_minute
+        )
 
     def __str__(self) -> str:
         depth_indent = " ".join(["" for i in range((self.node_depth * 4))])
         number_to_produce = self.node_parent.parent_recipe_wants_to_produce
-        component_offset = 1 if not self.is_per_minute else number_to_produce/self.produces_per_cycle
+        component_offset = (
+            1 if not self.is_per_minute else number_to_produce / self.produces_per_cycle
+        )
         return (
             f"\n{depth_indent} ### {self.name}:\n"
             + f"{depth_indent}   : Needs\n"
@@ -123,7 +139,12 @@ class RecipeNode:
                 ]
             )
             + f"\n{depth_indent}   : To produce\n{depth_indent}   ==> "
-            + f"\n{depth_indent}   ==> ".join([f"{'{:.2f}'.format(number_to_produce)} {product.value} per minute" for product in self.product])
+            + f"\n{depth_indent}   ==> ".join(
+                [
+                    f"{'{:.2f}'.format(number_to_produce)} {product.value} per minute"
+                    for product in self.product
+                ]
+            )
             + "\n"
             + "\n".join([f"{component}" for component in self.node_children])
         )
@@ -148,7 +169,6 @@ class ComponentNode:
     parent_recipe_needs_per_minute: float = field(default=0.0)
     parent_recipe_wants_to_produce: float = field(init=False, default=0.0)
 
-    
     node_parent: RecipeNode = field(default=None)
     node_path_to_root: List[any] = field(init=False, default_factory=list)
     node_children: List[RecipeNode] = field(init=False, default_factory=list)
@@ -158,7 +178,9 @@ class ComponentNode:
 
     def __post_init__(self):
         self.node_is_leaf = self.name in lookup.ENDPOINTS
-        self.parent_recipe_wants_to_produce = self.parent_recipe_needs*self.parent_cycles_per_minute
+        self.parent_recipe_wants_to_produce = (
+            self.parent_recipe_needs * self.parent_cycles_per_minute
+        )
 
     def add_children(self, recipes: List[recipe.Recipe]) -> List[RecipeNode]:
         """
@@ -168,11 +190,15 @@ class ComponentNode:
         """
 
         for recipe in recipes:
-            child_recipe = RecipeNode(**RecipeJson(**recipe).props(), node_parent=self, node_depth=self.node_depth+1, is_per_minute=self.is_per_minute)
+            child_recipe = RecipeNode(
+                **RecipeJson(**recipe).props(),
+                node_parent=self,
+                node_depth=self.node_depth + 1,
+                is_per_minute=self.is_per_minute,
+            )
             self.node_children.append(child_recipe)
 
         return self.node_children
-
 
     def __str__(self) -> str:
         depth_indent = " ".join(["" for i in range((self.node_depth * 4) + 2)])

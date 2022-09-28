@@ -26,7 +26,7 @@ class Component:
             "measurement": self.measurement,
         }
 
-    def formatted(self, cycles_per_minute:int = 1, offset:float = 1.0) -> str:
+    def formatted(self, cycles_per_minute: int = 1, offset: float = 1.0) -> str:
         """
         returns a formatted string output for use in the output of a larger graph
 
@@ -34,7 +34,9 @@ class Component:
         :param offset - how much to offset the amount ( a fraction ) based on the above
         """
 
-        return f"{'{:.2f}'.format(self.amount*cycles_per_minute*offset)} {self.name.value}"
+        return (
+            f"{'{:.2f}'.format(self.amount*cycles_per_minute*offset)} {self.name.value}"
+        )
 
     def __str__(self):
         return json.dumps(self.as_dict(), indent=4)
