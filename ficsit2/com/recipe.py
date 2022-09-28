@@ -16,7 +16,7 @@ class Component:
 
     def __post_init__(self):
         self.is_fluid = self.name in lookup.FLUIDS
-        self.measurement = f'{"m^3/" if self.is_fluid else "items/"}{"min" if self.is_per_minute else "productionCycle"}'
+        self.measurement = f'{"m^3" if self.is_fluid else "item(s)"}{"/min" if self.is_per_minute else ""}'
 
     def as_dict(self):
 
@@ -26,12 +26,15 @@ class Component:
             "measurement": self.measurement,
         }
 
-    def formatted(self) -> str:
+    def formatted(self, cycles_per_minute:int = 1, offset:float = 1.0) -> str:
         """
         returns a formatted string output for use in the output of a larger graph
+
+        :param cycles_per_minute - how many cycles this component will be used in
+        :param offset - how much to offset the amount ( a fraction ) based on the above
         """
 
-        return f"{self.amount} {self.measurement} of {self.name.value}"
+        return f"{'{:.2f}'.format(self.amount*cycles_per_minute*offset)} {self.name.value}"
 
     def __str__(self):
         return json.dumps(self.as_dict(), indent=4)
