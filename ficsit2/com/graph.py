@@ -20,8 +20,6 @@ class Graph:
     leafs: List[Any] = field(init=False, default_factory=list)
 
     def __post_init__(self):
-        self.root.parent_recipe_needs_per_minute = self.root.parent_recipe_needs
-        self.root.parent_recipe_wants_to_produce = self.root.parent_recipe_needs
 
         self.json_add_children(self.root, self.recipe_tree[self.root.name.value])
         for recipe_child in self.root.node_children:

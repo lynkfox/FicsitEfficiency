@@ -5,6 +5,7 @@ import json
 from ficsit2.com.machines import Machine
 from ficsit2.com.names import ComponentName as ComponentName
 from ficsit2.com import lookup
+import math
 
 
 @dataclass
@@ -16,14 +17,17 @@ class Component:
 
     def __post_init__(self):
         self.is_fluid = self.name in lookup.FLUIDS
-        self.measurement = f'{"m^3" if self.is_fluid else "item(s)"}{"/min" if self.is_per_minute else ""}'
+        self.measurement = (
+            f'{self.name.value+" m^3" if self.is_fluid else self.name.value+"(s)"}'
+        )
+        self.rate = f'{"/min" if self.is_per_minute else "/cycle"}'
 
     def as_dict(self):
 
         return {
             "name": self.name.value,
             "amount": self.amount,
-            "measurement": self.measurement,
+            "measurement": self.measurement + self.rate,
         }
 
     def formatted(self, cycles_per_minute: int = 1, offset: float = 1.0) -> str:
@@ -35,7 +39,7 @@ class Component:
         """
 
         return (
-            f"{'{:.2f}'.format(self.amount*cycles_per_minute*offset)} {self.name.value}"
+            f"{'{:.4f}'.format(self.amount*cycles_per_minute*offset)} {self.name.value}"
         )
 
     def __str__(self):
@@ -58,15 +62,27 @@ class Component:
 
 
 @dataclass
-class ComponentsUsed:
-    recipes_used: List[str]
-    steps: int
-    components: List[Component]
+class RecipeMachineCost:
+    machine: Machine
+    total_machines: float
+    power: float = field(init=False, default=0.0)
+    footprint: float = field(init=False, default=0.0)
+    volume: float = field(init=False, default=0.0)
+
+    def __post_init__(self):
+        self.power = self.machine.powerUse * math.ceil(self.total_machines)
+        self.footprint = (self.machine.length * self.machine.width) * math.ceil(
+            self.total_machines
+        )
+        self.volume = self.footprint * self.machine.height
 
 
 @dataclass
-class ProductionChain:
-    paths: List(ComponentsUsed)
+class ProductionChainStep:
+    recipe_name: str
+    components_produced: str
+    required_components: List[Component]
+    machine_cost: RecipeMachineCost
 
 
 @dataclass

@@ -5,10 +5,9 @@ import json
 
 
 class ProductionChain:
-    def __init__(self, name: ComponentName, per_minute: bool = True):
+    def __init__(self, name: ComponentName):
         self.component = name
         self.name = name.value
-        self.per_minute = per_minute
 
         self._init_production_chain_graph()
 
@@ -24,13 +23,12 @@ class ProductionChain:
             root=ComponentNode(
                 ComponentName(self.name),
                 parent_recipe_needs=1.0,
-                is_per_minute=self.per_minute,
             ),
             recipe_tree=self.load_recipes(),
         )
 
     def __str__(self) -> str:
-        return "*" + str(self.graph.root)[3:]
+        return "> " + str(self.graph.root)[14:]
 
 
 def main():
