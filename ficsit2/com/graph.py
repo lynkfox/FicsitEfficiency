@@ -14,8 +14,6 @@ class Graph:
     root: node.ComponentNode
     recipe_tree: dict
     total_depth: int = field(init=False, default=0)
-    recipe_nodes: List[node.RecipeNode] = field(init=False, default_factory=list)
-    component_nodes: Set[node.ComponentNode] = field(init=False, default_factory=list)
     paths_to_root: List[list] = field(init=False, default_factory=list)
     leafs: List[Any] = field(init=False, default_factory=list)
 
@@ -33,8 +31,7 @@ class Graph:
         if isinstance(parent, node.RecipeNode):
             raise TypeError("json_add_children must start with a ComponentNode")
 
-        self.component_nodes.append(parent)
-        self.recipe_nodes.extend(parent.add_children(recipes=children))
+        parent.add_children(recipes=children)
 
         self.total_depth = (
             parent.node_depth + 1 if not parent.node_is_leaf else parent.node_depth
@@ -54,6 +51,11 @@ class Graph:
                         [],
                     )
                 )
-                print("")
             else:
                 self.leafs.append(component)
+                self.total_depth = (
+                    component.node_depth
+                    if component.node_depth > self.total_depth
+                    else self.total_depth
+                )
+                self.paths_to_root.append(component.node_path_to_root)

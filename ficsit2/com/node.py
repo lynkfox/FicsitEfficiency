@@ -74,6 +74,8 @@ class RecipeNode:
         self.needed_to_meet_parent_quota = (
             self.node_parent.parent_recipe_needs / self.produces_per_cycle
         )
+        self.node_path_to_root = copy(self.node_parent.node_path_to_root)
+        self.node_path_to_root.append(self)
 
         for component in self.components_per_cycle:
             child_component = ComponentNode(
@@ -85,8 +87,6 @@ class RecipeNode:
             self._update_component_child(component, child_component)
             self.node_children.append(child_component)
 
-        self.node_path_to_root = copy(self.node_parent.node_path_to_root)
-        self.node_path_to_root.append(self)
         self._update_production_chain_step_values()
 
     def _update_production_chain_step_values(self):
