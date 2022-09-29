@@ -1,43 +1,29 @@
 # FicsitEfficiency
 
-A set of scripts and graphs for comparing any possible permutiation of recipes (standard and alternates) for any component in the game Satisfactory by Coffee Stain Studios
+A set of scripts and graphs for comparing any possible permutation of recipes (standard, alternates, and potentially modded) for any component in the game Satisfactory by Coffee Stain Studios
 
-All data about in game assets is Copywrite CSS;
+All data about in game assets is Copyright CSS;
 
+## build_recipes.py
 
-## xml-json.py
-Parses the xml that was scraped from game pak files by @SillyBits on the Modding Discord into a json with what data this project needs.
+One time script run to generate the `.ficsit/data/recipes.json`. Automatically adds the `additional_recipes.json` (U6 updated recipes as the xml is out of date) as well, and if passed `--m` or `--modded` will (todo) include files in the `.ficsit/data/recipes.json` if they are properly formatted (todo)
 
-## main.py
+* e.g.: `python3 build_recipes.py` or `python3 build_recipes.py -m`
 
-Currently just generates all possible paths of the directed graph tree of potential recipie combinations
+## build_graph.py
 
-## ./unit_tests
+Creates a graph for a given recipe. See `.ficsit/com/names.py` for the names (under `ComponentName`) - use the human readable display name - and pass with `-c` or `--component` parameter
 
-Unit tests. Some of them anyways
+* e.g.: `python3 build_recipes.py -c "Heavy Modular Frame"`
 
-## ./ficsit
+Will print out the output.
+
+* (Todo) - Visual graph
+* (Todo) - Add power, footprint, machines to product chain
+* (Todo) - Show totals for each product chain
+* (Todo) - Select Recipe Chains to compare (reducing output)
+* (Todo) - Select value (Power, Footprint, total Machines, total steps, total raw materials) and have it return product chain that is the best in this value.
+
+## ./ficsit2
 
 main module
-
-## ficsit/effeciency.py
-
-contains the class for creating recipe paths
-
-TODO: Update to a proper weighted directed graph (utilizing the recipe.json objects)
-
-## ficsit/components.py
-
-constants
-
-## ficsit/effeciency_calcualtions.py
-
-Math and other functions.
-
-## ficsit/utils.py
-
-Helper/common functions
-
-## fisit/possible_paths
-
-Output jsons of all possible paths for any given recipe.
