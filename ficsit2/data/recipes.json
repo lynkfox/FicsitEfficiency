@@ -8,12 +8,12 @@
                 {
                     "name": "Copper Sheet",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Sheet(s)/cycle"
                 },
                 {
                     "name": "Quickwire",
                     "amount": 20,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quickwire(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -31,12 +31,12 @@
                 {
                     "name": "Iron Plate",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Plate(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -52,12 +52,12 @@
                 {
                     "name": "Iron Plate",
                     "amount": 18,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Plate(s)/cycle"
                 },
                 {
                     "name": "Screws",
                     "amount": 50,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Screws(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -73,12 +73,12 @@
                 {
                     "name": "Iron Plate",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Plate(s)/cycle"
                 },
                 {
                     "name": "Wire",
                     "amount": 20,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wire(s)/cycle"
                 }
             ],
             "cycleTime": 32,
@@ -94,12 +94,12 @@
                 {
                     "name": "Iron Plate",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Plate(s)/cycle"
                 },
                 {
                     "name": "Screws",
                     "amount": 12,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Screws(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -117,12 +117,12 @@
                 {
                     "name": "Aluminum Ingot",
                     "amount": 20,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Ingot(s)/cycle"
                 },
                 {
                     "name": "Copper Ingot",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -138,7 +138,7 @@
                 {
                     "name": "Aluminum Ingot",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 2,
@@ -156,22 +156,22 @@
                 {
                     "name": "Motor",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Motor(s)/cycle"
                 },
                 {
                     "name": "Steel Pipe",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Pipe(s)/cycle"
                 },
                 {
                     "name": "Iron Rod",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Rod(s)/cycle"
                 },
                 {
                     "name": "Iron Plate",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Plate(s)/cycle"
                 }
             ],
             "cycleTime": 60,
@@ -189,12 +189,12 @@
                 {
                     "name": "Reinforced Iron Plate",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Reinforced Iron Plate(s)/cycle"
                 },
                 {
                     "name": "Screws",
                     "amount": 56,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Screws(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -210,12 +210,12 @@
                 {
                     "name": "Reinforced Iron Plate",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Reinforced Iron Plate(s)/cycle"
                 },
                 {
                     "name": "Steel Pipe",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Pipe(s)/cycle"
                 }
             ],
             "cycleTime": 60,
@@ -231,12 +231,12 @@
                 {
                     "name": "Reinforced Iron Plate",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Reinforced Iron Plate(s)/cycle"
                 },
                 {
                     "name": "Iron Rod",
                     "amount": 12,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Rod(s)/cycle"
                 }
             ],
             "cycleTime": 60,
@@ -254,12 +254,12 @@
                 {
                     "name": "Wire",
                     "amount": 9,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wire(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -275,12 +275,12 @@
                 {
                     "name": "Quickwire",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quickwire(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -290,18 +290,18 @@
         },
         {
             "recipeName": "Alternate: Coated Cable",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 9,
             "components": [
                 {
                     "name": "Wire",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wire(s)/cycle"
                 },
                 {
                     "name": "Heavy Oil Residue",
                     "amount": 20.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Heavy Oil Residue m^3/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -317,7 +317,7 @@
                 {
                     "name": "Wire",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wire(s)/cycle"
                 }
             ],
             "cycleTime": 2,
@@ -335,12 +335,12 @@
                 {
                     "name": "Copper Sheet",
                     "amount": 11,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Sheet(s)/cycle"
                 },
                 {
                     "name": "Silica",
                     "amount": 11,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Silica(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -356,12 +356,12 @@
                 {
                     "name": "Plastic",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plastic(s)/cycle"
                 },
                 {
                     "name": "Quickwire",
                     "amount": 30,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quickwire(s)/cycle"
                 }
             ],
             "cycleTime": 48,
@@ -377,12 +377,12 @@
                 {
                     "name": "Rubber",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 },
                 {
                     "name": "Petroleum Coke",
                     "amount": 9,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Petroleum Coke(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -398,12 +398,12 @@
                 {
                     "name": "Copper Sheet",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Sheet(s)/cycle"
                 },
                 {
                     "name": "Plastic",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plastic(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -421,22 +421,22 @@
                 {
                     "name": "Sulfur",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Sulfur(s)/cycle"
                 },
                 {
                     "name": "Alclad Sheet",
                     "amount": 7,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Alclad Sheet(s)/cycle"
                 },
                 {
                     "name": "Plastic",
                     "amount": 8,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plastic(s)/cycle"
                 },
                 {
                     "name": "Wire",
                     "amount": 12,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wire(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -452,17 +452,17 @@
                 {
                     "name": "Sulfuric Acid",
                     "amount": 25.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Sulfuric Acid m^3/cycle"
                 },
                 {
                     "name": "Alumina Solution",
                     "amount": 20.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Alumina Solution m^3/cycle"
                 },
                 {
                     "name": "Aluminum Casing",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Casing(s)/cycle"
                 }
             ],
             "cycleTime": 3,
@@ -481,7 +481,7 @@
                 {
                     "name": "Wood",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wood(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -497,12 +497,51 @@
                 {
                     "name": "Biomass",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Biomass(s)/cycle"
                 }
             ],
             "cycleTime": 8,
             "products": [
                 "Coal"
+            ]
+        }
+    ],
+    "Empty Canister": [
+        {
+            "recipeName": "Alternate: Coated Iron Canister",
+            "producedIn": "Assembler",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "Iron Plate",
+                    "amount": 2,
+                    "measurement": "Iron Plate(s)/cycle"
+                },
+                {
+                    "name": "Copper Sheet",
+                    "amount": 1,
+                    "measurement": "Copper Sheet(s)/cycle"
+                }
+            ],
+            "cycleTime": 4,
+            "products": [
+                "Empty Canister"
+            ]
+        },
+        {
+            "recipeName": "Alternate: Steel Canister",
+            "producedIn": "Constructor",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "Steel Ingot",
+                    "amount": 3,
+                    "measurement": "Steel Ingot(s)/cycle"
+                }
+            ],
+            "cycleTime": 3,
+            "products": [
+                "Empty Canister"
             ]
         }
     ],
@@ -515,12 +554,12 @@
                 {
                     "name": "Iron Ingot",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ingot(s)/cycle"
                 },
                 {
                     "name": "Plastic",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plastic(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -536,12 +575,12 @@
                 {
                     "name": "Steel Ingot",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Ingot(s)/cycle"
                 },
                 {
                     "name": "Plastic",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plastic(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -557,7 +596,7 @@
                 {
                     "name": "Iron Ingot",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -575,12 +614,12 @@
                 {
                     "name": "Iron Ore",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ore(s)/cycle"
                 },
                 {
                     "name": "Petroleum Coke",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Petroleum Coke(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -596,12 +635,12 @@
                 {
                     "name": "Iron Ingot",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ingot(s)/cycle"
                 },
                 {
                     "name": "Coal",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Coal(s)/cycle"
                 }
             ],
             "cycleTime": 3,
@@ -617,12 +656,12 @@
                 {
                     "name": "Iron Ore",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ore(s)/cycle"
                 },
                 {
                     "name": "Compacted Coal",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Compacted Coal(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -638,12 +677,12 @@
                 {
                     "name": "Iron Ore",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ore(s)/cycle"
                 },
                 {
                     "name": "Coal",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Coal(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -661,17 +700,17 @@
                 {
                     "name": "Circuit Board",
                     "amount": 7,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Circuit Board(s)/cycle"
                 },
                 {
                     "name": "Quickwire",
                     "amount": 28,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quickwire(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 12,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -687,12 +726,12 @@
                 {
                     "name": "Circuit Board",
                     "amount": 8,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Circuit Board(s)/cycle"
                 },
                 {
                     "name": "Crystal Oscillator",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Crystal Oscillator(s)/cycle"
                 }
             ],
             "cycleTime": 64,
@@ -708,22 +747,22 @@
                 {
                     "name": "Circuit Board",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Circuit Board(s)/cycle"
                 },
                 {
                     "name": "Cable",
                     "amount": 9,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Cable(s)/cycle"
                 },
                 {
                     "name": "Plastic",
                     "amount": 18,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plastic(s)/cycle"
                 },
                 {
                     "name": "Screws",
                     "amount": 52,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Screws(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -741,12 +780,12 @@
                 {
                     "name": "Silica",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Silica(s)/cycle"
                 },
                 {
                     "name": "Limestone",
                     "amount": 12,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Limestone(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -762,12 +801,12 @@
                 {
                     "name": "Limestone",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Limestone(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -777,18 +816,18 @@
         },
         {
             "recipeName": "Alternate: Wet Concrete",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 4,
             "components": [
                 {
                     "name": "Limestone",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Limestone(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 3,
@@ -804,7 +843,7 @@
                 {
                     "name": "Limestone",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Limestone(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -822,17 +861,17 @@
                 {
                     "name": "Heat Sink",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Heat Sink(s)/cycle"
                 },
                 {
                     "name": "Motor",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Motor(s)/cycle"
                 },
                 {
                     "name": "Nitrogen Gas",
                     "amount": 240.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Nitrogen Gas m^3/cycle"
                 }
             ],
             "cycleTime": 32,
@@ -848,22 +887,22 @@
                 {
                     "name": "Heat Sink",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Heat Sink(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 },
                 {
                     "name": "Nitrogen Gas",
                     "amount": 250.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Nitrogen Gas m^3/cycle"
                 }
             ],
             "cycleTime": 10,
@@ -881,12 +920,12 @@
                 {
                     "name": "Copper Ore",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ore(s)/cycle"
                 },
                 {
                     "name": "Iron Ore",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ore(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -896,18 +935,18 @@
         },
         {
             "recipeName": "Alternate: Pure Copper Ingot",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 15,
             "components": [
                 {
                     "name": "Copper Ore",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ore(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 40.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -923,7 +962,7 @@
                 {
                     "name": "Copper Ore",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ore(s)/cycle"
                 }
             ],
             "cycleTime": 2,
@@ -941,12 +980,12 @@
                 {
                     "name": "Copper Sheet",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Sheet(s)/cycle"
                 },
                 {
                     "name": "Screws",
                     "amount": 52,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Screws(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -962,12 +1001,12 @@
                 {
                     "name": "Steel Pipe",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Pipe(s)/cycle"
                 },
                 {
                     "name": "Wire",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wire(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -983,12 +1022,12 @@
                 {
                     "name": "Iron Rod",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Rod(s)/cycle"
                 },
                 {
                     "name": "Screws",
                     "amount": 25,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Screws(s)/cycle"
                 }
             ],
             "cycleTime": 15,
@@ -1006,17 +1045,17 @@
                 {
                     "name": "Quartz Crystal",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quartz Crystal(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 7,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 },
                 {
                     "name": "AI Limiter",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "AI Limiter(s)/cycle"
                 }
             ],
             "cycleTime": 32,
@@ -1032,17 +1071,17 @@
                 {
                     "name": "Quartz Crystal",
                     "amount": 36,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quartz Crystal(s)/cycle"
                 },
                 {
                     "name": "Cable",
                     "amount": 28,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Cable(s)/cycle"
                 },
                 {
                     "name": "Reinforced Iron Plate",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Reinforced Iron Plate(s)/cycle"
                 }
             ],
             "cycleTime": 120,
@@ -1060,12 +1099,12 @@
                 {
                     "name": "Heavy Oil Residue",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Heavy Oil Residue m^3/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 100.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1075,13 +1114,13 @@
         },
         {
             "recipeName": "Standard: Fuel",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 4000,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1092,13 +1131,13 @@
         },
         {
             "recipeName": "Standard: Residual Fuel",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 4000,
             "components": [
                 {
                     "name": "Heavy Oil Residue",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Heavy Oil Residue m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1116,12 +1155,12 @@
                 {
                     "name": "Electromagnetic Control Rod",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Electromagnetic Control Rod(s)/cycle"
                 },
                 {
                     "name": "Rotor",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rotor(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -1137,17 +1176,17 @@
                 {
                     "name": "Rotor",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rotor(s)/cycle"
                 },
                 {
                     "name": "Stator",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Stator(s)/cycle"
                 },
                 {
                     "name": "Crystal Oscillator",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Crystal Oscillator(s)/cycle"
                 }
             ],
             "cycleTime": 48,
@@ -1163,12 +1202,12 @@
                 {
                     "name": "Rotor",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rotor(s)/cycle"
                 },
                 {
                     "name": "Stator",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Stator(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -1180,18 +1219,18 @@
     "Aluminum Scrap": [
         {
             "recipeName": "Alternate: Electrode - Aluminum Scrap",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 20,
             "components": [
                 {
                     "name": "Alumina Solution",
                     "amount": 120.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Alumina Solution m^3/cycle"
                 },
                 {
                     "name": "Petroleum Coke",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Petroleum Coke(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -1208,22 +1247,22 @@
                 {
                     "name": "Bauxite Ore",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Bauxite Ore(s)/cycle"
                 },
                 {
                     "name": "Coal",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Coal(s)/cycle"
                 },
                 {
                     "name": "Sulfuric Acid",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Sulfuric Acid m^3/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1236,18 +1275,18 @@
     "Water": [
         {
             "recipeName": "Alternate: Electrode - Aluminum Scrap",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 20,
             "components": [
                 {
                     "name": "Alumina Solution",
                     "amount": 120.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Alumina Solution m^3/cycle"
                 },
                 {
                     "name": "Petroleum Coke",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Petroleum Coke(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -1264,22 +1303,22 @@
                 {
                     "name": "Uranium Ore",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Ore(s)/cycle"
                 },
                 {
-                    "name": "Nuclear Waste",
+                    "name": "Uranium Waste",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Waste(s)/cycle"
                 },
                 {
                     "name": "Nitric Acid",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Nitric Acid m^3/cycle"
                 },
                 {
                     "name": "Sulfuric Acid",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Sulfuric Acid m^3/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -1296,22 +1335,22 @@
                 {
                     "name": "Bauxite Ore",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Bauxite Ore(s)/cycle"
                 },
                 {
                     "name": "Coal",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Coal(s)/cycle"
                 },
                 {
                     "name": "Sulfuric Acid",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Sulfuric Acid m^3/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1328,17 +1367,17 @@
                 {
                     "name": "Sulfuric Acid",
                     "amount": 25.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Sulfuric Acid m^3/cycle"
                 },
                 {
                     "name": "Alumina Solution",
                     "amount": 20.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Alumina Solution m^3/cycle"
                 },
                 {
                     "name": "Aluminum Casing",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Casing(s)/cycle"
                 }
             ],
             "cycleTime": 3,
@@ -1353,24 +1392,24 @@
             "producesPerCycle": 20,
             "components": [
                 {
-                    "name": "Nuclear Waste",
+                    "name": "Uranium Waste",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Waste(s)/cycle"
                 },
                 {
                     "name": "Silica",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Silica(s)/cycle"
                 },
                 {
                     "name": "Nitric Acid",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Nitric Acid m^3/cycle"
                 },
                 {
                     "name": "Sulfuric Acid",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Sulfuric Acid m^3/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -1389,12 +1428,12 @@
                 {
                     "name": "Stator",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Stator(s)/cycle"
                 },
                 {
                     "name": "High Speed Connector",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "High Speed Connector(s)/cycle"
                 }
             ],
             "cycleTime": 15,
@@ -1410,12 +1449,12 @@
                 {
                     "name": "Stator",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Stator(s)/cycle"
                 },
                 {
                     "name": "AI Limiter",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "AI Limiter(s)/cycle"
                 }
             ],
             "cycleTime": 30,
@@ -1433,12 +1472,12 @@
                 {
                     "name": "Steel Pipe",
                     "amount": 7,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Pipe(s)/cycle"
                 },
                 {
                     "name": "Concrete",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Concrete(s)/cycle"
                 }
             ],
             "cycleTime": 15,
@@ -1454,12 +1493,12 @@
                 {
                     "name": "Steel Beam",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Beam(s)/cycle"
                 },
                 {
                     "name": "Concrete",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Concrete(s)/cycle"
                 }
             ],
             "cycleTime": 10,
@@ -1477,12 +1516,12 @@
                 {
                     "name": "Coal",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Coal(s)/cycle"
                 },
                 {
                     "name": "Sulfur",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Sulfur(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -1500,22 +1539,22 @@
                 {
                     "name": "Uranium Ore",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Ore(s)/cycle"
                 },
                 {
-                    "name": "Nuclear Waste",
+                    "name": "Uranium Waste",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Waste(s)/cycle"
                 },
                 {
                     "name": "Nitric Acid",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Nitric Acid m^3/cycle"
                 },
                 {
                     "name": "Sulfuric Acid",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Sulfuric Acid m^3/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -1530,24 +1569,24 @@
             "producesPerCycle": 20,
             "components": [
                 {
-                    "name": "Nuclear Waste",
+                    "name": "Uranium Waste",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Waste(s)/cycle"
                 },
                 {
                     "name": "Silica",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Silica(s)/cycle"
                 },
                 {
                     "name": "Nitric Acid",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Nitric Acid m^3/cycle"
                 },
                 {
                     "name": "Sulfuric Acid",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Sulfuric Acid m^3/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -1566,17 +1605,17 @@
                 {
                     "name": "Modular Frame",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Modular Frame(s)/cycle"
                 },
                 {
                     "name": "Steel Beam",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Beam(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 8,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -1592,12 +1631,12 @@
                 {
                     "name": "Modular Frame",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Modular Frame(s)/cycle"
                 },
                 {
                     "name": "Steel Beam",
                     "amount": 12,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Beam(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -1615,12 +1654,12 @@
                 {
                     "name": "Copper Ingot",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ingot(s)/cycle"
                 },
                 {
                     "name": "Gold Ingot",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Gold Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 20,
@@ -1636,7 +1675,7 @@
                 {
                     "name": "Iron Ingot",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -1652,7 +1691,7 @@
                 {
                     "name": "Gold Ingot",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Gold Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -1668,7 +1707,7 @@
                 {
                     "name": "Copper Ingot",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -1686,12 +1725,12 @@
                 {
                     "name": "Sulfur",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Sulfur(s)/cycle"
                 },
                 {
                     "name": "Compacted Coal",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Compacted Coal(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -1707,12 +1746,12 @@
                 {
                     "name": "Coal",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Coal(s)/cycle"
                 },
                 {
                     "name": "Sulfur",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Sulfur(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -1730,22 +1769,22 @@
                 {
                     "name": "Heavy Modular Frame",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Heavy Modular Frame(s)/cycle"
                 },
                 {
                     "name": "Aluminum Ingot",
                     "amount": 50,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Ingot(s)/cycle"
                 },
                 {
                     "name": "Nitric Acid",
                     "amount": 80.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Nitric Acid m^3/cycle"
                 },
                 {
                     "name": "Fuel",
                     "amount": 100.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Fuel m^3/cycle"
                 }
             ],
             "cycleTime": 20,
@@ -1761,17 +1800,17 @@
                 {
                     "name": "Heavy Modular Frame",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Heavy Modular Frame(s)/cycle"
                 },
                 {
                     "name": "Aluminum Casing",
                     "amount": 50,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Casing(s)/cycle"
                 },
                 {
                     "name": "Nitrogen Gas",
                     "amount": 250.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Nitrogen Gas m^3/cycle"
                 }
             ],
             "cycleTime": 40,
@@ -1789,12 +1828,12 @@
                 {
                     "name": "Aluminum Casing",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Casing(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1810,12 +1849,12 @@
                 {
                     "name": "Alclad Sheet",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Alclad Sheet(s)/cycle"
                 },
                 {
                     "name": "Copper Sheet",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Sheet(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -1833,22 +1872,22 @@
                 {
                     "name": "Modular Frame",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Modular Frame(s)/cycle"
                 },
                 {
                     "name": "Encased Industrial Beam",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Encased Industrial Beam(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 20,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 },
                 {
                     "name": "Screws",
                     "amount": 104,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Screws(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -1864,22 +1903,22 @@
                 {
                     "name": "Modular Frame",
                     "amount": 8,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Modular Frame(s)/cycle"
                 },
                 {
                     "name": "Encased Industrial Beam",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Encased Industrial Beam(s)/cycle"
                 },
                 {
                     "name": "Steel Pipe",
                     "amount": 36,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Pipe(s)/cycle"
                 },
                 {
                     "name": "Concrete",
                     "amount": 22,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Concrete(s)/cycle"
                 }
             ],
             "cycleTime": 64,
@@ -1895,22 +1934,22 @@
                 {
                     "name": "Modular Frame",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Modular Frame(s)/cycle"
                 },
                 {
                     "name": "Steel Pipe",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Pipe(s)/cycle"
                 },
                 {
                     "name": "Encased Industrial Beam",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Encased Industrial Beam(s)/cycle"
                 },
                 {
                     "name": "Screws",
                     "amount": 100,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Screws(s)/cycle"
                 }
             ],
             "cycleTime": 30,
@@ -1922,13 +1961,13 @@
     "Heavy Oil Residue": [
         {
             "recipeName": "Alternate: Heavy Oil Residue",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 4000,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1939,13 +1978,13 @@
         },
         {
             "recipeName": "Alternate: Polymer Resin",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 13,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1956,13 +1995,13 @@
         },
         {
             "recipeName": "Standard: Plastic",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1973,13 +2012,13 @@
         },
         {
             "recipeName": "Standard: Rubber",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -1992,13 +2031,13 @@
     "Polymer Resin": [
         {
             "recipeName": "Alternate: Heavy Oil Residue",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 4000,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2009,13 +2048,13 @@
         },
         {
             "recipeName": "Alternate: Polymer Resin",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 13,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2026,13 +2065,13 @@
         },
         {
             "recipeName": "Standard: Fuel",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 4000,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2051,17 +2090,17 @@
                 {
                     "name": "Quickwire",
                     "amount": 60,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quickwire(s)/cycle"
                 },
                 {
                     "name": "Silica",
                     "amount": 25,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Silica(s)/cycle"
                 },
                 {
                     "name": "Circuit Board",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Circuit Board(s)/cycle"
                 }
             ],
             "cycleTime": 40,
@@ -2077,17 +2116,17 @@
                 {
                     "name": "Quickwire",
                     "amount": 56,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quickwire(s)/cycle"
                 },
                 {
                     "name": "Cable",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Cable(s)/cycle"
                 },
                 {
                     "name": "Circuit Board",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Circuit Board(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -2105,17 +2144,17 @@
                 {
                     "name": "Stator",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Stator(s)/cycle"
                 },
                 {
                     "name": "Wire",
                     "amount": 40,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wire(s)/cycle"
                 },
                 {
                     "name": "High Speed Connector",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "High Speed Connector(s)/cycle"
                 }
             ],
             "cycleTime": 32,
@@ -2131,12 +2170,12 @@
                 {
                     "name": "Stator",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Stator(s)/cycle"
                 },
                 {
                     "name": "Cable",
                     "amount": 20,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Cable(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -2154,12 +2193,12 @@
                 {
                     "name": "Iron Ore",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ore(s)/cycle"
                 },
                 {
                     "name": "Copper Ore",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ore(s)/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2169,18 +2208,18 @@
         },
         {
             "recipeName": "Alternate: Pure Iron Ingot",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 13,
             "components": [
                 {
                     "name": "Iron Ore",
                     "amount": 7,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ore(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 40.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -2196,7 +2235,7 @@
                 {
                     "name": "Iron Ore",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ore(s)/cycle"
                 }
             ],
             "cycleTime": 2,
@@ -2214,12 +2253,12 @@
                 {
                     "name": "Non Fissile Uranium",
                     "amount": 150,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Non Fissile Uranium(s)/cycle"
                 },
                 {
                     "name": "Aluminum Casing",
                     "amount": 20,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Casing(s)/cycle"
                 }
             ],
             "cycleTime": 120,
@@ -2235,71 +2274,17 @@
                 {
                     "name": "Plutonium Pellet",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plutonium Pellet(s)/cycle"
                 },
                 {
                     "name": "Concrete",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Concrete(s)/cycle"
                 }
             ],
             "cycleTime": 12,
             "products": [
                 "Encased Plutonium Cell"
-            ]
-        }
-    ],
-    "Uranium Fuel Rod": [
-        {
-            "recipeName": "Alternate: Uranium Fuel Unit",
-            "producedIn": "Manufacturer",
-            "producesPerCycle": 3,
-            "components": [
-                {
-                    "name": "Uranium Cell",
-                    "amount": 100,
-                    "measurement": "items/productionCycle"
-                },
-                {
-                    "name": "Electromagnetic Control Rod",
-                    "amount": 10,
-                    "measurement": "items/productionCycle"
-                },
-                {
-                    "name": "Crystal Oscillator",
-                    "amount": 3,
-                    "measurement": "items/productionCycle"
-                }
-            ],
-            "cycleTime": 300,
-            "products": [
-                "Uranium Fuel Rod"
-            ]
-        },
-        {
-            "recipeName": "Standard: Uranium Fuel Rod",
-            "producedIn": "Manufacturer",
-            "producesPerCycle": 1,
-            "components": [
-                {
-                    "name": "Uranium Cell",
-                    "amount": 50,
-                    "measurement": "items/productionCycle"
-                },
-                {
-                    "name": "Encased Industrial Beam",
-                    "amount": 3,
-                    "measurement": "items/productionCycle"
-                },
-                {
-                    "name": "Electromagnetic Control Rod",
-                    "amount": 5,
-                    "measurement": "items/productionCycle"
-                }
-            ],
-            "cycleTime": 150,
-            "products": [
-                "Uranium Fuel Rod"
             ]
         }
     ],
@@ -2312,12 +2297,12 @@
                 {
                     "name": "Radio Control Unit",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Radio Control Unit(s)/cycle"
                 },
                 {
                     "name": "Cooling System",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Cooling System(s)/cycle"
                 }
             ],
             "cycleTime": 20,
@@ -2333,22 +2318,22 @@
                 {
                     "name": "Computer",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Computer(s)/cycle"
                 },
                 {
                     "name": "Electromagnetic Control Rod",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Electromagnetic Control Rod(s)/cycle"
                 },
                 {
                     "name": "Battery",
                     "amount": 20,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Battery(s)/cycle"
                 },
                 {
                     "name": "Wire",
                     "amount": 45,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wire(s)/cycle"
                 }
             ],
             "cycleTime": 50,
@@ -2364,22 +2349,22 @@
                 {
                     "name": "Computer",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Computer(s)/cycle"
                 },
                 {
                     "name": "AI Limiter",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "AI Limiter(s)/cycle"
                 },
                 {
                     "name": "High Speed Connector",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "High Speed Connector(s)/cycle"
                 },
                 {
                     "name": "Plastic",
                     "amount": 28,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plastic(s)/cycle"
                 }
             ],
             "cycleTime": 32,
@@ -2391,18 +2376,18 @@
     "Plastic": [
         {
             "recipeName": "Alternate: Recycled Plastic",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 12,
             "components": [
                 {
                     "name": "Rubber",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 },
                 {
                     "name": "Fuel",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Fuel m^3/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -2412,13 +2397,13 @@
         },
         {
             "recipeName": "Standard: Plastic",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2429,18 +2414,18 @@
         },
         {
             "recipeName": "Standard: Residual Plastic",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
                 {
                     "name": "Polymer Resin",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Polymer Resin(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 20.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2458,17 +2443,17 @@
                 {
                     "name": "Reinforced Iron Plate",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Reinforced Iron Plate(s)/cycle"
                 },
                 {
                     "name": "Rotor",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rotor(s)/cycle"
                 },
                 {
                     "name": "Plastic",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plastic(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -2484,12 +2469,12 @@
                 {
                     "name": "Reinforced Iron Plate",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Reinforced Iron Plate(s)/cycle"
                 },
                 {
                     "name": "Rotor",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rotor(s)/cycle"
                 }
             ],
             "cycleTime": 30,
@@ -2507,12 +2492,12 @@
                 {
                     "name": "Encased Plutonium Cell",
                     "amount": 20,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Encased Plutonium Cell(s)/cycle"
                 },
                 {
                     "name": "Pressure Conversion Cube",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Pressure Conversion Cube(s)/cycle"
                 }
             ],
             "cycleTime": 120,
@@ -2528,22 +2513,22 @@
                 {
                     "name": "Encased Plutonium Cell",
                     "amount": 30,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Encased Plutonium Cell(s)/cycle"
                 },
                 {
                     "name": "Steel Beam",
                     "amount": 18,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Beam(s)/cycle"
                 },
                 {
                     "name": "Electromagnetic Control Rod",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Electromagnetic Control Rod(s)/cycle"
                 },
                 {
                     "name": "Heat Sink",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Heat Sink(s)/cycle"
                 }
             ],
             "cycleTime": 240,
@@ -2555,18 +2540,18 @@
     "Fabric": [
         {
             "recipeName": "Alternate: Polyester Fabric",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 1,
             "components": [
                 {
                     "name": "Polymer Resin",
                     "amount": 16,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Polymer Resin(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 100.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -2580,9 +2565,14 @@
             "producesPerCycle": 1,
             "components": [
                 {
+                    "name": "Mycelia",
+                    "amount": 1,
+                    "measurement": "Mycelia(s)/cycle"
+                },
+                {
                     "name": "Biomass",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Biomass(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -2594,18 +2584,18 @@
     "Gold Ingot": [
         {
             "recipeName": "Alternate: Pure Caterium Ingot",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 1,
             "components": [
                 {
                     "name": "Caterium Ore",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Caterium Ore(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 20.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 5,
@@ -2621,7 +2611,7 @@
                 {
                     "name": "Caterium Ore",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Caterium Ore(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -2633,18 +2623,18 @@
     "Quartz Crystal": [
         {
             "recipeName": "Alternate: Pure Quartz Crystal",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 7,
             "components": [
                 {
                     "name": "Raw Quartz",
                     "amount": 9,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Raw Quartz(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -2660,7 +2650,7 @@
                 {
                     "name": "Raw Quartz",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Raw Quartz(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -2678,12 +2668,12 @@
                 {
                     "name": "Gold Ingot",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Gold Ingot(s)/cycle"
                 },
                 {
                     "name": "Copper Ingot",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -2699,7 +2689,7 @@
                 {
                     "name": "Gold Ingot",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Gold Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 5,
@@ -2717,22 +2707,22 @@
                 {
                     "name": "Crystal Oscillator",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Crystal Oscillator(s)/cycle"
                 },
                 {
                     "name": "Circuit Board",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Circuit Board(s)/cycle"
                 },
                 {
                     "name": "Aluminum Casing",
                     "amount": 60,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Casing(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 30,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 }
             ],
             "cycleTime": 40,
@@ -2748,17 +2738,17 @@
                 {
                     "name": "Heat Sink",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Heat Sink(s)/cycle"
                 },
                 {
                     "name": "High Speed Connector",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "High Speed Connector(s)/cycle"
                 },
                 {
                     "name": "Quartz Crystal",
                     "amount": 12,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quartz Crystal(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -2774,17 +2764,17 @@
                 {
                     "name": "Aluminum Casing",
                     "amount": 32,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Casing(s)/cycle"
                 },
                 {
                     "name": "Crystal Oscillator",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Crystal Oscillator(s)/cycle"
                 },
                 {
                     "name": "Computer",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Computer(s)/cycle"
                 }
             ],
             "cycleTime": 48,
@@ -2796,18 +2786,18 @@
     "Rubber": [
         {
             "recipeName": "Alternate: Recycled Rubber",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 12,
             "components": [
                 {
                     "name": "Plastic",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Plastic(s)/cycle"
                 },
                 {
                     "name": "Fuel",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Fuel m^3/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -2817,18 +2807,18 @@
         },
         {
             "recipeName": "Standard: Residual Rubber",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
                 {
                     "name": "Polymer Resin",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Polymer Resin(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 40.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2838,13 +2828,13 @@
         },
         {
             "recipeName": "Standard: Rubber",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
                 {
                     "name": "Oil",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Oil m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2863,7 +2853,7 @@
                 {
                     "name": "Steel Beam",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Beam(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -2879,7 +2869,7 @@
                 {
                     "name": "Iron Ingot",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 24,
@@ -2895,7 +2885,7 @@
                 {
                     "name": "Iron Rod",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Rod(s)/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2913,12 +2903,12 @@
                 {
                     "name": "Raw Quartz",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Raw Quartz(s)/cycle"
                 },
                 {
                     "name": "Limestone",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Limestone(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -2928,18 +2918,18 @@
         },
         {
             "recipeName": "Standard: Alumina Solution",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 12000,
             "components": [
                 {
                     "name": "Bauxite Ore",
                     "amount": 12,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Bauxite Ore(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 180.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -2956,7 +2946,7 @@
                 {
                     "name": "Raw Quartz",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Raw Quartz(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -2968,18 +2958,18 @@
     "Alumina Solution": [
         {
             "recipeName": "Alternate: Sloppy Alumina",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 12000,
             "components": [
                 {
                     "name": "Bauxite Ore",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Bauxite Ore(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 100.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 3,
@@ -2989,18 +2979,18 @@
         },
         {
             "recipeName": "Standard: Alumina Solution",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 12000,
             "components": [
                 {
                     "name": "Bauxite Ore",
                     "amount": 12,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Bauxite Ore(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 180.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -3019,12 +3009,12 @@
                 {
                     "name": "Steel Pipe",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Pipe(s)/cycle"
                 },
                 {
                     "name": "Quickwire",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quickwire(s)/cycle"
                 }
             ],
             "cycleTime": 15,
@@ -3040,12 +3030,12 @@
                 {
                     "name": "Steel Pipe",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Pipe(s)/cycle"
                 },
                 {
                     "name": "Wire",
                     "amount": 8,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Wire(s)/cycle"
                 }
             ],
             "cycleTime": 12,
@@ -3057,18 +3047,18 @@
     "Copper Sheet": [
         {
             "recipeName": "Alternate: Steamed Copper Sheet",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 3,
             "components": [
                 {
                     "name": "Copper Ingot",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ingot(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -3084,7 +3074,7 @@
                 {
                     "name": "Copper Ingot",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -3102,7 +3092,7 @@
                 {
                     "name": "Steel Ingot",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 5,
@@ -3118,7 +3108,7 @@
                 {
                     "name": "Iron Ingot",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -3136,22 +3126,22 @@
                 {
                     "name": "Fuel",
                     "amount": 20.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Fuel m^3/cycle"
                 },
                 {
                     "name": "Heavy Oil Residue",
                     "amount": 40.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Heavy Oil Residue m^3/cycle"
                 },
                 {
                     "name": "Sulfur",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Sulfur(s)/cycle"
                 },
                 {
                     "name": "Petroleum Coke",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Petroleum Coke(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -3161,18 +3151,18 @@
         },
         {
             "recipeName": "Standard: Turbofuel",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 5000,
             "components": [
                 {
                     "name": "Fuel",
                     "amount": 60.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Fuel m^3/cycle"
                 },
                 {
                     "name": "Compacted Coal",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Compacted Coal(s)/cycle"
                 }
             ],
             "cycleTime": 16,
@@ -3182,18 +3172,18 @@
         },
         {
             "recipeName": "Alternate: Turbo Heavy Fuel",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 4000,
             "components": [
                 {
                     "name": "Heavy Oil Residue",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Heavy Oil Residue m^3/cycle"
                 },
                 {
                     "name": "Compacted Coal",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Compacted Coal(s)/cycle"
                 }
             ],
             "cycleTime": 8,
@@ -3211,22 +3201,22 @@
                 {
                     "name": "Motor",
                     "amount": 7,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Motor(s)/cycle"
                 },
                 {
                     "name": "Radio Control Unit",
                     "amount": 9,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Radio Control Unit(s)/cycle"
                 },
                 {
                     "name": "Electromagnetic Control Rod",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Electromagnetic Control Rod(s)/cycle"
                 },
                 {
                     "name": "Rotor",
                     "amount": 7,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rotor(s)/cycle"
                 }
             ],
             "cycleTime": 64,
@@ -3242,17 +3232,22 @@
                 {
                     "name": "Motor",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Motor(s)/cycle"
                 },
                 {
                     "name": "Pressure Conversion Cube",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Pressure Conversion Cube(s)/cycle"
+                },
+                {
+                    "name": "Packaged Nitrogen Gas",
+                    "amount": 24,
+                    "measurement": "Packaged Nitrogen Gas(s)/cycle"
                 },
                 {
                     "name": "Stator",
                     "amount": 8,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Stator(s)/cycle"
                 }
             ],
             "cycleTime": 32,
@@ -3268,22 +3263,22 @@
                 {
                     "name": "Cooling System",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Cooling System(s)/cycle"
                 },
                 {
                     "name": "Radio Control Unit",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Radio Control Unit(s)/cycle"
                 },
                 {
                     "name": "Motor",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Motor(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 24,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 }
             ],
             "cycleTime": 32,
@@ -3292,7 +3287,7 @@
             ]
         }
     ],
-    "Uranium Cell": [
+    "Encased Uranium Cell": [
         {
             "recipeName": "Alternate: Infused Uranium Cell",
             "producedIn": "Manufacturer",
@@ -3301,27 +3296,27 @@
                 {
                     "name": "Uranium Ore",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Ore(s)/cycle"
                 },
                 {
                     "name": "Silica",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Silica(s)/cycle"
                 },
                 {
                     "name": "Sulfur",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Sulfur(s)/cycle"
                 },
                 {
                     "name": "Quickwire",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Quickwire(s)/cycle"
                 }
             ],
             "cycleTime": 12,
             "products": [
-                "Uranium Cell"
+                "Encased Uranium Cell"
             ]
         },
         {
@@ -3332,22 +3327,22 @@
                 {
                     "name": "Uranium Ore",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Ore(s)/cycle"
                 },
                 {
                     "name": "Concrete",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Concrete(s)/cycle"
                 },
                 {
                     "name": "Sulfuric Acid",
                     "amount": 80.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Sulfuric Acid m^3/cycle"
                 }
             ],
             "cycleTime": 12,
             "products": [
-                "Uranium Cell",
+                "Encased Uranium Cell",
                 "Sulfuric Acid"
             ]
         }
@@ -3361,12 +3356,12 @@
                 {
                     "name": "Aluminum Ingot",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Ingot(s)/cycle"
                 },
                 {
                     "name": "Copper Ingot",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -3375,32 +3370,36 @@
             ]
         }
     ],
-    "Biomass": [
+    "Solid BioFuel": [
         {
-            "recipeName": "Standard: Biomass (Alien Carapace)",
+            "recipeName": "Standard: Solid Biofuel",
             "producedIn": "Constructor",
-            "producesPerCycle": 100,
-            "components": [],
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "Biomass",
+                    "amount": 8,
+                    "measurement": "Biomass(s)/cycle"
+                }
+            ],
             "cycleTime": 4,
             "products": [
-                "Biomass"
+                "Solid BioFuel"
             ]
-        },
-        {
-            "recipeName": "Standard: Biomass (Alien Organs)",
-            "producedIn": "Constructor",
-            "producesPerCycle": 200,
-            "components": [],
-            "cycleTime": 8,
-            "products": [
-                "Biomass"
-            ]
-        },
+        }
+    ],
+    "Biomass": [
         {
             "recipeName": "Standard: Biomass (Leaves)",
             "producedIn": "Constructor",
             "producesPerCycle": 5,
-            "components": [],
+            "components": [
+                {
+                    "name": "Leaves",
+                    "amount": 10,
+                    "measurement": "Leaves(s)/cycle"
+                }
+            ],
             "cycleTime": 5,
             "products": [
                 "Biomass"
@@ -3410,7 +3409,13 @@
             "recipeName": "Standard: Biomass (Mycelia)",
             "producedIn": "Constructor",
             "producesPerCycle": 10,
-            "components": [],
+            "components": [
+                {
+                    "name": "Mycelia",
+                    "amount": 10,
+                    "measurement": "Mycelia(s)/cycle"
+                }
+            ],
             "cycleTime": 4,
             "products": [
                 "Biomass"
@@ -3424,12 +3429,46 @@
                 {
                     "name": "Wood",
                     "amount": 4,
+                    "measurement": "Wood(s)/cycle"
+                }
+            ],
+            "cycleTime": 4,
+            "products": [
+                "Biomass"
+            ]
+        },
+        {
+            "recipeName": "Standard: Standard: Biomass (Alien Protein)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1500,
+            "components": [
+                {
+                    "name": "Alien Protein",
+                    "amount": 1,
                     "measurement": "items/productionCycle"
                 }
             ],
             "cycleTime": 4,
             "products": [
                 "Biomass"
+            ]
+        }
+    ],
+    "Color Cartridge": [
+        {
+            "recipeName": "Standard: Color Cartridge",
+            "producedIn": "Constructor",
+            "producesPerCycle": 10,
+            "components": [
+                {
+                    "name": "Flower Petals",
+                    "amount": 5,
+                    "measurement": "Flower Petals(s)/cycle"
+                }
+            ],
+            "cycleTime": 8,
+            "products": [
+                "Color Cartridge"
             ]
         }
     ],
@@ -3442,12 +3481,68 @@
                 {
                     "name": "Copper Ingot",
                     "amount": 30,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 6,
             "products": [
                 "Copper Dust"
+            ]
+        }
+    ],
+    "Gas Filter": [
+        {
+            "recipeName": "Standard: Gas Filter",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Coal",
+                    "amount": 5,
+                    "measurement": "Coal(s)/cycle"
+                },
+                {
+                    "name": "Rubber",
+                    "amount": 2,
+                    "measurement": "Rubber(s)/cycle"
+                },
+                {
+                    "name": "Fabric",
+                    "amount": 2,
+                    "measurement": "Fabric(s)/cycle"
+                }
+            ],
+            "cycleTime": 8,
+            "products": [
+                "Gas Filter"
+            ]
+        }
+    ],
+    "Iodine Infused Filter": [
+        {
+            "recipeName": "Standard: Iodine Infused Filter",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Gas Filter",
+                    "amount": 1,
+                    "measurement": "Gas Filter(s)/cycle"
+                },
+                {
+                    "name": "Quickwire",
+                    "amount": 8,
+                    "measurement": "Quickwire(s)/cycle"
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "amount": 1,
+                    "measurement": "Aluminum Casing(s)/cycle"
+                }
+            ],
+            "cycleTime": 16,
+            "products": [
+                "Iodine Infused Filter"
             ]
         }
     ],
@@ -3460,12 +3555,12 @@
                 {
                     "name": "Aluminum Scrap",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Scrap(s)/cycle"
                 },
                 {
                     "name": "Silica",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Silica(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -3481,12 +3576,35 @@
                 {
                     "name": "Aluminum Scrap",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Aluminum Scrap(s)/cycle"
                 }
             ],
             "cycleTime": 2,
             "products": [
                 "Aluminum Ingot"
+            ]
+        }
+    ],
+    "Liquid BioFuel": [
+        {
+            "recipeName": "Standard: Liquid Biofuel",
+            "producedIn": "Refinery",
+            "producesPerCycle": 4000,
+            "components": [
+                {
+                    "name": "Solid BioFuel",
+                    "amount": 6,
+                    "measurement": "Solid BioFuel(s)/cycle"
+                },
+                {
+                    "name": "Water",
+                    "amount": 30.0,
+                    "measurement": "Water m^3/cycle"
+                }
+            ],
+            "cycleTime": 4,
+            "products": [
+                "Liquid BioFuel"
             ]
         }
     ],
@@ -3499,17 +3617,17 @@
                 {
                     "name": "Nitrogen Gas",
                     "amount": 120.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Nitrogen Gas m^3/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 30.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 },
                 {
                     "name": "Iron Plate",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Iron Plate(s)/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -3518,16 +3636,44 @@
             ]
         }
     ],
+    "Uranium Fuel Rod": [
+        {
+            "recipeName": "Standard: Uranium Fuel Rod",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Encased Uranium Cell",
+                    "amount": 50,
+                    "measurement": "Encased Uranium Cell(s)/cycle"
+                },
+                {
+                    "name": "Encased Industrial Beam",
+                    "amount": 3,
+                    "measurement": "Encased Industrial Beam(s)/cycle"
+                },
+                {
+                    "name": "Electromagnetic Control Rod",
+                    "amount": 5,
+                    "measurement": "Electromagnetic Control Rod(s)/cycle"
+                }
+            ],
+            "cycleTime": 150,
+            "products": [
+                "Uranium Fuel Rod"
+            ]
+        }
+    ],
     "Petroleum Coke": [
         {
             "recipeName": "Standard: Petroleum Coke",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 12,
             "components": [
                 {
                     "name": "Heavy Oil Residue",
                     "amount": 40.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Heavy Oil Residue m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -3545,12 +3691,12 @@
                 {
                     "name": "Non Fissile Uranium",
                     "amount": 100,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Non Fissile Uranium(s)/cycle"
                 },
                 {
-                    "name": "Nuclear Waste",
+                    "name": "Uranium Waste",
                     "amount": 25,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Waste(s)/cycle"
                 }
             ],
             "cycleTime": 60,
@@ -3568,12 +3714,12 @@
                 {
                     "name": "Fused Modular Frame",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Fused Modular Frame(s)/cycle"
                 },
                 {
                     "name": "Radio Control Unit",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Radio Control Unit(s)/cycle"
                 }
             ],
             "cycleTime": 60,
@@ -3591,17 +3737,17 @@
                 {
                     "name": "Motor",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Motor(s)/cycle"
                 },
                 {
                     "name": "Rubber",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Rubber(s)/cycle"
                 },
                 {
                     "name": "Project Part: Smart Plating",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Project Part: Smart Plating(s)/cycle"
                 }
             ],
             "cycleTime": 60,
@@ -3619,22 +3765,22 @@
                 {
                     "name": "Project Part: Automated Wiring",
                     "amount": 15,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Project Part: Automated Wiring(s)/cycle"
                 },
                 {
                     "name": "Circuit Board",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Circuit Board(s)/cycle"
                 },
                 {
                     "name": "Heavy Modular Frame",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Heavy Modular Frame(s)/cycle"
                 },
                 {
                     "name": "Computer",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Computer(s)/cycle"
                 }
             ],
             "cycleTime": 120,
@@ -3652,17 +3798,17 @@
                 {
                     "name": "Project Part: Versatile Framework",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Project Part: Versatile Framework(s)/cycle"
                 },
                 {
                     "name": "Electromagnetic Control Rod",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Electromagnetic Control Rod(s)/cycle"
                 },
                 {
                     "name": "Battery",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Battery(s)/cycle"
                 }
             ],
             "cycleTime": 120,
@@ -3680,12 +3826,12 @@
                 {
                     "name": "Project Part: Adaptive Control Unit",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Project Part: Adaptive Control Unit(s)/cycle"
                 },
                 {
                     "name": "Super Computer",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Super Computer(s)/cycle"
                 }
             ],
             "cycleTime": 80,
@@ -3703,22 +3849,22 @@
                 {
                     "name": "Project Part: Modular Engine",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Project Part: Modular Engine(s)/cycle"
                 },
                 {
                     "name": "Turbo Motor",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Turbo Motor(s)/cycle"
                 },
                 {
                     "name": "Cooling System",
                     "amount": 6,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Cooling System(s)/cycle"
                 },
                 {
                     "name": "Fused Modular Frame",
                     "amount": 2,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Fused Modular Frame(s)/cycle"
                 }
             ],
             "cycleTime": 120,
@@ -3736,12 +3882,12 @@
                 {
                     "name": "Copper Dust",
                     "amount": 200,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Copper Dust(s)/cycle"
                 },
                 {
                     "name": "Pressure Conversion Cube",
                     "amount": 1,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Pressure Conversion Cube(s)/cycle"
                 }
             ],
             "cycleTime": 120,
@@ -3759,7 +3905,7 @@
                 {
                     "name": "Steel Ingot",
                     "amount": 4,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -3777,7 +3923,7 @@
                 {
                     "name": "Steel Ingot",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Steel Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -3789,18 +3935,18 @@
     "Sulfuric Acid": [
         {
             "recipeName": "Standard: Sulfuric Acid",
-            "producedIn": "Oil Refinery",
+            "producedIn": "Refinery",
             "producesPerCycle": 5000,
             "components": [
                 {
                     "name": "Sulfur",
                     "amount": 5,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Sulfur(s)/cycle"
                 },
                 {
                     "name": "Water",
                     "amount": 50.0,
-                    "measurement": "m^3/productionCycle"
+                    "measurement": "Water m^3/cycle"
                 }
             ],
             "cycleTime": 6,
@@ -3816,23 +3962,514 @@
                 {
                     "name": "Uranium Ore",
                     "amount": 10,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Uranium Ore(s)/cycle"
                 },
                 {
                     "name": "Concrete",
                     "amount": 3,
-                    "measurement": "items/productionCycle"
+                    "measurement": "Concrete(s)/cycle"
                 },
                 {
                     "name": "Sulfuric Acid",
                     "amount": 80.0,
+                    "measurement": "Sulfuric Acid m^3/cycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Encased Uranium Cell",
+                "Sulfuric Acid"
+            ]
+        }
+    ],
+    "Uranium Waste": [
+        {
+            "recipeName": "Standard: Uranium Waste",
+            "producedIn": "Nuclear Power Plant",
+            "producesPerCycle": 50,
+            "components": [
+                {
+                    "name": "Uranium Fuel Rod",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Water",
+                    "amount": 150,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 300,
+            "products": [
+                "Uranium Waste"
+            ]
+        }
+    ],
+    "Alien Protein": [
+        {
+            "recipeName": "Standard: Alien Protein (Hog Remains)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Hog Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 3,
+            "products": [
+                "Alien Protein"
+            ]
+        },
+        {
+            "recipeName": "Standard: Alien Protein (Splitter Remains)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Splitter Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 3,
+            "products": [
+                "Alien Protein"
+            ]
+        },
+        {
+            "recipeName": "Standard: Alien Protein (Hatcher Remains)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Hatcher Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 3,
+            "products": [
+                "Alien Protein"
+            ]
+        },
+        {
+            "recipeName": "Standard: Alien Protein (Stinger Remains)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Stinger Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 3,
+            "products": [
+                "Uranium Waste"
+            ]
+        }
+    ],
+    "Organic Data Capsule": [
+        {
+            "recipeName": "Standard: Organic Data Capsule",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Alien Protein",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Organic Data Capsule"
+            ]
+        }
+    ],
+    "Packaged Nitrogen Gas": [
+        {
+            "recipeName": "Standard: Packaged Nitrogen Gas",
+            "producedIn": "Packager",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Nitrogen Gas",
+                    "amount": 4,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 1,
+            "products": [
+                "Packaged Nitrogen Gas"
+            ]
+        }
+    ],
+    "Empty Fluid Tank": [
+        {
+            "recipeName": "Standard: Empty Fluid Tank",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Aluminum Ingot",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 1,
+            "products": [
+                "Empty Fluid Tank"
+            ]
+        }
+    ],
+    "Cluster Nobelisk": [
+        {
+            "recipeName": "Standard: Cluster Nobelisk",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Nobelisk",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "amount": 4,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Cluster Nobelisk"
+            ]
+        }
+    ],
+    "Gas Nobelisk": [
+        {
+            "recipeName": "Standard: Gas Nobelisk",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Nobelisk",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Biomass",
+                    "amount": 10,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Gas Nobelisk"
+            ]
+        }
+    ],
+    "Nuke Nobelisk": [
+        {
+            "recipeName": "Standard: Nuke Nobelisk",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Nobelisk",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "amount": 10,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Encased Uranium Cell",
+                    "amount": 20,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "AI Limiter",
+                    "amount": 6,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Nuke Nobelisk"
+            ]
+        }
+    ],
+    "Pulse Nobelisk": [
+        {
+            "recipeName": "Standard: Pulse Nobelisk",
+            "producedIn": "Assembler",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "Nobelisk",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Crystal Oscillator",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 60,
+            "products": [
+                "Pulse Nobelisk"
+            ]
+        }
+    ],
+    "Nobelisk": [
+        {
+            "recipeName": "Standard: Nobelisk",
+            "producedIn": "Assembler",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "Steel Pipe",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Black Powder",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Nobelisk"
+            ]
+        },
+        {
+            "recipeName": "Alternate: Seismic Nobelisk",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "Steel Pipe",
+                    "amount": 8,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Black Powder",
+                    "amount": 8,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Crystal Oscillator",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 40,
+            "products": [
+                "Nobelisk"
+            ]
+        }
+    ],
+    "Homing Rifle Ammo": [
+        {
+            "recipeName": "Standard: Homing Rifle Ammo",
+            "producedIn": "Assembler",
+            "producesPerCycle": 10,
+            "components": [
+                {
+                    "name": "Rifle Ammo",
+                    "amount": 20,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "High Speed Connector",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 5,
+            "products": [
+                "Homing Rifle Ammo"
+            ]
+        }
+    ],
+    "Turbo Rifle Ammo": [
+        {
+            "recipeName": "Standard: Turbo Rifle Ammo (Manufacturer)",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 50,
+            "components": [
+                {
+                    "name": "Rifle Ammo",
+                    "amount": 25,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Packaged Turbo Fuel",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Turbo Rifle Ammo"
+            ]
+        },
+        {
+            "recipeName": "Standard: Turbo Rifle Ammo (Blender)",
+            "producedIn": "Blender",
+            "producesPerCycle": 50,
+            "components": [
+                {
+                    "name": "Rifle Ammo",
+                    "amount": 25,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Turbo Fuel",
+                    "amount": 3,
                     "measurement": "m^3/productionCycle"
                 }
             ],
             "cycleTime": 12,
             "products": [
-                "Uranium Cell",
-                "Sulfuric Acid"
+                "Turbo Rifle Ammo"
+            ]
+        }
+    ],
+    "Explosive Rebar": [
+        {
+            "recipeName": "Standard: Explosive Rebar",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Rebar",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Steel Pipe",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Explosive Rebar"
+            ]
+        }
+    ],
+    "Shatter Rebar": [
+        {
+            "recipeName": "Standard: Shatter Rebar",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Rebar",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Quartz Crystal",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Shatter Rebar"
+            ]
+        }
+    ],
+    "Stun Rebar": [
+        {
+            "recipeName": "Standard: Stun Rebar",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Rebar",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Quickwire",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Stun Rebar"
+            ]
+        }
+    ],
+    "Iron Rebar": [
+        {
+            "recipeName": "Standard: Iron Rebar",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Rod",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 4,
+            "products": [
+                "Iron Rebar"
+            ]
+        }
+    ],
+    "Smokeless Powder": [
+        {
+            "recipeName": "Standard: Smokeless Powder",
+            "producedIn": "Refinery",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "Black Powder",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Heavy Oil Residue",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Smokeless Powder"
             ]
         }
     ]

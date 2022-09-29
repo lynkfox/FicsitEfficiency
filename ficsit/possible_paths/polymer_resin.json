@@ -1,9 +1,0 @@
-{
-    "item": "Polymer Resin",
-    "totalPaths": 3,
-    "allPaths": [
-        "Alternate: Heavy Oil Residue (Oil) -> Oil",
-        "Alternate: Polymer Resin (Oil) -> Oil",
-        "Standard: Fuel (Oil) -> Oil"
-    ]
-}

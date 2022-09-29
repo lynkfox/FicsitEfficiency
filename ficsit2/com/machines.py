@@ -1,5 +1,4 @@
 from __future__ import annotations
-from ficsit.com.components import ManufacturedComponents, LogisticalInput, Equipment
 from dataclasses import dataclass
 from ficsit2.com.names import Buildable
 
@@ -70,8 +69,8 @@ machine_map = {
         height=12,
         footprint=342,
     ),
-    Buildable.OILREFINERY: Machine(
-        display_name=Buildable.OILREFINERY,
+    Buildable.REFINERY: Machine(
+        display_name=Buildable.REFINERY,
         tierRequired=5.1,
         powerUse=30,
         width=10,
@@ -97,13 +96,22 @@ machine_map = {
         height=12,
         footprint=342,
     ),
-    Buildable.PARTICLEACCELERATOR: Machine(
-        display_name=Buildable.PARTICLEACCELERATOR,
+    Buildable.PARTICLE_ACCELERATOR: Machine(
+        display_name=Buildable.PARTICLE_ACCELERATOR,
         tierRequired=8.4,
         powerUse=1500,
         width=24,
         length=38,
         height=32,
         footprint=912,
+    ),
+    Buildable.NUCLEAR_POWER_PLANT: Machine(
+        display_name=Buildable.NUCLEAR_POWER_PLANT,
+        tierRequired=8.1,
+        powerUse=-2500,
+        width=38,
+        length=43,
+        height=49,
+        footprint=1634,
     ),
 }

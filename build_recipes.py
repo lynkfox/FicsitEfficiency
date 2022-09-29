@@ -2,9 +2,21 @@ import json
 from xml.etree import ElementTree
 from ficsit2.com.machines import machine_map
 from ficsit2.com.names import Buildable, ComponentName as ComponentName
-from ficsit2.com.recipe import Component, ComponentsUsed
+from ficsit2.com.recipe import Component
 from ficsit2.com import lookup
+import argparse
 
+parser = argparse.ArgumentParser(
+    description="Build the recipe.json that is consumed in the Efficiency Graph creation."
+)
+parser.add_argument(
+    "--modded",
+    "-m",
+    action="store_true",
+    help="Include modded content: see Readme for how to add modded content",
+)
+
+args = parser.parse_args()
 
 MACHINE_MAPPING = {
     "Smelter": machine_map.get(Buildable.SMELTER),
@@ -12,10 +24,10 @@ MACHINE_MAPPING = {
     "Constructor": machine_map.get(Buildable.CONSTRUCTOR),
     "Assembler": machine_map.get(Buildable.ASSEMBLER),
     "Manufacturer": machine_map.get(Buildable.MANUFACTURER),
-    "OilRefinery": machine_map.get(Buildable.OILREFINERY),
+    "OilRefinery": machine_map.get(Buildable.REFINERY),
     "Blender": machine_map.get(Buildable.BLENDER),
     "Packager": machine_map.get(Buildable.PACKAGER),
-    "HadronCollider": machine_map.get(Buildable.PARTICLEACCELERATOR),
+    "HadronCollider": machine_map.get(Buildable.PARTICLE_ACCELERATOR),
 }
 
 COMPONENT_MAPPING = {
@@ -95,6 +107,8 @@ COMPONENT_MAPPING = {
     "liquidTurboFuel": ComponentName.TURBO_FUEL,
     "motorLightweight": ComponentName.TURBO_MOTOR,
     "nuclearFuelRod": ComponentName.URANIUM_FUEL_ROD,
+    "nuclearWaste": ComponentName.URANIUM_WASTE,
+    "plutoniumWaste": ComponentName.PLUTONIUM_WASTE,
     "wire": ComponentName.WIRE,
     "spaceElevatorPart1": ComponentName.SMART_PLATING,
     "spaceElevatorPart2": ComponentName.VERSATILE_FRAMEWORK,
@@ -105,11 +119,22 @@ COMPONENT_MAPPING = {
     "spaceElevatorPart7": ComponentName.ASSEMBLY_DIRECTOR_SYSTEM,
     "spaceElevatorPart8": ComponentName.THERMAL_PROPULSION_ROCKET,
     "spaceElevatorPart9": ComponentName.NUCLEAR_PASTA,
+    "mycelia": ComponentName.MYCELIA,
+    "leaves": ComponentName.LEAVES,
+    "flowerPetals": ComponentName.FLOWER_PETALS,
+    "colorCartridge": ComponentName.COLOR_CARTRIDGE,
+    "packagedNitrogenGas": ComponentName.PACKAGED_NITROGEN_GAS,
+    "hazmatFilter": ComponentName.IODINE_INFUSED_FILTER,
+    "filter": ComponentName.GAS_FILTER,
+    "gasTank": ComponentName.EMPTY_TANK,
+    "fluidCanister": ComponentName.EMPTY_CANISTER,
+    "liquidBiofuel": ComponentName.LIQUID_BIOFUEL,
+    "biofuel": ComponentName.SOLID_BIOFUEL,
 }
 
 
 def load_xml():
-    with open("./ficsit/recipes/RecipeTable.xml") as file:
+    with open("./ficsit2/data/RecipeTable.xml") as file:
         xml = ElementTree.parse(file)
 
     return xml
@@ -128,11 +153,11 @@ def get_recipes(xml_tree):
             continue
 
         if name.text in lookup.FICSMAS_RECIPES:
-            print(f"\033[96m Xmas Recipe \033[0m {name.text} - skipped ")
+            print(f"\033[96m Xmas Recipe\033[0m {name.text} - skipped ")
             continue
 
         if name.text in lookup.IGNORED_RECIPES:
-            print(f"\033[92m Recipe \033[0m {name.text} - skipped ")
+            print(f"\033[92m Recipe\033[0m {name.text} - skipped ")
             continue
 
         recipe = get_recipe_details(buildable, name.text)
@@ -144,11 +169,17 @@ def get_recipes(xml_tree):
             COMPONENT_MAPPING.get(clean_item_name(item.attrib["item"]))
             for item in buildable.findall("Products/ItemAmount")
         ]
-        recipe["products"] = [x.value for x in components_produced]
+        if len(components_produced) != 0 and components_produced.count(None) != len(
+            components_produced
+        ):
+            recipe["products"] = [x.value for x in components_produced]
+        else:
+            print(f"\033[93m++++WARNING,\033[0m {name.text} has 0 Components Produced")
+            continue
 
         for component in components_produced:
             if component is None:
-                print(f"*****Look Into: {recipe.get('recipeName')} is broken")
+                print(f"*???Look Into: {recipe.get('recipeName')} is broken")
                 continue
             if component.value in all_recipes:
                 all_recipes[component.value].append(recipe)
@@ -157,6 +188,30 @@ def get_recipes(xml_tree):
                 entry = {component.value: [recipe]}
 
                 all_recipes.update(entry)
+
+    print(
+        "\n\033[92m Main Recipe file done\033[0m applying additional Updated U6 Recipes and specific fixes..."
+    )
+    updated = update_with_another_recipe_json(all_recipes, "additional_recipes.json")
+    print(f"\n Done! {updated} recipes added/updated.")
+
+    if args.modded:
+        print("\n\033[93m Adding Modded Recipes...\033[0m")
+        # TODO: loop over ficist2/data/modded/* jsons
+        modded = update_with_another_recipe_json(
+            all_recipes, "modded/vanilla_extended.json"
+        )
+        print(f"\n Done! {modded} modded recipes added/updated.")
+
+    print(
+        "\n\033[92m Skipped Recipes\033[0m are all either not crafted in Machines or have updated values in additional_recipes.json"
+    )
+    print(
+        f"\033[96m Xmas Recipe\033[0m are skipped as there are 0 alternate chains for them, making efficiency discovery pointless"
+    )
+    print(
+        "\n\033[93m Done. You do not need to run this script again unless new recipes added in ./ficsit2/data\033[0m\n"
+    )
 
     return all_recipes
 
@@ -220,6 +275,28 @@ def build_components(ingredients) -> list:
         )
 
     return all_components
+
+
+def update_with_another_recipe_json(original_recipes: dict, file_name: str):
+    """
+    Loads in the u6 recipes and recipe changes
+    """
+
+    with open(f"./ficsit2/data/{file_name}", "r") as json_file:
+        additional_recipes = json.load(json_file)
+
+    added = 0
+    for recipe_name, recipe in additional_recipes.items():
+
+        if recipe_name in original_recipes.keys():
+            original_recipes[recipe_name].extend(recipe)
+
+        else:
+            original_recipes[recipe_name] = recipe
+
+        added += len(recipe)
+
+    return added
 
 
 def main():

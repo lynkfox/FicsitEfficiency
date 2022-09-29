@@ -1,0 +1,25 @@
+{
+    "Uranium Waste": [
+        {
+            "recipeName": "Standard: Uranium Waste",
+            "producedIn": "Nuclear Power Plant",
+            "producesPerCycle": 50,
+            "components": [
+                {
+                    "name": "Uranium Fuel Rod",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Water",
+                    "amount": 150,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 300,
+            "products": [
+                "Uranium Waste"
+            ]
+        }
+    ]
+}

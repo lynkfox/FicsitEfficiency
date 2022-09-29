@@ -31,40 +31,35 @@ FLUIDS = [
 
 # List of ignored recipes in Build Recipe
 IGNORED_RECIPES = [
-    "Alternate: Coated Iron Canister",
-    "Alternate: Diluted Packaged Fuel",
-    "Alternate: Steel Canister",
+    # Outdated
+    "Biomass (Alien Carapace)",
+    "Biomass (Alien Organs)",
     "Beacon",
-    "Solid Biofuel",
-    "Color Cartridge",
-    "Gas Filter",
-    "Iodine Infused Filter",
-    "Empty Canister",
+    "Alternate: Uranium Fuel Unit",
+    # Creates infinite loops and doesn't really add anything to the calculations
+    "Alternate: Diluted Packaged Fuel",
     "Packaged Fuel",
-    "Liquid Biofuel",
     "Packaged Liquid Biofuel",
     "Packaged Oil",
-    "Packaged Nitric Acid",
     "Packaged Heavy Oil Residue",
     "Packaged Sulfuric Acid",
     "Packaged Turbofuel",
     "Packaged Water",
+    # Handled manually in alternate_recipes.json
+    "Empty Canister",
+    "Packaged Nitric Acid",
+    # Not Needed
     "Power Shard (1)",
     "Power Shard (2)",
     "Power Shard (5)",
+    # Weapons that are outdated
     "Alternate: Seismic Nobelisk",
     "Rifle Cartridge",
     "Nobelisk",
     "Spiked Rebar",
 ]
 
-WEAPON_RECIPES = [
-    "Nobelisk",
-    "Alternate: Seismic Nobelisk",
-    "Spiked Rebar",
-    "Rifle Cartridge",
-]
-
+# As this app is about finding the differences between production chains, and these have no alternates, not very useful
 FICSMAS_RECIPES = [
     "Candy Cane",
     "Sweet Fireworks",

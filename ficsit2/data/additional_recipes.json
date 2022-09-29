@@ -1,0 +1,511 @@
+{
+    "Uranium Waste": [
+        {
+            "recipeName": "Standard: Uranium Waste",
+            "producedIn": "Nuclear Power Plant",
+            "producesPerCycle": 50,
+            "components": [
+                {
+                    "name": "Uranium Fuel Rod",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Water",
+                    "amount": 150,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 300,
+            "products": [
+                "Uranium Waste"
+            ]
+        }
+    ],
+    "Alien Protein": [
+        {
+            "recipeName": "Standard: Alien Protein (Hog Remains)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Hog Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 3,
+            "products": [
+                "Alien Protein"
+            ]
+        },
+        {
+            "recipeName": "Standard: Alien Protein (Splitter Remains)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Splitter Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 3,
+            "products": [
+                "Alien Protein"
+            ]
+        },
+        {
+            "recipeName": "Standard: Alien Protein (Hatcher Remains)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Hatcher Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 3,
+            "products": [
+                "Alien Protein"
+            ]
+        },
+        {
+            "recipeName": "Standard: Alien Protein (Stinger Remains)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Stinger Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 3,
+            "products": [
+                "Uranium Waste"
+            ]
+        }
+    ],
+    "Biomass": [
+        {
+            "recipeName": "Standard: Standard: Biomass (Alien Protein)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1500,
+            "components": [
+                {
+                    "name": "Alien Protein",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 4,
+            "products": [
+                "Biomass"
+            ]
+        }
+    ],
+    "Organic Data Capsule": [
+        {
+            "recipeName": "Standard: Organic Data Capsule",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Alien Protein",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Organic Data Capsule"
+            ]
+        }
+    ],
+    "Packaged Nitrogen Gas": [
+        {
+            "recipeName": "Standard: Packaged Nitrogen Gas",
+            "producedIn": "Packager",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Nitrogen Gas",
+                    "amount": 4,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Empty Fluid Tank",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 1,
+            "products": [
+                "Packaged Nitrogen Gas"
+            ]
+        }
+    ],
+    "Empty Fluid Tank": [
+        {
+            "recipeName": "Standard: Empty Fluid Tank",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Aluminum Ingot",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 1,
+            "products": [
+                "Empty Fluid Tank"
+            ]
+        }
+    ],
+    "Cluster Nobelisk": [
+        {
+            "recipeName": "Standard: Cluster Nobelisk",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Nobelisk",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "amount": 4,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Cluster Nobelisk"
+            ]
+        }
+    ],
+    "Gas Nobelisk": [
+        {
+            "recipeName": "Standard: Gas Nobelisk",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Nobelisk",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Biomass",
+                    "amount": 10,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Gas Nobelisk"
+            ]
+        }
+    ],
+    "Nuke Nobelisk": [
+        {
+            "recipeName": "Standard: Nuke Nobelisk",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Nobelisk",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "amount": 10,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Encased Uranium Cell",
+                    "amount": 20,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "AI Limiter",
+                    "amount": 6,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Nuke Nobelisk"
+            ]
+        }
+    ],
+    "Pulse Nobelisk": [
+        {
+            "recipeName": "Standard: Pulse Nobelisk",
+            "producedIn": "Assembler",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "Nobelisk",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Crystal Oscillator",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 60,
+            "products": [
+                "Pulse Nobelisk"
+            ]
+        }
+    ],
+    "Nobelisk": [
+        {
+            "recipeName": "Standard: Nobelisk",
+            "producedIn": "Assembler",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "Steel Pipe",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Black Powder",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Nobelisk"
+            ]
+        },
+        {
+            "recipeName": "Alternate: Seismic Nobelisk",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "Steel Pipe",
+                    "amount": 8,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Black Powder",
+                    "amount": 8,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Crystal Oscillator",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 40,
+            "products": [
+                "Nobelisk"
+            ]
+        }
+    ],
+    "Homing Rifle Ammo": [
+        {
+            "recipeName": "Standard: Homing Rifle Ammo",
+            "producedIn": "Assembler",
+            "producesPerCycle": 10,
+            "components": [
+                {
+                    "name": "Rifle Ammo",
+                    "amount": 20,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "High Speed Connector",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 5,
+            "products": [
+                "Homing Rifle Ammo"
+            ]
+        }
+    ],
+    "Turbo Rifle Ammo": [
+        {
+            "recipeName": "Standard: Turbo Rifle Ammo (Manufacturer)",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 50,
+            "components": [
+                {
+                    "name": "Rifle Ammo",
+                    "amount": 25,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Packaged Turbo Fuel",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Turbo Rifle Ammo"
+            ]
+        },
+        {
+            "recipeName": "Standard: Turbo Rifle Ammo (Blender)",
+            "producedIn": "Blender",
+            "producesPerCycle": 50,
+            "components": [
+                {
+                    "name": "Rifle Ammo",
+                    "amount": 25,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Aluminum Casing",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Turbo Fuel",
+                    "amount": 3,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Turbo Rifle Ammo"
+            ]
+        }
+    ],
+    "Explosive Rebar": [
+        {
+            "recipeName": "Standard: Explosive Rebar",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Rebar",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Steel Pipe",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Explosive Rebar"
+            ]
+        }
+    ],
+    "Shatter Rebar": [
+        {
+            "recipeName": "Standard: Shatter Rebar",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Rebar",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Quartz Crystal",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Shatter Rebar"
+            ]
+        }
+    ],
+    "Stun Rebar": [
+        {
+            "recipeName": "Standard: Stun Rebar",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Rebar",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Quickwire",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Stun Rebar"
+            ]
+        }
+    ],
+    "Iron Rebar": [
+        {
+            "recipeName": "Standard: Iron Rebar",
+            "producedIn": "Constructor",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Rod",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 4,
+            "products": [
+                "Iron Rebar"
+            ]
+        }
+    ],
+    "Smokeless Powder": [
+        {
+            "recipeName": "Standard: Smokeless Powder",
+            "producedIn": "Refinery",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "Black Powder",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Heavy Oil Residue",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Smokeless Powder"
+            ]
+        }
+    ]
+}
