@@ -504,6 +504,22 @@
             "products": [
                 "Coal"
             ]
+        },
+        {
+            "recipeName": "Modded: Carbon Coal",
+            "producedIn": "Constructor",
+            "producesPerCycle": 30,
+            "components": [
+                {
+                    "name": "Leaves",
+                    "amount": 100,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Coal"
+            ]
         }
     ],
     "Empty Canister": [
@@ -766,6 +782,27 @@
                 }
             ],
             "cycleTime": 24,
+            "products": [
+                "Computer"
+            ]
+        },
+        {
+            "recipeName": "Modded: Capacitor Computers",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Circuit Boards",
+                    "amount": 10,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Xeno-Zapper",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 10,
             "products": [
                 "Computer"
             ]
@@ -1956,6 +1993,27 @@
             "products": [
                 "Heavy Modular Frame"
             ]
+        },
+        {
+            "recipeName": "Modded: Silk-Reinforced Frames",
+            "producedIn": "Assembler",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "Parachute",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Modular Frame",
+                    "amount": 6,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 40,
+            "products": [
+                "Heavy Modular Frame"
+            ]
         }
     ],
     "Heavy Oil Residue": [
@@ -2576,6 +2634,22 @@
                 }
             ],
             "cycleTime": 4,
+            "products": [
+                "Fabric"
+            ]
+        },
+        {
+            "recipeName": "Modded: Stinger Silk",
+            "producedIn": "Constructor",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "Stinger Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 15,
             "products": [
                 "Fabric"
             ]
@@ -3449,6 +3523,22 @@
                 }
             ],
             "cycleTime": 4,
+            "products": [
+                "Biomass"
+            ]
+        },
+        {
+            "recipeName": "Modded: Biomass (Bacon Agaric)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 25,
+            "components": [
+                {
+                    "name": "Bacon Agaric",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
             "products": [
                 "Biomass"
             ]
@@ -4470,6 +4560,161 @@
             "cycleTime": 6,
             "products": [
                 "Smokeless Powder"
+            ]
+        }
+    ],
+    "Wood": [
+        {
+            "recipeName": "Modded: Pressboard",
+            "producedIn": "Constructor",
+            "producesPerCycle": 17,
+            "components": [
+                {
+                    "name": "Leaves",
+                    "amount": 125,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 30,
+            "products": [
+                "Wood"
+            ]
+        }
+    ],
+    "Mycelia": [
+        {
+            "recipeName": "Modded: M-Growbeds (Leaves)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 40,
+            "components": [
+                {
+                    "name": "Leaves",
+                    "amount": 400,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Mycelia"
+            ]
+        },
+        {
+            "recipeName": "Modded: M-Growbeds (Petals)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "Flower Petals",
+                    "amount": 500,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Mycelia"
+            ]
+        }
+    ],
+    "Bacon Agaric": [
+        {
+            "recipeName": "Modded: BA-Growbeds (Leaves)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 14,
+            "components": [
+                {
+                    "name": "Leaves",
+                    "amount": 200,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Bacon Agaric"
+            ]
+        },
+        {
+            "recipeName": "Modded: BA-Growbeds (Petals)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 10,
+            "components": [
+                {
+                    "name": "Flower Petals",
+                    "amount": 500,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Bacon Agaric"
+            ]
+        }
+    ],
+    "Medicinal Inhaler": [
+        {
+            "recipeName": "Modded: Synthetic Inhaler",
+            "producedIn": "Assembler",
+            "producesPerCycle": 4,
+            "components": [
+                {
+                    "name": "Rotor",
+                    "amount": 10,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Coal",
+                    "amount": 20,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Medicinal Inhaler"
+            ]
+        }
+    ],
+    "Xeno-Zapper": [
+        {
+            "recipeName": "Modded: Xeno-Zapper Conduit",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Quickwire",
+                    "amount": 25,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Rubber",
+                    "amount": 15,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 30,
+            "products": [
+                "Xeno-Zapper"
+            ]
+        }
+    ],
+    "Parachute": [
+        {
+            "recipeName": "Modded: Pre-Packaged Parachutes",
+            "producedIn": "Assembler",
+            "producesPerCycle": 5,
+            "components": [
+                {
+                    "name": "Fabric",
+                    "amount": 10,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Cable",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 10,
+            "products": [
+                "Parachute"
             ]
         }
     ]

@@ -137,3 +137,5 @@ class ComponentName(Enum):
     ORGANIC_DATA_CAPSULE = "Organic Data Capsule"
     MEDICINAL_INHALER = "Medicinal Inhaler"
     PARACHUTE = "Parachute"
+    XENO_ZAPPER = "Xeno-Zapper"
+    BACON_AGARIC = "Bacon Agaric"
