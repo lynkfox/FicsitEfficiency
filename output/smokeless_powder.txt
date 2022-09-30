@@ -1,7 +1,7 @@
 > Smokeless Powder (1/min)
   # Standard: Smokeless Powder:
     | Input/Output and Step Efficiency Values:
-        - 1 Black Powder(s) 
+        - 1 Black Powder(s)
         - 0.5 Heavy Oil Residue m^3
         - 30 MW(s)
         * 1 Refinery(s)
@@ -11,7 +11,7 @@
     |- Black Powder (1/min)
         # Alternate: Fine Black Powder:
           | Input/Output and Step Efficiency Values:
-              - 0.5 Sulfur(s) 
+              - 0.5 Sulfur(s)
               - 0.25 Compacted Coal(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -21,7 +21,7 @@
           |- Compacted Coal (0.25/min)
               # Alternate: Compacted Coal:
                 | Input/Output and Step Efficiency Values:
-                    - 0.25 Coal(s) 
+                    - 0.25 Coal(s)
                     - 0.25 Sulfur(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -30,7 +30,7 @@
                     ++ 0.25 Compacted Coal per minute
         # Standard: Black Powder:
           | Input/Output and Step Efficiency Values:
-              - 1 Coal(s) 
+              - 1 Coal(s)
               - 2 Sulfur(s)
               - 15 MW(s)
               * 1 Assembler(s)

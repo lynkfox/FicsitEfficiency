@@ -1,7 +1,7 @@
 > Iron Plate (1/min)
   # Alternate: Coated Iron Plate:
     | Input/Output and Step Efficiency Values:
-        - 0.66667 Iron Ingot(s) 
+        - 0.66667 Iron Ingot(s)
         - 0.13333 Plastic(s)
         - 15 MW(s)
         * 1 Assembler(s)
@@ -11,7 +11,7 @@
     |- Iron Ingot (0.66667/min)
         # Alternate: Iron Alloy Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.26667 Iron Ore(s) 
+              - 0.26667 Iron Ore(s)
               - 0.26667 Copper Ore(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -20,7 +20,7 @@
               ++ 0.66667 Iron Ingot per minute
         # Alternate: Pure Iron Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.35897 Iron Ore(s) 
+              - 0.35897 Iron Ore(s)
               - 2.0513 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -38,7 +38,7 @@
     |- Plastic (0.13333/min)
         # Alternate: Recycled Plastic:
           | Input/Output and Step Efficiency Values:
-              - 0.066667 Rubber(s) 
+              - 0.066667 Rubber(s)
               - 0.66667 Fuel m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -48,7 +48,7 @@
           |- Rubber (0.066667/min)
               # Alternate: Recycled Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 0.033333 Plastic(s) 
+                    - 0.033333 Plastic(s)
                     - 0.33333 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -67,7 +67,7 @@
                           ++ 0.033333 Heavy Oil Residue per minute
                     # Standard: Residual Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 0.1 Polymer Resin(s) 
+                          - 0.1 Polymer Resin(s)
                           - 0.33333 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -105,7 +105,7 @@
                 |- Fuel (0.33333/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.0016667 Heavy Oil Residue m^3 
+                          - 0.0016667 Heavy Oil Residue m^3
                           - 0.0033333 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -205,7 +205,7 @@
                                 ++ 0.005 Heavy Oil Residue per minute
               # Standard: Residual Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 0.13333 Polymer Resin(s) 
+                    - 0.13333 Polymer Resin(s)
                     - 1.3333 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -252,7 +252,7 @@
           |- Fuel (0.66667/min)
               # Alternate: Diluted Fuel:
                 | Input/Output and Step Efficiency Values:
-                    - 0.0033333 Heavy Oil Residue m^3 
+                    - 0.0033333 Heavy Oil Residue m^3
                     - 0.0066667 Water m^3
                     - 75 MW(s)
                     * 1 Blender(s)
@@ -361,7 +361,7 @@
               ++ 0.13333 Heavy Oil Residue per minute
         # Standard: Residual Plastic:
           | Input/Output and Step Efficiency Values:
-              - 0.4 Polymer Resin(s) 
+              - 0.4 Polymer Resin(s)
               - 1.3333 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -398,7 +398,7 @@
                     ++ 0.4 Polymer Resin per minute
   # Alternate: Steel Coated Plate:
     | Input/Output and Step Efficiency Values:
-        - 0.16667 Steel Ingot(s) 
+        - 0.16667 Steel Ingot(s)
         - 0.11111 Plastic(s)
         - 15 MW(s)
         * 1 Assembler(s)
@@ -408,7 +408,7 @@
     |- Steel Ingot (0.16667/min)
         # Alternate: Coke Steel Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.125 Iron Ore(s) 
+              - 0.125 Iron Ore(s)
               - 0.125 Petroleum Coke(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -463,7 +463,7 @@
                           ++ 0.41667 Heavy Oil Residue per minute
         # Alternate: Solid Steel Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.11111 Iron Ingot(s) 
+              - 0.11111 Iron Ingot(s)
               - 0.11111 Coal(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -473,7 +473,7 @@
           |- Iron Ingot (0.11111/min)
               # Alternate: Iron Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.044444 Iron Ore(s) 
+                    - 0.044444 Iron Ore(s)
                     - 0.044444 Copper Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -482,7 +482,7 @@
                     ++ 0.11111 Iron Ingot per minute
               # Alternate: Pure Iron Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.059829 Iron Ore(s) 
+                    - 0.059829 Iron Ore(s)
                     - 0.34188 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -499,7 +499,7 @@
                     ++ 0.11111 Iron Ingot per minute
         # Alternate: Compacted Steel Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.1 Iron Ore(s) 
+              - 0.1 Iron Ore(s)
               - 0.05 Compacted Coal(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -509,7 +509,7 @@
           |- Compacted Coal (0.05/min)
               # Alternate: Compacted Coal:
                 | Input/Output and Step Efficiency Values:
-                    - 0.05 Coal(s) 
+                    - 0.05 Coal(s)
                     - 0.05 Sulfur(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -518,7 +518,7 @@
                     ++ 0.05 Compacted Coal per minute
         # Standard: Steel Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.16667 Iron Ore(s) 
+              - 0.16667 Iron Ore(s)
               - 0.16667 Coal(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -528,7 +528,7 @@
     |- Plastic (0.11111/min)
         # Alternate: Recycled Plastic:
           | Input/Output and Step Efficiency Values:
-              - 0.055556 Rubber(s) 
+              - 0.055556 Rubber(s)
               - 0.55556 Fuel m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -538,7 +538,7 @@
           |- Rubber (0.055556/min)
               # Alternate: Recycled Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 0.027778 Plastic(s) 
+                    - 0.027778 Plastic(s)
                     - 0.27778 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -557,7 +557,7 @@
                           ++ 0.027778 Heavy Oil Residue per minute
                     # Standard: Residual Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 0.083333 Polymer Resin(s) 
+                          - 0.083333 Polymer Resin(s)
                           - 0.27778 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -595,7 +595,7 @@
                 |- Fuel (0.27778/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.0013889 Heavy Oil Residue m^3 
+                          - 0.0013889 Heavy Oil Residue m^3
                           - 0.0027778 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -695,7 +695,7 @@
                                 ++ 0.0041667 Heavy Oil Residue per minute
               # Standard: Residual Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 0.11111 Polymer Resin(s) 
+                    - 0.11111 Polymer Resin(s)
                     - 1.1111 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -742,7 +742,7 @@
           |- Fuel (0.55556/min)
               # Alternate: Diluted Fuel:
                 | Input/Output and Step Efficiency Values:
-                    - 0.0027778 Heavy Oil Residue m^3 
+                    - 0.0027778 Heavy Oil Residue m^3
                     - 0.0055556 Water m^3
                     - 75 MW(s)
                     * 1 Blender(s)
@@ -851,7 +851,7 @@
               ++ 0.11111 Heavy Oil Residue per minute
         # Standard: Residual Plastic:
           | Input/Output and Step Efficiency Values:
-              - 0.33333 Polymer Resin(s) 
+              - 0.33333 Polymer Resin(s)
               - 1.1111 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -897,7 +897,7 @@
     |- Iron Ingot (1.5/min)
         # Alternate: Iron Alloy Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.6 Iron Ore(s) 
+              - 0.6 Iron Ore(s)
               - 0.6 Copper Ore(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -906,7 +906,7 @@
               ++ 1.5 Iron Ingot per minute
         # Alternate: Pure Iron Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.80769 Iron Ore(s) 
+              - 0.80769 Iron Ore(s)
               - 4.6154 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)

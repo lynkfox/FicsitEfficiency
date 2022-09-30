@@ -1,7 +1,7 @@
 > Medicinal Inhaler (1/min)
   # Modded: Synthetic Inhaler:
     | Input/Output and Step Efficiency Values:
-        - 2.5 Rotor(s) 
+        - 2.5 Rotor(s)
         - 5 Coal(s)
         - 15 MW(s)
         * 1 Assembler(s)
@@ -11,7 +11,7 @@
     |- Rotor (2.5/min)
         # Alternate: Copper Rotor:
           | Input/Output and Step Efficiency Values:
-              - 5 Copper Sheet(s) 
+              - 5 Copper Sheet(s)
               - 43.333 Screws(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -21,7 +21,7 @@
           |- Copper Sheet (5/min)
               # Alternate: Steamed Copper Sheet:
                 | Input/Output and Step Efficiency Values:
-                    - 5 Copper Ingot(s) 
+                    - 5 Copper Ingot(s)
                     - 50 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -31,7 +31,7 @@
                 |- Copper Ingot (5/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 2.5 Copper Ore(s) 
+                          - 2.5 Copper Ore(s)
                           - 1.25 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -40,7 +40,7 @@
                           ++ 5 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 2 Copper Ore(s) 
+                          - 2 Copper Ore(s)
                           - 13.333 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -66,7 +66,7 @@
                 |- Copper Ingot (10/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 5 Copper Ore(s) 
+                          - 5 Copper Ore(s)
                           - 2.5 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -75,7 +75,7 @@
                           ++ 10 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 4 Copper Ore(s) 
+                          - 4 Copper Ore(s)
                           - 26.667 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -111,7 +111,7 @@
                       |- Steel Ingot (3.3333/min)
                           # Alternate: Coke Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2.5 Iron Ore(s) 
+                                - 2.5 Iron Ore(s)
                                 - 2.5 Petroleum Coke(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -166,7 +166,7 @@
                                             ++ 8.3333 Heavy Oil Residue per minute
                           # Alternate: Solid Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2.2222 Iron Ingot(s) 
+                                - 2.2222 Iron Ingot(s)
                                 - 2.2222 Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -176,7 +176,7 @@
                             |- Iron Ingot (2.2222/min)
                                 # Alternate: Iron Alloy Ingot:
                                   | Input/Output and Step Efficiency Values:
-                                      - 0.88889 Iron Ore(s) 
+                                      - 0.88889 Iron Ore(s)
                                       - 0.88889 Copper Ore(s)
                                       - 16 MW(s)
                                       * 1 Foundry(s)
@@ -185,7 +185,7 @@
                                       ++ 2.2222 Iron Ingot per minute
                                 # Alternate: Pure Iron Ingot:
                                   | Input/Output and Step Efficiency Values:
-                                      - 1.1966 Iron Ore(s) 
+                                      - 1.1966 Iron Ore(s)
                                       - 6.8376 Water m^3
                                       - 30 MW(s)
                                       * 1 Refinery(s)
@@ -202,7 +202,7 @@
                                       ++ 2.2222 Iron Ingot per minute
                           # Alternate: Compacted Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2 Iron Ore(s) 
+                                - 2 Iron Ore(s)
                                 - 1 Compacted Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -212,7 +212,7 @@
                             |- Compacted Coal (1/min)
                                 # Alternate: Compacted Coal:
                                   | Input/Output and Step Efficiency Values:
-                                      - 1 Coal(s) 
+                                      - 1 Coal(s)
                                       - 1 Sulfur(s)
                                       - 15 MW(s)
                                       * 1 Assembler(s)
@@ -221,7 +221,7 @@
                                       ++ 1 Compacted Coal per minute
                           # Standard: Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 3.3333 Iron Ore(s) 
+                                - 3.3333 Iron Ore(s)
                                 - 3.3333 Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -239,7 +239,7 @@
                 |- Iron Ingot (10.833/min)
                     # Alternate: Iron Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 4.3333 Iron Ore(s) 
+                          - 4.3333 Iron Ore(s)
                           - 4.3333 Copper Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -248,7 +248,7 @@
                           ++ 10.833 Iron Ingot per minute
                     # Alternate: Pure Iron Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 5.8333 Iron Ore(s) 
+                          - 5.8333 Iron Ore(s)
                           - 33.333 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -283,7 +283,7 @@
                       |- Steel Ingot (2.7083/min)
                           # Alternate: Coke Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2.0313 Iron Ore(s) 
+                                - 2.0313 Iron Ore(s)
                                 - 2.0313 Petroleum Coke(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -338,7 +338,7 @@
                                             ++ 6.7708 Heavy Oil Residue per minute
                           # Alternate: Solid Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 1.8056 Iron Ingot(s) 
+                                - 1.8056 Iron Ingot(s)
                                 - 1.8056 Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -348,7 +348,7 @@
                             |- Iron Ingot (1.8056/min)
                                 # Alternate: Iron Alloy Ingot:
                                   | Input/Output and Step Efficiency Values:
-                                      - 0.72222 Iron Ore(s) 
+                                      - 0.72222 Iron Ore(s)
                                       - 0.72222 Copper Ore(s)
                                       - 16 MW(s)
                                       * 1 Foundry(s)
@@ -357,7 +357,7 @@
                                       ++ 1.8056 Iron Ingot per minute
                                 # Alternate: Pure Iron Ingot:
                                   | Input/Output and Step Efficiency Values:
-                                      - 0.97222 Iron Ore(s) 
+                                      - 0.97222 Iron Ore(s)
                                       - 5.5556 Water m^3
                                       - 30 MW(s)
                                       * 1 Refinery(s)
@@ -374,7 +374,7 @@
                                       ++ 1.8056 Iron Ingot per minute
                           # Alternate: Compacted Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 1.625 Iron Ore(s) 
+                                - 1.625 Iron Ore(s)
                                 - 0.8125 Compacted Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -384,7 +384,7 @@
                             |- Compacted Coal (0.8125/min)
                                 # Alternate: Compacted Coal:
                                   | Input/Output and Step Efficiency Values:
-                                      - 0.8125 Coal(s) 
+                                      - 0.8125 Coal(s)
                                       - 0.8125 Sulfur(s)
                                       - 15 MW(s)
                                       * 1 Assembler(s)
@@ -393,7 +393,7 @@
                                       ++ 0.8125 Compacted Coal per minute
                           # Standard: Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2.7083 Iron Ore(s) 
+                                - 2.7083 Iron Ore(s)
                                 - 2.7083 Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -411,7 +411,7 @@
                       |- Iron Ingot (10.833/min)
                           # Alternate: Iron Alloy Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 4.3333 Iron Ore(s) 
+                                - 4.3333 Iron Ore(s)
                                 - 4.3333 Copper Ore(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -420,7 +420,7 @@
                                 ++ 10.833 Iron Ingot per minute
                           # Alternate: Pure Iron Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 5.8333 Iron Ore(s) 
+                                - 5.8333 Iron Ore(s)
                                 - 33.333 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -437,7 +437,7 @@
                                 ++ 10.833 Iron Ingot per minute
         # Alternate: Steel Rotor:
           | Input/Output and Step Efficiency Values:
-              - 5 Steel Pipe(s) 
+              - 5 Steel Pipe(s)
               - 15 Wire(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -456,7 +456,7 @@
                 |- Steel Ingot (7.5/min)
                     # Alternate: Coke Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 5.625 Iron Ore(s) 
+                          - 5.625 Iron Ore(s)
                           - 5.625 Petroleum Coke(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -511,7 +511,7 @@
                                       ++ 18.75 Heavy Oil Residue per minute
                     # Alternate: Solid Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 5 Iron Ingot(s) 
+                          - 5 Iron Ingot(s)
                           - 5 Coal(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -521,7 +521,7 @@
                       |- Iron Ingot (5/min)
                           # Alternate: Iron Alloy Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2 Iron Ore(s) 
+                                - 2 Iron Ore(s)
                                 - 2 Copper Ore(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -530,7 +530,7 @@
                                 ++ 5 Iron Ingot per minute
                           # Alternate: Pure Iron Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2.6923 Iron Ore(s) 
+                                - 2.6923 Iron Ore(s)
                                 - 15.385 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -547,7 +547,7 @@
                                 ++ 5 Iron Ingot per minute
                     # Alternate: Compacted Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 4.5 Iron Ore(s) 
+                          - 4.5 Iron Ore(s)
                           - 2.25 Compacted Coal(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -557,7 +557,7 @@
                       |- Compacted Coal (2.25/min)
                           # Alternate: Compacted Coal:
                             | Input/Output and Step Efficiency Values:
-                                - 2.25 Coal(s) 
+                                - 2.25 Coal(s)
                                 - 2.25 Sulfur(s)
                                 - 15 MW(s)
                                 * 1 Assembler(s)
@@ -566,7 +566,7 @@
                                 ++ 2.25 Compacted Coal per minute
                     # Standard: Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 7.5 Iron Ore(s) 
+                          - 7.5 Iron Ore(s)
                           - 7.5 Coal(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -576,7 +576,7 @@
           |- Wire (15/min)
               # Alternate: Fused Wire:
                 | Input/Output and Step Efficiency Values:
-                    - 2 Copper Ingot(s) 
+                    - 2 Copper Ingot(s)
                     - 0.5 Gold Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -586,7 +586,7 @@
                 |- Copper Ingot (2/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1 Copper Ore(s) 
+                          - 1 Copper Ore(s)
                           - 0.5 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -595,7 +595,7 @@
                           ++ 2 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.8 Copper Ore(s) 
+                          - 0.8 Copper Ore(s)
                           - 5.3333 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -613,7 +613,7 @@
                 |- Gold Ingot (0.5/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1 Caterium Ore(s) 
+                          - 1 Caterium Ore(s)
                           - 10 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -639,7 +639,7 @@
                 |- Iron Ingot (8.3333/min)
                     # Alternate: Iron Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 3.3333 Iron Ore(s) 
+                          - 3.3333 Iron Ore(s)
                           - 3.3333 Copper Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -648,7 +648,7 @@
                           ++ 8.3333 Iron Ingot per minute
                     # Alternate: Pure Iron Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 4.4872 Iron Ore(s) 
+                          - 4.4872 Iron Ore(s)
                           - 25.641 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -674,7 +674,7 @@
                 |- Gold Ingot (1.875/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 3.75 Caterium Ore(s) 
+                          - 3.75 Caterium Ore(s)
                           - 37.5 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -700,7 +700,7 @@
                 |- Copper Ingot (7.5/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 3.75 Copper Ore(s) 
+                          - 3.75 Copper Ore(s)
                           - 1.875 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -709,7 +709,7 @@
                           ++ 7.5 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 3 Copper Ore(s) 
+                          - 3 Copper Ore(s)
                           - 20 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -726,7 +726,7 @@
                           ++ 7.5 Copper Ingot per minute
         # Standard: Rotor:
           | Input/Output and Step Efficiency Values:
-              - 12.5 Iron Rod(s) 
+              - 12.5 Iron Rod(s)
               - 62.5 Screws(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -745,7 +745,7 @@
                 |- Steel Ingot (3.125/min)
                     # Alternate: Coke Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 2.3438 Iron Ore(s) 
+                          - 2.3438 Iron Ore(s)
                           - 2.3438 Petroleum Coke(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -800,7 +800,7 @@
                                       ++ 7.8125 Heavy Oil Residue per minute
                     # Alternate: Solid Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 2.0833 Iron Ingot(s) 
+                          - 2.0833 Iron Ingot(s)
                           - 2.0833 Coal(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -810,7 +810,7 @@
                       |- Iron Ingot (2.0833/min)
                           # Alternate: Iron Alloy Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 0.83333 Iron Ore(s) 
+                                - 0.83333 Iron Ore(s)
                                 - 0.83333 Copper Ore(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -819,7 +819,7 @@
                                 ++ 2.0833 Iron Ingot per minute
                           # Alternate: Pure Iron Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 1.1218 Iron Ore(s) 
+                                - 1.1218 Iron Ore(s)
                                 - 6.4103 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -836,7 +836,7 @@
                                 ++ 2.0833 Iron Ingot per minute
                     # Alternate: Compacted Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.875 Iron Ore(s) 
+                          - 1.875 Iron Ore(s)
                           - 0.9375 Compacted Coal(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -846,7 +846,7 @@
                       |- Compacted Coal (0.9375/min)
                           # Alternate: Compacted Coal:
                             | Input/Output and Step Efficiency Values:
-                                - 0.9375 Coal(s) 
+                                - 0.9375 Coal(s)
                                 - 0.9375 Sulfur(s)
                                 - 15 MW(s)
                                 * 1 Assembler(s)
@@ -855,7 +855,7 @@
                                 ++ 0.9375 Compacted Coal per minute
                     # Standard: Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 3.125 Iron Ore(s) 
+                          - 3.125 Iron Ore(s)
                           - 3.125 Coal(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -873,7 +873,7 @@
                 |- Iron Ingot (12.5/min)
                     # Alternate: Iron Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 5 Iron Ore(s) 
+                          - 5 Iron Ore(s)
                           - 5 Copper Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -882,7 +882,7 @@
                           ++ 12.5 Iron Ingot per minute
                     # Alternate: Pure Iron Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 6.7308 Iron Ore(s) 
+                          - 6.7308 Iron Ore(s)
                           - 38.462 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -918,7 +918,7 @@
                       |- Steel Ingot (4.8077/min)
                           # Alternate: Coke Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 3.6058 Iron Ore(s) 
+                                - 3.6058 Iron Ore(s)
                                 - 3.6058 Petroleum Coke(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -973,7 +973,7 @@
                                             ++ 12.019 Heavy Oil Residue per minute
                           # Alternate: Solid Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 3.2051 Iron Ingot(s) 
+                                - 3.2051 Iron Ingot(s)
                                 - 3.2051 Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -983,7 +983,7 @@
                             |- Iron Ingot (3.2051/min)
                                 # Alternate: Iron Alloy Ingot:
                                   | Input/Output and Step Efficiency Values:
-                                      - 1.2821 Iron Ore(s) 
+                                      - 1.2821 Iron Ore(s)
                                       - 1.2821 Copper Ore(s)
                                       - 16 MW(s)
                                       * 1 Foundry(s)
@@ -992,7 +992,7 @@
                                       ++ 3.2051 Iron Ingot per minute
                                 # Alternate: Pure Iron Ingot:
                                   | Input/Output and Step Efficiency Values:
-                                      - 1.7258 Iron Ore(s) 
+                                      - 1.7258 Iron Ore(s)
                                       - 9.8619 Water m^3
                                       - 30 MW(s)
                                       * 1 Refinery(s)
@@ -1009,7 +1009,7 @@
                                       ++ 3.2051 Iron Ingot per minute
                           # Alternate: Compacted Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2.8846 Iron Ore(s) 
+                                - 2.8846 Iron Ore(s)
                                 - 1.4423 Compacted Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -1019,7 +1019,7 @@
                             |- Compacted Coal (1.4423/min)
                                 # Alternate: Compacted Coal:
                                   | Input/Output and Step Efficiency Values:
-                                      - 1.4423 Coal(s) 
+                                      - 1.4423 Coal(s)
                                       - 1.4423 Sulfur(s)
                                       - 15 MW(s)
                                       * 1 Assembler(s)
@@ -1028,7 +1028,7 @@
                                       ++ 1.4423 Compacted Coal per minute
                           # Standard: Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 4.8077 Iron Ore(s) 
+                                - 4.8077 Iron Ore(s)
                                 - 4.8077 Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -1046,7 +1046,7 @@
                 |- Iron Ingot (15.625/min)
                     # Alternate: Iron Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 6.25 Iron Ore(s) 
+                          - 6.25 Iron Ore(s)
                           - 6.25 Copper Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -1055,7 +1055,7 @@
                           ++ 15.625 Iron Ingot per minute
                     # Alternate: Pure Iron Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 8.4135 Iron Ore(s) 
+                          - 8.4135 Iron Ore(s)
                           - 48.077 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1090,7 +1090,7 @@
                       |- Steel Ingot (3.9062/min)
                           # Alternate: Coke Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2.9297 Iron Ore(s) 
+                                - 2.9297 Iron Ore(s)
                                 - 2.9297 Petroleum Coke(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -1145,7 +1145,7 @@
                                             ++ 9.7656 Heavy Oil Residue per minute
                           # Alternate: Solid Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2.6042 Iron Ingot(s) 
+                                - 2.6042 Iron Ingot(s)
                                 - 2.6042 Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -1155,7 +1155,7 @@
                             |- Iron Ingot (2.6042/min)
                                 # Alternate: Iron Alloy Ingot:
                                   | Input/Output and Step Efficiency Values:
-                                      - 1.0417 Iron Ore(s) 
+                                      - 1.0417 Iron Ore(s)
                                       - 1.0417 Copper Ore(s)
                                       - 16 MW(s)
                                       * 1 Foundry(s)
@@ -1164,7 +1164,7 @@
                                       ++ 2.6042 Iron Ingot per minute
                                 # Alternate: Pure Iron Ingot:
                                   | Input/Output and Step Efficiency Values:
-                                      - 1.4022 Iron Ore(s) 
+                                      - 1.4022 Iron Ore(s)
                                       - 8.0128 Water m^3
                                       - 30 MW(s)
                                       * 1 Refinery(s)
@@ -1181,7 +1181,7 @@
                                       ++ 2.6042 Iron Ingot per minute
                           # Alternate: Compacted Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 2.3438 Iron Ore(s) 
+                                - 2.3438 Iron Ore(s)
                                 - 1.1719 Compacted Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -1191,7 +1191,7 @@
                             |- Compacted Coal (1.1719/min)
                                 # Alternate: Compacted Coal:
                                   | Input/Output and Step Efficiency Values:
-                                      - 1.1719 Coal(s) 
+                                      - 1.1719 Coal(s)
                                       - 1.1719 Sulfur(s)
                                       - 15 MW(s)
                                       * 1 Assembler(s)
@@ -1200,7 +1200,7 @@
                                       ++ 1.1719 Compacted Coal per minute
                           # Standard: Steel Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 3.9062 Iron Ore(s) 
+                                - 3.9062 Iron Ore(s)
                                 - 3.9062 Coal(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -1218,7 +1218,7 @@
                       |- Iron Ingot (15.625/min)
                           # Alternate: Iron Alloy Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 6.25 Iron Ore(s) 
+                                - 6.25 Iron Ore(s)
                                 - 6.25 Copper Ore(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -1227,7 +1227,7 @@
                                 ++ 15.625 Iron Ingot per minute
                           # Alternate: Pure Iron Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 8.4135 Iron Ore(s) 
+                                - 8.4135 Iron Ore(s)
                                 - 48.077 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)

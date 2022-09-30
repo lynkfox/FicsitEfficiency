@@ -1,7 +1,7 @@
 > Xeno-Zapper (1/min)
   # Modded: Xeno-Zapper Conduit:
     | Input/Output and Step Efficiency Values:
-        - 25 Quickwire(s) 
+        - 25 Quickwire(s)
         - 15 Rubber(s)
         - 15 MW(s)
         * 1 Assembler(s)
@@ -11,7 +11,7 @@
     |- Quickwire (25/min)
         # Alternate: Fused Quickwire:
           | Input/Output and Step Efficiency Values:
-              - 2.0833 Gold Ingot(s) 
+              - 2.0833 Gold Ingot(s)
               - 10.417 Copper Ingot(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -21,7 +21,7 @@
           |- Gold Ingot (2.0833/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 4.1667 Caterium Ore(s) 
+                    - 4.1667 Caterium Ore(s)
                     - 41.667 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -39,7 +39,7 @@
           |- Copper Ingot (10.417/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 5.2083 Copper Ore(s) 
+                    - 5.2083 Copper Ore(s)
                     - 2.6042 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -48,7 +48,7 @@
                     ++ 10.417 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 4.1667 Copper Ore(s) 
+                    - 4.1667 Copper Ore(s)
                     - 27.778 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -74,7 +74,7 @@
           |- Gold Ingot (5/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 10 Caterium Ore(s) 
+                    - 10 Caterium Ore(s)
                     - 100 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -92,7 +92,7 @@
     |- Rubber (15/min)
         # Alternate: Recycled Rubber:
           | Input/Output and Step Efficiency Values:
-              - 7.5 Plastic(s) 
+              - 7.5 Plastic(s)
               - 75 Fuel m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -102,7 +102,7 @@
           |- Plastic (7.5/min)
               # Alternate: Recycled Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 3.75 Rubber(s) 
+                    - 3.75 Rubber(s)
                     - 37.5 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -112,7 +112,7 @@
                 |- Rubber (3.75/min)
                     # Standard: Residual Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 7.5 Polymer Resin(s) 
+                          - 7.5 Polymer Resin(s)
                           - 75 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -159,7 +159,7 @@
                 |- Fuel (37.5/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.1875 Heavy Oil Residue m^3 
+                          - 0.1875 Heavy Oil Residue m^3
                           - 0.375 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -268,7 +268,7 @@
                     ++ 7.5 Heavy Oil Residue per minute
               # Standard: Residual Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 22.5 Polymer Resin(s) 
+                    - 22.5 Polymer Resin(s)
                     - 75 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -306,7 +306,7 @@
           |- Fuel (75/min)
               # Alternate: Diluted Fuel:
                 | Input/Output and Step Efficiency Values:
-                    - 0.375 Heavy Oil Residue m^3 
+                    - 0.375 Heavy Oil Residue m^3
                     - 0.75 Water m^3
                     - 75 MW(s)
                     * 1 Blender(s)
@@ -406,7 +406,7 @@
                           ++ 1.125 Heavy Oil Residue per minute
         # Standard: Residual Rubber:
           | Input/Output and Step Efficiency Values:
-              - 30 Polymer Resin(s) 
+              - 30 Polymer Resin(s)
               - 300 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)

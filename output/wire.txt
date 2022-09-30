@@ -1,7 +1,7 @@
 > Wire (1/min)
   # Alternate: Fused Wire:
     | Input/Output and Step Efficiency Values:
-        - 0.13333 Copper Ingot(s) 
+        - 0.13333 Copper Ingot(s)
         - 0.033333 Gold Ingot(s)
         - 15 MW(s)
         * 1 Assembler(s)
@@ -11,7 +11,7 @@
     |- Copper Ingot (0.13333/min)
         # Alternate: Copper Alloy Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.066667 Copper Ore(s) 
+              - 0.066667 Copper Ore(s)
               - 0.033333 Iron Ore(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -20,7 +20,7 @@
               ++ 0.13333 Copper Ingot per minute
         # Alternate: Pure Copper Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.053333 Copper Ore(s) 
+              - 0.053333 Copper Ore(s)
               - 0.35556 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -38,7 +38,7 @@
     |- Gold Ingot (0.033333/min)
         # Alternate: Pure Caterium Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.066667 Caterium Ore(s) 
+              - 0.066667 Caterium Ore(s)
               - 0.66667 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -64,7 +64,7 @@
     |- Iron Ingot (0.55556/min)
         # Alternate: Iron Alloy Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.22222 Iron Ore(s) 
+              - 0.22222 Iron Ore(s)
               - 0.22222 Copper Ore(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -73,7 +73,7 @@
               ++ 0.55556 Iron Ingot per minute
         # Alternate: Pure Iron Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.29915 Iron Ore(s) 
+              - 0.29915 Iron Ore(s)
               - 1.7094 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -99,7 +99,7 @@
     |- Gold Ingot (0.125/min)
         # Alternate: Pure Caterium Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.25 Caterium Ore(s) 
+              - 0.25 Caterium Ore(s)
               - 2.5 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -125,7 +125,7 @@
     |- Copper Ingot (0.5/min)
         # Alternate: Copper Alloy Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.25 Copper Ore(s) 
+              - 0.25 Copper Ore(s)
               - 0.125 Iron Ore(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -134,7 +134,7 @@
               ++ 0.5 Copper Ingot per minute
         # Alternate: Pure Copper Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.2 Copper Ore(s) 
+              - 0.2 Copper Ore(s)
               - 1.3333 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)

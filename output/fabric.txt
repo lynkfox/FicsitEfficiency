@@ -1,7 +1,7 @@
 > Fabric (1/min)
   # Alternate: Polyester Fabric:
     | Input/Output and Step Efficiency Values:
-        - 16 Polymer Resin(s) 
+        - 16 Polymer Resin(s)
         - 100 Water m^3
         - 30 MW(s)
         * 1 Refinery(s)
@@ -38,7 +38,7 @@
               ++ 16 Polymer Resin per minute
   # Standard: Fabric:
     | Input/Output and Step Efficiency Values:
-        - 1 Mycelia(s) 
+        - 1 Mycelia(s)
         - 5 Biomass(s)
         - 15 MW(s)
         * 1 Assembler(s)

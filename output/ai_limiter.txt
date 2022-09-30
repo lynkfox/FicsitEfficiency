@@ -1,7 +1,7 @@
 > AI Limiter (1/min)
   # Standard: AI Limiter:
     | Input/Output and Step Efficiency Values:
-        - 5 Copper Sheet(s) 
+        - 5 Copper Sheet(s)
         - 20 Quickwire(s)
         - 15 MW(s)
         * 1 Assembler(s)
@@ -11,7 +11,7 @@
     |- Copper Sheet (5/min)
         # Alternate: Steamed Copper Sheet:
           | Input/Output and Step Efficiency Values:
-              - 5 Copper Ingot(s) 
+              - 5 Copper Ingot(s)
               - 50 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -21,7 +21,7 @@
           |- Copper Ingot (5/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 2.5 Copper Ore(s) 
+                    - 2.5 Copper Ore(s)
                     - 1.25 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -30,7 +30,7 @@
                     ++ 5 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 2 Copper Ore(s) 
+                    - 2 Copper Ore(s)
                     - 13.333 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -56,7 +56,7 @@
           |- Copper Ingot (10/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 5 Copper Ore(s) 
+                    - 5 Copper Ore(s)
                     - 2.5 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -65,7 +65,7 @@
                     ++ 10 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 4 Copper Ore(s) 
+                    - 4 Copper Ore(s)
                     - 26.667 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -83,7 +83,7 @@
     |- Quickwire (20/min)
         # Alternate: Fused Quickwire:
           | Input/Output and Step Efficiency Values:
-              - 1.6667 Gold Ingot(s) 
+              - 1.6667 Gold Ingot(s)
               - 8.3333 Copper Ingot(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -93,7 +93,7 @@
           |- Gold Ingot (1.6667/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 3.3333 Caterium Ore(s) 
+                    - 3.3333 Caterium Ore(s)
                     - 33.333 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -111,7 +111,7 @@
           |- Copper Ingot (8.3333/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 4.1667 Copper Ore(s) 
+                    - 4.1667 Copper Ore(s)
                     - 2.0833 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -120,7 +120,7 @@
                     ++ 8.3333 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 3.3333 Copper Ore(s) 
+                    - 3.3333 Copper Ore(s)
                     - 22.222 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -146,7 +146,7 @@
           |- Gold Ingot (4/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 8 Caterium Ore(s) 
+                    - 8 Caterium Ore(s)
                     - 80 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)

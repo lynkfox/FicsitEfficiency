@@ -10,7 +10,7 @@
     |- Copper Ingot (6/min)
         # Alternate: Copper Alloy Ingot:
           | Input/Output and Step Efficiency Values:
-              - 3 Copper Ore(s) 
+              - 3 Copper Ore(s)
               - 1.5 Iron Ore(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -19,7 +19,7 @@
               ++ 6 Copper Ingot per minute
         # Alternate: Pure Copper Ingot:
           | Input/Output and Step Efficiency Values:
-              - 2.4 Copper Ore(s) 
+              - 2.4 Copper Ore(s)
               - 16 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)

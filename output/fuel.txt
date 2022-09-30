@@ -1,7 +1,7 @@
 > Fuel (1/min)
   # Alternate: Diluted Fuel:
     | Input/Output and Step Efficiency Values:
-        - 0.005 Heavy Oil Residue m^3 
+        - 0.005 Heavy Oil Residue m^3
         - 0.01 Water m^3
         - 75 MW(s)
         * 1 Blender(s)

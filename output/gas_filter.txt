@@ -1,8 +1,8 @@
 > Gas Filter (1/min)
   # Standard: Gas Filter:
     | Input/Output and Step Efficiency Values:
-        - 5 Coal(s) 
-        - 2 Rubber(s) 
+        - 5 Coal(s)
+        - 2 Rubber(s)
         - 2 Fabric(s)
         - 55 MW(s)
         * 1 Manufacturer(s)
@@ -12,7 +12,7 @@
     |- Rubber (2/min)
         # Alternate: Recycled Rubber:
           | Input/Output and Step Efficiency Values:
-              - 1 Plastic(s) 
+              - 1 Plastic(s)
               - 10 Fuel m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -22,7 +22,7 @@
           |- Plastic (1/min)
               # Alternate: Recycled Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 0.5 Rubber(s) 
+                    - 0.5 Rubber(s)
                     - 5 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -32,7 +32,7 @@
                 |- Rubber (0.5/min)
                     # Standard: Residual Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 1 Polymer Resin(s) 
+                          - 1 Polymer Resin(s)
                           - 10 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -79,7 +79,7 @@
                 |- Fuel (5/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.025 Heavy Oil Residue m^3 
+                          - 0.025 Heavy Oil Residue m^3
                           - 0.05 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -188,7 +188,7 @@
                     ++ 1 Heavy Oil Residue per minute
               # Standard: Residual Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 3 Polymer Resin(s) 
+                    - 3 Polymer Resin(s)
                     - 10 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -226,7 +226,7 @@
           |- Fuel (10/min)
               # Alternate: Diluted Fuel:
                 | Input/Output and Step Efficiency Values:
-                    - 0.05 Heavy Oil Residue m^3 
+                    - 0.05 Heavy Oil Residue m^3
                     - 0.1 Water m^3
                     - 75 MW(s)
                     * 1 Blender(s)
@@ -326,7 +326,7 @@
                           ++ 0.15 Heavy Oil Residue per minute
         # Standard: Residual Rubber:
           | Input/Output and Step Efficiency Values:
-              - 4 Polymer Resin(s) 
+              - 4 Polymer Resin(s)
               - 40 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -373,7 +373,7 @@
     |- Fabric (2/min)
         # Alternate: Polyester Fabric:
           | Input/Output and Step Efficiency Values:
-              - 32 Polymer Resin(s) 
+              - 32 Polymer Resin(s)
               - 200 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -410,7 +410,7 @@
                     ++ 32 Polymer Resin per minute
         # Standard: Fabric:
           | Input/Output and Step Efficiency Values:
-              - 2 Mycelia(s) 
+              - 2 Mycelia(s)
               - 10 Biomass(s)
               - 15 MW(s)
               * 1 Assembler(s)

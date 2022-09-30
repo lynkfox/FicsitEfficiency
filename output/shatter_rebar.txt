@@ -1,7 +1,7 @@
 > Shatter Rebar (1/min)
   # Standard: Shatter Rebar:
     | Input/Output and Step Efficiency Values:
-        - 2 Iron Rebar(s) 
+        - 2 Iron Rebar(s)
         - 3 Quartz Crystal(s)
         - 15 MW(s)
         * 1 Assembler(s)
@@ -29,7 +29,7 @@
                 |- Steel Ingot (0.5/min)
                     # Alternate: Coke Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.375 Iron Ore(s) 
+                          - 0.375 Iron Ore(s)
                           - 0.375 Petroleum Coke(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -84,7 +84,7 @@
                                       ++ 1.25 Heavy Oil Residue per minute
                     # Alternate: Solid Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.33333 Iron Ingot(s) 
+                          - 0.33333 Iron Ingot(s)
                           - 0.33333 Coal(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -94,7 +94,7 @@
                       |- Iron Ingot (0.33333/min)
                           # Alternate: Iron Alloy Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 0.13333 Iron Ore(s) 
+                                - 0.13333 Iron Ore(s)
                                 - 0.13333 Copper Ore(s)
                                 - 16 MW(s)
                                 * 1 Foundry(s)
@@ -103,7 +103,7 @@
                                 ++ 0.33333 Iron Ingot per minute
                           # Alternate: Pure Iron Ingot:
                             | Input/Output and Step Efficiency Values:
-                                - 0.17949 Iron Ore(s) 
+                                - 0.17949 Iron Ore(s)
                                 - 1.0256 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -120,7 +120,7 @@
                                 ++ 0.33333 Iron Ingot per minute
                     # Alternate: Compacted Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.3 Iron Ore(s) 
+                          - 0.3 Iron Ore(s)
                           - 0.15 Compacted Coal(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -130,7 +130,7 @@
                       |- Compacted Coal (0.15/min)
                           # Alternate: Compacted Coal:
                             | Input/Output and Step Efficiency Values:
-                                - 0.15 Coal(s) 
+                                - 0.15 Coal(s)
                                 - 0.15 Sulfur(s)
                                 - 15 MW(s)
                                 * 1 Assembler(s)
@@ -139,7 +139,7 @@
                                 ++ 0.15 Compacted Coal per minute
                     # Standard: Steel Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.5 Iron Ore(s) 
+                          - 0.5 Iron Ore(s)
                           - 0.5 Coal(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -157,7 +157,7 @@
                 |- Iron Ingot (2/min)
                     # Alternate: Iron Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.8 Iron Ore(s) 
+                          - 0.8 Iron Ore(s)
                           - 0.8 Copper Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -166,7 +166,7 @@
                           ++ 2 Iron Ingot per minute
                     # Alternate: Pure Iron Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.0769 Iron Ore(s) 
+                          - 1.0769 Iron Ore(s)
                           - 6.1538 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -184,7 +184,7 @@
     |- Quartz Crystal (3/min)
         # Alternate: Pure Quartz Crystal:
           | Input/Output and Step Efficiency Values:
-              - 3.8571 Raw Quartz(s) 
+              - 3.8571 Raw Quartz(s)
               - 21.429 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)

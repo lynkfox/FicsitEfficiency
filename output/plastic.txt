@@ -1,7 +1,7 @@
 > Plastic (1/min)
   # Alternate: Recycled Plastic:
     | Input/Output and Step Efficiency Values:
-        - 0.5 Rubber(s) 
+        - 0.5 Rubber(s)
         - 5 Fuel m^3
         - 30 MW(s)
         * 1 Refinery(s)
@@ -11,7 +11,7 @@
     |- Rubber (0.5/min)
         # Alternate: Recycled Rubber:
           | Input/Output and Step Efficiency Values:
-              - 0.25 Plastic(s) 
+              - 0.25 Plastic(s)
               - 2.5 Fuel m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -30,7 +30,7 @@
                     ++ 0.25 Heavy Oil Residue per minute
               # Standard: Residual Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 0.75 Polymer Resin(s) 
+                    - 0.75 Polymer Resin(s)
                     - 2.5 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -68,7 +68,7 @@
           |- Fuel (2.5/min)
               # Alternate: Diluted Fuel:
                 | Input/Output and Step Efficiency Values:
-                    - 0.0125 Heavy Oil Residue m^3 
+                    - 0.0125 Heavy Oil Residue m^3
                     - 0.025 Water m^3
                     - 75 MW(s)
                     * 1 Blender(s)
@@ -168,7 +168,7 @@
                           ++ 0.0375 Heavy Oil Residue per minute
         # Standard: Residual Rubber:
           | Input/Output and Step Efficiency Values:
-              - 1 Polymer Resin(s) 
+              - 1 Polymer Resin(s)
               - 10 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -215,7 +215,7 @@
     |- Fuel (5/min)
         # Alternate: Diluted Fuel:
           | Input/Output and Step Efficiency Values:
-              - 0.025 Heavy Oil Residue m^3 
+              - 0.025 Heavy Oil Residue m^3
               - 0.05 Water m^3
               - 75 MW(s)
               * 1 Blender(s)
@@ -324,7 +324,7 @@
         ++ 1 Heavy Oil Residue per minute
   # Standard: Residual Plastic:
     | Input/Output and Step Efficiency Values:
-        - 3 Polymer Resin(s) 
+        - 3 Polymer Resin(s)
         - 10 Water m^3
         - 30 MW(s)
         * 1 Refinery(s)

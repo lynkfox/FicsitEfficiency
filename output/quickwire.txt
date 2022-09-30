@@ -1,7 +1,7 @@
 > Quickwire (1/min)
   # Alternate: Fused Quickwire:
     | Input/Output and Step Efficiency Values:
-        - 0.083333 Gold Ingot(s) 
+        - 0.083333 Gold Ingot(s)
         - 0.41667 Copper Ingot(s)
         - 15 MW(s)
         * 1 Assembler(s)
@@ -11,7 +11,7 @@
     |- Gold Ingot (0.083333/min)
         # Alternate: Pure Caterium Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.16667 Caterium Ore(s) 
+              - 0.16667 Caterium Ore(s)
               - 1.6667 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -29,7 +29,7 @@
     |- Copper Ingot (0.41667/min)
         # Alternate: Copper Alloy Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.20833 Copper Ore(s) 
+              - 0.20833 Copper Ore(s)
               - 0.10417 Iron Ore(s)
               - 16 MW(s)
               * 1 Foundry(s)
@@ -38,7 +38,7 @@
               ++ 0.41667 Copper Ingot per minute
         # Alternate: Pure Copper Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.16667 Copper Ore(s) 
+              - 0.16667 Copper Ore(s)
               - 1.1111 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -64,7 +64,7 @@
     |- Gold Ingot (0.2/min)
         # Alternate: Pure Caterium Ingot:
           | Input/Output and Step Efficiency Values:
-              - 0.4 Caterium Ore(s) 
+              - 0.4 Caterium Ore(s)
               - 4 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)

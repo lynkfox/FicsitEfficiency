@@ -1,9 +1,9 @@
 > Encased Uranium Cell (1/min)
   # Alternate: Infused Uranium Cell:
     | Input/Output and Step Efficiency Values:
-        - 1.25 Uranium Ore(s) 
-        - 0.75 Silica(s) 
-        - 1.25 Sulfur(s) 
+        - 1.25 Uranium Ore(s)
+        - 0.75 Silica(s)
+        - 1.25 Sulfur(s)
         - 3.75 Quickwire(s)
         - 55 MW(s)
         * 1 Manufacturer(s)
@@ -13,7 +13,7 @@
     |- Silica (0.75/min)
         # Alternate: Cheap Silica:
           | Input/Output and Step Efficiency Values:
-              - 0.32143 Raw Quartz(s) 
+              - 0.32143 Raw Quartz(s)
               - 0.53571 Limestone(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -22,7 +22,7 @@
               ++ 0.75 Silica per minute
         # Standard: Alumina Solution:
           | Input/Output and Step Efficiency Values:
-              - 0.00075 Bauxite Ore(s) 
+              - 0.00075 Bauxite Ore(s)
               - 0.01125 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -41,7 +41,7 @@
     |- Quickwire (3.75/min)
         # Alternate: Fused Quickwire:
           | Input/Output and Step Efficiency Values:
-              - 0.3125 Gold Ingot(s) 
+              - 0.3125 Gold Ingot(s)
               - 1.5625 Copper Ingot(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -51,7 +51,7 @@
           |- Gold Ingot (0.3125/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.625 Caterium Ore(s) 
+                    - 0.625 Caterium Ore(s)
                     - 6.25 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -69,7 +69,7 @@
           |- Copper Ingot (1.5625/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.78125 Copper Ore(s) 
+                    - 0.78125 Copper Ore(s)
                     - 0.39062 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -78,7 +78,7 @@
                     ++ 1.5625 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.625 Copper Ore(s) 
+                    - 0.625 Copper Ore(s)
                     - 4.1667 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -104,7 +104,7 @@
           |- Gold Ingot (0.75/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 1.5 Caterium Ore(s) 
+                    - 1.5 Caterium Ore(s)
                     - 15 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -121,8 +121,8 @@
                     ++ 0.75 Gold Ingot per minute
   # Standard: Encased Uranium Cell:
     | Input/Output and Step Efficiency Values:
-        - 2 Uranium Ore(s) 
-        - 0.6 Concrete(s) 
+        - 2 Uranium Ore(s)
+        - 0.6 Concrete(s)
         - 16 Sulfuric Acid m^3
         - 75 MW(s)
         * 1 Blender(s)
@@ -133,7 +133,7 @@
     |- Concrete (0.6/min)
         # Alternate: Fine Concrete:
           | Input/Output and Step Efficiency Values:
-              - 0.18 Silica(s) 
+              - 0.18 Silica(s)
               - 0.72 Limestone(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -143,7 +143,7 @@
           |- Silica (0.18/min)
               # Alternate: Cheap Silica:
                 | Input/Output and Step Efficiency Values:
-                    - 0.077143 Raw Quartz(s) 
+                    - 0.077143 Raw Quartz(s)
                     - 0.12857 Limestone(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -152,7 +152,7 @@
                     ++ 0.18 Silica per minute
               # Standard: Alumina Solution:
                 | Input/Output and Step Efficiency Values:
-                    - 0.00018 Bauxite Ore(s) 
+                    - 0.00018 Bauxite Ore(s)
                     - 0.0027 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -170,7 +170,7 @@
                     ++ 0.18 Silica per minute
         # Alternate: Rubber Concrete:
           | Input/Output and Step Efficiency Values:
-              - 0.66667 Limestone(s) 
+              - 0.66667 Limestone(s)
               - 0.13333 Rubber(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -180,7 +180,7 @@
           |- Rubber (0.13333/min)
               # Alternate: Recycled Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 0.066667 Plastic(s) 
+                    - 0.066667 Plastic(s)
                     - 0.66667 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -190,7 +190,7 @@
                 |- Plastic (0.066667/min)
                     # Alternate: Recycled Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 0.033333 Rubber(s) 
+                          - 0.033333 Rubber(s)
                           - 0.33333 Fuel m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -200,7 +200,7 @@
                       |- Rubber (0.033333/min)
                           # Standard: Residual Rubber:
                             | Input/Output and Step Efficiency Values:
-                                - 0.066667 Polymer Resin(s) 
+                                - 0.066667 Polymer Resin(s)
                                 - 0.66667 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -247,7 +247,7 @@
                       |- Fuel (0.33333/min)
                           # Alternate: Diluted Fuel:
                             | Input/Output and Step Efficiency Values:
-                                - 0.0016667 Heavy Oil Residue m^3 
+                                - 0.0016667 Heavy Oil Residue m^3
                                 - 0.0033333 Water m^3
                                 - 75 MW(s)
                                 * 1 Blender(s)
@@ -356,7 +356,7 @@
                           ++ 0.066667 Heavy Oil Residue per minute
                     # Standard: Residual Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 0.2 Polymer Resin(s) 
+                          - 0.2 Polymer Resin(s)
                           - 0.66667 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -394,7 +394,7 @@
                 |- Fuel (0.66667/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.0033333 Heavy Oil Residue m^3 
+                          - 0.0033333 Heavy Oil Residue m^3
                           - 0.0066667 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -494,7 +494,7 @@
                                 ++ 0.01 Heavy Oil Residue per minute
               # Standard: Residual Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 0.26667 Polymer Resin(s) 
+                    - 0.26667 Polymer Resin(s)
                     - 2.6667 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -540,7 +540,7 @@
                     ++ 0.13333 Heavy Oil Residue per minute
         # Alternate: Wet Concrete:
           | Input/Output and Step Efficiency Values:
-              - 0.9 Limestone(s) 
+              - 0.9 Limestone(s)
               - 7.5 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -558,7 +558,7 @@
     |- Sulfuric Acid (16/min)
         # Standard: Sulfuric Acid:
           | Input/Output and Step Efficiency Values:
-              - 0.016 Sulfur(s) 
+              - 0.016 Sulfur(s)
               - 0.16 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)

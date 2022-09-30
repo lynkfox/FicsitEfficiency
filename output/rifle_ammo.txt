@@ -1,7 +1,7 @@
 > Rifle Ammo (1/min)
   # Standard: Rifle Ammo:
     | Input/Output and Step Efficiency Values:
-        - 0.2 Copper Sheet(s) 
+        - 0.2 Copper Sheet(s)
         - 0.13333 Smokeless Powder(s)
         - 15 MW(s)
         * 1 Assembler(s)
@@ -11,7 +11,7 @@
     |- Copper Sheet (0.2/min)
         # Alternate: Steamed Copper Sheet:
           | Input/Output and Step Efficiency Values:
-              - 0.2 Copper Ingot(s) 
+              - 0.2 Copper Ingot(s)
               - 2 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -21,7 +21,7 @@
           |- Copper Ingot (0.2/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.1 Copper Ore(s) 
+                    - 0.1 Copper Ore(s)
                     - 0.05 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -30,7 +30,7 @@
                     ++ 0.2 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.08 Copper Ore(s) 
+                    - 0.08 Copper Ore(s)
                     - 0.53333 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -56,7 +56,7 @@
           |- Copper Ingot (0.4/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.2 Copper Ore(s) 
+                    - 0.2 Copper Ore(s)
                     - 0.1 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -65,7 +65,7 @@
                     ++ 0.4 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.16 Copper Ore(s) 
+                    - 0.16 Copper Ore(s)
                     - 1.0667 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -83,7 +83,7 @@
     |- Smokeless Powder (0.13333/min)
         # Standard: Smokeless Powder:
           | Input/Output and Step Efficiency Values:
-              - 0.13333 Black Powder(s) 
+              - 0.13333 Black Powder(s)
               - 0.066667 Heavy Oil Residue m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -93,7 +93,7 @@
           |- Black Powder (0.13333/min)
               # Alternate: Fine Black Powder:
                 | Input/Output and Step Efficiency Values:
-                    - 0.066667 Sulfur(s) 
+                    - 0.066667 Sulfur(s)
                     - 0.033333 Compacted Coal(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -103,7 +103,7 @@
                 |- Compacted Coal (0.033333/min)
                     # Alternate: Compacted Coal:
                       | Input/Output and Step Efficiency Values:
-                          - 0.033333 Coal(s) 
+                          - 0.033333 Coal(s)
                           - 0.033333 Sulfur(s)
                           - 15 MW(s)
                           * 1 Assembler(s)
@@ -112,7 +112,7 @@
                           ++ 0.033333 Compacted Coal per minute
               # Standard: Black Powder:
                 | Input/Output and Step Efficiency Values:
-                    - 0.13333 Coal(s) 
+                    - 0.13333 Coal(s)
                     - 0.26667 Sulfur(s)
                     - 15 MW(s)
                     * 1 Assembler(s)

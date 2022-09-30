@@ -1,7 +1,7 @@
 > Liquid BioFuel (1/min)
   # Standard: Liquid Biofuel:
     | Input/Output and Step Efficiency Values:
-        - 0.0015 Solid BioFuel(s) 
+        - 0.0015 Solid BioFuel(s)
         - 0.0075 Water m^3
         - 30 MW(s)
         * 1 Refinery(s)

@@ -1,7 +1,7 @@
 > Iron Ingot (1/min)
   # Alternate: Iron Alloy Ingot:
     | Input/Output and Step Efficiency Values:
-        - 0.4 Iron Ore(s) 
+        - 0.4 Iron Ore(s)
         - 0.4 Copper Ore(s)
         - 16 MW(s)
         * 1 Foundry(s)
@@ -10,7 +10,7 @@
         ++ 1 Iron Ingot per minute
   # Alternate: Pure Iron Ingot:
     | Input/Output and Step Efficiency Values:
-        - 0.53846 Iron Ore(s) 
+        - 0.53846 Iron Ore(s)
         - 3.0769 Water m^3
         - 30 MW(s)
         * 1 Refinery(s)

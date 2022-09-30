@@ -1,9 +1,9 @@
 > Turbo Fuel (1/min)
   # Alternate: Turbo Blend Fuel:
     | Input/Output and Step Efficiency Values:
-        - 0.0033333 Fuel m^3 
-        - 0.0066667 Heavy Oil Residue m^3 
-        - 0.0005 Sulfur(s) 
+        - 0.0033333 Fuel m^3
+        - 0.0066667 Heavy Oil Residue m^3
+        - 0.0005 Sulfur(s)
         - 0.0005 Petroleum Coke(s)
         - 75 MW(s)
         * 1 Blender(s)
@@ -13,7 +13,7 @@
     |- Fuel (0.0033333/min)
         # Alternate: Diluted Fuel:
           | Input/Output and Step Efficiency Values:
-              - 1.6667e-05 Heavy Oil Residue m^3 
+              - 1.6667e-05 Heavy Oil Residue m^3
               - 3.3333e-05 Water m^3
               - 75 MW(s)
               * 1 Blender(s)
@@ -196,7 +196,7 @@
                     ++ 0.0016667 Heavy Oil Residue per minute
   # Standard: Turbofuel:
     | Input/Output and Step Efficiency Values:
-        - 0.012 Fuel m^3 
+        - 0.012 Fuel m^3
         - 0.0008 Compacted Coal(s)
         - 30 MW(s)
         * 1 Refinery(s)
@@ -206,7 +206,7 @@
     |- Fuel (0.012/min)
         # Alternate: Diluted Fuel:
           | Input/Output and Step Efficiency Values:
-              - 6e-05 Heavy Oil Residue m^3 
+              - 6e-05 Heavy Oil Residue m^3
               - 0.00012 Water m^3
               - 75 MW(s)
               * 1 Blender(s)
@@ -307,7 +307,7 @@
     |- Compacted Coal (0.0008/min)
         # Alternate: Compacted Coal:
           | Input/Output and Step Efficiency Values:
-              - 0.0008 Coal(s) 
+              - 0.0008 Coal(s)
               - 0.0008 Sulfur(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -316,7 +316,7 @@
               ++ 0.0008 Compacted Coal per minute
   # Alternate: Turbo Heavy Fuel:
     | Input/Output and Step Efficiency Values:
-        - 0.0125 Heavy Oil Residue m^3 
+        - 0.0125 Heavy Oil Residue m^3
         - 0.001 Compacted Coal(s)
         - 30 MW(s)
         * 1 Refinery(s)
@@ -363,7 +363,7 @@
     |- Compacted Coal (0.001/min)
         # Alternate: Compacted Coal:
           | Input/Output and Step Efficiency Values:
-              - 0.001 Coal(s) 
+              - 0.001 Coal(s)
               - 0.001 Sulfur(s)
               - 15 MW(s)
               * 1 Assembler(s)

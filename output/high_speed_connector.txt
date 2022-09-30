@@ -1,8 +1,8 @@
 > High Speed Connector (1/min)
   # Alternate: Silicon High-Speed Connector:
     | Input/Output and Step Efficiency Values:
-        - 30 Quickwire(s) 
-        - 12.5 Silica(s) 
+        - 30 Quickwire(s)
+        - 12.5 Silica(s)
         - 1 Circuit Board(s)
         - 55 MW(s)
         * 1 Manufacturer(s)
@@ -12,7 +12,7 @@
     |- Quickwire (30/min)
         # Alternate: Fused Quickwire:
           | Input/Output and Step Efficiency Values:
-              - 2.5 Gold Ingot(s) 
+              - 2.5 Gold Ingot(s)
               - 12.5 Copper Ingot(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -22,7 +22,7 @@
           |- Gold Ingot (2.5/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 5 Caterium Ore(s) 
+                    - 5 Caterium Ore(s)
                     - 50 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -40,7 +40,7 @@
           |- Copper Ingot (12.5/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 6.25 Copper Ore(s) 
+                    - 6.25 Copper Ore(s)
                     - 3.125 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -49,7 +49,7 @@
                     ++ 12.5 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 5 Copper Ore(s) 
+                    - 5 Copper Ore(s)
                     - 33.333 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -75,7 +75,7 @@
           |- Gold Ingot (6/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 12 Caterium Ore(s) 
+                    - 12 Caterium Ore(s)
                     - 120 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -93,7 +93,7 @@
     |- Silica (12.5/min)
         # Alternate: Cheap Silica:
           | Input/Output and Step Efficiency Values:
-              - 5.3571 Raw Quartz(s) 
+              - 5.3571 Raw Quartz(s)
               - 8.9286 Limestone(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -102,7 +102,7 @@
               ++ 12.5 Silica per minute
         # Standard: Alumina Solution:
           | Input/Output and Step Efficiency Values:
-              - 0.0125 Bauxite Ore(s) 
+              - 0.0125 Bauxite Ore(s)
               - 0.1875 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -121,7 +121,7 @@
     |- Circuit Board (1/min)
         # Alternate: Silicon Circuit Board:
           | Input/Output and Step Efficiency Values:
-              - 2.2 Copper Sheet(s) 
+              - 2.2 Copper Sheet(s)
               - 2.2 Silica(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -131,7 +131,7 @@
           |- Copper Sheet (2.2/min)
               # Alternate: Steamed Copper Sheet:
                 | Input/Output and Step Efficiency Values:
-                    - 2.2 Copper Ingot(s) 
+                    - 2.2 Copper Ingot(s)
                     - 22 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -141,7 +141,7 @@
                 |- Copper Ingot (2.2/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.1 Copper Ore(s) 
+                          - 1.1 Copper Ore(s)
                           - 0.55 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -150,7 +150,7 @@
                           ++ 2.2 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.88 Copper Ore(s) 
+                          - 0.88 Copper Ore(s)
                           - 5.8667 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -176,7 +176,7 @@
                 |- Copper Ingot (4.4/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 2.2 Copper Ore(s) 
+                          - 2.2 Copper Ore(s)
                           - 1.1 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -185,7 +185,7 @@
                           ++ 4.4 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.76 Copper Ore(s) 
+                          - 1.76 Copper Ore(s)
                           - 11.733 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -203,7 +203,7 @@
           |- Silica (2.2/min)
               # Alternate: Cheap Silica:
                 | Input/Output and Step Efficiency Values:
-                    - 0.94286 Raw Quartz(s) 
+                    - 0.94286 Raw Quartz(s)
                     - 1.5714 Limestone(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -212,7 +212,7 @@
                     ++ 2.2 Silica per minute
               # Standard: Alumina Solution:
                 | Input/Output and Step Efficiency Values:
-                    - 0.0022 Bauxite Ore(s) 
+                    - 0.0022 Bauxite Ore(s)
                     - 0.033 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -230,7 +230,7 @@
                     ++ 2.2 Silica per minute
         # Alternate: Caterium Circuit Board:
           | Input/Output and Step Efficiency Values:
-              - 1.4286 Plastic(s) 
+              - 1.4286 Plastic(s)
               - 4.2857 Quickwire(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -240,7 +240,7 @@
           |- Plastic (1.4286/min)
               # Alternate: Recycled Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 0.71429 Rubber(s) 
+                    - 0.71429 Rubber(s)
                     - 7.1429 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -250,7 +250,7 @@
                 |- Rubber (0.71429/min)
                     # Alternate: Recycled Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 0.35714 Plastic(s) 
+                          - 0.35714 Plastic(s)
                           - 3.5714 Fuel m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -269,7 +269,7 @@
                                 ++ 0.35714 Heavy Oil Residue per minute
                           # Standard: Residual Plastic:
                             | Input/Output and Step Efficiency Values:
-                                - 1.0714 Polymer Resin(s) 
+                                - 1.0714 Polymer Resin(s)
                                 - 3.5714 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -307,7 +307,7 @@
                       |- Fuel (3.5714/min)
                           # Alternate: Diluted Fuel:
                             | Input/Output and Step Efficiency Values:
-                                - 0.017857 Heavy Oil Residue m^3 
+                                - 0.017857 Heavy Oil Residue m^3
                                 - 0.035714 Water m^3
                                 - 75 MW(s)
                                 * 1 Blender(s)
@@ -407,7 +407,7 @@
                                       ++ 0.053571 Heavy Oil Residue per minute
                     # Standard: Residual Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 1.4286 Polymer Resin(s) 
+                          - 1.4286 Polymer Resin(s)
                           - 14.286 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -454,7 +454,7 @@
                 |- Fuel (7.1429/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.035714 Heavy Oil Residue m^3 
+                          - 0.035714 Heavy Oil Residue m^3
                           - 0.071429 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -563,7 +563,7 @@
                     ++ 1.4286 Heavy Oil Residue per minute
               # Standard: Residual Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 4.2857 Polymer Resin(s) 
+                    - 4.2857 Polymer Resin(s)
                     - 14.286 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -601,7 +601,7 @@
           |- Quickwire (4.2857/min)
               # Alternate: Fused Quickwire:
                 | Input/Output and Step Efficiency Values:
-                    - 0.35714 Gold Ingot(s) 
+                    - 0.35714 Gold Ingot(s)
                     - 1.7857 Copper Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -611,7 +611,7 @@
                 |- Gold Ingot (0.35714/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.71429 Caterium Ore(s) 
+                          - 0.71429 Caterium Ore(s)
                           - 7.1429 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -629,7 +629,7 @@
                 |- Copper Ingot (1.7857/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.89286 Copper Ore(s) 
+                          - 0.89286 Copper Ore(s)
                           - 0.44643 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -638,7 +638,7 @@
                           ++ 1.7857 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.71429 Copper Ore(s) 
+                          - 0.71429 Copper Ore(s)
                           - 4.7619 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -664,7 +664,7 @@
                 |- Gold Ingot (0.85714/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.7143 Caterium Ore(s) 
+                          - 1.7143 Caterium Ore(s)
                           - 17.143 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -681,7 +681,7 @@
                           ++ 0.85714 Gold Ingot per minute
         # Alternate: Electrode Circuit Board:
           | Input/Output and Step Efficiency Values:
-              - 6 Rubber(s) 
+              - 6 Rubber(s)
               - 9 Petroleum Coke(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -691,7 +691,7 @@
           |- Rubber (6/min)
               # Alternate: Recycled Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 3 Plastic(s) 
+                    - 3 Plastic(s)
                     - 30 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -701,7 +701,7 @@
                 |- Plastic (3/min)
                     # Alternate: Recycled Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 1.5 Rubber(s) 
+                          - 1.5 Rubber(s)
                           - 15 Fuel m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -711,7 +711,7 @@
                       |- Rubber (1.5/min)
                           # Standard: Residual Rubber:
                             | Input/Output and Step Efficiency Values:
-                                - 3 Polymer Resin(s) 
+                                - 3 Polymer Resin(s)
                                 - 30 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -758,7 +758,7 @@
                       |- Fuel (15/min)
                           # Alternate: Diluted Fuel:
                             | Input/Output and Step Efficiency Values:
-                                - 0.075 Heavy Oil Residue m^3 
+                                - 0.075 Heavy Oil Residue m^3
                                 - 0.15 Water m^3
                                 - 75 MW(s)
                                 * 1 Blender(s)
@@ -867,7 +867,7 @@
                           ++ 3 Heavy Oil Residue per minute
                     # Standard: Residual Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 9 Polymer Resin(s) 
+                          - 9 Polymer Resin(s)
                           - 30 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -905,7 +905,7 @@
                 |- Fuel (30/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.15 Heavy Oil Residue m^3 
+                          - 0.15 Heavy Oil Residue m^3
                           - 0.3 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -1005,7 +1005,7 @@
                                 ++ 0.45 Heavy Oil Residue per minute
               # Standard: Residual Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 12 Polymer Resin(s) 
+                    - 12 Polymer Resin(s)
                     - 120 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -1097,7 +1097,7 @@
                           ++ 30 Heavy Oil Residue per minute
         # Standard: Circuit Board:
           | Input/Output and Step Efficiency Values:
-              - 2 Copper Sheet(s) 
+              - 2 Copper Sheet(s)
               - 4 Plastic(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -1107,7 +1107,7 @@
           |- Copper Sheet (2/min)
               # Alternate: Steamed Copper Sheet:
                 | Input/Output and Step Efficiency Values:
-                    - 2 Copper Ingot(s) 
+                    - 2 Copper Ingot(s)
                     - 20 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -1117,7 +1117,7 @@
                 |- Copper Ingot (2/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1 Copper Ore(s) 
+                          - 1 Copper Ore(s)
                           - 0.5 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -1126,7 +1126,7 @@
                           ++ 2 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.8 Copper Ore(s) 
+                          - 0.8 Copper Ore(s)
                           - 5.3333 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1152,7 +1152,7 @@
                 |- Copper Ingot (4/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 2 Copper Ore(s) 
+                          - 2 Copper Ore(s)
                           - 1 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -1161,7 +1161,7 @@
                           ++ 4 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.6 Copper Ore(s) 
+                          - 1.6 Copper Ore(s)
                           - 10.667 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1179,7 +1179,7 @@
           |- Plastic (4/min)
               # Alternate: Recycled Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 2 Rubber(s) 
+                    - 2 Rubber(s)
                     - 20 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -1189,7 +1189,7 @@
                 |- Rubber (2/min)
                     # Alternate: Recycled Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 1 Plastic(s) 
+                          - 1 Plastic(s)
                           - 10 Fuel m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1208,7 +1208,7 @@
                                 ++ 1 Heavy Oil Residue per minute
                           # Standard: Residual Plastic:
                             | Input/Output and Step Efficiency Values:
-                                - 3 Polymer Resin(s) 
+                                - 3 Polymer Resin(s)
                                 - 10 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -1246,7 +1246,7 @@
                       |- Fuel (10/min)
                           # Alternate: Diluted Fuel:
                             | Input/Output and Step Efficiency Values:
-                                - 0.05 Heavy Oil Residue m^3 
+                                - 0.05 Heavy Oil Residue m^3
                                 - 0.1 Water m^3
                                 - 75 MW(s)
                                 * 1 Blender(s)
@@ -1346,7 +1346,7 @@
                                       ++ 0.15 Heavy Oil Residue per minute
                     # Standard: Residual Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 4 Polymer Resin(s) 
+                          - 4 Polymer Resin(s)
                           - 40 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1393,7 +1393,7 @@
                 |- Fuel (20/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.1 Heavy Oil Residue m^3 
+                          - 0.1 Heavy Oil Residue m^3
                           - 0.2 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -1502,7 +1502,7 @@
                     ++ 4 Heavy Oil Residue per minute
               # Standard: Residual Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 12 Polymer Resin(s) 
+                    - 12 Polymer Resin(s)
                     - 40 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -1539,8 +1539,8 @@
                           ++ 12 Polymer Resin per minute
   # Standard: High-Speed Connector:
     | Input/Output and Step Efficiency Values:
-        - 56 Quickwire(s) 
-        - 10 Cable(s) 
+        - 56 Quickwire(s)
+        - 10 Cable(s)
         - 1 Circuit Board(s)
         - 55 MW(s)
         * 1 Manufacturer(s)
@@ -1550,7 +1550,7 @@
     |- Quickwire (56/min)
         # Alternate: Fused Quickwire:
           | Input/Output and Step Efficiency Values:
-              - 4.6667 Gold Ingot(s) 
+              - 4.6667 Gold Ingot(s)
               - 23.333 Copper Ingot(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -1560,7 +1560,7 @@
           |- Gold Ingot (4.6667/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 9.3333 Caterium Ore(s) 
+                    - 9.3333 Caterium Ore(s)
                     - 93.333 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -1578,7 +1578,7 @@
           |- Copper Ingot (23.333/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 11.667 Copper Ore(s) 
+                    - 11.667 Copper Ore(s)
                     - 5.8333 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
@@ -1587,7 +1587,7 @@
                     ++ 23.333 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 9.3333 Copper Ore(s) 
+                    - 9.3333 Copper Ore(s)
                     - 62.222 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -1613,7 +1613,7 @@
           |- Gold Ingot (11.2/min)
               # Alternate: Pure Caterium Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 22.4 Caterium Ore(s) 
+                    - 22.4 Caterium Ore(s)
                     - 224 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -1631,7 +1631,7 @@
     |- Cable (10/min)
         # Alternate: Insulated Cable:
           | Input/Output and Step Efficiency Values:
-              - 4.5 Wire(s) 
+              - 4.5 Wire(s)
               - 3 Rubber(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -1641,7 +1641,7 @@
           |- Wire (4.5/min)
               # Alternate: Fused Wire:
                 | Input/Output and Step Efficiency Values:
-                    - 0.6 Copper Ingot(s) 
+                    - 0.6 Copper Ingot(s)
                     - 0.15 Gold Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -1651,7 +1651,7 @@
                 |- Copper Ingot (0.6/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.3 Copper Ore(s) 
+                          - 0.3 Copper Ore(s)
                           - 0.15 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -1660,7 +1660,7 @@
                           ++ 0.6 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.24 Copper Ore(s) 
+                          - 0.24 Copper Ore(s)
                           - 1.6 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1678,7 +1678,7 @@
                 |- Gold Ingot (0.15/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.3 Caterium Ore(s) 
+                          - 0.3 Caterium Ore(s)
                           - 3 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1704,7 +1704,7 @@
                 |- Iron Ingot (2.5/min)
                     # Alternate: Iron Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1 Iron Ore(s) 
+                          - 1 Iron Ore(s)
                           - 1 Copper Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -1713,7 +1713,7 @@
                           ++ 2.5 Iron Ingot per minute
                     # Alternate: Pure Iron Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.3462 Iron Ore(s) 
+                          - 1.3462 Iron Ore(s)
                           - 7.6923 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1739,7 +1739,7 @@
                 |- Gold Ingot (0.5625/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.125 Caterium Ore(s) 
+                          - 1.125 Caterium Ore(s)
                           - 11.25 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1765,7 +1765,7 @@
                 |- Copper Ingot (2.25/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.125 Copper Ore(s) 
+                          - 1.125 Copper Ore(s)
                           - 0.5625 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -1774,7 +1774,7 @@
                           ++ 2.25 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.9 Copper Ore(s) 
+                          - 0.9 Copper Ore(s)
                           - 6 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1792,7 +1792,7 @@
           |- Rubber (3/min)
               # Alternate: Recycled Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 1.5 Plastic(s) 
+                    - 1.5 Plastic(s)
                     - 15 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -1802,7 +1802,7 @@
                 |- Plastic (1.5/min)
                     # Alternate: Recycled Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 0.75 Rubber(s) 
+                          - 0.75 Rubber(s)
                           - 7.5 Fuel m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -1812,7 +1812,7 @@
                       |- Rubber (0.75/min)
                           # Standard: Residual Rubber:
                             | Input/Output and Step Efficiency Values:
-                                - 1.5 Polymer Resin(s) 
+                                - 1.5 Polymer Resin(s)
                                 - 15 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -1859,7 +1859,7 @@
                       |- Fuel (7.5/min)
                           # Alternate: Diluted Fuel:
                             | Input/Output and Step Efficiency Values:
-                                - 0.0375 Heavy Oil Residue m^3 
+                                - 0.0375 Heavy Oil Residue m^3
                                 - 0.075 Water m^3
                                 - 75 MW(s)
                                 * 1 Blender(s)
@@ -1968,7 +1968,7 @@
                           ++ 1.5 Heavy Oil Residue per minute
                     # Standard: Residual Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 4.5 Polymer Resin(s) 
+                          - 4.5 Polymer Resin(s)
                           - 15 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2006,7 +2006,7 @@
                 |- Fuel (15/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.075 Heavy Oil Residue m^3 
+                          - 0.075 Heavy Oil Residue m^3
                           - 0.15 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -2106,7 +2106,7 @@
                                 ++ 0.225 Heavy Oil Residue per minute
               # Standard: Residual Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 6 Polymer Resin(s) 
+                    - 6 Polymer Resin(s)
                     - 60 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -2152,7 +2152,7 @@
                     ++ 3 Heavy Oil Residue per minute
         # Alternate: Quickwire Cable:
           | Input/Output and Step Efficiency Values:
-              - 2.7273 Quickwire(s) 
+              - 2.7273 Quickwire(s)
               - 1.8182 Rubber(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -2162,7 +2162,7 @@
           |- Quickwire (2.7273/min)
               # Alternate: Fused Quickwire:
                 | Input/Output and Step Efficiency Values:
-                    - 0.22727 Gold Ingot(s) 
+                    - 0.22727 Gold Ingot(s)
                     - 1.1364 Copper Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -2172,7 +2172,7 @@
                 |- Gold Ingot (0.22727/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.45455 Caterium Ore(s) 
+                          - 0.45455 Caterium Ore(s)
                           - 4.5455 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2190,7 +2190,7 @@
                 |- Copper Ingot (1.1364/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.56818 Copper Ore(s) 
+                          - 0.56818 Copper Ore(s)
                           - 0.28409 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -2199,7 +2199,7 @@
                           ++ 1.1364 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.45455 Copper Ore(s) 
+                          - 0.45455 Copper Ore(s)
                           - 3.0303 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2225,7 +2225,7 @@
                 |- Gold Ingot (0.54545/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.0909 Caterium Ore(s) 
+                          - 1.0909 Caterium Ore(s)
                           - 10.909 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2243,7 +2243,7 @@
           |- Rubber (1.8182/min)
               # Alternate: Recycled Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 0.90909 Plastic(s) 
+                    - 0.90909 Plastic(s)
                     - 9.0909 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -2253,7 +2253,7 @@
                 |- Plastic (0.90909/min)
                     # Alternate: Recycled Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 0.45455 Rubber(s) 
+                          - 0.45455 Rubber(s)
                           - 4.5455 Fuel m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2263,7 +2263,7 @@
                       |- Rubber (0.45455/min)
                           # Standard: Residual Rubber:
                             | Input/Output and Step Efficiency Values:
-                                - 0.90909 Polymer Resin(s) 
+                                - 0.90909 Polymer Resin(s)
                                 - 9.0909 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -2310,7 +2310,7 @@
                       |- Fuel (4.5455/min)
                           # Alternate: Diluted Fuel:
                             | Input/Output and Step Efficiency Values:
-                                - 0.022727 Heavy Oil Residue m^3 
+                                - 0.022727 Heavy Oil Residue m^3
                                 - 0.045455 Water m^3
                                 - 75 MW(s)
                                 * 1 Blender(s)
@@ -2419,7 +2419,7 @@
                           ++ 0.90909 Heavy Oil Residue per minute
                     # Standard: Residual Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 2.7273 Polymer Resin(s) 
+                          - 2.7273 Polymer Resin(s)
                           - 9.0909 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2457,7 +2457,7 @@
                 |- Fuel (9.0909/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.045455 Heavy Oil Residue m^3 
+                          - 0.045455 Heavy Oil Residue m^3
                           - 0.090909 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -2557,7 +2557,7 @@
                                 ++ 0.13636 Heavy Oil Residue per minute
               # Standard: Residual Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 3.6364 Polymer Resin(s) 
+                    - 3.6364 Polymer Resin(s)
                     - 36.364 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -2603,7 +2603,7 @@
                     ++ 1.8182 Heavy Oil Residue per minute
         # Alternate: Coated Cable:
           | Input/Output and Step Efficiency Values:
-              - 5.5556 Wire(s) 
+              - 5.5556 Wire(s)
               - 22.222 Heavy Oil Residue m^3
               - 30 MW(s)
               * 1 Refinery(s)
@@ -2613,7 +2613,7 @@
           |- Wire (5.5556/min)
               # Alternate: Fused Wire:
                 | Input/Output and Step Efficiency Values:
-                    - 0.74074 Copper Ingot(s) 
+                    - 0.74074 Copper Ingot(s)
                     - 0.18519 Gold Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -2623,7 +2623,7 @@
                 |- Copper Ingot (0.74074/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.37037 Copper Ore(s) 
+                          - 0.37037 Copper Ore(s)
                           - 0.18519 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -2632,7 +2632,7 @@
                           ++ 0.74074 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.2963 Copper Ore(s) 
+                          - 0.2963 Copper Ore(s)
                           - 1.9753 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2650,7 +2650,7 @@
                 |- Gold Ingot (0.18519/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.37037 Caterium Ore(s) 
+                          - 0.37037 Caterium Ore(s)
                           - 3.7037 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2676,7 +2676,7 @@
                 |- Iron Ingot (3.0864/min)
                     # Alternate: Iron Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.2346 Iron Ore(s) 
+                          - 1.2346 Iron Ore(s)
                           - 1.2346 Copper Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -2685,7 +2685,7 @@
                           ++ 3.0864 Iron Ingot per minute
                     # Alternate: Pure Iron Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.6619 Iron Ore(s) 
+                          - 1.6619 Iron Ore(s)
                           - 9.4967 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2711,7 +2711,7 @@
                 |- Gold Ingot (0.69444/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.3889 Caterium Ore(s) 
+                          - 1.3889 Caterium Ore(s)
                           - 13.889 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2737,7 +2737,7 @@
                 |- Copper Ingot (2.7778/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.3889 Copper Ore(s) 
+                          - 1.3889 Copper Ore(s)
                           - 0.69444 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -2746,7 +2746,7 @@
                           ++ 2.7778 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.1111 Copper Ore(s) 
+                          - 1.1111 Copper Ore(s)
                           - 7.4074 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2809,7 +2809,7 @@
           |- Wire (20/min)
               # Alternate: Fused Wire:
                 | Input/Output and Step Efficiency Values:
-                    - 2.6667 Copper Ingot(s) 
+                    - 2.6667 Copper Ingot(s)
                     - 0.66667 Gold Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -2819,7 +2819,7 @@
                 |- Copper Ingot (2.6667/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.3333 Copper Ore(s) 
+                          - 1.3333 Copper Ore(s)
                           - 0.66667 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -2828,7 +2828,7 @@
                           ++ 2.6667 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.0667 Copper Ore(s) 
+                          - 1.0667 Copper Ore(s)
                           - 7.1111 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2846,7 +2846,7 @@
                 |- Gold Ingot (0.66667/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.3333 Caterium Ore(s) 
+                          - 1.3333 Caterium Ore(s)
                           - 13.333 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2872,7 +2872,7 @@
                 |- Iron Ingot (11.111/min)
                     # Alternate: Iron Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 4.4444 Iron Ore(s) 
+                          - 4.4444 Iron Ore(s)
                           - 4.4444 Copper Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -2881,7 +2881,7 @@
                           ++ 11.111 Iron Ingot per minute
                     # Alternate: Pure Iron Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 5.9829 Iron Ore(s) 
+                          - 5.9829 Iron Ore(s)
                           - 34.188 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2907,7 +2907,7 @@
                 |- Gold Ingot (2.5/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 5 Caterium Ore(s) 
+                          - 5 Caterium Ore(s)
                           - 50 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2933,7 +2933,7 @@
                 |- Copper Ingot (10/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 5 Copper Ore(s) 
+                          - 5 Copper Ore(s)
                           - 2.5 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -2942,7 +2942,7 @@
                           ++ 10 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 4 Copper Ore(s) 
+                          - 4 Copper Ore(s)
                           - 26.667 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -2960,7 +2960,7 @@
     |- Circuit Board (1/min)
         # Alternate: Silicon Circuit Board:
           | Input/Output and Step Efficiency Values:
-              - 2.2 Copper Sheet(s) 
+              - 2.2 Copper Sheet(s)
               - 2.2 Silica(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -2970,7 +2970,7 @@
           |- Copper Sheet (2.2/min)
               # Alternate: Steamed Copper Sheet:
                 | Input/Output and Step Efficiency Values:
-                    - 2.2 Copper Ingot(s) 
+                    - 2.2 Copper Ingot(s)
                     - 22 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -2980,7 +2980,7 @@
                 |- Copper Ingot (2.2/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.1 Copper Ore(s) 
+                          - 1.1 Copper Ore(s)
                           - 0.55 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -2989,7 +2989,7 @@
                           ++ 2.2 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.88 Copper Ore(s) 
+                          - 0.88 Copper Ore(s)
                           - 5.8667 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3015,7 +3015,7 @@
                 |- Copper Ingot (4.4/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 2.2 Copper Ore(s) 
+                          - 2.2 Copper Ore(s)
                           - 1.1 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -3024,7 +3024,7 @@
                           ++ 4.4 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.76 Copper Ore(s) 
+                          - 1.76 Copper Ore(s)
                           - 11.733 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3042,7 +3042,7 @@
           |- Silica (2.2/min)
               # Alternate: Cheap Silica:
                 | Input/Output and Step Efficiency Values:
-                    - 0.94286 Raw Quartz(s) 
+                    - 0.94286 Raw Quartz(s)
                     - 1.5714 Limestone(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -3051,7 +3051,7 @@
                     ++ 2.2 Silica per minute
               # Standard: Alumina Solution:
                 | Input/Output and Step Efficiency Values:
-                    - 0.0022 Bauxite Ore(s) 
+                    - 0.0022 Bauxite Ore(s)
                     - 0.033 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -3069,7 +3069,7 @@
                     ++ 2.2 Silica per minute
         # Alternate: Caterium Circuit Board:
           | Input/Output and Step Efficiency Values:
-              - 1.4286 Plastic(s) 
+              - 1.4286 Plastic(s)
               - 4.2857 Quickwire(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -3079,7 +3079,7 @@
           |- Plastic (1.4286/min)
               # Alternate: Recycled Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 0.71429 Rubber(s) 
+                    - 0.71429 Rubber(s)
                     - 7.1429 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -3089,7 +3089,7 @@
                 |- Rubber (0.71429/min)
                     # Alternate: Recycled Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 0.35714 Plastic(s) 
+                          - 0.35714 Plastic(s)
                           - 3.5714 Fuel m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3108,7 +3108,7 @@
                                 ++ 0.35714 Heavy Oil Residue per minute
                           # Standard: Residual Plastic:
                             | Input/Output and Step Efficiency Values:
-                                - 1.0714 Polymer Resin(s) 
+                                - 1.0714 Polymer Resin(s)
                                 - 3.5714 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -3146,7 +3146,7 @@
                       |- Fuel (3.5714/min)
                           # Alternate: Diluted Fuel:
                             | Input/Output and Step Efficiency Values:
-                                - 0.017857 Heavy Oil Residue m^3 
+                                - 0.017857 Heavy Oil Residue m^3
                                 - 0.035714 Water m^3
                                 - 75 MW(s)
                                 * 1 Blender(s)
@@ -3246,7 +3246,7 @@
                                       ++ 0.053571 Heavy Oil Residue per minute
                     # Standard: Residual Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 1.4286 Polymer Resin(s) 
+                          - 1.4286 Polymer Resin(s)
                           - 14.286 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3293,7 +3293,7 @@
                 |- Fuel (7.1429/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.035714 Heavy Oil Residue m^3 
+                          - 0.035714 Heavy Oil Residue m^3
                           - 0.071429 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -3402,7 +3402,7 @@
                     ++ 1.4286 Heavy Oil Residue per minute
               # Standard: Residual Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 4.2857 Polymer Resin(s) 
+                    - 4.2857 Polymer Resin(s)
                     - 14.286 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -3440,7 +3440,7 @@
           |- Quickwire (4.2857/min)
               # Alternate: Fused Quickwire:
                 | Input/Output and Step Efficiency Values:
-                    - 0.35714 Gold Ingot(s) 
+                    - 0.35714 Gold Ingot(s)
                     - 1.7857 Copper Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
@@ -3450,7 +3450,7 @@
                 |- Gold Ingot (0.35714/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.71429 Caterium Ore(s) 
+                          - 0.71429 Caterium Ore(s)
                           - 7.1429 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3468,7 +3468,7 @@
                 |- Copper Ingot (1.7857/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.89286 Copper Ore(s) 
+                          - 0.89286 Copper Ore(s)
                           - 0.44643 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -3477,7 +3477,7 @@
                           ++ 1.7857 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.71429 Copper Ore(s) 
+                          - 0.71429 Copper Ore(s)
                           - 4.7619 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3503,7 +3503,7 @@
                 |- Gold Ingot (0.85714/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.7143 Caterium Ore(s) 
+                          - 1.7143 Caterium Ore(s)
                           - 17.143 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3520,7 +3520,7 @@
                           ++ 0.85714 Gold Ingot per minute
         # Alternate: Electrode Circuit Board:
           | Input/Output and Step Efficiency Values:
-              - 6 Rubber(s) 
+              - 6 Rubber(s)
               - 9 Petroleum Coke(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -3530,7 +3530,7 @@
           |- Rubber (6/min)
               # Alternate: Recycled Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 3 Plastic(s) 
+                    - 3 Plastic(s)
                     - 30 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -3540,7 +3540,7 @@
                 |- Plastic (3/min)
                     # Alternate: Recycled Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 1.5 Rubber(s) 
+                          - 1.5 Rubber(s)
                           - 15 Fuel m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3550,7 +3550,7 @@
                       |- Rubber (1.5/min)
                           # Standard: Residual Rubber:
                             | Input/Output and Step Efficiency Values:
-                                - 3 Polymer Resin(s) 
+                                - 3 Polymer Resin(s)
                                 - 30 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -3597,7 +3597,7 @@
                       |- Fuel (15/min)
                           # Alternate: Diluted Fuel:
                             | Input/Output and Step Efficiency Values:
-                                - 0.075 Heavy Oil Residue m^3 
+                                - 0.075 Heavy Oil Residue m^3
                                 - 0.15 Water m^3
                                 - 75 MW(s)
                                 * 1 Blender(s)
@@ -3706,7 +3706,7 @@
                           ++ 3 Heavy Oil Residue per minute
                     # Standard: Residual Plastic:
                       | Input/Output and Step Efficiency Values:
-                          - 9 Polymer Resin(s) 
+                          - 9 Polymer Resin(s)
                           - 30 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3744,7 +3744,7 @@
                 |- Fuel (30/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.15 Heavy Oil Residue m^3 
+                          - 0.15 Heavy Oil Residue m^3
                           - 0.3 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -3844,7 +3844,7 @@
                                 ++ 0.45 Heavy Oil Residue per minute
               # Standard: Residual Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 12 Polymer Resin(s) 
+                    - 12 Polymer Resin(s)
                     - 120 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -3936,7 +3936,7 @@
                           ++ 30 Heavy Oil Residue per minute
         # Standard: Circuit Board:
           | Input/Output and Step Efficiency Values:
-              - 2 Copper Sheet(s) 
+              - 2 Copper Sheet(s)
               - 4 Plastic(s)
               - 15 MW(s)
               * 1 Assembler(s)
@@ -3946,7 +3946,7 @@
           |- Copper Sheet (2/min)
               # Alternate: Steamed Copper Sheet:
                 | Input/Output and Step Efficiency Values:
-                    - 2 Copper Ingot(s) 
+                    - 2 Copper Ingot(s)
                     - 20 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -3956,7 +3956,7 @@
                 |- Copper Ingot (2/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1 Copper Ore(s) 
+                          - 1 Copper Ore(s)
                           - 0.5 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -3965,7 +3965,7 @@
                           ++ 2 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 0.8 Copper Ore(s) 
+                          - 0.8 Copper Ore(s)
                           - 5.3333 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -3991,7 +3991,7 @@
                 |- Copper Ingot (4/min)
                     # Alternate: Copper Alloy Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 2 Copper Ore(s) 
+                          - 2 Copper Ore(s)
                           - 1 Iron Ore(s)
                           - 16 MW(s)
                           * 1 Foundry(s)
@@ -4000,7 +4000,7 @@
                           ++ 4 Copper Ingot per minute
                     # Alternate: Pure Copper Ingot:
                       | Input/Output and Step Efficiency Values:
-                          - 1.6 Copper Ore(s) 
+                          - 1.6 Copper Ore(s)
                           - 10.667 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -4018,7 +4018,7 @@
           |- Plastic (4/min)
               # Alternate: Recycled Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 2 Rubber(s) 
+                    - 2 Rubber(s)
                     - 20 Fuel m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
@@ -4028,7 +4028,7 @@
                 |- Rubber (2/min)
                     # Alternate: Recycled Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 1 Plastic(s) 
+                          - 1 Plastic(s)
                           - 10 Fuel m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -4047,7 +4047,7 @@
                                 ++ 1 Heavy Oil Residue per minute
                           # Standard: Residual Plastic:
                             | Input/Output and Step Efficiency Values:
-                                - 3 Polymer Resin(s) 
+                                - 3 Polymer Resin(s)
                                 - 10 Water m^3
                                 - 30 MW(s)
                                 * 1 Refinery(s)
@@ -4085,7 +4085,7 @@
                       |- Fuel (10/min)
                           # Alternate: Diluted Fuel:
                             | Input/Output and Step Efficiency Values:
-                                - 0.05 Heavy Oil Residue m^3 
+                                - 0.05 Heavy Oil Residue m^3
                                 - 0.1 Water m^3
                                 - 75 MW(s)
                                 * 1 Blender(s)
@@ -4185,7 +4185,7 @@
                                       ++ 0.15 Heavy Oil Residue per minute
                     # Standard: Residual Rubber:
                       | Input/Output and Step Efficiency Values:
-                          - 4 Polymer Resin(s) 
+                          - 4 Polymer Resin(s)
                           - 40 Water m^3
                           - 30 MW(s)
                           * 1 Refinery(s)
@@ -4232,7 +4232,7 @@
                 |- Fuel (20/min)
                     # Alternate: Diluted Fuel:
                       | Input/Output and Step Efficiency Values:
-                          - 0.1 Heavy Oil Residue m^3 
+                          - 0.1 Heavy Oil Residue m^3
                           - 0.2 Water m^3
                           - 75 MW(s)
                           * 1 Blender(s)
@@ -4341,7 +4341,7 @@
                     ++ 4 Heavy Oil Residue per minute
               # Standard: Residual Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 12 Polymer Resin(s) 
+                    - 12 Polymer Resin(s)
                     - 40 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)

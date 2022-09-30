@@ -45,7 +45,7 @@ COMPONENT = (
     ComponentName(args.component) if args.component is not None else DEBUG_COMPONENT
 )
 
-PRODUCE = args.produce 
+PRODUCE = args.produce
 
 
 class ProductionChain:
@@ -78,7 +78,7 @@ class ProductionChain:
         """
 
     def __str__(self) -> str:
-        return "> " + str(self.graph.root)[4:]
+        return "> " + str(self.graph.root)[4:] + "\n"
 
 
 def main(map_this_component: ComponentName):
@@ -103,7 +103,6 @@ def main(map_this_component: ComponentName):
         )
 
 
-
 if __name__ == "__main__":
     start = perf_counter()
     total = 1
@@ -116,4 +115,6 @@ if __name__ == "__main__":
     else:
         main(COMPONENT)
 
-    print(f"\n\033[92mDone in {DECIMAL_FORMAT.format(perf_counter()-start)} seconds and {total} starting points.\033[0m")
+    print(
+        f"\n\033[92mDone in {DECIMAL_FORMAT.format(perf_counter()-start)} seconds and {total} starting points.\033[0m"
+    )

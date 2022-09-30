@@ -1,7 +1,7 @@
 > Gold Ingot (1/min)
   # Alternate: Pure Caterium Ingot:
     | Input/Output and Step Efficiency Values:
-        - 2 Caterium Ore(s) 
+        - 2 Caterium Ore(s)
         - 20 Water m^3
         - 30 MW(s)
         * 1 Refinery(s)
