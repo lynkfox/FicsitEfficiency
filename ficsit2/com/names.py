@@ -72,7 +72,6 @@ class ComponentName(Enum):
     MOTOR = "Motor"
     NITRIC_ACID = "Nitric Acid"
     NON_FISSILE_URANIUM = "Non Fissile Uranium"
-    NUCLEAR_WASTE = "Nuclear Waste"
     PETROLEUM_COKE = "Petroleum Coke"
     PLASTIC = "Plastic"
     PLUTONIUM_FUEL_ROD = "Plutonium Fuel Rod"

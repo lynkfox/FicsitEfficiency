@@ -1,0 +1,129 @@
+> Fabric (10/min)
+  # Alternate: Polyester Fabric:
+    | Input/Output and Step Efficiency Values:
+        - 160 Polymer Resin(s)
+        - 1000 Water m^3
+        - 60 MW(s)
+        * 2 Refinery(s)
+        * 400 m^2(s) (about 7 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Fabric per minute
+    |- Polymer Resin (160/min)
+        # Alternate: Heavy Oil Residue:
+          | Input/Output and Step Efficiency Values:
+              - 1.2 Oil m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 160 Heavy Oil Residue per minute
+              ++ 160 Polymer Resin per minute
+        # Alternate: Polymer Resin:
+          | Input/Output and Step Efficiency Values:
+              - 738.46 Oil m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 160 Polymer Resin per minute
+              ++ 160 Heavy Oil Residue per minute
+        # Standard: Fuel:
+          | Input/Output and Step Efficiency Values:
+              - 2.4 Oil m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 160 Fuel per minute
+              ++ 160 Polymer Resin per minute
+  # Standard: Fabric:
+    | Input/Output and Step Efficiency Values:
+        - 10 Mycelia(s)
+        - 50 Biomass(s)
+        - 15 MW(s)
+        * 1 Assembler(s)
+        * 150 m^2(s) (about 3 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Fabric per minute
+    |- Biomass (50/min)
+        # Standard: Biomass (Leaves):
+          | Input/Output and Step Efficiency Values:
+              - 100 Leaves(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Biomass per minute
+        # Standard: Biomass (Mycelia):
+          | Input/Output and Step Efficiency Values:
+              - 50 Mycelia(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Biomass per minute
+        # Standard: Biomass (Wood):
+          | Input/Output and Step Efficiency Values:
+              - 10 Wood(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Biomass per minute
+        # Standard: Standard: Biomass (Alien Protein):
+          | Input/Output and Step Efficiency Values:
+              - 0.033333 Alien Protein(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Biomass per minute
+          |- Alien Protein (0.033333/min)
+              # Standard: Alien Protein (Hog Remains):
+                | Input/Output and Step Efficiency Values:
+                    - 0.033333 Hog Remains(s)
+                    - 4 MW(s)
+                    * 1 Constructor(s)
+                    * 80 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 0.033333 Alien Protein per minute
+              # Standard: Alien Protein (Spitter Remains):
+                | Input/Output and Step Efficiency Values:
+                    - 0.033333 Spitter Remains(s)
+                    - 4 MW(s)
+                    * 1 Constructor(s)
+                    * 80 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 0.033333 Alien Protein per minute
+              # Standard: Alien Protein (Hatcher Remains):
+                | Input/Output and Step Efficiency Values:
+                    - 0.033333 Hatcher Remains(s)
+                    - 4 MW(s)
+                    * 1 Constructor(s)
+                    * 80 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 0.033333 Alien Protein per minute
+              # Standard: Alien Protein (Stinger Remains):
+                | Input/Output and Step Efficiency Values:
+                    - 0.033333 Stinger Remains(s)
+                    - 4 MW(s)
+                    * 1 Constructor(s)
+                    * 80 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 0.033333 Alien Protein per minute
+        # Modded: Biomass (Bacon Agaric):
+          | Input/Output and Step Efficiency Values:
+              - 2 Bacon Agaric(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Biomass per minute
+  # Modded: Stinger Silk:
+    | Input/Output and Step Efficiency Values:
+        - 0.5 Stinger Remains(s)
+        - 4 MW(s)
+        * 1 Constructor(s)
+        * 80 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Fabric per minute

@@ -85,7 +85,7 @@ COMPONENT_MAPPING = {
     "motor": ComponentName.MOTOR,
     "nitricAcid": ComponentName.NITRIC_ACID,
     "nonFissibleUranium": ComponentName.NON_FISSILE_URANIUM,
-    "nuclearWaste": ComponentName.NUCLEAR_WASTE,
+    "nuclearWaste": ComponentName.URANIUM_WASTE,
     "petroleumCoke": ComponentName.PETROLEUM_COKE,
     "plastic": ComponentName.PLASTIC,
     "plutoniumFuelRod": ComponentName.PLUTONIUM_FUEL_ROD,
@@ -248,7 +248,7 @@ def get_recipe_details(buildable, name):
 
     return {
         "recipeName": name if "Alternate:" in name else f"Standard: {name}",
-        "producedIn": machine.display_name.value,
+        "producedIn": machine.name.value,
         "producesPerCycle": produced_amount,
         "components": build_components(buildable.findall(".//Ingredients/ItemAmount")),
         "cycleTime": cycle_time,

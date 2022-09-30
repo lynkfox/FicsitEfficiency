@@ -83,6 +83,27 @@ class ProductionChainStep:
     components_produced: str
     required_components: List[Component]
     machine_cost: RecipeMachineCost
+    current_step: int
+
+    def __str__(self):
+
+        return "".join(
+            [
+                "",
+                " ".join(
+                    [
+                        f"\n      - {lookup.DECIMAL_FORMAT.format(ingredient.amount)} {ingredient.measurement}"
+                        for ingredient in self.required_components
+                    ]
+                    if len(self.required_components) > 0
+                    else ""
+                ),
+                f"\n      - {math.ceil(self.machine_cost.power)} MW(s)",
+                f"\n      * {math.ceil(self.machine_cost.total_machines)} {self.machine_cost.machine.name.value}(s)",
+                f"\n      * {math.ceil(self.machine_cost.footprint)} m^2(s) (about {math.ceil(self.machine_cost.footprint/64)} foundations minus belt space)",
+                f"\n      * {self.current_step} steps into the chain from the top.",
+            ]
+        )
 
 
 @dataclass

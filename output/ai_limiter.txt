@@ -1,0 +1,163 @@
+> AI Limiter (10/min)
+  # Standard: AI Limiter:
+    | Input/Output and Step Efficiency Values:
+        - 50 Copper Sheet(s)
+        - 200 Quickwire(s)
+        - 30 MW(s)
+        * 2 Assembler(s)
+        * 300 m^2(s) (about 5 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 AI Limiter per minute
+    |- Copper Sheet (50/min)
+        # Alternate: Steamed Copper Sheet:
+          | Input/Output and Step Efficiency Values:
+              - 50 Copper Ingot(s)
+              - 500 Water m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Copper Sheet per minute
+          |- Copper Ingot (50/min)
+              # Alternate: Copper Alloy Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 25 Copper Ore(s)
+                    - 12.5 Iron Ore(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 50 Copper Ingot per minute
+              # Alternate: Pure Copper Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 20 Copper Ore(s)
+                    - 133.33 Water m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 50 Copper Ingot per minute
+              # Standard: Copper Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 50 Copper Ore(s)
+                    - 8 MW(s)
+                    * 2 Smelter(s)
+                    * 108 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 50 Copper Ingot per minute
+        # Standard: Copper Sheet:
+          | Input/Output and Step Efficiency Values:
+              - 100 Copper Ingot(s)
+              - 20 MW(s)
+              * 5 Constructor(s)
+              * 400 m^2(s) (about 7 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Copper Sheet per minute
+          |- Copper Ingot (100/min)
+              # Alternate: Copper Alloy Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 50 Copper Ore(s)
+                    - 25 Iron Ore(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 100 Copper Ingot per minute
+              # Alternate: Pure Copper Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 40 Copper Ore(s)
+                    - 266.67 Water m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 100 Copper Ingot per minute
+              # Standard: Copper Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 100 Copper Ore(s)
+                    - 16 MW(s)
+                    * 4 Smelter(s)
+                    * 216 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 100 Copper Ingot per minute
+    |- Quickwire (200/min)
+        # Alternate: Fused Quickwire:
+          | Input/Output and Step Efficiency Values:
+              - 16.667 Gold Ingot(s)
+              - 83.333 Copper Ingot(s)
+              - 15 MW(s)
+              * 1 Assembler(s)
+              * 150 m^2(s) (about 3 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 200 Quickwire per minute
+          |- Gold Ingot (16.667/min)
+              # Alternate: Pure Caterium Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 33.333 Caterium Ore(s)
+                    - 333.33 Water m^3
+                    - 60 MW(s)
+                    * 2 Refinery(s)
+                    * 400 m^2(s) (about 7 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 16.667 Gold Ingot per minute
+              # Standard: Caterium Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 50 Caterium Ore(s)
+                    - 8 MW(s)
+                    * 2 Smelter(s)
+                    * 108 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 16.667 Gold Ingot per minute
+          |- Copper Ingot (83.333/min)
+              # Alternate: Copper Alloy Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 41.667 Copper Ore(s)
+                    - 20.833 Iron Ore(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 83.333 Copper Ingot per minute
+              # Alternate: Pure Copper Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 33.333 Copper Ore(s)
+                    - 222.22 Water m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 83.333 Copper Ingot per minute
+              # Standard: Copper Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 83.333 Copper Ore(s)
+                    - 12 MW(s)
+                    * 3 Smelter(s)
+                    * 162 m^2(s) (about 3 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 83.333 Copper Ingot per minute
+        # Standard: Quickwire:
+          | Input/Output and Step Efficiency Values:
+              - 40 Gold Ingot(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 200 Quickwire per minute
+          |- Gold Ingot (40/min)
+              # Alternate: Pure Caterium Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 80 Caterium Ore(s)
+                    - 800 Water m^3
+                    - 120 MW(s)
+                    * 4 Refinery(s)
+                    * 800 m^2(s) (about 13 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 40 Gold Ingot per minute
+              # Standard: Caterium Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 120 Caterium Ore(s)
+                    - 12 MW(s)
+                    * 3 Smelter(s)
+                    * 162 m^2(s) (about 3 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 40 Gold Ingot per minute

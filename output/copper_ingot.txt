@@ -1,0 +1,27 @@
+> Copper Ingot (10/min)
+  # Alternate: Copper Alloy Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 5 Copper Ore(s)
+        - 2.5 Iron Ore(s)
+        - 16 MW(s)
+        * 1 Foundry(s)
+        * 90 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Copper Ingot per minute
+  # Alternate: Pure Copper Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 4 Copper Ore(s)
+        - 26.667 Water m^3
+        - 30 MW(s)
+        * 1 Refinery(s)
+        * 200 m^2(s) (about 4 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Copper Ingot per minute
+  # Standard: Copper Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 10 Copper Ore(s)
+        - 4 MW(s)
+        * 1 Smelter(s)
+        * 54 m^2(s) (about 1 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Copper Ingot per minute

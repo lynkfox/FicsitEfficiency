@@ -1,0 +1,42 @@
+> Organic Data Capsule (10/min)
+  # Standard: Organic Data Capsule:
+    | Input/Output and Step Efficiency Values:
+        - 10 Alien Protein(s)
+        - 4 MW(s)
+        * 1 Constructor(s)
+        * 80 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Organic Data Capsule per minute
+    |- Alien Protein (10/min)
+        # Standard: Alien Protein (Hog Remains):
+          | Input/Output and Step Efficiency Values:
+              - 10 Hog Remains(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 10 Alien Protein per minute
+        # Standard: Alien Protein (Spitter Remains):
+          | Input/Output and Step Efficiency Values:
+              - 10 Spitter Remains(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 10 Alien Protein per minute
+        # Standard: Alien Protein (Hatcher Remains):
+          | Input/Output and Step Efficiency Values:
+              - 10 Hatcher Remains(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 10 Alien Protein per minute
+        # Standard: Alien Protein (Stinger Remains):
+          | Input/Output and Step Efficiency Values:
+              - 10 Stinger Remains(s)
+              - 4 MW(s)
+              * 1 Constructor(s)
+              * 80 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 10 Alien Protein per minute

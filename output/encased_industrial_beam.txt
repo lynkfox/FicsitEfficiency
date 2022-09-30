@@ -1,0 +1,1127 @@
+> Encased Industrial Beam (10/min)
+  # Alternate: Encased Industrial Pipe:
+    | Input/Output and Step Efficiency Values:
+        - 70 Steel Pipe(s)
+        - 50 Concrete(s)
+        - 45 MW(s)
+        * 3 Assembler(s)
+        * 450 m^2(s) (about 8 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Encased Industrial Beam per minute
+    |- Steel Pipe (70/min)
+        # Standard: Steel Pipe:
+          | Input/Output and Step Efficiency Values:
+              - 105 Steel Ingot(s)
+              - 8 MW(s)
+              * 2 Constructor(s)
+              * 160 m^2(s) (about 3 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 70 Steel Pipe per minute
+          |- Steel Ingot (105/min)
+              # Alternate: Coke Steel Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 78.75 Iron Ore(s)
+                    - 78.75 Petroleum Coke(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 105 Steel Ingot per minute
+                |- Petroleum Coke (78.75/min)
+                    # Standard: Petroleum Coke:
+                      | Input/Output and Step Efficiency Values:
+                          - 262.5 Heavy Oil Residue m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 78.75 Petroleum Coke per minute
+                      |- Heavy Oil Residue (262.5/min)
+                          # Alternate: Heavy Oil Residue:
+                            | Input/Output and Step Efficiency Values:
+                                - 1.9688 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 262.5 Heavy Oil Residue per minute
+                                ++ 262.5 Polymer Resin per minute
+                          # Alternate: Polymer Resin:
+                            | Input/Output and Step Efficiency Values:
+                                - 1211.5 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 262.5 Polymer Resin per minute
+                                ++ 262.5 Heavy Oil Residue per minute
+                          # Standard: Plastic:
+                            | Input/Output and Step Efficiency Values:
+                                - 3937.5 Oil m^3
+                                - 210 MW(s)
+                                * 7 Refinery(s)
+                                * 1400 m^2(s) (about 22 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 262.5 Plastic per minute
+                                ++ 262.5 Heavy Oil Residue per minute
+                          # Standard: Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 3937.5 Oil m^3
+                                - 210 MW(s)
+                                * 7 Refinery(s)
+                                * 1400 m^2(s) (about 22 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 262.5 Rubber per minute
+                                ++ 262.5 Heavy Oil Residue per minute
+              # Alternate: Solid Steel Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 70 Iron Ingot(s)
+                    - 70 Coal(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 105 Steel Ingot per minute
+                |- Iron Ingot (70/min)
+                    # Alternate: Iron Alloy Ingot:
+                      | Input/Output and Step Efficiency Values:
+                          - 28 Iron Ore(s)
+                          - 28 Copper Ore(s)
+                          - 16 MW(s)
+                          * 1 Foundry(s)
+                          * 90 m^2(s) (about 2 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 70 Iron Ingot per minute
+                    # Alternate: Pure Iron Ingot:
+                      | Input/Output and Step Efficiency Values:
+                          - 37.692 Iron Ore(s)
+                          - 215.38 Water m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 70 Iron Ingot per minute
+                    # Standard: Iron Ingot:
+                      | Input/Output and Step Efficiency Values:
+                          - 70 Iron Ore(s)
+                          - 12 MW(s)
+                          * 3 Smelter(s)
+                          * 162 m^2(s) (about 3 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 70 Iron Ingot per minute
+              # Alternate: Compacted Steel Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 63 Iron Ore(s)
+                    - 31.5 Compacted Coal(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 105 Steel Ingot per minute
+                |- Compacted Coal (31.5/min)
+                    # Alternate: Compacted Coal:
+                      | Input/Output and Step Efficiency Values:
+                          - 31.5 Coal(s)
+                          - 31.5 Sulfur(s)
+                          - 15 MW(s)
+                          * 1 Assembler(s)
+                          * 150 m^2(s) (about 3 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 31.5 Compacted Coal per minute
+              # Standard: Steel Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 105 Iron Ore(s)
+                    - 105 Coal(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 105 Steel Ingot per minute
+    |- Concrete (50/min)
+        # Alternate: Fine Concrete:
+          | Input/Output and Step Efficiency Values:
+              - 15 Silica(s)
+              - 60 Limestone(s)
+              - 15 MW(s)
+              * 1 Assembler(s)
+              * 150 m^2(s) (about 3 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Concrete per minute
+          |- Silica (15/min)
+              # Alternate: Cheap Silica:
+                | Input/Output and Step Efficiency Values:
+                    - 6.4286 Raw Quartz(s)
+                    - 10.714 Limestone(s)
+                    - 15 MW(s)
+                    * 1 Assembler(s)
+                    * 150 m^2(s) (about 3 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 15 Silica per minute
+              # Standard: Alumina Solution:
+                | Input/Output and Step Efficiency Values:
+                    - 0.015 Bauxite Ore(s)
+                    - 0.225 Water m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 15 Alumina Solution per minute
+                    ++ 15 Silica per minute
+              # Standard: Silica:
+                | Input/Output and Step Efficiency Values:
+                    - 9 Raw Quartz(s)
+                    - 4 MW(s)
+                    * 1 Constructor(s)
+                    * 80 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 15 Silica per minute
+        # Alternate: Rubber Concrete:
+          | Input/Output and Step Efficiency Values:
+              - 55.556 Limestone(s)
+              - 11.111 Rubber(s)
+              - 15 MW(s)
+              * 1 Assembler(s)
+              * 150 m^2(s) (about 3 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Concrete per minute
+          |- Rubber (11.111/min)
+              # Alternate: Recycled Rubber:
+                | Input/Output and Step Efficiency Values:
+                    - 5.5556 Plastic(s)
+                    - 55.556 Fuel m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 11.111 Rubber per minute
+                |- Plastic (5.5556/min)
+                    # Alternate: Recycled Plastic:
+                      | Input/Output and Step Efficiency Values:
+                          - 2.7778 Rubber(s)
+                          - 27.778 Fuel m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 5.5556 Plastic per minute
+                      |- Rubber (2.7778/min)
+                          # Standard: Residual Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 5.5556 Polymer Resin(s)
+                                - 55.556 Water m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 2.7778 Rubber per minute
+                            |- Polymer Resin (5.5556/min)
+                                # Alternate: Heavy Oil Residue:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.041667 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 5.5556 Heavy Oil Residue per minute
+                                      ++ 5.5556 Polymer Resin per minute
+                                # Alternate: Polymer Resin:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 25.641 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 5.5556 Polymer Resin per minute
+                                      ++ 5.5556 Heavy Oil Residue per minute
+                                # Standard: Fuel:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.083333 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 5.5556 Fuel per minute
+                                      ++ 5.5556 Polymer Resin per minute
+                          # Standard: Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 41.667 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 2.7778 Rubber per minute
+                                ++ 2.7778 Heavy Oil Residue per minute
+                      |- Fuel (27.778/min)
+                          # Alternate: Diluted Fuel:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.13889 Heavy Oil Residue m^3
+                                - 0.27778 Water m^3
+                                - 75 MW(s)
+                                * 1 Blender(s)
+                                * 342 m^2(s) (about 6 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 27.778 Fuel per minute
+                            |- Heavy Oil Residue (0.13889/min)
+                                # Alternate: Heavy Oil Residue:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.0010417 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.13889 Heavy Oil Residue per minute
+                                      ++ 0.13889 Polymer Resin per minute
+                                # Alternate: Polymer Resin:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.64103 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.13889 Polymer Resin per minute
+                                      ++ 0.13889 Heavy Oil Residue per minute
+                                # Standard: Plastic:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 2.0833 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.13889 Plastic per minute
+                                      ++ 0.13889 Heavy Oil Residue per minute
+                                # Standard: Rubber:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 2.0833 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.13889 Rubber per minute
+                                      ++ 0.13889 Heavy Oil Residue per minute
+                          # Standard: Fuel:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.41667 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 27.778 Fuel per minute
+                                ++ 27.778 Polymer Resin per minute
+                          # Standard: Residual Fuel:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.41667 Heavy Oil Residue m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 27.778 Fuel per minute
+                            |- Heavy Oil Residue (0.41667/min)
+                                # Alternate: Heavy Oil Residue:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.003125 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.41667 Heavy Oil Residue per minute
+                                      ++ 0.41667 Polymer Resin per minute
+                                # Alternate: Polymer Resin:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 1.9231 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.41667 Polymer Resin per minute
+                                      ++ 0.41667 Heavy Oil Residue per minute
+                                # Standard: Plastic:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 6.25 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.41667 Plastic per minute
+                                      ++ 0.41667 Heavy Oil Residue per minute
+                                # Standard: Rubber:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 6.25 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.41667 Rubber per minute
+                                      ++ 0.41667 Heavy Oil Residue per minute
+                    # Standard: Plastic:
+                      | Input/Output and Step Efficiency Values:
+                          - 83.333 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 5.5556 Plastic per minute
+                          ++ 5.5556 Heavy Oil Residue per minute
+                    # Standard: Residual Plastic:
+                      | Input/Output and Step Efficiency Values:
+                          - 16.667 Polymer Resin(s)
+                          - 55.556 Water m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 5.5556 Plastic per minute
+                      |- Polymer Resin (16.667/min)
+                          # Alternate: Heavy Oil Residue:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.125 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 16.667 Heavy Oil Residue per minute
+                                ++ 16.667 Polymer Resin per minute
+                          # Alternate: Polymer Resin:
+                            | Input/Output and Step Efficiency Values:
+                                - 76.923 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 16.667 Polymer Resin per minute
+                                ++ 16.667 Heavy Oil Residue per minute
+                          # Standard: Fuel:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.25 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 16.667 Fuel per minute
+                                ++ 16.667 Polymer Resin per minute
+                |- Fuel (55.556/min)
+                    # Alternate: Diluted Fuel:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.27778 Heavy Oil Residue m^3
+                          - 0.55556 Water m^3
+                          - 75 MW(s)
+                          * 1 Blender(s)
+                          * 342 m^2(s) (about 6 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 55.556 Fuel per minute
+                      |- Heavy Oil Residue (0.27778/min)
+                          # Alternate: Heavy Oil Residue:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.0020833 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.27778 Heavy Oil Residue per minute
+                                ++ 0.27778 Polymer Resin per minute
+                          # Alternate: Polymer Resin:
+                            | Input/Output and Step Efficiency Values:
+                                - 1.2821 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.27778 Polymer Resin per minute
+                                ++ 0.27778 Heavy Oil Residue per minute
+                          # Standard: Plastic:
+                            | Input/Output and Step Efficiency Values:
+                                - 4.1667 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.27778 Plastic per minute
+                                ++ 0.27778 Heavy Oil Residue per minute
+                          # Standard: Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 4.1667 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.27778 Rubber per minute
+                                ++ 0.27778 Heavy Oil Residue per minute
+                    # Standard: Fuel:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.83333 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 55.556 Fuel per minute
+                          ++ 55.556 Polymer Resin per minute
+                    # Standard: Residual Fuel:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.83333 Heavy Oil Residue m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 55.556 Fuel per minute
+                      |- Heavy Oil Residue (0.83333/min)
+                          # Alternate: Heavy Oil Residue:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.00625 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.83333 Heavy Oil Residue per minute
+                                ++ 0.83333 Polymer Resin per minute
+                          # Alternate: Polymer Resin:
+                            | Input/Output and Step Efficiency Values:
+                                - 3.8462 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.83333 Polymer Resin per minute
+                                ++ 0.83333 Heavy Oil Residue per minute
+                          # Standard: Plastic:
+                            | Input/Output and Step Efficiency Values:
+                                - 12.5 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.83333 Plastic per minute
+                                ++ 0.83333 Heavy Oil Residue per minute
+                          # Standard: Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 12.5 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.83333 Rubber per minute
+                                ++ 0.83333 Heavy Oil Residue per minute
+              # Standard: Residual Rubber:
+                | Input/Output and Step Efficiency Values:
+                    - 22.222 Polymer Resin(s)
+                    - 222.22 Water m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 11.111 Rubber per minute
+                |- Polymer Resin (22.222/min)
+                    # Alternate: Heavy Oil Residue:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.16667 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 22.222 Heavy Oil Residue per minute
+                          ++ 22.222 Polymer Resin per minute
+                    # Alternate: Polymer Resin:
+                      | Input/Output and Step Efficiency Values:
+                          - 102.56 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 22.222 Polymer Resin per minute
+                          ++ 22.222 Heavy Oil Residue per minute
+                    # Standard: Fuel:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.33333 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 22.222 Fuel per minute
+                          ++ 22.222 Polymer Resin per minute
+              # Standard: Rubber:
+                | Input/Output and Step Efficiency Values:
+                    - 166.67 Oil m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 11.111 Rubber per minute
+                    ++ 11.111 Heavy Oil Residue per minute
+        # Alternate: Wet Concrete:
+          | Input/Output and Step Efficiency Values:
+              - 75 Limestone(s)
+              - 625 Water m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Concrete per minute
+        # Standard: Concrete:
+          | Input/Output and Step Efficiency Values:
+              - 150 Limestone(s)
+              - 16 MW(s)
+              * 4 Constructor(s)
+              * 320 m^2(s) (about 5 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Concrete per minute
+  # Standard: Encased Industrial Beam:
+    | Input/Output and Step Efficiency Values:
+        - 40 Steel Beam(s)
+        - 50 Concrete(s)
+        - 30 MW(s)
+        * 2 Assembler(s)
+        * 300 m^2(s) (about 5 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Encased Industrial Beam per minute
+    |- Steel Beam (40/min)
+        # Standard: Steel Beam:
+          | Input/Output and Step Efficiency Values:
+              - 160 Steel Ingot(s)
+              - 12 MW(s)
+              * 3 Constructor(s)
+              * 240 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 40 Steel Beam per minute
+          |- Steel Ingot (160/min)
+              # Alternate: Coke Steel Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 120 Iron Ore(s)
+                    - 120 Petroleum Coke(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 160 Steel Ingot per minute
+                |- Petroleum Coke (120/min)
+                    # Standard: Petroleum Coke:
+                      | Input/Output and Step Efficiency Values:
+                          - 400 Heavy Oil Residue m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 120 Petroleum Coke per minute
+                      |- Heavy Oil Residue (400/min)
+                          # Alternate: Heavy Oil Residue:
+                            | Input/Output and Step Efficiency Values:
+                                - 3 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 400 Heavy Oil Residue per minute
+                                ++ 400 Polymer Resin per minute
+                          # Alternate: Polymer Resin:
+                            | Input/Output and Step Efficiency Values:
+                                - 1846.2 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 400 Polymer Resin per minute
+                                ++ 400 Heavy Oil Residue per minute
+                          # Standard: Plastic:
+                            | Input/Output and Step Efficiency Values:
+                                - 6000 Oil m^3
+                                - 300 MW(s)
+                                * 10 Refinery(s)
+                                * 2000 m^2(s) (about 32 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 400 Plastic per minute
+                                ++ 400 Heavy Oil Residue per minute
+                          # Standard: Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 6000 Oil m^3
+                                - 300 MW(s)
+                                * 10 Refinery(s)
+                                * 2000 m^2(s) (about 32 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 400 Rubber per minute
+                                ++ 400 Heavy Oil Residue per minute
+              # Alternate: Solid Steel Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 106.67 Iron Ingot(s)
+                    - 106.67 Coal(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 160 Steel Ingot per minute
+                |- Iron Ingot (106.67/min)
+                    # Alternate: Iron Alloy Ingot:
+                      | Input/Output and Step Efficiency Values:
+                          - 42.667 Iron Ore(s)
+                          - 42.667 Copper Ore(s)
+                          - 16 MW(s)
+                          * 1 Foundry(s)
+                          * 90 m^2(s) (about 2 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 106.67 Iron Ingot per minute
+                    # Alternate: Pure Iron Ingot:
+                      | Input/Output and Step Efficiency Values:
+                          - 57.436 Iron Ore(s)
+                          - 328.21 Water m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 106.67 Iron Ingot per minute
+                    # Standard: Iron Ingot:
+                      | Input/Output and Step Efficiency Values:
+                          - 106.67 Iron Ore(s)
+                          - 16 MW(s)
+                          * 4 Smelter(s)
+                          * 216 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 106.67 Iron Ingot per minute
+              # Alternate: Compacted Steel Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 96 Iron Ore(s)
+                    - 48 Compacted Coal(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 160 Steel Ingot per minute
+                |- Compacted Coal (48/min)
+                    # Alternate: Compacted Coal:
+                      | Input/Output and Step Efficiency Values:
+                          - 48 Coal(s)
+                          - 48 Sulfur(s)
+                          - 15 MW(s)
+                          * 1 Assembler(s)
+                          * 150 m^2(s) (about 3 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 48 Compacted Coal per minute
+              # Standard: Steel Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 160 Iron Ore(s)
+                    - 160 Coal(s)
+                    - 32 MW(s)
+                    * 2 Foundry(s)
+                    * 180 m^2(s) (about 3 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 160 Steel Ingot per minute
+    |- Concrete (50/min)
+        # Alternate: Fine Concrete:
+          | Input/Output and Step Efficiency Values:
+              - 15 Silica(s)
+              - 60 Limestone(s)
+              - 15 MW(s)
+              * 1 Assembler(s)
+              * 150 m^2(s) (about 3 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Concrete per minute
+          |- Silica (15/min)
+              # Alternate: Cheap Silica:
+                | Input/Output and Step Efficiency Values:
+                    - 6.4286 Raw Quartz(s)
+                    - 10.714 Limestone(s)
+                    - 15 MW(s)
+                    * 1 Assembler(s)
+                    * 150 m^2(s) (about 3 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 15 Silica per minute
+              # Standard: Alumina Solution:
+                | Input/Output and Step Efficiency Values:
+                    - 0.015 Bauxite Ore(s)
+                    - 0.225 Water m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 15 Alumina Solution per minute
+                    ++ 15 Silica per minute
+              # Standard: Silica:
+                | Input/Output and Step Efficiency Values:
+                    - 9 Raw Quartz(s)
+                    - 4 MW(s)
+                    * 1 Constructor(s)
+                    * 80 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 15 Silica per minute
+        # Alternate: Rubber Concrete:
+          | Input/Output and Step Efficiency Values:
+              - 55.556 Limestone(s)
+              - 11.111 Rubber(s)
+              - 15 MW(s)
+              * 1 Assembler(s)
+              * 150 m^2(s) (about 3 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Concrete per minute
+          |- Rubber (11.111/min)
+              # Alternate: Recycled Rubber:
+                | Input/Output and Step Efficiency Values:
+                    - 5.5556 Plastic(s)
+                    - 55.556 Fuel m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 11.111 Rubber per minute
+                |- Plastic (5.5556/min)
+                    # Alternate: Recycled Plastic:
+                      | Input/Output and Step Efficiency Values:
+                          - 2.7778 Rubber(s)
+                          - 27.778 Fuel m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 5.5556 Plastic per minute
+                      |- Rubber (2.7778/min)
+                          # Standard: Residual Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 5.5556 Polymer Resin(s)
+                                - 55.556 Water m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 2.7778 Rubber per minute
+                            |- Polymer Resin (5.5556/min)
+                                # Alternate: Heavy Oil Residue:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.041667 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 5.5556 Heavy Oil Residue per minute
+                                      ++ 5.5556 Polymer Resin per minute
+                                # Alternate: Polymer Resin:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 25.641 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 5.5556 Polymer Resin per minute
+                                      ++ 5.5556 Heavy Oil Residue per minute
+                                # Standard: Fuel:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.083333 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 5.5556 Fuel per minute
+                                      ++ 5.5556 Polymer Resin per minute
+                          # Standard: Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 41.667 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 2.7778 Rubber per minute
+                                ++ 2.7778 Heavy Oil Residue per minute
+                      |- Fuel (27.778/min)
+                          # Alternate: Diluted Fuel:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.13889 Heavy Oil Residue m^3
+                                - 0.27778 Water m^3
+                                - 75 MW(s)
+                                * 1 Blender(s)
+                                * 342 m^2(s) (about 6 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 27.778 Fuel per minute
+                            |- Heavy Oil Residue (0.13889/min)
+                                # Alternate: Heavy Oil Residue:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.0010417 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.13889 Heavy Oil Residue per minute
+                                      ++ 0.13889 Polymer Resin per minute
+                                # Alternate: Polymer Resin:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.64103 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.13889 Polymer Resin per minute
+                                      ++ 0.13889 Heavy Oil Residue per minute
+                                # Standard: Plastic:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 2.0833 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.13889 Plastic per minute
+                                      ++ 0.13889 Heavy Oil Residue per minute
+                                # Standard: Rubber:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 2.0833 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.13889 Rubber per minute
+                                      ++ 0.13889 Heavy Oil Residue per minute
+                          # Standard: Fuel:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.41667 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 27.778 Fuel per minute
+                                ++ 27.778 Polymer Resin per minute
+                          # Standard: Residual Fuel:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.41667 Heavy Oil Residue m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 27.778 Fuel per minute
+                            |- Heavy Oil Residue (0.41667/min)
+                                # Alternate: Heavy Oil Residue:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 0.003125 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.41667 Heavy Oil Residue per minute
+                                      ++ 0.41667 Polymer Resin per minute
+                                # Alternate: Polymer Resin:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 1.9231 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.41667 Polymer Resin per minute
+                                      ++ 0.41667 Heavy Oil Residue per minute
+                                # Standard: Plastic:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 6.25 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.41667 Plastic per minute
+                                      ++ 0.41667 Heavy Oil Residue per minute
+                                # Standard: Rubber:
+                                  | Input/Output and Step Efficiency Values:
+                                      - 6.25 Oil m^3
+                                      - 30 MW(s)
+                                      * 1 Refinery(s)
+                                      * 200 m^2(s) (about 4 foundations minus belt space)
+                                      * 12 steps into the chain from the top.
+                                      ++ 0.41667 Rubber per minute
+                                      ++ 0.41667 Heavy Oil Residue per minute
+                    # Standard: Plastic:
+                      | Input/Output and Step Efficiency Values:
+                          - 83.333 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 5.5556 Plastic per minute
+                          ++ 5.5556 Heavy Oil Residue per minute
+                    # Standard: Residual Plastic:
+                      | Input/Output and Step Efficiency Values:
+                          - 16.667 Polymer Resin(s)
+                          - 55.556 Water m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 5.5556 Plastic per minute
+                      |- Polymer Resin (16.667/min)
+                          # Alternate: Heavy Oil Residue:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.125 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 16.667 Heavy Oil Residue per minute
+                                ++ 16.667 Polymer Resin per minute
+                          # Alternate: Polymer Resin:
+                            | Input/Output and Step Efficiency Values:
+                                - 76.923 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 16.667 Polymer Resin per minute
+                                ++ 16.667 Heavy Oil Residue per minute
+                          # Standard: Fuel:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.25 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 16.667 Fuel per minute
+                                ++ 16.667 Polymer Resin per minute
+                |- Fuel (55.556/min)
+                    # Alternate: Diluted Fuel:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.27778 Heavy Oil Residue m^3
+                          - 0.55556 Water m^3
+                          - 75 MW(s)
+                          * 1 Blender(s)
+                          * 342 m^2(s) (about 6 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 55.556 Fuel per minute
+                      |- Heavy Oil Residue (0.27778/min)
+                          # Alternate: Heavy Oil Residue:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.0020833 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.27778 Heavy Oil Residue per minute
+                                ++ 0.27778 Polymer Resin per minute
+                          # Alternate: Polymer Resin:
+                            | Input/Output and Step Efficiency Values:
+                                - 1.2821 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.27778 Polymer Resin per minute
+                                ++ 0.27778 Heavy Oil Residue per minute
+                          # Standard: Plastic:
+                            | Input/Output and Step Efficiency Values:
+                                - 4.1667 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.27778 Plastic per minute
+                                ++ 0.27778 Heavy Oil Residue per minute
+                          # Standard: Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 4.1667 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.27778 Rubber per minute
+                                ++ 0.27778 Heavy Oil Residue per minute
+                    # Standard: Fuel:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.83333 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 55.556 Fuel per minute
+                          ++ 55.556 Polymer Resin per minute
+                    # Standard: Residual Fuel:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.83333 Heavy Oil Residue m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 55.556 Fuel per minute
+                      |- Heavy Oil Residue (0.83333/min)
+                          # Alternate: Heavy Oil Residue:
+                            | Input/Output and Step Efficiency Values:
+                                - 0.00625 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.83333 Heavy Oil Residue per minute
+                                ++ 0.83333 Polymer Resin per minute
+                          # Alternate: Polymer Resin:
+                            | Input/Output and Step Efficiency Values:
+                                - 3.8462 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.83333 Polymer Resin per minute
+                                ++ 0.83333 Heavy Oil Residue per minute
+                          # Standard: Plastic:
+                            | Input/Output and Step Efficiency Values:
+                                - 12.5 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.83333 Plastic per minute
+                                ++ 0.83333 Heavy Oil Residue per minute
+                          # Standard: Rubber:
+                            | Input/Output and Step Efficiency Values:
+                                - 12.5 Oil m^3
+                                - 30 MW(s)
+                                * 1 Refinery(s)
+                                * 200 m^2(s) (about 4 foundations minus belt space)
+                                * 10 steps into the chain from the top.
+                                ++ 0.83333 Rubber per minute
+                                ++ 0.83333 Heavy Oil Residue per minute
+              # Standard: Residual Rubber:
+                | Input/Output and Step Efficiency Values:
+                    - 22.222 Polymer Resin(s)
+                    - 222.22 Water m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 11.111 Rubber per minute
+                |- Polymer Resin (22.222/min)
+                    # Alternate: Heavy Oil Residue:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.16667 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 22.222 Heavy Oil Residue per minute
+                          ++ 22.222 Polymer Resin per minute
+                    # Alternate: Polymer Resin:
+                      | Input/Output and Step Efficiency Values:
+                          - 102.56 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 22.222 Polymer Resin per minute
+                          ++ 22.222 Heavy Oil Residue per minute
+                    # Standard: Fuel:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.33333 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 22.222 Fuel per minute
+                          ++ 22.222 Polymer Resin per minute
+              # Standard: Rubber:
+                | Input/Output and Step Efficiency Values:
+                    - 166.67 Oil m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 11.111 Rubber per minute
+                    ++ 11.111 Heavy Oil Residue per minute
+        # Alternate: Wet Concrete:
+          | Input/Output and Step Efficiency Values:
+              - 75 Limestone(s)
+              - 625 Water m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Concrete per minute
+        # Standard: Concrete:
+          | Input/Output and Step Efficiency Values:
+              - 150 Limestone(s)
+              - 16 MW(s)
+              * 4 Constructor(s)
+              * 320 m^2(s) (about 5 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 50 Concrete per minute

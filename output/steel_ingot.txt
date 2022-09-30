@@ -1,0 +1,120 @@
+> Steel Ingot (10/min)
+  # Alternate: Coke Steel Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 7.5 Iron Ore(s)
+        - 7.5 Petroleum Coke(s)
+        - 16 MW(s)
+        * 1 Foundry(s)
+        * 90 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Steel Ingot per minute
+    |- Petroleum Coke (7.5/min)
+        # Standard: Petroleum Coke:
+          | Input/Output and Step Efficiency Values:
+              - 25 Heavy Oil Residue m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 7.5 Petroleum Coke per minute
+          |- Heavy Oil Residue (25/min)
+              # Alternate: Heavy Oil Residue:
+                | Input/Output and Step Efficiency Values:
+                    - 0.1875 Oil m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 25 Heavy Oil Residue per minute
+                    ++ 25 Polymer Resin per minute
+              # Alternate: Polymer Resin:
+                | Input/Output and Step Efficiency Values:
+                    - 115.38 Oil m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 25 Polymer Resin per minute
+                    ++ 25 Heavy Oil Residue per minute
+              # Standard: Plastic:
+                | Input/Output and Step Efficiency Values:
+                    - 375 Oil m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 25 Plastic per minute
+                    ++ 25 Heavy Oil Residue per minute
+              # Standard: Rubber:
+                | Input/Output and Step Efficiency Values:
+                    - 375 Oil m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 25 Rubber per minute
+                    ++ 25 Heavy Oil Residue per minute
+  # Alternate: Solid Steel Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 6.6667 Iron Ingot(s)
+        - 6.6667 Coal(s)
+        - 16 MW(s)
+        * 1 Foundry(s)
+        * 90 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Steel Ingot per minute
+    |- Iron Ingot (6.6667/min)
+        # Alternate: Iron Alloy Ingot:
+          | Input/Output and Step Efficiency Values:
+              - 2.6667 Iron Ore(s)
+              - 2.6667 Copper Ore(s)
+              - 16 MW(s)
+              * 1 Foundry(s)
+              * 90 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 6.6667 Iron Ingot per minute
+        # Alternate: Pure Iron Ingot:
+          | Input/Output and Step Efficiency Values:
+              - 3.5897 Iron Ore(s)
+              - 20.513 Water m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 6.6667 Iron Ingot per minute
+        # Standard: Iron Ingot:
+          | Input/Output and Step Efficiency Values:
+              - 6.6667 Iron Ore(s)
+              - 4 MW(s)
+              * 1 Smelter(s)
+              * 54 m^2(s) (about 1 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 6.6667 Iron Ingot per minute
+  # Alternate: Compacted Steel Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 6 Iron Ore(s)
+        - 3 Compacted Coal(s)
+        - 16 MW(s)
+        * 1 Foundry(s)
+        * 90 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Steel Ingot per minute
+    |- Compacted Coal (3/min)
+        # Alternate: Compacted Coal:
+          | Input/Output and Step Efficiency Values:
+              - 3 Coal(s)
+              - 3 Sulfur(s)
+              - 15 MW(s)
+              * 1 Assembler(s)
+              * 150 m^2(s) (about 3 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 3 Compacted Coal per minute
+  # Standard: Steel Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 10 Iron Ore(s)
+        - 10 Coal(s)
+        - 16 MW(s)
+        * 1 Foundry(s)
+        * 90 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Steel Ingot per minute

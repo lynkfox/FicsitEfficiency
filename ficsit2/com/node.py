@@ -1,10 +1,10 @@
 from __future__ import annotations
-from dataclasses import dataclass, field, asdict
+from dataclasses import dataclass, field
 from ficsit2.com import machines, recipe, names, lookup
 from typing import List, Optional
 from copy import copy
 
-DECIMAL_FORMAT = "{:.5g}"
+from ficsit2.com.lookup import DECIMAL_FORMAT
 
 
 @dataclass
@@ -57,7 +57,7 @@ class RecipeNode:
     product: names.ComponentName
     produces_per_cycle: float
     cycles_per_minute: float = field(init=False)
-    production_chain_needs: recipe.ProductionChainStep = field(init=False)
+    production_chain_costs: recipe.ProductionChainStep = field(init=False)
 
     # Node Values
     node_depth: int = field(default=0)
@@ -94,7 +94,7 @@ class RecipeNode:
         Adds the pieces necessary for this current step in a given production chain
         """
 
-        self.production_chain_needs = recipe.ProductionChainStep(
+        self.production_chain_costs = recipe.ProductionChainStep(
             recipe_name=self.name,
             components_produced=self.product,
             required_components=[
@@ -110,6 +110,7 @@ class RecipeNode:
                 total_machines=self.needed_to_meet_parent_quota
                 / (self.produces_per_cycle * self.cycles_per_minute),
             ),
+            current_step=self.node_depth + 1,
         )
 
     def _update_component_child(
@@ -126,26 +127,24 @@ class RecipeNode:
         child_component.node_path_to_root.append(child_component)
 
     def __str__(self) -> str:
-        depth_indent = " ".join(["" for i in range((self.node_depth * 4))])
+        depth_indent = " ".join(["" for i in range((self.node_depth * 3))])
         number_to_produce = self.node_parent.parent_recipe_needs
+
         return (
-            f"\n{depth_indent} ### {self.name}:\n"
-            + f"{depth_indent}   : Needs\n"
-            + " +\n".join(
+            f"\n{depth_indent}# {self.name}:"
+            + f"\n{depth_indent}  | Input/Output and Step Efficiency Values:"
+            + str(self.production_chain_costs).replace("\n", f"\n{depth_indent}")
+            + f"".join(
                 [
-                    f"{depth_indent}   - {DECIMAL_FORMAT.format(ingredient.amount)} {ingredient.measurement}"
-                    for ingredient in self.production_chain_needs.required_components
-                ]
-            )
-            + f"\n{depth_indent}   > Produces > "
-            + f"\n{depth_indent}              > ".join(
-                [
-                    f"{DECIMAL_FORMAT.format(number_to_produce)} {product.value} per minute"
+                    f"\n{depth_indent}      ++ {DECIMAL_FORMAT.format(number_to_produce)} {product.value} per minute"
                     for product in self.product
                 ]
+                if len(self.product) > 0
+                else ""
             )
-            + "\n"
-            + "\n".join([f"{component}" for component in self.node_children])
+            + "".join([f"{component}" for component in self.node_children])
+            if len(self.node_children) > 0
+            else ""
         )
 
     def as_dict(self):
@@ -182,7 +181,9 @@ class ComponentNode:
     def __post_init__(self):
         self.node_is_leaf = self.name in lookup.ENDPOINTS
 
-    def add_children(self, recipes: List[recipe.Recipe]) -> List[RecipeNode]:
+    def add_children(
+        self, parent: Optional[RecipeNode], recipes: List[recipe.Recipe]
+    ) -> List[RecipeNode]:
         """
         Adds Alternative recipes for the component.
 
@@ -190,12 +191,25 @@ class ComponentNode:
         """
 
         for recipe in recipes:
+            recipe_name = (
+                recipe.get("recipeName")
+                if isinstance(recipe, dict)
+                else recipe.name.value
+            )
+            if self._potential_infinite_loop(recipe_name):
+                # print(f"{recipe_name} was already found in path to root, skipping potential infinite loop")
+                continue
             child_recipe = RecipeNode(
                 **RecipeJson(**recipe).props(),
                 node_parent=self,
                 node_depth=self.node_depth + 1,
             )
             self.node_children.append(child_recipe)
+
+        if parent is not None:
+            self.node_path_to_root = parent.node_path_to_root
+
+        self.node_path_to_root.append(self)
 
         return self.node_children
 
@@ -205,9 +219,22 @@ class ComponentNode:
         """
         raise NotImplementedError()
 
+    def _potential_infinite_loop(self, recipe_name: str):
+        """
+        Functionality to prevent potential infinite loops (usually between Rubber and Plastic with the Recycled Variant loops)
+        """
+
+        return recipe_name in [
+            previous_recipe.name
+            for previous_recipe in self.node_path_to_root
+            if isinstance(previous_recipe, RecipeNode)
+        ]
+
     def __str__(self) -> str:
-        depth_indent = " ".join(["" for i in range((self.node_depth * 4) + 5)])
+        depth_indent = " ".join(["" for i in range((self.node_depth * 3) - 1)])
         return (
-            f"{depth_indent}|- Needs: {self.name.value} ({DECIMAL_FORMAT.format(self.parent_recipe_needs)}/min)"
-            + "\n".join([str(recipe) for recipe in self.node_children])
+            f"\n{depth_indent}|- {self.name.value} ({DECIMAL_FORMAT.format(self.parent_recipe_needs)}/min)"
+            + "".join([str(recipe) for recipe in self.node_children])
+            if len(self.node_children) > 0
+            else ""
         )

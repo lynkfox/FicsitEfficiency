@@ -1,0 +1,18 @@
+> Quartz Crystal (10/min)
+  # Alternate: Pure Quartz Crystal:
+    | Input/Output and Step Efficiency Values:
+        - 12.857 Raw Quartz(s)
+        - 71.429 Water m^3
+        - 30 MW(s)
+        * 1 Refinery(s)
+        * 200 m^2(s) (about 4 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Quartz Crystal per minute
+  # Standard: Quartz Crystal:
+    | Input/Output and Step Efficiency Values:
+        - 16.667 Raw Quartz(s)
+        - 4 MW(s)
+        * 1 Constructor(s)
+        * 80 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Quartz Crystal per minute

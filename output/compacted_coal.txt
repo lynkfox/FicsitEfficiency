@@ -1,0 +1,10 @@
+> Compacted Coal (10/min)
+  # Alternate: Compacted Coal:
+    | Input/Output and Step Efficiency Values:
+        - 10 Coal(s)
+        - 10 Sulfur(s)
+        - 15 MW(s)
+        * 1 Assembler(s)
+        * 150 m^2(s) (about 3 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Compacted Coal per minute

@@ -1,7 +1,10 @@
 from ficsit2.com.names import ComponentName
 
+DECIMAL_FORMAT = "{:.5g}"
+
 # List of endpoints that signify no further recipes will be found
 ENDPOINTS = [
+    ComponentName.RAW_QUARTZ,
     ComponentName.IRON_ORE,
     ComponentName.COPPER_ORE,
     ComponentName.BAUXITE_ORE,
@@ -13,6 +16,16 @@ ENDPOINTS = [
     ComponentName.LIMESTONE,
     ComponentName.WATER,
     ComponentName.OIL,
+    ComponentName.LEAVES,
+    ComponentName.FLOWER_PETALS,
+    ComponentName.WOOD,
+    ComponentName.BACON_AGARIC,
+    ComponentName.MYCELIA,
+    ComponentName.HOG_REMAINS,
+    ComponentName.SPITTER_REMAINS,
+    ComponentName.STINGER_REMAINS,
+    ComponentName.HATCHER_REMAINS,
+    ComponentName.PLUTONIUM_WASTE,
 ]
 
 # List of Components that count as a fluid - mostly for display purposes out of Component

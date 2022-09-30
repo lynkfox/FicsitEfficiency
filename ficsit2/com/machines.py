@@ -5,7 +5,7 @@ from ficsit2.com.names import Buildable
 
 @dataclass
 class Machine:
-    display_name: str
+    name: Buildable
     tierRequired: float
     powerUse: float  # in MW
     footprint: float  # in m^2
@@ -16,7 +16,7 @@ class Machine:
 
 machine_map = {
     Buildable.MINER: Machine(
-        display_name=Buildable.MINER,
+        name=Buildable.MINER,
         tierRequired=(0.5, 4.1, 8.3),
         powerUse=(5, 12, 30),
         width=6,
@@ -25,7 +25,7 @@ machine_map = {
         footprint=84,
     ),
     Buildable.SMELTER: Machine(
-        display_name=Buildable.SMELTER,
+        name=Buildable.SMELTER,
         tierRequired=0.2,
         powerUse=4,
         width=6,
@@ -34,7 +34,7 @@ machine_map = {
         footprint=54,
     ),
     Buildable.FOUNDRY: Machine(
-        display_name=Buildable.FOUNDRY,
+        name=Buildable.FOUNDRY,
         tierRequired=3.3,
         powerUse=16,
         width=10,
@@ -43,7 +43,7 @@ machine_map = {
         footprint=90,
     ),
     Buildable.CONSTRUCTOR: Machine(
-        display_name=Buildable.CONSTRUCTOR,
+        name=Buildable.CONSTRUCTOR,
         powerUse=4,
         footprint=80,
         tierRequired=0.3,
@@ -52,7 +52,7 @@ machine_map = {
         height=8,
     ),
     Buildable.ASSEMBLER: Machine(
-        display_name=Buildable.ASSEMBLER,
+        name=Buildable.ASSEMBLER,
         tierRequired=2.1,
         powerUse=15,
         width=10,
@@ -61,7 +61,7 @@ machine_map = {
         footprint=150,
     ),
     Buildable.MANUFACTURER: Machine(
-        display_name=Buildable.MANUFACTURER,
+        name=Buildable.MANUFACTURER,
         tierRequired=5.2,
         powerUse=55,
         width=18,
@@ -70,7 +70,7 @@ machine_map = {
         footprint=342,
     ),
     Buildable.REFINERY: Machine(
-        display_name=Buildable.REFINERY,
+        name=Buildable.REFINERY,
         tierRequired=5.1,
         powerUse=30,
         width=10,
@@ -79,7 +79,7 @@ machine_map = {
         footprint=200,
     ),
     Buildable.PACKAGER: Machine(
-        display_name=Buildable.PACKAGER,
+        name=Buildable.PACKAGER,
         tierRequired=5.3,
         powerUse=10,
         width=8,
@@ -88,7 +88,7 @@ machine_map = {
         footprint=64,
     ),
     Buildable.BLENDER: Machine(
-        display_name=Buildable.BLENDER,
+        name=Buildable.BLENDER,
         tierRequired=7.1,
         powerUse=75,
         width=18,
@@ -97,7 +97,7 @@ machine_map = {
         footprint=342,
     ),
     Buildable.PARTICLE_ACCELERATOR: Machine(
-        display_name=Buildable.PARTICLE_ACCELERATOR,
+        name=Buildable.PARTICLE_ACCELERATOR,
         tierRequired=8.4,
         powerUse=1500,
         width=24,
@@ -106,7 +106,7 @@ machine_map = {
         footprint=912,
     ),
     Buildable.NUCLEAR_POWER_PLANT: Machine(
-        display_name=Buildable.NUCLEAR_POWER_PLANT,
+        name=Buildable.NUCLEAR_POWER_PLANT,
         tierRequired=8.1,
         powerUse=-2500,
         width=38,

@@ -792,7 +792,7 @@
             "producesPerCycle": 1,
             "components": [
                 {
-                    "name": "Circuit Boards",
+                    "name": "Circuit Board",
                     "amount": 10,
                     "measurement": "items/productionCycle"
                 },
@@ -2006,7 +2006,7 @@
                 },
                 {
                     "name": "Modular Frame",
-                    "amount": 6,
+                    "amount": 11,
                     "measurement": "items/productionCycle"
                 }
             ],
@@ -4113,12 +4113,12 @@
             ]
         },
         {
-            "recipeName": "Standard: Alien Protein (Splitter Remains)",
+            "recipeName": "Standard: Alien Protein (Spitter Remains)",
             "producedIn": "Constructor",
             "producesPerCycle": 1,
             "components": [
                 {
-                    "name": "Splitter Remains",
+                    "name": "Spitter Remains",
                     "amount": 1,
                     "measurement": "items/productionCycle"
                 }
@@ -4157,7 +4157,7 @@
             ],
             "cycleTime": 3,
             "products": [
-                "Uranium Waste"
+                "Alien Protein"
             ]
         }
     ],
@@ -4445,6 +4445,52 @@
             "cycleTime": 12,
             "products": [
                 "Turbo Rifle Ammo"
+            ]
+        }
+    ],
+    "Rifle Ammo": [
+        {
+            "recipeName": "Standard: Rifle Ammo",
+            "producedIn": "Assembler",
+            "producesPerCycle": 15,
+            "components": [
+                {
+                    "name": "Copper Sheet",
+                    "amount": 3,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Smokeless Powder",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Rifle Ammo"
+            ]
+        }
+    ],
+    "Packaged Turbo Fuel": [
+        {
+            "recipeName": "Standard: Packaged Turbo Fuel",
+            "producedIn": "Packager",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "Turbo Fuel",
+                    "amount": 2,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Empty Canister",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Turbo Fuel"
             ]
         }
     ],

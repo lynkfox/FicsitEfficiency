@@ -1,0 +1,28 @@
+> Silica (10/min)
+  # Alternate: Cheap Silica:
+    | Input/Output and Step Efficiency Values:
+        - 4.2857 Raw Quartz(s)
+        - 7.1429 Limestone(s)
+        - 15 MW(s)
+        * 1 Assembler(s)
+        * 150 m^2(s) (about 3 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Silica per minute
+  # Standard: Alumina Solution:
+    | Input/Output and Step Efficiency Values:
+        - 0.01 Bauxite Ore(s)
+        - 0.15 Water m^3
+        - 30 MW(s)
+        * 1 Refinery(s)
+        * 200 m^2(s) (about 4 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Alumina Solution per minute
+        ++ 10 Silica per minute
+  # Standard: Silica:
+    | Input/Output and Step Efficiency Values:
+        - 6 Raw Quartz(s)
+        - 4 MW(s)
+        * 1 Constructor(s)
+        * 80 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Silica per minute

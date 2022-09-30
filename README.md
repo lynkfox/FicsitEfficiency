@@ -27,3 +27,11 @@ Will print out the output.
 ## ./ficsit2
 
 main module
+
+
+## Adding Modded Content
+
+Currently only supporting modded content that is only using Vanilla components(items).
+
+* (todo) write up json schema for recipes
+* (todo) add support for adding modded components(items)

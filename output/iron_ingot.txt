@@ -1,0 +1,27 @@
+> Iron Ingot (10/min)
+  # Alternate: Iron Alloy Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 4 Iron Ore(s)
+        - 4 Copper Ore(s)
+        - 16 MW(s)
+        * 1 Foundry(s)
+        * 90 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Iron Ingot per minute
+  # Alternate: Pure Iron Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 5.3846 Iron Ore(s)
+        - 30.769 Water m^3
+        - 30 MW(s)
+        * 1 Refinery(s)
+        * 200 m^2(s) (about 4 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Iron Ingot per minute
+  # Standard: Iron Ingot:
+    | Input/Output and Step Efficiency Values:
+        - 10 Iron Ore(s)
+        - 4 MW(s)
+        * 1 Smelter(s)
+        * 54 m^2(s) (about 1 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Iron Ingot per minute

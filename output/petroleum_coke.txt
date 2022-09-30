@@ -1,0 +1,46 @@
+> Petroleum Coke (10/min)
+  # Standard: Petroleum Coke:
+    | Input/Output and Step Efficiency Values:
+        - 33.333 Heavy Oil Residue m^3
+        - 30 MW(s)
+        * 1 Refinery(s)
+        * 200 m^2(s) (about 4 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Petroleum Coke per minute
+    |- Heavy Oil Residue (33.333/min)
+        # Alternate: Heavy Oil Residue:
+          | Input/Output and Step Efficiency Values:
+              - 0.25 Oil m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 33.333 Heavy Oil Residue per minute
+              ++ 33.333 Polymer Resin per minute
+        # Alternate: Polymer Resin:
+          | Input/Output and Step Efficiency Values:
+              - 153.85 Oil m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 33.333 Polymer Resin per minute
+              ++ 33.333 Heavy Oil Residue per minute
+        # Standard: Plastic:
+          | Input/Output and Step Efficiency Values:
+              - 500 Oil m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 33.333 Plastic per minute
+              ++ 33.333 Heavy Oil Residue per minute
+        # Standard: Rubber:
+          | Input/Output and Step Efficiency Values:
+              - 500 Oil m^3
+              - 30 MW(s)
+              * 1 Refinery(s)
+              * 200 m^2(s) (about 4 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 33.333 Rubber per minute
+              ++ 33.333 Heavy Oil Residue per minute

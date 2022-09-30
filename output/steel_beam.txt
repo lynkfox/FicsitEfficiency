@@ -1,0 +1,129 @@
+> Steel Beam (10/min)
+  # Standard: Steel Beam:
+    | Input/Output and Step Efficiency Values:
+        - 40 Steel Ingot(s)
+        - 4 MW(s)
+        * 1 Constructor(s)
+        * 80 m^2(s) (about 2 foundations minus belt space)
+        * 2 steps into the chain from the top.
+        ++ 10 Steel Beam per minute
+    |- Steel Ingot (40/min)
+        # Alternate: Coke Steel Ingot:
+          | Input/Output and Step Efficiency Values:
+              - 30 Iron Ore(s)
+              - 30 Petroleum Coke(s)
+              - 16 MW(s)
+              * 1 Foundry(s)
+              * 90 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 40 Steel Ingot per minute
+          |- Petroleum Coke (30/min)
+              # Standard: Petroleum Coke:
+                | Input/Output and Step Efficiency Values:
+                    - 100 Heavy Oil Residue m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 30 Petroleum Coke per minute
+                |- Heavy Oil Residue (100/min)
+                    # Alternate: Heavy Oil Residue:
+                      | Input/Output and Step Efficiency Values:
+                          - 0.75 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 100 Heavy Oil Residue per minute
+                          ++ 100 Polymer Resin per minute
+                    # Alternate: Polymer Resin:
+                      | Input/Output and Step Efficiency Values:
+                          - 461.54 Oil m^3
+                          - 30 MW(s)
+                          * 1 Refinery(s)
+                          * 200 m^2(s) (about 4 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 100 Polymer Resin per minute
+                          ++ 100 Heavy Oil Residue per minute
+                    # Standard: Plastic:
+                      | Input/Output and Step Efficiency Values:
+                          - 1500 Oil m^3
+                          - 90 MW(s)
+                          * 3 Refinery(s)
+                          * 600 m^2(s) (about 10 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 100 Plastic per minute
+                          ++ 100 Heavy Oil Residue per minute
+                    # Standard: Rubber:
+                      | Input/Output and Step Efficiency Values:
+                          - 1500 Oil m^3
+                          - 90 MW(s)
+                          * 3 Refinery(s)
+                          * 600 m^2(s) (about 10 foundations minus belt space)
+                          * 8 steps into the chain from the top.
+                          ++ 100 Rubber per minute
+                          ++ 100 Heavy Oil Residue per minute
+        # Alternate: Solid Steel Ingot:
+          | Input/Output and Step Efficiency Values:
+              - 26.667 Iron Ingot(s)
+              - 26.667 Coal(s)
+              - 16 MW(s)
+              * 1 Foundry(s)
+              * 90 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 40 Steel Ingot per minute
+          |- Iron Ingot (26.667/min)
+              # Alternate: Iron Alloy Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 10.667 Iron Ore(s)
+                    - 10.667 Copper Ore(s)
+                    - 16 MW(s)
+                    * 1 Foundry(s)
+                    * 90 m^2(s) (about 2 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 26.667 Iron Ingot per minute
+              # Alternate: Pure Iron Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 14.359 Iron Ore(s)
+                    - 82.051 Water m^3
+                    - 30 MW(s)
+                    * 1 Refinery(s)
+                    * 200 m^2(s) (about 4 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 26.667 Iron Ingot per minute
+              # Standard: Iron Ingot:
+                | Input/Output and Step Efficiency Values:
+                    - 26.667 Iron Ore(s)
+                    - 4 MW(s)
+                    * 1 Smelter(s)
+                    * 54 m^2(s) (about 1 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 26.667 Iron Ingot per minute
+        # Alternate: Compacted Steel Ingot:
+          | Input/Output and Step Efficiency Values:
+              - 24 Iron Ore(s)
+              - 12 Compacted Coal(s)
+              - 16 MW(s)
+              * 1 Foundry(s)
+              * 90 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 40 Steel Ingot per minute
+          |- Compacted Coal (12/min)
+              # Alternate: Compacted Coal:
+                | Input/Output and Step Efficiency Values:
+                    - 12 Coal(s)
+                    - 12 Sulfur(s)
+                    - 15 MW(s)
+                    * 1 Assembler(s)
+                    * 150 m^2(s) (about 3 foundations minus belt space)
+                    * 6 steps into the chain from the top.
+                    ++ 12 Compacted Coal per minute
+        # Standard: Steel Ingot:
+          | Input/Output and Step Efficiency Values:
+              - 40 Iron Ore(s)
+              - 40 Coal(s)
+              - 16 MW(s)
+              * 1 Foundry(s)
+              * 90 m^2(s) (about 2 foundations minus belt space)
+              * 4 steps into the chain from the top.
+              ++ 40 Steel Ingot per minute

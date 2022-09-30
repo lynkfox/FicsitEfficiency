@@ -1,8 +1,6 @@
 from ficsit2.com import node
 from dataclasses import dataclass, field
-from typing import List, Set, Union, Any
-import functools
-import operator
+from typing import List, Any
 
 
 @dataclass
@@ -21,7 +19,10 @@ class Graph:
 
         self.json_add_children(self.root, self.recipe_tree[self.root.name.value])
         for recipe_child in self.root.node_children:
-            self.add_children_recipes_for(recipe_child.node_children)
+            self.add_children_recipes_for(
+                parent=recipe_child,
+                recipe_component_children=recipe_child.node_children,
+            )
 
     def json_add_children(self, parent: node.ComponentNode, children: List[dict]):
         """
@@ -31,26 +32,31 @@ class Graph:
         if isinstance(parent, node.RecipeNode):
             raise TypeError("json_add_children must start with a ComponentNode")
 
-        parent.add_children(recipes=children)
+        parent.add_children(parent=None, recipes=children)
 
         self.total_depth = (
             parent.node_depth + 1 if not parent.node_is_leaf else parent.node_depth
         )
 
-    def add_children_recipes_for(self, recipe_components: list):
+    def add_children_recipes_for(
+        self, parent: node.RecipeNode, recipe_component_children: list
+    ):
         component: node.ComponentNode
-        for component in recipe_components:
+        for component in recipe_component_children:
             if not component.node_is_leaf:
                 component_child_recipes = component.add_children(
-                    self.recipe_tree[component.name.value]
+                    parent=parent, recipes=self.recipe_tree[component.name.value]
                 )
-                self.add_children_recipes_for(
-                    functools.reduce(
-                        operator.iconcat,
-                        [recipe.node_children for recipe in component_child_recipes],
-                        [],
+                for recipe_node in component_child_recipes:
+                    self.add_children_recipes_for(
+                        parent=recipe_node,
+                        recipe_component_children=recipe_node.node_children
+                        # functools.reduce(
+                        #     operator.iconcat,
+                        #     [recipe.node_children for recipe in component_child_recipes],
+                        #     [],
+                        # )
                     )
-                )
             else:
                 self.leafs.append(component)
                 self.total_depth = (
