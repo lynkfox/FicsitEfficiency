@@ -1,76 +1,76 @@
-> Smokeless Powder (10/min)
+> Smokeless Powder (1/min)
   # Standard: Smokeless Powder:
     | Input/Output and Step Efficiency Values:
-        - 10 Black Powder(s)
-        - 5 Heavy Oil Residue m^3
+        - 1 Black Powder(s) 
+        - 0.5 Heavy Oil Residue m^3
         - 30 MW(s)
         * 1 Refinery(s)
         * 200 m^2(s) (about 4 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 10 Smokeless Powder per minute
-    |- Black Powder (10/min)
+        ++ 1 Smokeless Powder per minute
+    |- Black Powder (1/min)
         # Alternate: Fine Black Powder:
           | Input/Output and Step Efficiency Values:
-              - 5 Sulfur(s)
-              - 2.5 Compacted Coal(s)
+              - 0.5 Sulfur(s) 
+              - 0.25 Compacted Coal(s)
               - 15 MW(s)
               * 1 Assembler(s)
               * 150 m^2(s) (about 3 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 10 Black Powder per minute
-          |- Compacted Coal (2.5/min)
+              ++ 1 Black Powder per minute
+          |- Compacted Coal (0.25/min)
               # Alternate: Compacted Coal:
                 | Input/Output and Step Efficiency Values:
-                    - 2.5 Coal(s)
-                    - 2.5 Sulfur(s)
+                    - 0.25 Coal(s) 
+                    - 0.25 Sulfur(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
                     * 150 m^2(s) (about 3 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 2.5 Compacted Coal per minute
+                    ++ 0.25 Compacted Coal per minute
         # Standard: Black Powder:
           | Input/Output and Step Efficiency Values:
-              - 10 Coal(s)
-              - 20 Sulfur(s)
-              - 30 MW(s)
-              * 2 Assembler(s)
-              * 300 m^2(s) (about 5 foundations minus belt space)
+              - 1 Coal(s) 
+              - 2 Sulfur(s)
+              - 15 MW(s)
+              * 1 Assembler(s)
+              * 150 m^2(s) (about 3 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 10 Black Powder per minute
-    |- Heavy Oil Residue (5/min)
+              ++ 1 Black Powder per minute
+    |- Heavy Oil Residue (0.5/min)
         # Alternate: Heavy Oil Residue:
           | Input/Output and Step Efficiency Values:
-              - 0.0375 Oil m^3
+              - 0.00375 Oil m^3
               - 30 MW(s)
               * 1 Refinery(s)
               * 200 m^2(s) (about 4 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 5 Heavy Oil Residue per minute
-              ++ 5 Polymer Resin per minute
+              ++ 0.5 Heavy Oil Residue per minute
+              ++ 0.5 Polymer Resin per minute
         # Alternate: Polymer Resin:
           | Input/Output and Step Efficiency Values:
-              - 23.077 Oil m^3
+              - 2.3077 Oil m^3
               - 30 MW(s)
               * 1 Refinery(s)
               * 200 m^2(s) (about 4 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 5 Polymer Resin per minute
-              ++ 5 Heavy Oil Residue per minute
+              ++ 0.5 Polymer Resin per minute
+              ++ 0.5 Heavy Oil Residue per minute
         # Standard: Plastic:
           | Input/Output and Step Efficiency Values:
-              - 75 Oil m^3
+              - 7.5 Oil m^3
               - 30 MW(s)
               * 1 Refinery(s)
               * 200 m^2(s) (about 4 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 5 Plastic per minute
-              ++ 5 Heavy Oil Residue per minute
+              ++ 0.5 Plastic per minute
+              ++ 0.5 Heavy Oil Residue per minute
         # Standard: Rubber:
           | Input/Output and Step Efficiency Values:
-              - 75 Oil m^3
+              - 7.5 Oil m^3
               - 30 MW(s)
               * 1 Refinery(s)
               * 200 m^2(s) (about 4 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 5 Rubber per minute
-              ++ 5 Heavy Oil Residue per minute
+              ++ 0.5 Rubber per minute
+              ++ 0.5 Heavy Oil Residue per minute

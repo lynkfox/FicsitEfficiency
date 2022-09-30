@@ -1,93 +1,93 @@
-> Liquid BioFuel (10/min)
+> Liquid BioFuel (1/min)
   # Standard: Liquid Biofuel:
     | Input/Output and Step Efficiency Values:
-        - 0.015 Solid BioFuel(s)
-        - 0.075 Water m^3
+        - 0.0015 Solid BioFuel(s) 
+        - 0.0075 Water m^3
         - 30 MW(s)
         * 1 Refinery(s)
         * 200 m^2(s) (about 4 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 10 Liquid BioFuel per minute
-    |- Solid BioFuel (0.015/min)
+        ++ 1 Liquid BioFuel per minute
+    |- Solid BioFuel (0.0015/min)
         # Standard: Solid Biofuel:
           | Input/Output and Step Efficiency Values:
-              - 0.03 Biomass(s)
+              - 0.003 Biomass(s)
               - 4 MW(s)
               * 1 Constructor(s)
               * 80 m^2(s) (about 2 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 0.015 Solid BioFuel per minute
-          |- Biomass (0.03/min)
+              ++ 0.0015 Solid BioFuel per minute
+          |- Biomass (0.003/min)
               # Standard: Biomass (Leaves):
                 | Input/Output and Step Efficiency Values:
-                    - 0.06 Leaves(s)
+                    - 0.006 Leaves(s)
                     - 4 MW(s)
                     * 1 Constructor(s)
                     * 80 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 0.03 Biomass per minute
+                    ++ 0.003 Biomass per minute
               # Standard: Biomass (Mycelia):
                 | Input/Output and Step Efficiency Values:
-                    - 0.03 Mycelia(s)
+                    - 0.003 Mycelia(s)
                     - 4 MW(s)
                     * 1 Constructor(s)
                     * 80 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 0.03 Biomass per minute
+                    ++ 0.003 Biomass per minute
               # Standard: Biomass (Wood):
                 | Input/Output and Step Efficiency Values:
-                    - 0.006 Wood(s)
+                    - 0.0006 Wood(s)
                     - 4 MW(s)
                     * 1 Constructor(s)
                     * 80 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 0.03 Biomass per minute
+                    ++ 0.003 Biomass per minute
               # Standard: Standard: Biomass (Alien Protein):
                 | Input/Output and Step Efficiency Values:
-                    - 2e-05 Alien Protein(s)
+                    - 2e-06 Alien Protein(s)
                     - 4 MW(s)
                     * 1 Constructor(s)
                     * 80 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 0.03 Biomass per minute
-                |- Alien Protein (2e-05/min)
+                    ++ 0.003 Biomass per minute
+                |- Alien Protein (2e-06/min)
                     # Standard: Alien Protein (Hog Remains):
                       | Input/Output and Step Efficiency Values:
-                          - 2e-05 Hog Remains(s)
+                          - 2e-06 Hog Remains(s)
                           - 4 MW(s)
                           * 1 Constructor(s)
                           * 80 m^2(s) (about 2 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 2e-05 Alien Protein per minute
+                          ++ 2e-06 Alien Protein per minute
                     # Standard: Alien Protein (Spitter Remains):
                       | Input/Output and Step Efficiency Values:
-                          - 2e-05 Spitter Remains(s)
+                          - 2e-06 Spitter Remains(s)
                           - 4 MW(s)
                           * 1 Constructor(s)
                           * 80 m^2(s) (about 2 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 2e-05 Alien Protein per minute
+                          ++ 2e-06 Alien Protein per minute
                     # Standard: Alien Protein (Hatcher Remains):
                       | Input/Output and Step Efficiency Values:
-                          - 2e-05 Hatcher Remains(s)
+                          - 2e-06 Hatcher Remains(s)
                           - 4 MW(s)
                           * 1 Constructor(s)
                           * 80 m^2(s) (about 2 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 2e-05 Alien Protein per minute
+                          ++ 2e-06 Alien Protein per minute
                     # Standard: Alien Protein (Stinger Remains):
                       | Input/Output and Step Efficiency Values:
-                          - 2e-05 Stinger Remains(s)
+                          - 2e-06 Stinger Remains(s)
                           - 4 MW(s)
                           * 1 Constructor(s)
                           * 80 m^2(s) (about 2 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 2e-05 Alien Protein per minute
+                          ++ 2e-06 Alien Protein per minute
               # Modded: Biomass (Bacon Agaric):
                 | Input/Output and Step Efficiency Values:
-                    - 0.0012 Bacon Agaric(s)
+                    - 0.00012 Bacon Agaric(s)
                     - 4 MW(s)
                     * 1 Constructor(s)
                     * 80 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 0.03 Biomass per minute
+                    ++ 0.003 Biomass per minute

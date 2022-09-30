@@ -1,158 +1,158 @@
-> Rifle Ammo (10/min)
+> Rifle Ammo (1/min)
   # Standard: Rifle Ammo:
     | Input/Output and Step Efficiency Values:
-        - 2 Copper Sheet(s)
-        - 1.3333 Smokeless Powder(s)
+        - 0.2 Copper Sheet(s) 
+        - 0.13333 Smokeless Powder(s)
         - 15 MW(s)
         * 1 Assembler(s)
         * 150 m^2(s) (about 3 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 10 Rifle Ammo per minute
-    |- Copper Sheet (2/min)
+        ++ 1 Rifle Ammo per minute
+    |- Copper Sheet (0.2/min)
         # Alternate: Steamed Copper Sheet:
           | Input/Output and Step Efficiency Values:
-              - 2 Copper Ingot(s)
-              - 20 Water m^3
+              - 0.2 Copper Ingot(s) 
+              - 2 Water m^3
               - 30 MW(s)
               * 1 Refinery(s)
               * 200 m^2(s) (about 4 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 2 Copper Sheet per minute
-          |- Copper Ingot (2/min)
+              ++ 0.2 Copper Sheet per minute
+          |- Copper Ingot (0.2/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 1 Copper Ore(s)
-                    - 0.5 Iron Ore(s)
+                    - 0.1 Copper Ore(s) 
+                    - 0.05 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
                     * 90 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 2 Copper Ingot per minute
+                    ++ 0.2 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 0.8 Copper Ore(s)
-                    - 5.3333 Water m^3
+                    - 0.08 Copper Ore(s) 
+                    - 0.53333 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
                     * 200 m^2(s) (about 4 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 2 Copper Ingot per minute
+                    ++ 0.2 Copper Ingot per minute
               # Standard: Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 2 Copper Ore(s)
+                    - 0.2 Copper Ore(s)
                     - 4 MW(s)
                     * 1 Smelter(s)
                     * 54 m^2(s) (about 1 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 2 Copper Ingot per minute
+                    ++ 0.2 Copper Ingot per minute
         # Standard: Copper Sheet:
           | Input/Output and Step Efficiency Values:
-              - 4 Copper Ingot(s)
+              - 0.4 Copper Ingot(s)
               - 4 MW(s)
               * 1 Constructor(s)
               * 80 m^2(s) (about 2 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 2 Copper Sheet per minute
-          |- Copper Ingot (4/min)
+              ++ 0.2 Copper Sheet per minute
+          |- Copper Ingot (0.4/min)
               # Alternate: Copper Alloy Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 2 Copper Ore(s)
-                    - 1 Iron Ore(s)
+                    - 0.2 Copper Ore(s) 
+                    - 0.1 Iron Ore(s)
                     - 16 MW(s)
                     * 1 Foundry(s)
                     * 90 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 4 Copper Ingot per minute
+                    ++ 0.4 Copper Ingot per minute
               # Alternate: Pure Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 1.6 Copper Ore(s)
-                    - 10.667 Water m^3
+                    - 0.16 Copper Ore(s) 
+                    - 1.0667 Water m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
                     * 200 m^2(s) (about 4 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 4 Copper Ingot per minute
+                    ++ 0.4 Copper Ingot per minute
               # Standard: Copper Ingot:
                 | Input/Output and Step Efficiency Values:
-                    - 4 Copper Ore(s)
+                    - 0.4 Copper Ore(s)
                     - 4 MW(s)
                     * 1 Smelter(s)
                     * 54 m^2(s) (about 1 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 4 Copper Ingot per minute
-    |- Smokeless Powder (1.3333/min)
+                    ++ 0.4 Copper Ingot per minute
+    |- Smokeless Powder (0.13333/min)
         # Standard: Smokeless Powder:
           | Input/Output and Step Efficiency Values:
-              - 1.3333 Black Powder(s)
-              - 0.66667 Heavy Oil Residue m^3
+              - 0.13333 Black Powder(s) 
+              - 0.066667 Heavy Oil Residue m^3
               - 30 MW(s)
               * 1 Refinery(s)
               * 200 m^2(s) (about 4 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 1.3333 Smokeless Powder per minute
-          |- Black Powder (1.3333/min)
+              ++ 0.13333 Smokeless Powder per minute
+          |- Black Powder (0.13333/min)
               # Alternate: Fine Black Powder:
                 | Input/Output and Step Efficiency Values:
-                    - 0.66667 Sulfur(s)
-                    - 0.33333 Compacted Coal(s)
+                    - 0.066667 Sulfur(s) 
+                    - 0.033333 Compacted Coal(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
                     * 150 m^2(s) (about 3 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 1.3333 Black Powder per minute
-                |- Compacted Coal (0.33333/min)
+                    ++ 0.13333 Black Powder per minute
+                |- Compacted Coal (0.033333/min)
                     # Alternate: Compacted Coal:
                       | Input/Output and Step Efficiency Values:
-                          - 0.33333 Coal(s)
-                          - 0.33333 Sulfur(s)
+                          - 0.033333 Coal(s) 
+                          - 0.033333 Sulfur(s)
                           - 15 MW(s)
                           * 1 Assembler(s)
                           * 150 m^2(s) (about 3 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 0.33333 Compacted Coal per minute
+                          ++ 0.033333 Compacted Coal per minute
               # Standard: Black Powder:
                 | Input/Output and Step Efficiency Values:
-                    - 1.3333 Coal(s)
-                    - 2.6667 Sulfur(s)
+                    - 0.13333 Coal(s) 
+                    - 0.26667 Sulfur(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
                     * 150 m^2(s) (about 3 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 1.3333 Black Powder per minute
-          |- Heavy Oil Residue (0.66667/min)
+                    ++ 0.13333 Black Powder per minute
+          |- Heavy Oil Residue (0.066667/min)
               # Alternate: Heavy Oil Residue:
                 | Input/Output and Step Efficiency Values:
-                    - 0.005 Oil m^3
+                    - 0.0005 Oil m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
                     * 200 m^2(s) (about 4 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 0.66667 Heavy Oil Residue per minute
-                    ++ 0.66667 Polymer Resin per minute
+                    ++ 0.066667 Heavy Oil Residue per minute
+                    ++ 0.066667 Polymer Resin per minute
               # Alternate: Polymer Resin:
                 | Input/Output and Step Efficiency Values:
-                    - 3.0769 Oil m^3
+                    - 0.30769 Oil m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
                     * 200 m^2(s) (about 4 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 0.66667 Polymer Resin per minute
-                    ++ 0.66667 Heavy Oil Residue per minute
+                    ++ 0.066667 Polymer Resin per minute
+                    ++ 0.066667 Heavy Oil Residue per minute
               # Standard: Plastic:
                 | Input/Output and Step Efficiency Values:
-                    - 10 Oil m^3
+                    - 1 Oil m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
                     * 200 m^2(s) (about 4 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 0.66667 Plastic per minute
-                    ++ 0.66667 Heavy Oil Residue per minute
+                    ++ 0.066667 Plastic per minute
+                    ++ 0.066667 Heavy Oil Residue per minute
               # Standard: Rubber:
                 | Input/Output and Step Efficiency Values:
-                    - 10 Oil m^3
+                    - 1 Oil m^3
                     - 30 MW(s)
                     * 1 Refinery(s)
                     * 200 m^2(s) (about 4 foundations minus belt space)
                     * 6 steps into the chain from the top.
-                    ++ 0.66667 Rubber per minute
-                    ++ 0.66667 Heavy Oil Residue per minute
+                    ++ 0.066667 Rubber per minute
+                    ++ 0.066667 Heavy Oil Residue per minute

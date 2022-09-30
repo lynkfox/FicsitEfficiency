@@ -190,7 +190,7 @@ def get_recipes(xml_tree):
                 all_recipes.update(entry)
 
     print(
-        "\n\033[92m Main Recipe file done\033[0m applying additional Updated U6 Recipes and specific fixes..."
+        f"\n\033[92m Main Recipe file done\033[0m with {len(all_recipes)} root components\n...applying additional Updated U6 Recipes and specific fixes..."
     )
     updated = update_with_another_recipe_json(all_recipes, "additional_recipes.json")
     print(f"\n Done! {updated} recipes added/updated.")

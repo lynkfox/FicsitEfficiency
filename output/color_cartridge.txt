@@ -1,9 +1,9 @@
-> Color Cartridge (10/min)
+> Color Cartridge (1/min)
   # Standard: Color Cartridge:
     | Input/Output and Step Efficiency Values:
-        - 5 Flower Petals(s)
+        - 0.5 Flower Petals(s)
         - 4 MW(s)
         * 1 Constructor(s)
         * 80 m^2(s) (about 2 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 10 Color Cartridge per minute
+        ++ 1 Color Cartridge per minute

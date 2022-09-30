@@ -1,29 +1,29 @@
-> Black Powder (10/min)
+> Black Powder (1/min)
   # Alternate: Fine Black Powder:
     | Input/Output and Step Efficiency Values:
-        - 5 Sulfur(s)
-        - 2.5 Compacted Coal(s)
+        - 0.5 Sulfur(s) 
+        - 0.25 Compacted Coal(s)
         - 15 MW(s)
         * 1 Assembler(s)
         * 150 m^2(s) (about 3 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 10 Black Powder per minute
-    |- Compacted Coal (2.5/min)
+        ++ 1 Black Powder per minute
+    |- Compacted Coal (0.25/min)
         # Alternate: Compacted Coal:
           | Input/Output and Step Efficiency Values:
-              - 2.5 Coal(s)
-              - 2.5 Sulfur(s)
+              - 0.25 Coal(s) 
+              - 0.25 Sulfur(s)
               - 15 MW(s)
               * 1 Assembler(s)
               * 150 m^2(s) (about 3 foundations minus belt space)
               * 4 steps into the chain from the top.
-              ++ 2.5 Compacted Coal per minute
+              ++ 0.25 Compacted Coal per minute
   # Standard: Black Powder:
     | Input/Output and Step Efficiency Values:
-        - 10 Coal(s)
-        - 20 Sulfur(s)
-        - 30 MW(s)
-        * 2 Assembler(s)
-        * 300 m^2(s) (about 5 foundations minus belt space)
+        - 1 Coal(s) 
+        - 2 Sulfur(s)
+        - 15 MW(s)
+        * 1 Assembler(s)
+        * 150 m^2(s) (about 3 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 10 Black Powder per minute
+        ++ 1 Black Powder per minute

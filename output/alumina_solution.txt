@@ -1,20 +1,20 @@
-> Alumina Solution (10/min)
+> Alumina Solution (1/min)
   # Alternate: Sloppy Alumina:
     | Input/Output and Step Efficiency Values:
-        - 0.0083333 Bauxite Ore(s)
-        - 0.083333 Water m^3
+        - 0.00083333 Bauxite Ore(s) 
+        - 0.0083333 Water m^3
         - 30 MW(s)
         * 1 Refinery(s)
         * 200 m^2(s) (about 4 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 10 Alumina Solution per minute
+        ++ 1 Alumina Solution per minute
   # Standard: Alumina Solution:
     | Input/Output and Step Efficiency Values:
-        - 0.01 Bauxite Ore(s)
-        - 0.15 Water m^3
+        - 0.001 Bauxite Ore(s) 
+        - 0.015 Water m^3
         - 30 MW(s)
         * 1 Refinery(s)
         * 200 m^2(s) (about 4 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 10 Alumina Solution per minute
-        ++ 10 Silica per minute
+        ++ 1 Alumina Solution per minute
+        ++ 1 Silica per minute
