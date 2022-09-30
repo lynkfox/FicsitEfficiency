@@ -3515,7 +3515,7 @@
               # Alternate: Fused Wire:
                 | Input/Output and Step Efficiency Values:
                     - 1.3333 Copper Ingot(s)
-                    - 0.33333 Gold Ingot(s)
+                    - 0.33333 Caterium Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
                     * 150 m^2(s) (about 3 foundations minus belt space)
@@ -3548,7 +3548,7 @@
                           * 54 m^2(s) (about 1 foundations minus belt space)
                           * 8 steps into the chain from the top.
                           ++ 1.3333 Copper Ingot per minute
-                |- Gold Ingot (0.33333/min)
+                |- Caterium Ingot (0.33333/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 0.66667 Caterium Ore(s)
@@ -3557,7 +3557,7 @@
                           * 1 Refinery(s)
                           * 200 m^2(s) (about 4 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 0.33333 Gold Ingot per minute
+                          ++ 0.33333 Caterium Ingot per minute
                     # Standard: Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 1 Caterium Ore(s)
@@ -3565,7 +3565,7 @@
                           * 1 Smelter(s)
                           * 54 m^2(s) (about 1 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 0.33333 Gold Ingot per minute
+                          ++ 0.33333 Caterium Ingot per minute
               # Alternate: Iron Wire:
                 | Input/Output and Step Efficiency Values:
                     - 5.5556 Iron Ingot(s)
@@ -3603,13 +3603,13 @@
                           ++ 5.5556 Iron Ingot per minute
               # Alternate: Caterium Wire:
                 | Input/Output and Step Efficiency Values:
-                    - 1.25 Gold Ingot(s)
+                    - 1.25 Caterium Ingot(s)
                     - 4 MW(s)
                     * 1 Constructor(s)
                     * 80 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
                     ++ 10 Wire per minute
-                |- Gold Ingot (1.25/min)
+                |- Caterium Ingot (1.25/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 2.5 Caterium Ore(s)
@@ -3618,7 +3618,7 @@
                           * 1 Refinery(s)
                           * 200 m^2(s) (about 4 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 1.25 Gold Ingot per minute
+                          ++ 1.25 Caterium Ingot per minute
                     # Standard: Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 3.75 Caterium Ore(s)
@@ -3626,7 +3626,7 @@
                           * 1 Smelter(s)
                           * 54 m^2(s) (about 1 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 1.25 Gold Ingot per minute
+                          ++ 1.25 Caterium Ingot per minute
               # Standard: Wire:
                 | Input/Output and Step Efficiency Values:
                     - 5 Copper Ingot(s)
@@ -8800,7 +8800,7 @@
               # Alternate: Fused Wire:
                 | Input/Output and Step Efficiency Values:
                     - 0.59259 Copper Ingot(s)
-                    - 0.14815 Gold Ingot(s)
+                    - 0.14815 Caterium Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
                     * 150 m^2(s) (about 3 foundations minus belt space)
@@ -8833,7 +8833,7 @@
                           * 54 m^2(s) (about 1 foundations minus belt space)
                           * 8 steps into the chain from the top.
                           ++ 0.59259 Copper Ingot per minute
-                |- Gold Ingot (0.14815/min)
+                |- Caterium Ingot (0.14815/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 0.2963 Caterium Ore(s)
@@ -8842,7 +8842,7 @@
                           * 1 Refinery(s)
                           * 200 m^2(s) (about 4 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 0.14815 Gold Ingot per minute
+                          ++ 0.14815 Caterium Ingot per minute
                     # Standard: Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 0.44444 Caterium Ore(s)
@@ -8850,7 +8850,7 @@
                           * 1 Smelter(s)
                           * 54 m^2(s) (about 1 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 0.14815 Gold Ingot per minute
+                          ++ 0.14815 Caterium Ingot per minute
               # Alternate: Iron Wire:
                 | Input/Output and Step Efficiency Values:
                     - 2.4691 Iron Ingot(s)
@@ -8888,13 +8888,13 @@
                           ++ 2.4691 Iron Ingot per minute
               # Alternate: Caterium Wire:
                 | Input/Output and Step Efficiency Values:
-                    - 0.55556 Gold Ingot(s)
+                    - 0.55556 Caterium Ingot(s)
                     - 4 MW(s)
                     * 1 Constructor(s)
                     * 80 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
                     ++ 4.4444 Wire per minute
-                |- Gold Ingot (0.55556/min)
+                |- Caterium Ingot (0.55556/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 1.1111 Caterium Ore(s)
@@ -8903,7 +8903,7 @@
                           * 1 Refinery(s)
                           * 200 m^2(s) (about 4 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 0.55556 Gold Ingot per minute
+                          ++ 0.55556 Caterium Ingot per minute
                     # Standard: Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 1.6667 Caterium Ore(s)
@@ -8911,7 +8911,7 @@
                           * 1 Smelter(s)
                           * 54 m^2(s) (about 1 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 0.55556 Gold Ingot per minute
+                          ++ 0.55556 Caterium Ingot per minute
               # Standard: Wire:
                 | Input/Output and Step Efficiency Values:
                     - 2.2222 Copper Ingot(s)
@@ -13869,7 +13869,7 @@
               # Alternate: Fused Wire:
                 | Input/Output and Step Efficiency Values:
                     - 1.3333 Copper Ingot(s)
-                    - 0.33333 Gold Ingot(s)
+                    - 0.33333 Caterium Ingot(s)
                     - 15 MW(s)
                     * 1 Assembler(s)
                     * 150 m^2(s) (about 3 foundations minus belt space)
@@ -13902,7 +13902,7 @@
                           * 54 m^2(s) (about 1 foundations minus belt space)
                           * 8 steps into the chain from the top.
                           ++ 1.3333 Copper Ingot per minute
-                |- Gold Ingot (0.33333/min)
+                |- Caterium Ingot (0.33333/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 0.66667 Caterium Ore(s)
@@ -13911,7 +13911,7 @@
                           * 1 Refinery(s)
                           * 200 m^2(s) (about 4 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 0.33333 Gold Ingot per minute
+                          ++ 0.33333 Caterium Ingot per minute
                     # Standard: Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 1 Caterium Ore(s)
@@ -13919,7 +13919,7 @@
                           * 1 Smelter(s)
                           * 54 m^2(s) (about 1 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 0.33333 Gold Ingot per minute
+                          ++ 0.33333 Caterium Ingot per minute
               # Alternate: Iron Wire:
                 | Input/Output and Step Efficiency Values:
                     - 5.5556 Iron Ingot(s)
@@ -13957,13 +13957,13 @@
                           ++ 5.5556 Iron Ingot per minute
               # Alternate: Caterium Wire:
                 | Input/Output and Step Efficiency Values:
-                    - 1.25 Gold Ingot(s)
+                    - 1.25 Caterium Ingot(s)
                     - 4 MW(s)
                     * 1 Constructor(s)
                     * 80 m^2(s) (about 2 foundations minus belt space)
                     * 6 steps into the chain from the top.
                     ++ 10 Wire per minute
-                |- Gold Ingot (1.25/min)
+                |- Caterium Ingot (1.25/min)
                     # Alternate: Pure Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 2.5 Caterium Ore(s)
@@ -13972,7 +13972,7 @@
                           * 1 Refinery(s)
                           * 200 m^2(s) (about 4 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 1.25 Gold Ingot per minute
+                          ++ 1.25 Caterium Ingot per minute
                     # Standard: Caterium Ingot:
                       | Input/Output and Step Efficiency Values:
                           - 3.75 Caterium Ore(s)
@@ -13980,7 +13980,7 @@
                           * 1 Smelter(s)
                           * 54 m^2(s) (about 1 foundations minus belt space)
                           * 8 steps into the chain from the top.
-                          ++ 1.25 Gold Ingot per minute
+                          ++ 1.25 Caterium Ingot per minute
               # Standard: Wire:
                 | Input/Output and Step Efficiency Values:
                     - 5 Copper Ingot(s)

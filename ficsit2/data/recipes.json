@@ -1694,9 +1694,9 @@
                     "measurement": "Copper Ingot(s)/cycle"
                 },
                 {
-                    "name": "Gold Ingot",
+                    "name": "Caterium Ingot",
                     "amount": 1,
-                    "measurement": "Gold Ingot(s)/cycle"
+                    "measurement": "Caterium Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 20,
@@ -1726,9 +1726,9 @@
             "producesPerCycle": 8,
             "components": [
                 {
-                    "name": "Gold Ingot",
+                    "name": "Caterium Ingot",
                     "amount": 1,
-                    "measurement": "Gold Ingot(s)/cycle"
+                    "measurement": "Caterium Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 4,
@@ -2655,7 +2655,7 @@
             ]
         }
     ],
-    "Gold Ingot": [
+    "Caterium Ingot": [
         {
             "recipeName": "Alternate: Pure Caterium Ingot",
             "producedIn": "Refinery",
@@ -2674,7 +2674,7 @@
             ],
             "cycleTime": 5,
             "products": [
-                "Gold Ingot"
+                "Caterium Ingot"
             ]
         },
         {
@@ -2690,7 +2690,7 @@
             ],
             "cycleTime": 4,
             "products": [
-                "Gold Ingot"
+                "Caterium Ingot"
             ]
         }
     ],
@@ -2740,9 +2740,9 @@
             "producesPerCycle": 12,
             "components": [
                 {
-                    "name": "Gold Ingot",
+                    "name": "Caterium Ingot",
                     "amount": 1,
-                    "measurement": "Gold Ingot(s)/cycle"
+                    "measurement": "Caterium Ingot(s)/cycle"
                 },
                 {
                     "name": "Copper Ingot",
@@ -2761,9 +2761,9 @@
             "producesPerCycle": 5,
             "components": [
                 {
-                    "name": "Gold Ingot",
+                    "name": "Caterium Ingot",
                     "amount": 1,
-                    "measurement": "Gold Ingot(s)/cycle"
+                    "measurement": "Caterium Ingot(s)/cycle"
                 }
             ],
             "cycleTime": 5,

@@ -35,7 +35,7 @@ class ComponentName(Enum):
     IRON_INGOT = "Iron Ingot"
     COPPER_INGOT = "Copper Ingot"
     STEEL_INGOT = "Steel Ingot"
-    CATERIUM_INGOT = "Gold Ingot"
+    CATERIUM_INGOT = "Caterium Ingot"
     ALUMINUM_INGOT = "Aluminum Ingot"
     AI_LIMITER = "AI Limiter"
     ALCLAD_ALUMINUM_SHEET = "Alclad Sheet"

@@ -1,4 +1,4 @@
-> Gold Ingot (1/min)
+> Caterium Ingot (1/min)
   # Alternate: Pure Caterium Ingot:
     | Input/Output and Step Efficiency Values:
         - 2 Caterium Ore(s)
@@ -7,7 +7,7 @@
         * 1 Refinery(s)
         * 200 m^2(s) (about 4 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 1 Gold Ingot per minute
+        ++ 1 Caterium Ingot per minute
   # Standard: Caterium Ingot:
     | Input/Output and Step Efficiency Values:
         - 3 Caterium Ore(s)
@@ -15,4 +15,4 @@
         * 1 Smelter(s)
         * 54 m^2(s) (about 1 foundations minus belt space)
         * 2 steps into the chain from the top.
-        ++ 1 Gold Ingot per minute
+        ++ 1 Caterium Ingot per minute
