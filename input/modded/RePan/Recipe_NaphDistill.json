@@ -1,0 +1,29 @@
+{
+  "$schema": "https://github.com/Nogg-aholic/ContentLib_Recipes/blob/master/FContentLib_Recipes.json",
+  "Name": "Distilled Naphtha",
+  "Category": "SolidOilProducts_C",
+  "Ingredients": [
+    {
+      "Item": "Desc_LiquidOil",
+      "Amount": 24000
+    }
+  ],
+  "Products": [
+
+    {
+      "Item": "Desc_Naphtha",
+      "Amount": 18000
+    },
+    {
+      "Item": "Desc_BottomResid",
+      "Amount": 4000
+    },
+    {
+      "Item": "Desc_PolymerResin",
+      "Amount": 10
+    }
+  ],
+  "ManufacturingDuration": 24,
+  "ManufacturingMenuPriority": 1,
+  "ProducedIn": [ "Build_ChemReactor" ]
+}

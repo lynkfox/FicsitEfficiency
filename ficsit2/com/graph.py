@@ -1,6 +1,7 @@
 from ficsit2.com import node
 from dataclasses import dataclass, field
-from typing import List, Any
+from typing import List, Any, Optional
+from ficsit2.mod_input.mod_include import ModdedContent
 
 
 @dataclass
@@ -14,6 +15,7 @@ class Graph:
     total_depth: int = field(init=False, default=0)
     paths_to_root: List[list] = field(init=False, default_factory=list)
     leafs: List[Any] = field(init=False, default_factory=list)
+    mod_content: Optional[ModdedContent] = field(default=None)
 
     def __post_init__(self):
 

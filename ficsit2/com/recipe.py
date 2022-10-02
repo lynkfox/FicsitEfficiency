@@ -101,7 +101,7 @@ class ProductionChainStep:
                 f"\n      - {math.ceil(self.machine_cost.power)} MW(s)",
                 f"\n      * {math.ceil(self.machine_cost.total_machines)} {self.machine_cost.machine.name.value}(s)",
                 f"\n      * {math.ceil(self.machine_cost.footprint)} m^2(s) (about {math.ceil(self.machine_cost.footprint/64)} foundations minus belt space)",
-                f"\n      * {self.current_step} steps into the chain from the top.",
+                f"\n      * {self.current_step/2} steps into the chain from the top.",
             ]
         )
 

@@ -3,8 +3,34 @@ from dataclasses import dataclass, field
 from ficsit2.com import machines, recipe, names, lookup
 from typing import List, Optional
 from copy import copy
+from ficsit2.com import lookup
+from ficsit2.mod_input.mod_include import ModdedContent
 
 from ficsit2.com.lookup import DECIMAL_FORMAT
+
+
+def _try_for_modded_component(mod_content, name):
+    """
+    tries various names to see which fits
+    """
+    if mod_content is not None:
+        try:
+            return names.ComponentName(name)
+        except Exception:
+            return mod_content.component(name)
+    else:  # let it error if no mod content
+        return names.ComponentName(name)
+
+
+def _try_for_modded_buildable(mod_content, name):
+
+    if mod_content is not None:
+        try:
+            return names.Buildable(name)
+        except Exception:
+            return mod_content.buildable(name)
+    else:  # let it error if no mod content
+        return names.Buildable(name)
 
 
 @dataclass
@@ -15,25 +41,35 @@ class RecipeJson:
     """
 
     recipeName: str
-    products: list
+    products: list  # all products produced by this recipe
+    product: ComponentNode  # product we actually want
     producedIn: str
     producesPerCycle: float
     cycleTime: float
     components: list
+    mod_content: ModdedContent
 
     def props(self):
+        building = _try_for_modded_buildable(self.mod_content, self.producedIn)
         return {
             "name": self.recipeName,
-            "product": [names.ComponentName(x) for x in self.products],
-            "produced_in": machines.machine_map.get(names.Buildable(self.producedIn)),
+            "all_products": [
+                _try_for_modded_component(self.mod_content, x) for x in self.products
+            ],
+            "product": self.product,
+            "produced_in": lookup.machine_map.get(
+                building, self.mod_content.machine_map.get(building)
+            ),
             "cycle_time": self.cycleTime,
             "produces_per_cycle": self.producesPerCycle,
             "components_per_cycle": [
                 recipe.Component(
-                    name=names.ComponentName(x["name"]), amount=x["amount"]
+                    name=_try_for_modded_component(self.mod_content, x["name"]),
+                    amount=x["amount"],
                 )
                 for x in self.components
             ],
+            "mod_content": self.mod_content,
         }
 
 
@@ -55,6 +91,7 @@ class RecipeNode:
     cycle_time: float
     components_per_cycle: List[recipe.Component]
     product: names.ComponentName
+    all_products: List[names.ComponentName]
     produces_per_cycle: float
     cycles_per_minute: float = field(init=False)
     production_chain_costs: recipe.ProductionChainStep = field(init=False)
@@ -65,6 +102,7 @@ class RecipeNode:
     node_children: List[ComponentNode] = field(init=False, default_factory=list)
     node_path_to_root: List[any] = field(init=False, default_factory=list)
     node_is_leaf: bool = field(init=False, default=False)
+    mod_content: ModdedContent = field(default=False)
 
     def __post_init__(self):
         """
@@ -83,6 +121,7 @@ class RecipeNode:
                 parent_recipe_needs=component.amount * self.needed_to_meet_parent_quota,
                 node_parent=self,
                 parent_cycles_per_minute=self.cycles_per_minute,
+                mod_content=self.mod_content,
             )
             self._update_component_child(component, child_component)
             self.node_children.append(child_component)
@@ -134,12 +173,9 @@ class RecipeNode:
             f"\n{depth_indent}# {self.name}:"
             + f"\n{depth_indent}  | Input/Output and Step Efficiency Values:"
             + str(self.production_chain_costs).replace("\n", f"\n{depth_indent}")
-            + f"".join(
-                [
-                    f"\n{depth_indent}      ++ {DECIMAL_FORMAT.format(number_to_produce)} {product.value} per minute"
-                    for product in self.product
-                ]
-                if len(self.product) > 0
+            + (
+                f"\n{depth_indent}      ++ {DECIMAL_FORMAT.format(number_to_produce)} {self.product.value} per minute"
+                if self.product is not None
                 else ""
             )
             + "".join([f"{component}" for component in self.node_children])
@@ -177,6 +213,7 @@ class ComponentNode:
     node_is_leaf: bool = field(init=False, default=False)
     node_depth: int = field(init=False, default=0)
     linked_component: recipe.Component = field(init=False, default=None)
+    mod_content: ModdedContent = field(default=None)
 
     def __post_init__(self):
         self.node_is_leaf = self.name in lookup.ENDPOINTS
@@ -200,7 +237,12 @@ class ComponentNode:
                 # print(f"{recipe_name} was already found in path to root, skipping potential infinite loop")
                 continue
             child_recipe = RecipeNode(
-                **RecipeJson(**recipe).props(),
+                **RecipeJson(
+                    **{
+                        **recipe,
+                        **{"mod_content": self.mod_content, "product": self.name},
+                    }
+                ).props(),
                 node_parent=self,
                 node_depth=self.node_depth + 1,
             )

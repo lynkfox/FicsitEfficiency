@@ -1,10 +1,13 @@
 import json
 from xml.etree import ElementTree
-from ficsit2.com.machines import machine_map
-from ficsit2.com.names import Buildable, ComponentName as ComponentName
+from ficsit2.com.names import ComponentName as ComponentName
 from ficsit2.com.recipe import Component
 from ficsit2.com import lookup
+from ficsit2.mod_input.mod_load import generate_all_modded_recipes
 import argparse
+from datetime import datetime
+from dateutil import tz
+from ficsit2.com.lookup import COMPONENT_MAPPING, MACHINE_MAPPING
 
 parser = argparse.ArgumentParser(
     description="Build the recipe.json that is consumed in the Efficiency Graph creation."
@@ -17,120 +20,6 @@ parser.add_argument(
 )
 
 args = parser.parse_args()
-
-MACHINE_MAPPING = {
-    "Smelter": machine_map.get(Buildable.SMELTER),
-    "Foundry": machine_map.get(Buildable.FOUNDRY),
-    "Constructor": machine_map.get(Buildable.CONSTRUCTOR),
-    "Assembler": machine_map.get(Buildable.ASSEMBLER),
-    "Manufacturer": machine_map.get(Buildable.MANUFACTURER),
-    "OilRefinery": machine_map.get(Buildable.REFINERY),
-    "Blender": machine_map.get(Buildable.BLENDER),
-    "Packager": machine_map.get(Buildable.PACKAGER),
-    "HadronCollider": machine_map.get(Buildable.PARTICLE_ACCELERATOR),
-}
-
-COMPONENT_MAPPING = {
-    "portableMiner": ComponentName.PORTABLE_MINER,
-    "goldIngot": ComponentName.CATERIUM_INGOT,
-    "steelIngot": ComponentName.STEEL_INGOT,
-    "stone": ComponentName.LIMESTONE,
-    "oreIron": ComponentName.IRON_ORE,
-    "oreCopper": ComponentName.COPPER_ORE,
-    "rawQuartz": ComponentName.RAW_QUARTZ,
-    "coal": ComponentName.COAL,
-    "sulfur": ComponentName.SULFUR,
-    "oreGold": ComponentName.CATERIUM_ORE,
-    "oreBauxite": ComponentName.BAUXITE_ORE,
-    "oreUranium": ComponentName.URANIUM_ORE,
-    "water": ComponentName.WATER,
-    "liquidOil": ComponentName.OIL,
-    "nitrogenGas": ComponentName.NITROGEN,
-    "genericBiomass": ComponentName.BIOMASS,
-    "wood": ComponentName.WOOD,
-    "quartzCrystal": ComponentName.QUARTZ_CRYSTAL,
-    "ironIngot": ComponentName.IRON_INGOT,
-    "circuitBoardHighSpeed": ComponentName.AI_LIMITER,
-    "aluminumPlate": ComponentName.ALCLAD_ALUMINUM_SHEET,
-    "aluminumCasing": ComponentName.ALUMINUM_CASING,
-    "aluminumIngot": ComponentName.ALUMINUM_INGOT,
-    "aluminumScrap": ComponentName.ALUMINUM_SCRAP,
-    "aluminaSolution": ComponentName.ALUMINA_SOLUTION,
-    "battery": ComponentName.BATTERY,
-    "gunpowder": ComponentName.BLACK_POWDER,
-    "cable": ComponentName.CABLE,
-    "circuitBoard": ComponentName.CIRCUIT_BOARD,
-    "compactedCoal": ComponentName.COMPACTED_COAL,
-    "computer": ComponentName.COMPUTER,
-    "cement": ComponentName.CONCRETE,
-    "coolingSystem": ComponentName.COOLING_SYSTEM,
-    "copperDust": ComponentName.COPPER_POWDER,
-    "copperIngot": ComponentName.COPPER_INGOT,
-    "copperSheet": ComponentName.COPPER_SHEET,
-    "crystalOscillator": ComponentName.CRYSTAL_OSCILLATOR,
-    "electromagneticControlRod": ComponentName.ELECTROMAGNETIC_CONTROL_ROD,
-    "steelPlateReinforced": ComponentName.ENCASED_INDUSTRIAL_BEAM,
-    "plutoniumCell": ComponentName.ENCASED_PLUTONIUM_CELL,
-    "uraniumCell": ComponentName.ENCASED_URANIUM_CELL,
-    "fabric": ComponentName.FABRIC,
-    "liquidFuel": ComponentName.FUEL,
-    "modularFrameFused": ComponentName.FUSED_MODULAR_FRAME,
-    "aluminumPlateReinforced": ComponentName.HEAT_SINK,
-    "modularFrameHeavy": ComponentName.HEAVY_MODULAR_FRAME,
-    "heavyOilResidue": ComponentName.HEAVY_OIL_RESIDUE,
-    "highSpeedConnector": ComponentName.HIGH_SPEED_CONNECTOR,
-    "ironPlate": ComponentName.IRON_PLATE,
-    "ironRod": ComponentName.IRON_ROD,
-    "modularFrame": ComponentName.MODULAR_FRAME,
-    "motor": ComponentName.MOTOR,
-    "nitricAcid": ComponentName.NITRIC_ACID,
-    "nonFissibleUranium": ComponentName.NON_FISSILE_URANIUM,
-    "nuclearWaste": ComponentName.URANIUM_WASTE,
-    "petroleumCoke": ComponentName.PETROLEUM_COKE,
-    "plastic": ComponentName.PLASTIC,
-    "plutoniumFuelRod": ComponentName.PLUTONIUM_FUEL_ROD,
-    "plutoniumPellet": ComponentName.PLUTONIUM_PELLET,
-    "pressureConversionCube": ComponentName.PRESSURE_CONVERSION_CUBE,
-    "polymerResin": ComponentName.POLYMER_RESIN,
-    "highSpeedWire": ComponentName.QUICKWIRE,
-    "ironPlateReinforced": ComponentName.REINFORCED_IRON_PLATE,
-    "modularFrameLightweight": ComponentName.RADIO_CONTROL_UNIT,
-    "rotor": ComponentName.ROTOR,
-    "rubber": ComponentName.RUBBER,
-    "ironScrew": ComponentName.SCREWS,
-    "silica": ComponentName.SILICA,
-    "stator": ComponentName.STATOR,
-    "steelPlate": ComponentName.STEEL_BEAM,
-    "steelPipe": ComponentName.STEEL_PIPE,
-    "sulfuricAcid": ComponentName.SULFURIC_ACID,
-    "computerSuper": ComponentName.SUPERCOMPUTER,
-    "liquidTurboFuel": ComponentName.TURBO_FUEL,
-    "motorLightweight": ComponentName.TURBO_MOTOR,
-    "nuclearFuelRod": ComponentName.URANIUM_FUEL_ROD,
-    "nuclearWaste": ComponentName.URANIUM_WASTE,
-    "plutoniumWaste": ComponentName.PLUTONIUM_WASTE,
-    "wire": ComponentName.WIRE,
-    "spaceElevatorPart1": ComponentName.SMART_PLATING,
-    "spaceElevatorPart2": ComponentName.VERSATILE_FRAMEWORK,
-    "spaceElevatorPart3": ComponentName.AUTOMATED_WIRING,
-    "spaceElevatorPart4": ComponentName.MODULAR_ENGINE,
-    "spaceElevatorPart5": ComponentName.ADAPTIVE_CONTROL_UNIT,
-    "spaceElevatorPart6": ComponentName.MAGNETIC_FIELD_GENERATOR,
-    "spaceElevatorPart7": ComponentName.ASSEMBLY_DIRECTOR_SYSTEM,
-    "spaceElevatorPart8": ComponentName.THERMAL_PROPULSION_ROCKET,
-    "spaceElevatorPart9": ComponentName.NUCLEAR_PASTA,
-    "mycelia": ComponentName.MYCELIA,
-    "leaves": ComponentName.LEAVES,
-    "flowerPetals": ComponentName.FLOWER_PETALS,
-    "colorCartridge": ComponentName.COLOR_CARTRIDGE,
-    "packagedNitrogenGas": ComponentName.PACKAGED_NITROGEN_GAS,
-    "hazmatFilter": ComponentName.IODINE_INFUSED_FILTER,
-    "filter": ComponentName.GAS_FILTER,
-    "gasTank": ComponentName.EMPTY_TANK,
-    "fluidCanister": ComponentName.EMPTY_CANISTER,
-    "liquidBiofuel": ComponentName.LIQUID_BIOFUEL,
-    "biofuel": ComponentName.SOLID_BIOFUEL,
-}
 
 
 def load_xml():
@@ -192,19 +81,17 @@ def get_recipes(xml_tree):
     print(
         f"\n\033[92m Main Recipe file done\033[0m with {len(all_recipes)} root components\n...applying additional Updated U6 Recipes and specific fixes..."
     )
-    updated = update_with_another_recipe_json(all_recipes, "additional_recipes.json")
+    updated = integrate_update_6_changes(all_recipes)
     print(f"\n Done! {updated} recipes added/updated.")
 
     if args.modded:
         print("\n\033[93m Adding Modded Recipes...\033[0m")
-        # TODO: loop over ficist2/data/modded/* jsons
-        modded = update_with_another_recipe_json(
-            all_recipes, "modded/vanilla_extended.json"
-        )
+        # TODO: loop over input/modded/* jsons
+        modded = generate_all_modded_recipes(all_recipes)
         print(f"\n Done! {modded} modded recipes added/updated.")
 
     print(
-        "\n\033[92m Skipped Recipes\033[0m are all either not crafted in Machines or have updated values in additional_recipes.json"
+        "\n\033[92m Skipped Recipes\033[0m are all either not crafted in Machines or have updated values in update_6_changes.json"
     )
     print(
         f"\033[96m Xmas Recipe\033[0m are skipped as there are 0 alternate chains for them, making efficiency discovery pointless"
@@ -277,12 +164,12 @@ def build_components(ingredients) -> list:
     return all_components
 
 
-def update_with_another_recipe_json(original_recipes: dict, file_name: str):
+def integrate_update_6_changes(original_recipes: dict):
     """
     Loads in the u6 recipes and recipe changes
     """
 
-    with open(f"./ficsit2/data/{file_name}", "r") as json_file:
+    with open(f"./ficsit2/data/update_6_changes.json", "r") as json_file:
         additional_recipes = json.load(json_file)
 
     added = 0
@@ -305,6 +192,9 @@ def main():
     recipes = get_recipes(xml)
 
     with open("./ficsit2/data/recipes.json", "w") as json_file:
+        recipes["last_generated"] = datetime.now(tz=tz.UTC).strftime(
+            "%Y-%m-%d %H:%M:%S%Z"
+        )
         json.dump(recipes, json_file, indent=4)
 
 

@@ -1,0 +1,142 @@
+{
+    "Coal": [
+        {
+            "recipeName": "VanRecExt-Bio: Carbon Coal",
+            "producedIn": "Constructor",
+            "producesPerCycle": 30,
+            "components": [
+                {
+                    "name": "Leaves",
+                    "amount": 100,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Coal"
+            ]
+        }
+    ],
+    "Wood": [
+        {
+            "recipeName": "VanRecExt-Bio: Pressboard",
+            "producedIn": "Constructor",
+            "producesPerCycle": 17,
+            "components": [
+                {
+                    "name": "Leaves",
+                    "amount": 125,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 30,
+            "products": [
+                "Wood"
+            ]
+        }
+    ],
+    "Mycelia": [
+        {
+            "recipeName": "VanRecExt-Bio: M-Growbeds (Leaves)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 40,
+            "components": [
+                {
+                    "name": "Leaves",
+                    "amount": 400,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Mycelia"
+            ]
+        },
+        {
+            "recipeName": "VanRecExt-Bio: M-Growbeds (Petals)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "Flower Petals",
+                    "amount": 500,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Mycelia"
+            ]
+        }
+    ],
+    "Bacon Agaric": [
+        {
+            "recipeName": "VanRecExt-Bio: BA-Growbeds (Leaves)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 14,
+            "components": [
+                {
+                    "name": "Leaves",
+                    "amount": 200,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Bacon Agaric"
+            ]
+        },
+        {
+            "recipeName": "VanRecExt-Bio: BA-Growbeds (Petals)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 10,
+            "components": [
+                {
+                    "name": "Flower Petals",
+                    "amount": 500,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Bacon Agaric"
+            ]
+        }
+    ],
+    "Biomass": [
+        {
+            "recipeName": "VanRecExt-Bio: Biomass (Bacon Agaric)",
+            "producedIn": "Constructor",
+            "producesPerCycle": 25,
+            "components": [
+                {
+                    "name": "Bacon Agaric",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Biomass"
+            ]
+        }
+    ],
+    "Fabric": [
+        {
+            "recipeName": "VanRecExt-Bio: Stinger Silk",
+            "producedIn": "Constructor",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "Stinger Remains",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 15,
+            "products": [
+                "Fabric"
+            ]
+        }
+    ]
+}

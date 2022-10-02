@@ -1,0 +1,28 @@
+{
+  "$schema": "https://github.com/Nogg-aholic/ContentLib_Recipes/blob/master/FContentLib_Recipes.json",
+  "Name": "Distilled Kerosene",
+  "Category": "SolidOilProducts_C",
+  "Ingredients": [
+    {
+      "Item": "Desc_LiquidOil",
+      "Amount": 12000
+    }
+  ],
+  "Products": [
+    {
+      "Item": "Desc_Kerosene",
+      "Amount": 12000
+    },
+    {
+      "Item": "Desc_BottomResid",
+      "Amount": 4000
+    },
+    {
+      "Item": "Desc_PolymerResin",
+      "Amount": 6
+    }
+  ],
+  "ManufacturingDuration": 16,
+  "ManufacturingMenuPriority": 2,
+  "ProducedIn": [ "Build_ChemReactor" ]
+}

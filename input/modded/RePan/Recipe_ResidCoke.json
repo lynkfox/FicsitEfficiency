@@ -1,0 +1,25 @@
+{
+  "$schema": "https://github.com/Nogg-aholic/ContentLib_Recipes/blob/master/FContentLib_Recipes.json",
+  "Name": "Resid Coke",
+  "Category": "SolidOilProducts_C",
+  "Ingredients": [
+    {
+      "Item": "Desc_BottomResid",
+      "Amount": 15000
+    }
+  ],
+  "Products": [
+
+    {
+      "Item": "Desc_PetroleumCoke",
+      "Amount": 90
+    },
+    {
+      "Item": "Desc_Naphtha",
+      "Amount": 22500
+    }
+  ],
+  "ManufacturingDuration": 60,
+  "ManufacturingMenuPriority": 3,
+  "ProducedIn": [ "Build_OilRefinery" ]
+}

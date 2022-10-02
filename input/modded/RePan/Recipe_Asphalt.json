@@ -1,0 +1,25 @@
+{
+  "$schema": "https://github.com/Nogg-aholic/ContentLib_Recipes/blob/master/FContentLib_Recipes.json",
+  "Name": "Asphalt",
+  "Category": "SolidOilProducts_C",
+  "Ingredients": [
+    {
+      "Item": "Desc_BottomResid",
+      "Amount": 12000
+    }
+  ],
+  "Products": [
+
+    {
+      "Item": "Desc_Asphalt",
+      "Amount": 24
+    },
+    {
+      "Item": "Desc_HeavyOilResidue",
+      "Amount": 12000
+    }
+  ],
+  "ManufacturingDuration": 48,
+  "ManufacturingMenuPriority": 10,
+  "ProducedIn": [ "Build_OilRefinery" ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://github.com/Nogg-aholic/ContentLib_Recipes/blob/master/FContentLib_Recipes.json",
+  "Name": "Heavy Oil Residue",
+  "Category": "SolidOilProducts_C",
+  "Ingredients": [
+    {
+      "Item": "Desc_BottomResid",
+      "Amount": 12000
+    }
+  ],
+  "Products": [
+
+    {
+      "Item": "Desc_HeavyOilResidue",
+      "Amount": 18000
+    },
+    {
+      "Item": "Desc_Asphalt",
+      "Amount": 6
+    }
+  ],
+  "ManufacturingDuration": 36,
+  "ManufacturingMenuPriority": 9,
+  "ProducedIn": [ "Build_OilRefinery" ]
+}

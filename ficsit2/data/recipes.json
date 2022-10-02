@@ -506,7 +506,7 @@
             ]
         },
         {
-            "recipeName": "Modded: Carbon Coal",
+            "recipeName": "VanRecExt-Bio: Carbon Coal",
             "producedIn": "Constructor",
             "producesPerCycle": 30,
             "components": [
@@ -787,7 +787,7 @@
             ]
         },
         {
-            "recipeName": "Modded: Capacitor Computers",
+            "recipeName": "VanRecExt-MchnSrc: Capacitor Computers",
             "producedIn": "Assembler",
             "producesPerCycle": 1,
             "components": [
@@ -1995,7 +1995,7 @@
             ]
         },
         {
-            "recipeName": "Modded: Silk-Reinforced Frames",
+            "recipeName": "VanRecExt-MchnSrc: Silk-Reinforced Frames",
             "producedIn": "Assembler",
             "producesPerCycle": 2,
             "components": [
@@ -2084,6 +2084,40 @@
                 "Rubber",
                 "Heavy Oil Residue"
             ]
+        },
+        {
+            "recipeName": "RePan: Asphalt",
+            "producedIn": "Refinery",
+            "producesPerCycle": 12.0,
+            "components": [
+                {
+                    "name": "Modded: Bottom Resid",
+                    "amount": 12.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 48,
+            "products": [
+                "Modded: Asphalt",
+                "Heavy Oil Residue"
+            ]
+        },
+        {
+            "recipeName": "RePan: Heavy Oil Residue",
+            "producedIn": "Refinery",
+            "producesPerCycle": 18.0,
+            "components": [
+                {
+                    "name": "Modded: Bottom Resid",
+                    "amount": 12.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 36,
+            "products": [
+                "Heavy Oil Residue",
+                "Modded: Asphalt"
+            ]
         }
     ],
     "Polymer Resin": [
@@ -2135,6 +2169,87 @@
             "cycleTime": 6,
             "products": [
                 "Fuel",
+                "Polymer Resin"
+            ]
+        },
+        {
+            "recipeName": "RePan: Batch: Heavy Kerosene",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 40,
+            "components": [
+                {
+                    "name": "Heavy Oil Residue",
+                    "amount": 20.0,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Water",
+                    "amount": 40.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Modded: Kerosene",
+                "Polymer Resin"
+            ]
+        },
+        {
+            "recipeName": "RePan: Batch: Heavy Naphtha",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 20,
+            "components": [
+                {
+                    "name": "Heavy Oil Residue",
+                    "amount": 24.0,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Modded: Crushed Caterium",
+                    "amount": 16,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Modded: Naphtha",
+                "Polymer Resin",
+                "Modded: Crushed Titan"
+            ]
+        },
+        {
+            "recipeName": "RePan: Distilled Kerosene",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 6,
+            "components": [
+                {
+                    "name": "Oil",
+                    "amount": 12.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 16,
+            "products": [
+                "Modded: Kerosene",
+                "Modded: Bottom Resid",
+                "Polymer Resin"
+            ]
+        },
+        {
+            "recipeName": "RePan: Distilled Naphtha",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 10,
+            "components": [
+                {
+                    "name": "Oil",
+                    "amount": 24.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Modded: Naphtha",
+                "Modded: Bottom Resid",
                 "Polymer Resin"
             ]
         }
@@ -2639,7 +2754,7 @@
             ]
         },
         {
-            "recipeName": "Modded: Stinger Silk",
+            "recipeName": "VanRecExt-Bio: Stinger Silk",
             "producedIn": "Constructor",
             "producesPerCycle": 20,
             "components": [
@@ -3528,7 +3643,7 @@
             ]
         },
         {
-            "recipeName": "Modded: Biomass (Bacon Agaric)",
+            "recipeName": "VanRecExt-Bio: Biomass (Bacon Agaric)",
             "producedIn": "Constructor",
             "producesPerCycle": 25,
             "components": [
@@ -3769,6 +3884,23 @@
             "cycleTime": 6,
             "products": [
                 "Petroleum Coke"
+            ]
+        },
+        {
+            "recipeName": "RePan: Resid Coke",
+            "producedIn": "Refinery",
+            "producesPerCycle": 90,
+            "components": [
+                {
+                    "name": "Modded: Bottom Resid",
+                    "amount": 15.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 60,
+            "products": [
+                "Petroleum Coke",
+                "Modded: Naphtha"
             ]
         }
     ],
@@ -4609,9 +4741,274 @@
             ]
         }
     ],
+    "Modded: Asphalt": [
+        {
+            "recipeName": "RePan: Asphalt",
+            "producedIn": "Refinery",
+            "producesPerCycle": 24,
+            "components": [
+                {
+                    "name": "Modded: Bottom Resid",
+                    "amount": 12.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 48,
+            "products": [
+                "Modded: Asphalt",
+                "Heavy Oil Residue"
+            ]
+        },
+        {
+            "recipeName": "RePan: Heavy Oil Residue",
+            "producedIn": "Refinery",
+            "producesPerCycle": 6,
+            "components": [
+                {
+                    "name": "Modded: Bottom Resid",
+                    "amount": 12.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 36,
+            "products": [
+                "Heavy Oil Residue",
+                "Modded: Asphalt"
+            ]
+        }
+    ],
+    "Modded: Kerosene": [
+        {
+            "recipeName": "RePan: Batch: Heavy Kerosene",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 40.0,
+            "components": [
+                {
+                    "name": "Heavy Oil Residue",
+                    "amount": 20.0,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Water",
+                    "amount": 40.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Modded: Kerosene",
+                "Polymer Resin"
+            ]
+        },
+        {
+            "recipeName": "RePan: Distilled Kerosene",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 12.0,
+            "components": [
+                {
+                    "name": "Oil",
+                    "amount": 12.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 16,
+            "products": [
+                "Modded: Kerosene",
+                "Modded: Bottom Resid",
+                "Polymer Resin"
+            ]
+        }
+    ],
+    "Modded: Naphtha": [
+        {
+            "recipeName": "RePan: Batch: Heavy Naphtha",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 36.0,
+            "components": [
+                {
+                    "name": "Heavy Oil Residue",
+                    "amount": 24.0,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Modded: Crushed Caterium",
+                    "amount": 16,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Modded: Naphtha",
+                "Polymer Resin",
+                "Modded: Crushed Titan"
+            ]
+        },
+        {
+            "recipeName": "RePan: Distilled Naphtha",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 18.0,
+            "components": [
+                {
+                    "name": "Oil",
+                    "amount": 24.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Modded: Naphtha",
+                "Modded: Bottom Resid",
+                "Polymer Resin"
+            ]
+        },
+        {
+            "recipeName": "RePan: Resid Coke",
+            "producedIn": "Refinery",
+            "producesPerCycle": 22.5,
+            "components": [
+                {
+                    "name": "Modded: Bottom Resid",
+                    "amount": 15.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 60,
+            "products": [
+                "Petroleum Coke",
+                "Modded: Naphtha"
+            ]
+        }
+    ],
+    "Modded: Crushed Titan": [
+        {
+            "recipeName": "RePan: Batch: Heavy Naphtha",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 12,
+            "components": [
+                {
+                    "name": "Heavy Oil Residue",
+                    "amount": 24.0,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Modded: Crushed Caterium",
+                    "amount": 16,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Modded: Naphtha",
+                "Polymer Resin",
+                "Modded: Crushed Titan"
+            ]
+        }
+    ],
+    "Modded: Crushed Caterium": [
+        {
+            "recipeName": "RePan: Alternate: Aluminum Caterlyts",
+            "producedIn": "Assembler",
+            "producesPerCycle": 7,
+            "components": [
+                {
+                    "name": "Aluminum Ingot",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Modded: Caterium Plates",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 6,
+            "products": [
+                "Modded: Crushed Caterium"
+            ]
+        }
+    ],
+    "Modded: Caterium Plates": [
+        {
+            "recipeName": "RePan: Caterium Plate",
+            "producedIn": "Constructor",
+            "producesPerCycle": 6,
+            "components": [
+                {
+                    "name": "Caterium Ingot",
+                    "amount": 18,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Modded: Caterium Plates"
+            ]
+        }
+    ],
+    "Modded: Bottom Resid": [
+        {
+            "recipeName": "RePan: Distilled Kerosene",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 4.0,
+            "components": [
+                {
+                    "name": "Oil",
+                    "amount": 12.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 16,
+            "products": [
+                "Modded: Kerosene",
+                "Modded: Bottom Resid",
+                "Polymer Resin"
+            ]
+        },
+        {
+            "recipeName": "RePan: Distilled Naphtha",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 4.0,
+            "components": [
+                {
+                    "name": "Oil",
+                    "amount": 24.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 24,
+            "products": [
+                "Modded: Naphtha",
+                "Modded: Bottom Resid",
+                "Polymer Resin"
+            ]
+        }
+    ],
+    "Modded: Gear Oil": [
+        {
+            "recipeName": "RePan: Synthetic Oil",
+            "producedIn": "Modded: Chem Reactor",
+            "producesPerCycle": 6.0,
+            "components": [
+                {
+                    "name": "Modded: Kerosene",
+                    "amount": 4.0,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Water",
+                    "amount": 16.0,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 8,
+            "products": [
+                "Modded: Gear Oil"
+            ]
+        }
+    ],
     "Wood": [
         {
-            "recipeName": "Modded: Pressboard",
+            "recipeName": "VanRecExt-Bio: Pressboard",
             "producedIn": "Constructor",
             "producesPerCycle": 17,
             "components": [
@@ -4629,7 +5026,7 @@
     ],
     "Mycelia": [
         {
-            "recipeName": "Modded: M-Growbeds (Leaves)",
+            "recipeName": "VanRecExt-Bio: M-Growbeds (Leaves)",
             "producedIn": "Constructor",
             "producesPerCycle": 40,
             "components": [
@@ -4645,7 +5042,7 @@
             ]
         },
         {
-            "recipeName": "Modded: M-Growbeds (Petals)",
+            "recipeName": "VanRecExt-Bio: M-Growbeds (Petals)",
             "producedIn": "Constructor",
             "producesPerCycle": 20,
             "components": [
@@ -4663,7 +5060,7 @@
     ],
     "Bacon Agaric": [
         {
-            "recipeName": "Modded: BA-Growbeds (Leaves)",
+            "recipeName": "VanRecExt-Bio: BA-Growbeds (Leaves)",
             "producedIn": "Constructor",
             "producesPerCycle": 14,
             "components": [
@@ -4679,7 +5076,7 @@
             ]
         },
         {
-            "recipeName": "Modded: BA-Growbeds (Petals)",
+            "recipeName": "VanRecExt-Bio: BA-Growbeds (Petals)",
             "producedIn": "Constructor",
             "producesPerCycle": 10,
             "components": [
@@ -4697,7 +5094,7 @@
     ],
     "Medicinal Inhaler": [
         {
-            "recipeName": "Modded: Synthetic Inhaler",
+            "recipeName": "VanRecExt-MchnSrc: Synthetic Inhaler",
             "producedIn": "Assembler",
             "producesPerCycle": 4,
             "components": [
@@ -4720,7 +5117,7 @@
     ],
     "Xeno-Zapper": [
         {
-            "recipeName": "Modded: Xeno-Zapper Conduit",
+            "recipeName": "VanRecExt-MchnSrc: Xeno-Zapper Conduit",
             "producedIn": "Assembler",
             "producesPerCycle": 1,
             "components": [
@@ -4743,7 +5140,7 @@
     ],
     "Parachute": [
         {
-            "recipeName": "Modded: Pre-Packaged Parachutes",
+            "recipeName": "VanRecExt-MchnSrc: Pre-Packaged Parachutes",
             "producedIn": "Assembler",
             "producesPerCycle": 5,
             "components": [
@@ -4763,5 +5160,6 @@
                 "Parachute"
             ]
         }
-    ]
+    ],
+    "last_generated": "2022-10-02 02:33:19UTC"
 }

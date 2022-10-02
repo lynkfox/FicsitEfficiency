@@ -1,0 +1,25 @@
+{
+  "$schema": "https://github.com/Nogg-aholic/ContentLib_Recipes/blob/master/FContentLib_Recipes.json",
+  "Name": "Alternate: Aluminum Caterlyts",
+  "Category": "IndustrialParts_C",
+  "Ingredients": [
+    {
+      "Item": "Desc_AluminumIngot",
+      "Amount": 2
+    },
+    {
+      "Item": "Desc_CateriumPlates",
+      "Amount": 2
+    }
+
+  ],
+  "Products": [
+    {
+      "Item": "Desc_CrushedCaterium",
+      "Amount": 7
+    }
+  ],
+  "ManufacturingDuration": 6,
+  "ManufacturingMenuPriority": 6.1,
+  "ProducedIn": [ "Build_AssemblerMk1" ]
+}

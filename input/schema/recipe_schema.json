@@ -1,0 +1,65 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "recipeName": {
+        "type": "string",
+        "description": "No requirements, just the display name of the recipe - Highly recommended to begin with `Modded: `"
+      },
+      "producedIn": {
+        "type": "string",
+        "description": "Must be the same as in .ficsit2/com/names.py Buildables"
+      },
+      "producesPerCycle": {
+        "type": "integer",
+        "description": "Produced per Cycle - 1 cycle is one complete run of a machine"
+      },
+      "components": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Must be the same as in .ficsit2/com/names.py ComponentName"
+              },
+              "amount": {
+                "type": "integer",
+                "description": "Per Cycle amount required to produce this value, Liquids/Gas should be in m^3 as Display in the game, not cm^3 as in the game files"
+              },
+              "measurement": {
+                "type": "string",
+                "enum": ["items/productionCycle", "m^3/productionCycle"]
+              }
+            },
+            "required": [
+              "name",
+              "amount"
+            ]
+          }
+        ]
+      },
+      "cycleTime": {
+        "type": "integer",
+        "description": "Cycle time in seconds"
+      },
+      "products": {
+        "type": "array",
+        "items": [
+          {
+            "type": "string",
+            "description": "Must be the same as in .ficsit2/com/names.py ComponentName"
+          }
+        ]
+      }
+    },
+    "required": [
+      "recipeName",
+      "producedIn",
+      "producesPerCycle",
+      "components",
+      "cycleTime",
+      "products"
+    ]
+  }
