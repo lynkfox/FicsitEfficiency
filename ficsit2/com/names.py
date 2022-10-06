@@ -138,3 +138,4 @@ class ComponentName(Enum):
     PARACHUTE = "Parachute"
     XENO_ZAPPER = "Xeno-Zapper"
     BACON_AGARIC = "Bacon Agaric"
+    SAM_ORE = "SAM Ore"

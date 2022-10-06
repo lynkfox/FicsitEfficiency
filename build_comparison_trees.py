@@ -35,15 +35,15 @@ parser.add_argument(
 parser.add_argument(
     "--produce",
     "-p",
-    type=int,
-    default=1,
+    type=float,
+    default=1.0,
     help="How many of the root component to produce/min. Defaults to 1/min",
 )
 
 args = parser.parse_args()
 
 COMPONENT = (
-    ComponentName(args.component) if args.component is not None else DEBUG_COMPONENT
+    args.component if args.component is not None else DEBUG_COMPONENT
 )
 
 PRODUCE = args.produce
@@ -57,6 +57,10 @@ def main(map_this_component: ComponentName, mod_content, recipes_last_generated)
         "./output/recipe_comparison_trees/" if PRODUCE == 1 else "./output/user/"
     ) + f"{map_this_component.name.lower()}.txt"
 
+    last_generated_line = (
+            f"Based on Recipes Generated On: {recipes_last_generated}\n"
+        )
+
     if PRODUCE == 1:
         try:
             with open(output_location, "r") as file:
@@ -64,9 +68,7 @@ def main(map_this_component: ComponentName, mod_content, recipes_last_generated)
         except:
             first_line = None
 
-        last_generated_line = (
-            f"Based on Recipes Generated On: {recipes_last_generated}\n"
-        )
+        
         if first_line == last_generated_line:
             print(
                 f"No change to {map_this_component.name.lower()}.txt since last generated. Skipping"
@@ -116,7 +118,16 @@ if __name__ == "__main__":
             main(mod_component, mod_content, recipes_last_generated)
             total += 1
     else:
-        main(COMPONENT, mod_content, recipes_last_generated)
+        try:
+            use_this = ComponentName(COMPONENT)
+        except Exception:
+            
+            for mod_component in mod_content.component:
+                if mod_component.value == COMPONENT:
+                    use_this = mod_component
+                    break
+
+        main(use_this, mod_content, recipes_last_generated)
 
     print(
         f"\n\033[92mDone in {DECIMAL_FORMAT.format(perf_counter()-start)} seconds and {total} starting points.\033[0m"

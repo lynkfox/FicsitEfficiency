@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Synthetic PowerShards",
+    "Ingredients": [
+        {
+            "Item": "Desc_SAM",
+            "Amount": 50
+        },
+        {
+            "Item": "Desc_OreUranium",
+            "Amount": 100
+        },
+        {
+            "Item": "Desc_SpaceElevatorPart_5",
+            "Amount": 25
+        },
+        {
+            "Item": "Desc_SpaceElevatorPart_4",
+            "Amount": 20
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_CrystalShard",
+            "Amount": 1
+        }
+    ],
+    "ManufacturingDuration": 1200,
+    "ProducedIn": [
+        "Build_ManufacturerMk1"
+    ],
+    "UnlockedBy": [
+        "Schematic_1-1"
+    ]
+}

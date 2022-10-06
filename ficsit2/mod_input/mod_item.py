@@ -82,8 +82,11 @@ def clean_content_lib_names(str) -> str:
     Takes names from Content Lib and cleans them up for use against mapping files
     """
     removed_prefix = (
-        str.replace("Desc_", "").replace("Build_", "").replace("Mk1", "").strip()
+        str.replace("Desc_", "").replace("Build_", "").replace("Mk1", "").strip().replace("_", "")
     )
+    
+    if removed_prefix in ["SAM"]:
+        return "samOre"
 
     return removed_prefix[0].lower() + removed_prefix[1:]
 

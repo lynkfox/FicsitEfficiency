@@ -2807,6 +2807,27 @@
             "products": [
                 "Caterium Ingot"
             ]
+        },
+        {
+            "recipeName": "SyntheticShards: Caterium Alloy Ingot",
+            "producedIn": "Foundry",
+            "producesPerCycle": 15,
+            "components": [
+                {
+                    "name": "Caterium Ore",
+                    "amount": 10,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Copper Ore",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 12,
+            "products": [
+                "Caterium Ingot"
+            ]
         }
     ],
     "Quartz Crystal": [
@@ -5006,6 +5027,39 @@
             ]
         }
     ],
+    "Modded: Crystal Shard": [
+        {
+            "recipeName": "SyntheticShards: Synthetic PowerShards",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "SAM Ore",
+                    "amount": 50,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Uranium Ore",
+                    "amount": 100,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Project Part: Adaptive Control Unit",
+                    "amount": 25,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Project Part: Modular Engine",
+                    "amount": 20,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 1200,
+            "products": [
+                "Modded: Crystal Shard"
+            ]
+        }
+    ],
     "Wood": [
         {
             "recipeName": "VanRecExt-Bio: Pressboard",
@@ -5161,5 +5215,5 @@
             ]
         }
     ],
-    "last_generated": "2022-10-02 02:33:19UTC"
+    "last_generated": "2022-10-06 20:34:47UTC"
 }
