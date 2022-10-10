@@ -21,7 +21,6 @@ class ProductionChain:
         self._init_production_chain_graph()
         self.product_chains = self.graph.paths_to_root
 
-
     def _init_production_chain_graph(self) -> Graph:
         """
         Builds a Production chain graph for a given recipe
