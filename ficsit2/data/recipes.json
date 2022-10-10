@@ -1167,7 +1167,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Residual Fuel",
+            "recipeName": "Residual Fuel",
             "producedIn": "Refinery",
             "producesPerCycle": 4000,
             "components": [
@@ -1311,7 +1311,7 @@
     ],
     "Water": [
         {
-            "recipeName": "Alternate: Electrode - Aluminum Scrap",
+            "recipeName": "Byproduct: Water (from A: Electrode - Aluminum Scrap)",
             "producedIn": "Refinery",
             "producesPerCycle": 20,
             "components": [
@@ -1333,7 +1333,7 @@
             ]
         },
         {
-            "recipeName": "Alternate: Fertile Uranium",
+            "recipeName": "Byproduct: Water (from A: Fertile Uranium)",
             "producedIn": "Blender",
             "producesPerCycle": 20,
             "components": [
@@ -1365,7 +1365,7 @@
             ]
         },
         {
-            "recipeName": "Alternate: Instant Scrap",
+            "recipeName": "Byproduct: Water (from A: Instant Scrap)",
             "producedIn": "Blender",
             "producesPerCycle": 30,
             "components": [
@@ -1397,7 +1397,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Battery",
+            "recipeName": "Byproduct: Water (from S: Battery)",
             "producedIn": "Blender",
             "producesPerCycle": 1,
             "components": [
@@ -1424,7 +1424,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Non-fissile Uranium",
+            "recipeName": "Byproduct: Water (from S: Non-fissile Uranium)",
             "producedIn": "Blender",
             "producesPerCycle": 20,
             "components": [
@@ -2035,7 +2035,7 @@
             ]
         },
         {
-            "recipeName": "Alternate: Polymer Resin",
+            "recipeName": "Byproduct: Heavy Oil Residue (from A: Polymer Resin)",
             "producedIn": "Refinery",
             "producesPerCycle": 13,
             "components": [
@@ -2052,7 +2052,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Plastic",
+            "recipeName": "Byproduct: Heavy Oil Residue (from S: Plastic)",
             "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
@@ -2069,7 +2069,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Rubber",
+            "recipeName": "Byproduct: Heavy Oil Residue (from S: Rubber)",
             "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
@@ -2122,7 +2122,7 @@
     ],
     "Polymer Resin": [
         {
-            "recipeName": "Alternate: Heavy Oil Residue",
+            "recipeName": "Byproduct: Polymer Resin (from A: Heavy Oil Residue)",
             "producedIn": "Refinery",
             "producesPerCycle": 4000,
             "components": [
@@ -2156,7 +2156,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Fuel",
+            "recipeName": "Byproduct: Polymer Resin (from S: Fuel)",
             "producedIn": "Refinery",
             "producesPerCycle": 4000,
             "components": [
@@ -2586,7 +2586,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Residual Plastic",
+            "recipeName": "Residual Plastic",
             "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
@@ -3016,7 +3016,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Residual Rubber",
+            "recipeName": "Residual Rubber",
             "producedIn": "Refinery",
             "producesPerCycle": 2,
             "components": [
@@ -3127,7 +3127,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Alumina Solution",
+            "recipeName": "Byproduct: Silica (from S: Alumina Solution)",
             "producedIn": "Refinery",
             "producesPerCycle": 12000,
             "components": [
@@ -4224,7 +4224,7 @@
             ]
         },
         {
-            "recipeName": "Standard: Encased Uranium Cell",
+            "recipeName": "Byproduct: Sulfuric Acid (from S: Encased Uranium Cell)",
             "producedIn": "Blender",
             "producesPerCycle": 5,
             "components": [
@@ -5241,5 +5241,5 @@
             ]
         }
     ],
-    "last_generated": "2022-10-10 16:18:00UTC"
+    "last_generated": "2022-10-10 20:45:52UTC"
 }

@@ -7,6 +7,7 @@ from ficsit2.mod_input.mod_load import generate_all_modded_recipes
 import argparse
 from datetime import datetime
 from dateutil import tz
+import copy
 from ficsit2.com.lookup import COMPONENT_MAPPING, MACHINE_MAPPING
 
 parser = argparse.ArgumentParser(
@@ -66,15 +67,29 @@ def get_recipes(xml_tree):
             print(f"\033[93m++++WARNING,\033[0m {name.text} has 0 Components Produced")
             continue
 
+        primary_component = True
         for component in components_produced:
             if component is None:
                 print(f"*???Look Into: {recipe.get('recipeName')} is broken")
                 continue
-            if component.value in all_recipes:
-                all_recipes[component.value].append(recipe)
+            insert_recipe = copy.deepcopy(recipe)
+            if primary_component:
+                primary_component = False
 
             else:
-                entry = {component.value: [recipe]}
+                byproduct_name = (
+                    insert_recipe["recipeName"]
+                    .replace("Standard:", "S:")
+                    .replace("Alternate:", "A:")
+                )
+                byproduct_name = f"Byproduct: {component.value} (from {byproduct_name})"
+                insert_recipe["recipeName"] = byproduct_name
+
+            if component.value in all_recipes:
+                all_recipes[component.value].append(insert_recipe)
+
+            else:
+                entry = {component.value: [insert_recipe]}
 
                 all_recipes.update(entry)
 
@@ -134,7 +149,9 @@ def get_recipe_details(buildable, name):
     cycle_time = int(buildable.find("ManufactoringDuration").text)
 
     return {
-        "recipeName": name if "Alternate:" in name else f"Standard: {name}",
+        "recipeName": name
+        if "Alternate:" in name or "Residual" in name
+        else f"Standard: {name}",
         "producedIn": machine.name.value,
         "producesPerCycle": produced_amount,
         "components": build_components(buildable.findall(".//Ingredients/ItemAmount")),
