@@ -33,4 +33,3 @@ Item (x/min)
 if reading the output in visual studio code, it is tabbed and therefor can be collapsed. Some other text reading programs can do this as well.
 
 If you want to compare recipes to each other, the best way to do so is to pick a chain (path from Root (top) all the way to a Leaf (last node of only basic ingredients)) and then look at the very last nodes Input/Output reference. The `-` values listed there will be what is needed to produce that leg of the chain. Pick a chain of recipes for every ingredient for the root  recipe your are comparing and you have everything you'd need
-

@@ -27,7 +27,7 @@ ENDPOINTS = [
     ComponentName.STINGER_REMAINS,
     ComponentName.HATCHER_REMAINS,
     ComponentName.PLUTONIUM_WASTE,
-    ComponentName.SAM_ORE
+    ComponentName.SAM_ORE,
 ]
 
 # List of Components that count as a fluid - mostly for display purposes out of Component
@@ -309,5 +309,5 @@ COMPONENT_MAPPING = {
     "fluidCanister": ComponentName.EMPTY_CANISTER,
     "liquidBiofuel": ComponentName.LIQUID_BIOFUEL,
     "biofuel": ComponentName.SOLID_BIOFUEL,
-    "samOre":ComponentName.SAM_ORE
+    "samOre": ComponentName.SAM_ORE,
 }

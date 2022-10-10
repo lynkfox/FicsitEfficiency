@@ -6,6 +6,7 @@ from copy import copy
 from ficsit2.com import lookup
 from ficsit2.mod_input.mod_include import ModdedContent
 
+
 from ficsit2.com.lookup import DECIMAL_FORMAT
 
 
@@ -42,7 +43,7 @@ class RecipeJson:
 
     recipeName: str
     products: list  # all products produced by this recipe
-    product: ComponentNode  # product we actually want
+    product: names.ComponentName  # product we actually want
     producedIn: str
     producesPerCycle: float
     cycleTime: float

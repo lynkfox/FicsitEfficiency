@@ -1,6 +1,6 @@
 from ficsit2.com.names import ComponentName
 from ficsit2.com import lookup
-from ficsit2.com.production_chain import ProductionChain
+from ficsit2.chain.production_chain import ProductionChain
 import argparse
 from ficsit2.mod_input.mod_include import ModdedContent
 from time import perf_counter
@@ -37,9 +37,7 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-COMPONENT = (
-    ComponentName(args.component) if args.component is not None else DEBUG_COMPONENT
-)
+COMPONENT = args.component if args.component is not None else DEBUG_COMPONENT
 
 
 def main(map_this_component: ComponentName, mod_content, chain_last_generated):
@@ -103,7 +101,16 @@ if __name__ == "__main__":
             main(mod_component, mod_content, chains_last_generated)
             total += 1
     else:
-        main(COMPONENT, mod_content, chains_last_generated)
+        try:
+            use_this = ComponentName(COMPONENT)
+        except Exception:
+
+            for mod_component in mod_content.component:
+                if mod_component.value == COMPONENT:
+                    use_this = mod_component
+                    break
+
+        main(use_this, mod_content, chains_last_generated)
 
     print(
         f"\n\033[92mDone in {DECIMAL_FORMAT.format(perf_counter()-start)} seconds and {total} starting points.\033[0m"

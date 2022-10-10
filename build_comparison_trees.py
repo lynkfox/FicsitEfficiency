@@ -1,6 +1,6 @@
 from ficsit2.com.names import ComponentName
 from ficsit2.com import lookup
-from ficsit2.com.production_chain import ProductionChain
+from ficsit2.chain.production_chain import ProductionChain
 from ficsit2.mod_input.mod_include import ModdedContent
 import argparse
 from time import perf_counter
@@ -42,9 +42,7 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-COMPONENT = (
-    args.component if args.component is not None else DEBUG_COMPONENT
-)
+COMPONENT = args.component if args.component is not None else DEBUG_COMPONENT
 
 PRODUCE = args.produce
 
@@ -57,9 +55,7 @@ def main(map_this_component: ComponentName, mod_content, recipes_last_generated)
         "./output/recipe_comparison_trees/" if PRODUCE == 1 else "./output/user/"
     ) + f"{map_this_component.name.lower()}.txt"
 
-    last_generated_line = (
-            f"Based on Recipes Generated On: {recipes_last_generated}\n"
-        )
+    last_generated_line = f"Based on Recipes Generated On: {recipes_last_generated}\n"
 
     if PRODUCE == 1:
         try:
@@ -68,7 +64,6 @@ def main(map_this_component: ComponentName, mod_content, recipes_last_generated)
         except:
             first_line = None
 
-        
         if first_line == last_generated_line:
             print(
                 f"No change to {map_this_component.name.lower()}.txt since last generated. Skipping"
@@ -121,7 +116,7 @@ if __name__ == "__main__":
         try:
             use_this = ComponentName(COMPONENT)
         except Exception:
-            
+
             for mod_component in mod_content.component:
                 if mod_component.value == COMPONENT:
                     use_this = mod_component

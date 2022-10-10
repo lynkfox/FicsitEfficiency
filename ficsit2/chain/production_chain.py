@@ -3,7 +3,7 @@ from ficsit2.com.node import ComponentNode, RecipeNode, _try_for_modded_componen
 from ficsit2.com.names import ComponentName
 from ficsit2.mod_input.mod_include import ModdedContent
 from typing import List, Union, Optional
-import json
+from ficsit2.com.recipe import load_recipes
 
 
 class ProductionChain:
@@ -21,9 +21,6 @@ class ProductionChain:
         self._init_production_chain_graph()
         self.product_chains = self.graph.paths_to_root
 
-    def load_recipes(self):
-        with open("./ficsit2/data/recipes.json") as file:
-            return json.load(file)
 
     def _init_production_chain_graph(self) -> Graph:
         """
@@ -35,7 +32,7 @@ class ProductionChain:
                 parent_recipe_needs=self.how_many,
                 mod_content=self.mod_content,
             ),
-            recipe_tree=self.load_recipes(),
+            recipe_tree=load_recipes(),
         )
 
     def build_chain_outputs(self, chain):
