@@ -3,7 +3,6 @@ from ficsit2.com.names import ComponentName
 from ficsit2.com.node import RecipeNode, ComponentNode, RecipeJson
 from ficsit2.com.recipe import TotalProductionValues
 from ficsit2.chain.recipe_select import (
-    convert_user_dict_to_recipes,
     find_recipe_by_name,
     user_pick_recipe,
 )
@@ -28,9 +27,6 @@ class ChainGraph:
 
     def __post_init__(self):
         self.total_values = TotalProductionValues()
-        self.recipes_selected = convert_user_dict_to_recipes(
-            self.all_recipes, self.recipes_selected
-        )
 
         self.root = ComponentNode(
             self.initial_component, 1, mod_content=self.mod_content
@@ -106,8 +102,8 @@ class ChainGraph:
                 self.all_recipes[component.name.value], "Standard"
             )
 
-        if component.node_depth in self.recipes_selected.keys():
-            recipe = self.recipes_selected[component.node_depth].get(
+        if str(component.node_depth) in self.recipes_selected.keys():
+            recipe = self.recipes_selected[str(component.node_depth)].get(
                 component.name.value
             )
 

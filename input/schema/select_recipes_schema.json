@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "depth": {
+            "description": "Do not use the key of Depth, instead use the depth in the chart the recipe will fall at, always an even number or 0.",
+            "type": "object",
+            "properties": {
+                "Component Name": {
+                    "description": "do not use the key of Component Name, instead use the actual component name, and the value is the name of the recipe",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

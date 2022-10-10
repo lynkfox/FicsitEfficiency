@@ -30,10 +30,10 @@ parser.add_argument(
     help="Save the recipes chosen in .output/user. shares the same suffix as --s, can specify with --f",
 )
 parser.add_argument(
-    "--verbose",
-    "-v",
+    "--quiet",
+    "-q",
     action="store_true",
-    help="Displays the output in the terminal",
+    help="suppresses the output of the final value to the terminal",
 )
 parser.add_argument(
     "--fileSuffix",
@@ -52,7 +52,7 @@ recipe_arguments.add_argument(
 recipe_arguments.add_argument(
     "--inputFile",
     "-i",
-    help="name of the file containing the selected recipes and components, located in ./input/compare/*",
+    help="name of the json file containing the selected recipes and components, located in ./output/user/*",
 )
 
 args = parser.parse_args()
@@ -78,20 +78,29 @@ STRING_CLEANUP = {
 def main():
     recipes = load_recipes()
     mod_content = ModdedContent()
+    starting_recipes = {}
+    if args.inputFile is not None:
+        with open(f"./output/user/{args.inputFile}") as file:
+            starting_recipes = json.load(file)
+
     single_product = ChainGraph(
-        COMPONENT, recipes, mod_content=mod_content, use_standard=args.onlyStandard
+        COMPONENT,
+        recipes,
+        recipes_selected=starting_recipes,
+        mod_content=mod_content,
+        use_standard=args.onlyStandard,
     )
     result = single_product.str_comparison()
     based_on = recipes["last_generated"]
 
     if args.fileSuffix is not None:
-        extra = args.fileSuffix.replace(" ", "_")
+        extra = args.fileSuffix.replace(" ", "_").lower()
     else:
         extra = datetime.now().strftime("%Y%m%d%H%M%S")
     output_location = f"./output/user/{COMPONENT.name.lower()}"
     generated_on = f"Based on Recipes generated on {based_on}"
 
-    if args.verbose:
+    if not args.quiet:
         print(result)
 
     if args.saveOutput:

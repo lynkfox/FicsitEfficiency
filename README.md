@@ -4,6 +4,23 @@ A set of scripts and graphs for comparing any possible permutation of recipes (s
 
 All data about in game assets is Copyright CSS;
 
+## component_compare_values.py
+
+This takes a single item and builds the compare values for a single tree of recipes - that is one recipe per item.
+
+run with: `python3 component_compare_values.py -c "Name of the Component"` - It will ask you what recipe to pick for each stage. By default it will re-use the same recipe selected for a previous similar component: i.e. if the tree of recipes uses Iron Ingots in more than one location, as soon as a recipe for Iron ingots is selected, that will be used for all other locations of Iron Ingots.
+
+* e.g. `python3 component_compare_values.py -c "Heavy Modular Frame"`
+* Pass the `-o` flag to use Only *Standard* recipes
+  * instead use `-i` to specify a json file name stored in `./output/user/` to pre-selected recipes in.
+  * This is mutually exclusive to the `-o` flag and vice versa
+  * this is the only way to select different recipes for the same item: ie using the Standard recipe for Iron Ingots underneath RIPs but using the Iron Alloy recipe for Iron Ingots underneath Iron Wire.
+  * See `input/schema/select_recipes_schema.json` for more information.
+* Pass the `-s` flag to save the output to `output/user/[name_of_component]_[datetimestring].txt`
+* Pass the `-r` flag to save a copy of all the recipes used for each component at each depth to `output/user/[name_of_component]_[datetimestring].json`
+* Pass the `-f` flag with either/both `-s` or `-r` to specify a suffix for the output, such as `-r -f "all_standard"` which would result in an output of recipes to a file name `output/user/[name_of_component]_all_standard.json`
+* Pass `-q` to suppress the output at the end (any missing recipes will be still selected)
+
 ## build_recipes.py
 
 One time script run to generate the `.ficsit/data/recipes.json`. Automatically adds the `additional_recipes.json` (U6 updated recipes as the xml is out of date) as well, and if passed `--m` or `--modded` will (todo) include files in the `.input/modded/*` directory if they are properly formatted (todo)
@@ -30,8 +47,6 @@ Creates a graph for a given recipe. See `.ficsit/com/names.py` for the names (un
 Will print out the output.
 
 * (Todo) - Visual graph
-* (Todo) - Show totals for each product chain
-* (Todo) - Select Recipe Chains to compare (reducing output)
 * (Todo) - Select value (Power, Footprint, total Machines, total steps, total raw materials) and have it return product chain that is the best in this value.
 
 ## ./ficsit2

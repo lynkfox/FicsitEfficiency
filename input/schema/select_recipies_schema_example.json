@@ -1,0 +1,31 @@
+{
+    "2": {
+        "Steel Pipe": "Standard: Steel Pipe",
+        "Screws": "Standard: Screw",
+        "Modular Frame": "Standard: Modular Frame",
+        "Encased Industrial Beam": "Standard: Encased Industrial Beam"
+    },
+    "6": {
+        "Steel Ingot": "Standard: Steel Ingot",
+        "Screws": "Standard: Screw",
+        "Iron Plate": "Standard: Iron Plate",
+        "Iron Ingot": "Standard: Iron Ingot"
+    },
+    "4": {
+        "Steel Ingot": "Standard: Steel Ingot",
+        "Steel Beam": "Standard: Steel Beam",
+        "Reinforced Iron Plate": "Standard: Reinforced Iron Plate",
+        "Iron Rod": "Standard: Iron Rod",
+        "Concrete": "Standard: Concrete"
+    },
+    "8": {
+        "Iron Rod": "Standard: Iron Rod",
+        "Iron Ingot": "Standard: Iron Ingot"
+    },
+    "10": {
+        "Iron Ingot": "Standard: Iron Ingot"
+    },
+    "0": {
+        "Heavy Modular Frame": "Standard: Heavy Modular Frame"
+    }
+}

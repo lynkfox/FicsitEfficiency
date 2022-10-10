@@ -1,28 +1,6 @@
 from typing import List, Tuple
 
 
-def convert_user_dict_to_recipes(all_recipes: dict, initial_picks: dict) -> dict:
-    """
-    Takes a dict of {node_depth: {component_name: recipe_name} } and converts it to the recipes itself.
-    if it cant find a recipe it defaults to the standard one.
-    """
-    picked_recipes = {}
-    for depth, component_set in initial_picks.items():
-        picked_recipes[depth] = {}
-        for component, recipe_name in component_set.items():
-            recipe = all_recipes[component].get(recipe_name)
-            if recipe is None:
-                recipe = [
-                    recipe
-                    for recipe in all_recipes[component]
-                    if "Standard" in recipe["name"]
-                ][0]
-
-            picked_recipes[depth][component if depth > 0 else "root"] = recipe
-
-    return picked_recipes
-
-
 def get_possible_recipes(component_name: str, all_recipes: dict) -> List[str]:
     """returns a list of the recipe names"""
 
