@@ -8,6 +8,7 @@ from ficsit2.chain.recipe_select import (
 )
 from ficsit2.mod_input.mod_include import ModdedContent
 from typing import Dict, List, Tuple
+from ficsit2.com import lookup
 
 
 @dataclass
@@ -150,9 +151,18 @@ class ChainGraph:
                 ]
             )
         )
+        primary_recipe = self.root.node_children[0].production_chain_costs
+
         return (
             f"\n\033[4m\033[92m{self.root.name.value}\033[0m ({self.produce}/min) takes:\n"
-            + f"  (using \033[1m{self.root.node_children[0].name}\033[0m)\n\n"
+            + f"- using \033[1m{self.root.node_children[0].name}:\033[0m\n"
+            + f"".join(
+                [
+                    f"    > {component.name.value}: {lookup.DECIMAL_FORMAT.format(component.amount)}/min\n"
+                    for component in primary_recipe.required_components
+                ]
+            )
+            + "\n"
             + str(self.total_values)
             + f"\t  (Producing \033[92m{len(all_recipes_needed)}\033[0m different items)"
             + f"\n\n\033[96mMaking use of:\033[0m\n"

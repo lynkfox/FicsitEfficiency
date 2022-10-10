@@ -114,6 +114,7 @@ class TotalProductionValues:
     components: List[Component] = field(default_factory=list)
     longest_chain: int = field(default=0)
     total_area: float = field(default=0.0)
+    total_machines: int = field(default=0)
 
     def add_chain_step(self, production: ProductionChainStep):
         self.power += production.machine_cost.power
@@ -156,6 +157,8 @@ class TotalProductionValues:
         if not added_machine_values:
             self.machines.append(other)
 
+        self.total_machines += math.ceil(other.total_machines)
+
     def __str__(self):
         self.machines.sort(key=lambda x: x.machine.tierRequired)
         self.components.sort(key=lambda x: x.name.value)
@@ -163,6 +166,7 @@ class TotalProductionValues:
         return (
             f"\t\033[93mTotal Power\033[0m: {self.power} MW\n"
             + f"\t\033[91mMachines:\033[0m\n"
+            + f"\t  ({self.total_machines} total machines)\n"
             + f"\n".join(
                 [
                     f"\t  - {machine.machine.name.value}: {math.ceil(machine.total_machines)}"

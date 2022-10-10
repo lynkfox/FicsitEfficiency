@@ -25,12 +25,7 @@ parser.add_argument(
     default=1.0,
     help="Amount to produce of the base component",
 )
-parser.add_argument(
-    "--saveOutput",
-    "-s",
-    action="store_true",
-    help="Save the output in .output/user. shares the same suffix as --r, can specify name with --f",
-)
+
 parser.add_argument(
     "--recipesSave",
     "-r",
@@ -49,6 +44,19 @@ parser.add_argument(
     help="name of the file containing the selected recipes and components, located in ./input/compare/*",
 )
 
+save_arguments = parser.add_mutually_exclusive_group()
+save_arguments.add_argument(
+    "--saveOutput",
+    "-s",
+    action="store_true",
+    help="Save the output in .output/user as a txt file. shares the same suffix as --r, can specify name with --f",
+)
+save_arguments.add_argument(
+    "--markdown",
+    "-m",
+    action="store_true",
+    help="Save the output in .output/user as a markdown file. shares the same suffix as --r, can specify name with --f",
+)
 
 recipe_arguments = parser.add_mutually_exclusive_group()
 
@@ -112,7 +120,7 @@ def main():
     if not args.quiet:
         print(result)
 
-    if args.saveOutput:
+    if args.saveOutput or args.markdown:
         save_output(result, f"{output_location}_{extra}", generated_on)
 
     if args.recipesSave:
@@ -129,7 +137,13 @@ def save_output(result, output_location, generated_on):
     cleans up and removes the bash colors, then saves the output
     """
     result = clean_string(result, STRING_CLEANUP)
-    file_name = output_location + ".txt"
+    file_end = ".txt"
+
+    if args.markdown:
+        file_end = ".md"
+        result = output_markdown(result)
+
+    file_name = output_location + file_end
     with open(file_name, "w") as file:
         print(f"\n\033[96mSaving comparison output to {file_name}\033[0m")
         file.write(f"{generated_on}\n" + result)
@@ -140,6 +154,30 @@ def clean_string(result, mapping):
     pattern = re.compile("|".join(rep.keys()))
     result = pattern.sub(lambda m: rep[re.escape(m.group(0))], result)
     return result
+
+
+def output_markdown(initial_string) -> str:
+    """
+    converts the stringed output to markdown
+    """
+
+    mapping = {
+        "\tTotal Power:": "\n## Total Power\n* ",
+        "\tMachines:": "\n## Machines",
+        "\tRaw Components": "\n## Raw Components",
+        "\tTotal Area (give or take):": "\n## Total Area (give or take)\n* ",
+        "\tLongest Product Chain:": "\n## Longest Product Chain\n* ",
+        "Making use of:": "------\n\n## Making use of:",
+        "- using": "#### using",
+        "\t  -": "*",
+        "(": "*(",
+        ")": ")*",
+        '\t"': "* ",
+        "\t  ": "",
+        "    >": "> * ",
+    }
+
+    return "# " + clean_string(initial_string, mapping)[1:]
 
 
 if __name__ == "__main__":

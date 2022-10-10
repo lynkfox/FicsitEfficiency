@@ -506,7 +506,7 @@
             ]
         },
         {
-            "recipeName": "VanRecExt-Bio: Carbon Coal",
+            "recipeName": "VRE-Bio Extended: Carbon Coal",
             "producedIn": "Constructor",
             "producesPerCycle": 30,
             "components": [
@@ -787,7 +787,7 @@
             ]
         },
         {
-            "recipeName": "VanRecExt-MchnSrc: Capacitor Computers",
+            "recipeName": "VRE-Machine Sourced: Capacitor Computers",
             "producedIn": "Assembler",
             "producesPerCycle": 1,
             "components": [
@@ -1995,7 +1995,7 @@
             ]
         },
         {
-            "recipeName": "VanRecExt-MchnSrc: Silk-Reinforced Frames",
+            "recipeName": "VRE-Machine Sourced: Silk-Reinforced Frames",
             "producedIn": "Assembler",
             "producesPerCycle": 2,
             "components": [
@@ -2754,7 +2754,7 @@
             ]
         },
         {
-            "recipeName": "VanRecExt-Bio: Stinger Silk",
+            "recipeName": "VRE-Bio Extended: Stinger Silk",
             "producedIn": "Constructor",
             "producesPerCycle": 20,
             "components": [
@@ -3664,7 +3664,7 @@
             ]
         },
         {
-            "recipeName": "VanRecExt-Bio: Biomass (Bacon Agaric)",
+            "recipeName": "VRE-Bio Extended: Biomass (Bacon Agaric)",
             "producedIn": "Constructor",
             "producesPerCycle": 25,
             "components": [
@@ -4024,6 +4024,32 @@
                     "name": "Computer",
                     "amount": 2,
                     "measurement": "Computer(s)/cycle"
+                }
+            ],
+            "cycleTime": 120,
+            "products": [
+                "Project Part: Adaptive Control Unit"
+            ]
+        },
+        {
+            "recipeName": "VRE-Machine Sourced: Primitive Adaptive Control Unit",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Portable Miner",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Computer",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "AI Limiter",
+                    "amount": 6,
+                    "measurement": "items/productionCycle"
                 }
             ],
             "cycleTime": 120,
@@ -5062,7 +5088,7 @@
     ],
     "Wood": [
         {
-            "recipeName": "VanRecExt-Bio: Pressboard",
+            "recipeName": "VRE-Bio Extended: Pressboard",
             "producedIn": "Constructor",
             "producesPerCycle": 17,
             "components": [
@@ -5080,7 +5106,7 @@
     ],
     "Mycelia": [
         {
-            "recipeName": "VanRecExt-Bio: M-Growbeds (Leaves)",
+            "recipeName": "VRE-Bio Extended: M-Growbeds (Leaves)",
             "producedIn": "Constructor",
             "producesPerCycle": 40,
             "components": [
@@ -5096,7 +5122,7 @@
             ]
         },
         {
-            "recipeName": "VanRecExt-Bio: M-Growbeds (Petals)",
+            "recipeName": "VRE-Bio Extended: M-Growbeds (Petals)",
             "producedIn": "Constructor",
             "producesPerCycle": 20,
             "components": [
@@ -5114,7 +5140,7 @@
     ],
     "Bacon Agaric": [
         {
-            "recipeName": "VanRecExt-Bio: BA-Growbeds (Leaves)",
+            "recipeName": "VRE-Bio Extended: BA-Growbeds (Leaves)",
             "producedIn": "Constructor",
             "producesPerCycle": 14,
             "components": [
@@ -5130,7 +5156,7 @@
             ]
         },
         {
-            "recipeName": "VanRecExt-Bio: BA-Growbeds (Petals)",
+            "recipeName": "VRE-Bio Extended: BA-Growbeds (Petals)",
             "producedIn": "Constructor",
             "producesPerCycle": 10,
             "components": [
@@ -5148,7 +5174,7 @@
     ],
     "Medicinal Inhaler": [
         {
-            "recipeName": "VanRecExt-MchnSrc: Synthetic Inhaler",
+            "recipeName": "VRE-Machine Sourced: Synthetic Inhaler",
             "producedIn": "Assembler",
             "producesPerCycle": 4,
             "components": [
@@ -5171,7 +5197,7 @@
     ],
     "Xeno-Zapper": [
         {
-            "recipeName": "VanRecExt-MchnSrc: Xeno-Zapper Conduit",
+            "recipeName": "VRE-Machine Sourced: Xeno-Zapper Conduit",
             "producedIn": "Assembler",
             "producesPerCycle": 1,
             "components": [
@@ -5194,7 +5220,7 @@
     ],
     "Parachute": [
         {
-            "recipeName": "VanRecExt-MchnSrc: Pre-Packaged Parachutes",
+            "recipeName": "VRE-Machine Sourced: Pre-Packaged Parachutes",
             "producedIn": "Assembler",
             "producesPerCycle": 5,
             "components": [
@@ -5215,5 +5241,5 @@
             ]
         }
     ],
-    "last_generated": "2022-10-06 20:34:47UTC"
+    "last_generated": "2022-10-10 16:18:00UTC"
 }

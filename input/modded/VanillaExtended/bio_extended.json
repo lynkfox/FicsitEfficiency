@@ -1,7 +1,7 @@
 {
     "Coal": [
         {
-            "recipeName": "VanRecExt-Bio: Carbon Coal",
+            "recipeName": "VRE-Bio Extended: Carbon Coal",
             "producedIn": "Constructor",
             "producesPerCycle": 30,
             "components": [
@@ -19,7 +19,7 @@
     ],
     "Wood": [
         {
-            "recipeName": "VanRecExt-Bio: Pressboard",
+            "recipeName": "VRE-Bio Extended: Pressboard",
             "producedIn": "Constructor",
             "producesPerCycle": 17,
             "components": [
@@ -37,7 +37,7 @@
     ],
     "Mycelia": [
         {
-            "recipeName": "VanRecExt-Bio: M-Growbeds (Leaves)",
+            "recipeName": "VRE-Bio Extended: M-Growbeds (Leaves)",
             "producedIn": "Constructor",
             "producesPerCycle": 40,
             "components": [
@@ -53,7 +53,7 @@
             ]
         },
         {
-            "recipeName": "VanRecExt-Bio: M-Growbeds (Petals)",
+            "recipeName": "VRE-Bio Extended: M-Growbeds (Petals)",
             "producedIn": "Constructor",
             "producesPerCycle": 20,
             "components": [
@@ -71,7 +71,7 @@
     ],
     "Bacon Agaric": [
         {
-            "recipeName": "VanRecExt-Bio: BA-Growbeds (Leaves)",
+            "recipeName": "VRE-Bio Extended: BA-Growbeds (Leaves)",
             "producedIn": "Constructor",
             "producesPerCycle": 14,
             "components": [
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "recipeName": "VanRecExt-Bio: BA-Growbeds (Petals)",
+            "recipeName": "VRE-Bio Extended: BA-Growbeds (Petals)",
             "producedIn": "Constructor",
             "producesPerCycle": 10,
             "components": [
@@ -105,7 +105,7 @@
     ],
     "Biomass": [
         {
-            "recipeName": "VanRecExt-Bio: Biomass (Bacon Agaric)",
+            "recipeName": "VRE-Bio Extended: Biomass (Bacon Agaric)",
             "producedIn": "Constructor",
             "producesPerCycle": 25,
             "components": [
@@ -123,7 +123,7 @@
     ],
     "Fabric": [
         {
-            "recipeName": "VanRecExt-Bio: Stinger Silk",
+            "recipeName": "VRE-Bio Extended: Stinger Silk",
             "producedIn": "Constructor",
             "producesPerCycle": 20,
             "components": [
