@@ -107,8 +107,12 @@ def main():
         save_output(result, f"{output_location}_{extra}", generated_on)
 
     if args.recipesSave:
-        with open(f"{output_location}_{extra}.json", "w") as json_file:
+        file_name = f"{output_location}_{extra}.json"
+        with open(file_name, "w") as json_file:
+            print(f"\n\033[93mSaving recipes used to {file_name}\033[0m")
             json.dump(single_product.save_recipes(), json_file, indent=4)
+
+    print("\n\033[1mAll Done!\033[0m\n\n")
 
 
 def save_output(result, output_location, generated_on):
@@ -116,7 +120,9 @@ def save_output(result, output_location, generated_on):
     cleans up and removes the bash colors, then saves the output
     """
     result = clean_string(result, STRING_CLEANUP)
-    with open(output_location + ".txt", "w") as file:
+    file_name = output_location + ".txt"
+    with open(file_name, "w") as file:
+        print(f"\n\033[96mSaving comparison output to {file_name}\033[0m")
         file.write(f"{generated_on}\n" + result)
 
 

@@ -161,7 +161,7 @@ class TotalProductionValues:
         self.components.sort(key=lambda x: x.name.value)
 
         return (
-            f"\t\033[93mTotal Power\033[0m: {self.power}\n"
+            f"\t\033[93mTotal Power\033[0m: {self.power} MW\n"
             + f"\t\033[91mMachines:\033[0m\n"
             + f"\n".join(
                 [
@@ -169,7 +169,7 @@ class TotalProductionValues:
                     for machine in self.machines
                 ]
             )
-            + f"\n\t\033[96mComponents\033[0m:\n"
+            + f"\n\t\033[96mRaw Components\033[0m:\n"
             + f"\n".join(
                 [
                     f"\t  - {component.name.value}: {lookup.DECIMAL_FORMAT.format(component.amount)}{' m^3/min' if component.is_fluid else '/min'}"
