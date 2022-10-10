@@ -3,11 +3,12 @@ import argparse
 from ficsit2.com.names import ComponentName
 from ficsit2.mod_input.mod_include import ModdedContent
 from ficsit2.com.recipe import load_recipes
+from ficsit2.mod_input.mod_include import get_modded_item_as_enum
 import re
 import json
 from datetime import datetime
 
-DEBUG_COMPONENT = ComponentName.HEAVY_MODULAR_FRAME
+DEBUG_COMPONENT = "Modded: Naphtha"
 
 parser = argparse.ArgumentParser(
     description="Builds and outputs the Production Chains."
@@ -16,6 +17,13 @@ parser.add_argument(
     "--component",
     "-c",
     help="What component to run this against. See .ficsit2/com/names.py ComponentNames for a list of names - use the pretty name (right side)",
+)
+parser.add_argument(
+    "--produce",
+    "-p",
+    type=float,
+    default=1.0,
+    help="Amount to produce of the base component",
 )
 parser.add_argument(
     "--saveOutput",
@@ -41,6 +49,7 @@ parser.add_argument(
     help="name of the file containing the selected recipes and components, located in ./input/compare/*",
 )
 
+
 recipe_arguments = parser.add_mutually_exclusive_group()
 
 recipe_arguments.add_argument(
@@ -57,9 +66,7 @@ recipe_arguments.add_argument(
 
 args = parser.parse_args()
 
-COMPONENT = (
-    ComponentName(args.component) if args.component is not None else DEBUG_COMPONENT
-)
+COMPONENT = args.component if args.component is not None else DEBUG_COMPONENT
 
 
 STRING_CLEANUP = {
@@ -78,14 +85,16 @@ STRING_CLEANUP = {
 def main():
     recipes = load_recipes()
     mod_content = ModdedContent()
+    component = get_modded_item_as_enum(COMPONENT, mod_content)
     starting_recipes = {}
     if args.inputFile is not None:
         with open(f"./output/user/{args.inputFile}") as file:
             starting_recipes = json.load(file)
 
     single_product = ChainGraph(
-        COMPONENT,
+        component,
         recipes,
+        produce=args.produce,
         recipes_selected=starting_recipes,
         mod_content=mod_content,
         use_standard=args.onlyStandard,
@@ -97,7 +106,7 @@ def main():
         extra = args.fileSuffix.replace(" ", "_").lower()
     else:
         extra = datetime.now().strftime("%Y%m%d%H%M%S")
-    output_location = f"./output/user/{COMPONENT.name.lower()}"
+    output_location = f"./output/user/{component.name.lower()}"
     generated_on = f"Based on Recipes generated on {based_on}"
 
     if not args.quiet:

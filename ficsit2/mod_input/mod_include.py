@@ -1,5 +1,6 @@
 from typing import List, Tuple
 from ficsit2.com.machines import Machine
+from ficsit2.com.names import ComponentName
 from enum import Enum
 import json
 
@@ -18,6 +19,19 @@ def load_modded_items():
         modded_items = json.load(json_file)
 
     return modded_items
+
+
+def get_modded_item_as_enum(item_name: str, mod_content: ModdedContent):
+    """
+    common functionality for getting an Enum of either ComponentName or the modded values generated from mod_content
+    """
+    try:
+        return ComponentName(item_name)
+    except Exception:
+
+        for mod_component in mod_content.component:
+            if mod_component.value == item_name:
+                return mod_component
 
 
 def generate_modded_component_enum(items: List[str]) -> Enum:

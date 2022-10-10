@@ -15,6 +15,7 @@ class ChainGraph:
 
     initial_component: ComponentName
     all_recipes: dict
+    produce: float = field(default=1.0)
     recipes_selected: Dict[int, Dict[str, str]] = field(default_factory=dict)
     use_standard: bool = field(default=False)
     mod_content: ModdedContent = field(default=None)
@@ -29,7 +30,10 @@ class ChainGraph:
         self.total_values = TotalProductionValues()
 
         self.root = ComponentNode(
-            self.initial_component, 1, mod_content=self.mod_content
+            self.initial_component,
+            self.produce,
+            parent_cycles_per_minute=self.produce,
+            mod_content=self.mod_content,
         )
         self.add_selected_recipe(self.root)
         self.add_selected_component_recipes(self.root.node_children[0].node_children)
@@ -147,7 +151,7 @@ class ChainGraph:
             )
         )
         return (
-            f"\n\033[4m\033[92m{self.root.name.value}\033[0m (1/min) takes:\n"
+            f"\n\033[4m\033[92m{self.root.name.value}\033[0m ({self.produce}/min) takes:\n"
             + f"  (using \033[1m{self.root.node_children[0].name}\033[0m)\n\n"
             + str(self.total_values)
             + f"\t  (Producing \033[92m{len(all_recipes_needed)}\033[0m different items)"

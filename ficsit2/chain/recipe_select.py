@@ -9,8 +9,18 @@ def get_possible_recipes(component_name: str, all_recipes: dict) -> List[str]:
 
 def find_recipe_by_name(recipes: List[dict], name: str) -> dict:
     """returns the recipe json by searching for the one with the same name"""
-
-    return [recipe for recipe in recipes if name in recipe["recipeName"]][0]
+    try:
+        return [recipe for recipe in recipes if name in recipe["recipeName"]][0]
+    except Exception:
+        all_recipes = [recipe for recipe in recipes]
+        recipe_names = [recipe["recipeName"] for recipe in all_recipes]
+        print(
+            f"\n\033[91mCannot find recipe {name}!!!\033[0m defaulting to first recipe in list\n"
+            + f"\tAll recipes:\n\t  -"
+            + "\n\t  -".join(recipe_names)
+            + f"\nUsed: \033[91m{str(recipe_names[0])}\033[0m\n"
+        )
+        return all_recipes[0]
 
 
 def user_pick_recipe(component_name: str, all_recipes: dict) -> Tuple[dict, bool]:
