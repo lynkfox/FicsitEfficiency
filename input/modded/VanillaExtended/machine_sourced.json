@@ -141,5 +141,51 @@
                 "Project Part: Adaptive Control Unit"
             ]
         }
+    ],
+    "Object Scanner": [
+        {
+            "recipeName": "VRE-Machine Sourced: Portable Object Scanner",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Screws",
+                    "amount": 100,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Wire",
+                    "amount": 20,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 30,
+            "products": [
+                "Object Scanner"
+            ]
+        }
+    ],
+    "Project Part: Automated Wiring": [
+        {
+            "recipeName": "VRE-Machine Sourced: Self-Orienting Wiring Cluster",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Object Scanner",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Quickwire",
+                    "amount": 50,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 8,
+            "products": [
+                "Project Part: Automated Wiring"
+            ]
+        }
     ]
 }

@@ -1,0 +1,30 @@
+{
+    "Object Scanner": [
+        {
+            "recipeName": "VRE-More Power, More Output: Alternate: 3D Printed Object Scanner",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Ingot",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Rubber",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Plastic",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 20,
+            "products": [
+                "Object Scanner"
+            ]
+        }
+    ]
+}

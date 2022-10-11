@@ -2355,6 +2355,27 @@
             "products": [
                 "Project Part: Automated Wiring"
             ]
+        },
+        {
+            "recipeName": "VRE-Machine Sourced: Self-Orienting Wiring Cluster",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Object Scanner",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Quickwire",
+                    "amount": 50,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 8,
+            "products": [
+                "Project Part: Automated Wiring"
+            ]
         }
     ],
     "Iron Ingot": [
@@ -5241,5 +5262,54 @@
             ]
         }
     ],
-    "last_generated": "2022-10-10 20:45:52UTC"
+    "Object Scanner": [
+        {
+            "recipeName": "VRE-Machine Sourced: Portable Object Scanner",
+            "producedIn": "Assembler",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Screws",
+                    "amount": 100,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Wire",
+                    "amount": 20,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 30,
+            "products": [
+                "Object Scanner"
+            ]
+        },
+        {
+            "recipeName": "VRE-More Power, More Output: Alternate: 3D Printed Object Scanner",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Ingot",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Rubber",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Plastic",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 20,
+            "products": [
+                "Object Scanner"
+            ]
+        }
+    ],
+    "last_generated": "2022-10-10 23:59:07UTC"
 }

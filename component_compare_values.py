@@ -8,7 +8,7 @@ import re
 import json
 from datetime import datetime
 
-DEBUG_COMPONENT = "Modded: Naphtha"
+DEBUG_COMPONENT = "Project Part: Automated Wiring"
 
 parser = argparse.ArgumentParser(
     description="Builds and outputs the Production Chains."
@@ -17,13 +17,6 @@ parser.add_argument(
     "--component",
     "-c",
     help="What component to run this against. See .ficsit2/com/names.py ComponentNames for a list of names - use the pretty name (right side)",
-)
-parser.add_argument(
-    "--produce",
-    "-p",
-    type=float,
-    default=1.0,
-    help="Amount to produce of the base component",
 )
 
 parser.add_argument(
@@ -102,7 +95,6 @@ def main():
     single_product = ChainGraph(
         component,
         recipes,
-        produce=args.produce,
         recipes_selected=starting_recipes,
         mod_content=mod_content,
         use_standard=args.onlyStandard,

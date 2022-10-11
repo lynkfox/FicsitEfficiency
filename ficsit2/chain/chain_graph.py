@@ -16,7 +16,8 @@ class ChainGraph:
 
     initial_component: ComponentName
     all_recipes: dict
-    produce: float = field(default=1.0)
+    produce: float = field(init=False, default=1.0)
+    produces_per_minute: float = field(init=False, default=0.0)
     recipes_selected: Dict[int, Dict[str, str]] = field(default_factory=dict)
     use_standard: bool = field(default=False)
     mod_content: ModdedContent = field(default=None)
@@ -63,6 +64,9 @@ class ChainGraph:
 
         recipe = self._get_recipe(component)
 
+        if component == self.root:
+            self._determine_production_amount_of_100_per_efficiency(recipe)
+
         child_recipe = RecipeNode(
             **RecipeJson(
                 **{
@@ -77,6 +81,15 @@ class ChainGraph:
         self.final_recipes.append(
             (component.name, child_recipe.name, component.node_depth)
         )
+
+    def _determine_production_amount_of_100_per_efficiency(self, recipe: dict):
+        """
+        Determines how much to produce/min to = 100% machine efficiency
+        """
+        self.produce = (60 / recipe["cycleTime"]) * recipe["producesPerCycle"]
+
+        self.root.parent_recipe_needs = self.produce
+        self.root.parent_cycles_per_minute = 60 / recipe["cycleTime"]
 
     def save_recipes(self) -> dict:
         """
@@ -154,7 +167,7 @@ class ChainGraph:
         primary_recipe = self.root.node_children[0].production_chain_costs
 
         return (
-            f"\n\033[4m\033[92m{self.root.name.value}\033[0m ({self.produce}/min) takes:\n"
+            f"\n\033[4m\033[92m{self.root.name.value}\033[0m at 100% efficiency in 1 {self.root.node_children[0].produced_in.name.value} ({self.produce}/min):\n"
             + f"- using \033[1m{self.root.node_children[0].name}:\033[0m\n"
             + f"".join(
                 [

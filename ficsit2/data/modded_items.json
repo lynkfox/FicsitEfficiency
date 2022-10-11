@@ -3,14 +3,14 @@
         "Modded: Chem Reactor"
     ],
     "items": [
-        "Modded: Bottom Resid",
-        "Modded: Crushed Titan",
-        "Modded: Gear Oil",
-        "Modded: Asphalt",
         "Modded: Crushed Caterium",
-        "Modded: Crystal Shard",
         "Modded: Kerosene",
+        "Modded: Caterium Plates",
+        "Modded: Crushed Titan",
+        "Modded: Asphalt",
+        "Modded: Bottom Resid",
         "Modded: Naphtha",
-        "Modded: Caterium Plates"
+        "Modded: Gear Oil",
+        "Modded: Crystal Shard"
     ]
 }
