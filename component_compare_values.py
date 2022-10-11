@@ -154,13 +154,15 @@ def output_markdown(initial_string) -> str:
     """
 
     mapping = {
+        "\tRecipe Produces:": "\n#### Recipe Produces",
         "\tTotal Power:": "\n## Total Power\n* ",
         "\tMachines:": "\n## Machines",
-        "\tRaw Components": "\n## Raw Components",
+        "\tRaw Components": "\n## Raw Components\n*Amt for 1/min [Amt for 100% 1 machine efficiency/min]*\n",
         "\tTotal Area (give or take):": "\n## Total Area (give or take)\n* ",
         "\tLongest Product Chain:": "\n## Longest Product Chain\n* ",
+        "\tInitial Recipe needs:": "## Initial recipe\n",
         "Making use of:": "------\n\n## Making use of:",
-        "- using": "#### using",
+        "> Initial Recipe": "### Initial Recipe",
         "\t  -": "*",
         "(": "*(",
         ")": ")*",

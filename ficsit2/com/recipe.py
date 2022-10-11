@@ -115,6 +115,7 @@ class TotalProductionValues:
     longest_chain: int = field(default=0)
     total_area: float = field(default=0.0)
     total_machines: int = field(default=0)
+    efficiency_modifier: float = field(init=False, default=None)
 
     def add_chain_step(self, production: ProductionChainStep):
         self.power += production.machine_cost.power
@@ -130,6 +131,9 @@ class TotalProductionValues:
             if production.current_step > self.longest_chain
             else self.longest_chain
         )
+
+    def set_efficiency_modifier(self, value):
+        self.efficiency_modifier = value
 
     def _add_component(self, other):
         """Combines like components, otherwise adding a new one to the list"""
@@ -177,6 +181,11 @@ class TotalProductionValues:
             + f"\n".join(
                 [
                     f"\t  - {component.name.value}: {lookup.DECIMAL_FORMAT.format(component.amount)}{' m^3/min' if component.is_fluid else '/min'}"
+                    + (
+                        f" [{lookup.DECIMAL_FORMAT.format(component.amount*self.efficiency_modifier)}/min]"
+                        if self.efficiency_modifier is not None
+                        else ""
+                    )
                     for component in self.components
                     if component.name in lookup.ENDPOINTS
                 ]

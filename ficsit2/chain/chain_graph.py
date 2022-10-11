@@ -86,10 +86,9 @@ class ChainGraph:
         """
         Determines how much to produce/min to = 100% machine efficiency
         """
-        self.produce = (60 / recipe["cycleTime"]) * recipe["producesPerCycle"]
-
-        self.root.parent_recipe_needs = self.produce
-        self.root.parent_cycles_per_minute = 60 / recipe["cycleTime"]
+        self.produces_per_minute = (60 / recipe["cycleTime"]) * recipe[
+            "producesPerCycle"
+        ]
 
     def save_recipes(self) -> dict:
         """
@@ -165,20 +164,24 @@ class ChainGraph:
             )
         )
         primary_recipe = self.root.node_children[0].production_chain_costs
+        self.total_values.set_efficiency_modifier(self.produces_per_minute)
 
         return (
-            f"\n\033[4m\033[92m{self.root.name.value}\033[0m at 100% efficiency in 1 {self.root.node_children[0].produced_in.name.value} ({self.produce}/min):\n"
-            + f"- using \033[1m{self.root.node_children[0].name}:\033[0m\n"
+            f"\n\033[4m\033[92m{self.root.name.value}\033[0m (1/min):\n"
+            + f"> Initial Recipe - \033[1m{self.root.node_children[0].name}:\033[0m\n"
+            + "\n"
+            + f"\t\033[95mRecipe Produces:\033[0m {self.produces_per_minute}/min\n"
+            + str(self.total_values)
+            + f"\t  (Producing \033[92m{len(all_recipes_needed)}\033[0m different items)\n"
+            + f"\n\n\033[96mMaking use of:\033[0m\n"
+            + f"\n\tInitial Recipe needs:\n"
             + f"".join(
                 [
-                    f"    > {component.name.value}: {lookup.DECIMAL_FORMAT.format(component.amount)}/min\n"
+                    f"\t  > {component.name.value}: {lookup.DECIMAL_FORMAT.format(component.amount)}/min\n"
                     for component in primary_recipe.required_components
                 ]
             )
-            + "\n"
-            + str(self.total_values)
-            + f"\t  (Producing \033[92m{len(all_recipes_needed)}\033[0m different items)"
-            + f"\n\n\033[96mMaking use of:\033[0m\n"
+            + f"\n"
             + f"\n".join(all_recipes_needed)
         )
 
