@@ -106,6 +106,32 @@
             "products": [
                 "Reinforced Iron Plate"
             ]
+        },
+        {
+            "recipeName": "VRE-More Power, More Output: Electroplated Iron Plate",
+            "producedIn": "Blender",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "Sulfuric Acid",
+                    "amount": 5,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Plastic",
+                    "amount": 2,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 14,
+            "products": [
+                "Steel Ingot"
+            ]
         }
     ],
     "Aluminum Casing": [
@@ -705,6 +731,32 @@
             "products": [
                 "Steel Ingot"
             ]
+        },
+        {
+            "recipeName": "VRE-More Power, More Output: Alternate: Silk Reinforced Steel",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 42,
+            "components": [
+                {
+                    "name": "Fabric",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Iron Ore",
+                    "amount": 28,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Coal",
+                    "amount": 28,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 20,
+            "products": [
+                "Steel Ingot"
+            ]
         }
     ],
     "Computer": [
@@ -1131,7 +1183,7 @@
         {
             "recipeName": "Alternate: Diluted Fuel",
             "producedIn": "Blender",
-            "producesPerCycle": 10000,
+            "producesPerCycle": 10.0,
             "components": [
                 {
                     "name": "Heavy Oil Residue",
@@ -1152,7 +1204,7 @@
         {
             "recipeName": "Standard: Fuel",
             "producedIn": "Refinery",
-            "producesPerCycle": 4000,
+            "producesPerCycle": 4.0,
             "components": [
                 {
                     "name": "Oil",
@@ -1169,7 +1221,7 @@
         {
             "recipeName": "Residual Fuel",
             "producedIn": "Refinery",
-            "producesPerCycle": 4000,
+            "producesPerCycle": 4.0,
             "components": [
                 {
                     "name": "Heavy Oil Residue",
@@ -2020,7 +2072,7 @@
         {
             "recipeName": "Alternate: Heavy Oil Residue",
             "producedIn": "Refinery",
-            "producesPerCycle": 4000,
+            "producesPerCycle": 4.0,
             "components": [
                 {
                     "name": "Oil",
@@ -2084,47 +2136,13 @@
                 "Rubber",
                 "Heavy Oil Residue"
             ]
-        },
-        {
-            "recipeName": "RePan: Asphalt",
-            "producedIn": "Refinery",
-            "producesPerCycle": 12.0,
-            "components": [
-                {
-                    "name": "Modded: Bottom Resid",
-                    "amount": 12.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 48,
-            "products": [
-                "Modded: Asphalt",
-                "Heavy Oil Residue"
-            ]
-        },
-        {
-            "recipeName": "RePan: Heavy Oil Residue",
-            "producedIn": "Refinery",
-            "producesPerCycle": 18.0,
-            "components": [
-                {
-                    "name": "Modded: Bottom Resid",
-                    "amount": 12.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 36,
-            "products": [
-                "Heavy Oil Residue",
-                "Modded: Asphalt"
-            ]
         }
     ],
     "Polymer Resin": [
         {
             "recipeName": "Byproduct: Polymer Resin (from A: Heavy Oil Residue)",
             "producedIn": "Refinery",
-            "producesPerCycle": 4000,
+            "producesPerCycle": 4.0,
             "components": [
                 {
                     "name": "Oil",
@@ -2158,7 +2176,7 @@
         {
             "recipeName": "Byproduct: Polymer Resin (from S: Fuel)",
             "producedIn": "Refinery",
-            "producesPerCycle": 4000,
+            "producesPerCycle": 4.0,
             "components": [
                 {
                     "name": "Oil",
@@ -2169,87 +2187,6 @@
             "cycleTime": 6,
             "products": [
                 "Fuel",
-                "Polymer Resin"
-            ]
-        },
-        {
-            "recipeName": "RePan: Batch: Heavy Kerosene",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 40,
-            "components": [
-                {
-                    "name": "Heavy Oil Residue",
-                    "amount": 20.0,
-                    "measurement": "m^3/productionCycle"
-                },
-                {
-                    "name": "Water",
-                    "amount": 40.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 24,
-            "products": [
-                "Modded: Kerosene",
-                "Polymer Resin"
-            ]
-        },
-        {
-            "recipeName": "RePan: Batch: Heavy Naphtha",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 20,
-            "components": [
-                {
-                    "name": "Heavy Oil Residue",
-                    "amount": 24.0,
-                    "measurement": "m^3/productionCycle"
-                },
-                {
-                    "name": "Modded: Crushed Caterium",
-                    "amount": 16,
-                    "measurement": "items/productionCycle"
-                }
-            ],
-            "cycleTime": 24,
-            "products": [
-                "Modded: Naphtha",
-                "Polymer Resin",
-                "Modded: Crushed Titan"
-            ]
-        },
-        {
-            "recipeName": "RePan: Distilled Kerosene",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 6,
-            "components": [
-                {
-                    "name": "Oil",
-                    "amount": 12.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 16,
-            "products": [
-                "Modded: Kerosene",
-                "Modded: Bottom Resid",
-                "Polymer Resin"
-            ]
-        },
-        {
-            "recipeName": "RePan: Distilled Naphtha",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 10,
-            "components": [
-                {
-                    "name": "Oil",
-                    "amount": 24.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 24,
-            "products": [
-                "Modded: Naphtha",
-                "Modded: Bottom Resid",
                 "Polymer Resin"
             ]
         }
@@ -2828,27 +2765,6 @@
             "products": [
                 "Caterium Ingot"
             ]
-        },
-        {
-            "recipeName": "SyntheticShards: Caterium Alloy Ingot",
-            "producedIn": "Foundry",
-            "producesPerCycle": 15,
-            "components": [
-                {
-                    "name": "Caterium Ore",
-                    "amount": 10,
-                    "measurement": "items/productionCycle"
-                },
-                {
-                    "name": "Copper Ore",
-                    "amount": 5,
-                    "measurement": "items/productionCycle"
-                }
-            ],
-            "cycleTime": 12,
-            "products": [
-                "Caterium Ingot"
-            ]
         }
     ],
     "Quartz Crystal": [
@@ -3150,7 +3066,7 @@
         {
             "recipeName": "Byproduct: Silica (from S: Alumina Solution)",
             "producedIn": "Refinery",
-            "producesPerCycle": 12000,
+            "producesPerCycle": 12.0,
             "components": [
                 {
                     "name": "Bauxite Ore",
@@ -3190,7 +3106,7 @@
         {
             "recipeName": "Alternate: Sloppy Alumina",
             "producedIn": "Refinery",
-            "producesPerCycle": 12000,
+            "producesPerCycle": 12.0,
             "components": [
                 {
                     "name": "Bauxite Ore",
@@ -3211,7 +3127,7 @@
         {
             "recipeName": "Standard: Alumina Solution",
             "producedIn": "Refinery",
-            "producesPerCycle": 12000,
+            "producesPerCycle": 12.0,
             "components": [
                 {
                     "name": "Bauxite Ore",
@@ -3352,7 +3268,7 @@
         {
             "recipeName": "Alternate: Turbo Blend Fuel",
             "producedIn": "Blender",
-            "producesPerCycle": 6000,
+            "producesPerCycle": 6.0,
             "components": [
                 {
                     "name": "Fuel",
@@ -3383,7 +3299,7 @@
         {
             "recipeName": "Standard: Turbofuel",
             "producedIn": "Refinery",
-            "producesPerCycle": 5000,
+            "producesPerCycle": 5.0,
             "components": [
                 {
                     "name": "Fuel",
@@ -3404,7 +3320,7 @@
         {
             "recipeName": "Alternate: Turbo Heavy Fuel",
             "producedIn": "Refinery",
-            "producesPerCycle": 4000,
+            "producesPerCycle": 4.0,
             "components": [
                 {
                     "name": "Heavy Oil Residue",
@@ -3836,7 +3752,7 @@
         {
             "recipeName": "Standard: Liquid Biofuel",
             "producedIn": "Refinery",
-            "producesPerCycle": 4000,
+            "producesPerCycle": 4.0,
             "components": [
                 {
                     "name": "Solid BioFuel",
@@ -3859,7 +3775,7 @@
         {
             "recipeName": "Standard: Nitric Acid",
             "producedIn": "Blender",
-            "producesPerCycle": 3000,
+            "producesPerCycle": 3.0,
             "components": [
                 {
                     "name": "Nitrogen Gas",
@@ -3926,23 +3842,6 @@
             "cycleTime": 6,
             "products": [
                 "Petroleum Coke"
-            ]
-        },
-        {
-            "recipeName": "RePan: Resid Coke",
-            "producedIn": "Refinery",
-            "producesPerCycle": 90,
-            "components": [
-                {
-                    "name": "Modded: Bottom Resid",
-                    "amount": 15.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 60,
-            "products": [
-                "Petroleum Coke",
-                "Modded: Naphtha"
             ]
         }
     ],
@@ -4226,7 +4125,7 @@
         {
             "recipeName": "Standard: Sulfuric Acid",
             "producedIn": "Refinery",
-            "producesPerCycle": 5000,
+            "producesPerCycle": 5.0,
             "components": [
                 {
                     "name": "Sulfur",
@@ -4809,304 +4708,6 @@
             ]
         }
     ],
-    "Modded: Asphalt": [
-        {
-            "recipeName": "RePan: Asphalt",
-            "producedIn": "Refinery",
-            "producesPerCycle": 24,
-            "components": [
-                {
-                    "name": "Modded: Bottom Resid",
-                    "amount": 12.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 48,
-            "products": [
-                "Modded: Asphalt",
-                "Heavy Oil Residue"
-            ]
-        },
-        {
-            "recipeName": "RePan: Heavy Oil Residue",
-            "producedIn": "Refinery",
-            "producesPerCycle": 6,
-            "components": [
-                {
-                    "name": "Modded: Bottom Resid",
-                    "amount": 12.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 36,
-            "products": [
-                "Heavy Oil Residue",
-                "Modded: Asphalt"
-            ]
-        }
-    ],
-    "Modded: Kerosene": [
-        {
-            "recipeName": "RePan: Batch: Heavy Kerosene",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 40.0,
-            "components": [
-                {
-                    "name": "Heavy Oil Residue",
-                    "amount": 20.0,
-                    "measurement": "m^3/productionCycle"
-                },
-                {
-                    "name": "Water",
-                    "amount": 40.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 24,
-            "products": [
-                "Modded: Kerosene",
-                "Polymer Resin"
-            ]
-        },
-        {
-            "recipeName": "RePan: Distilled Kerosene",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 12.0,
-            "components": [
-                {
-                    "name": "Oil",
-                    "amount": 12.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 16,
-            "products": [
-                "Modded: Kerosene",
-                "Modded: Bottom Resid",
-                "Polymer Resin"
-            ]
-        }
-    ],
-    "Modded: Naphtha": [
-        {
-            "recipeName": "RePan: Batch: Heavy Naphtha",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 36.0,
-            "components": [
-                {
-                    "name": "Heavy Oil Residue",
-                    "amount": 24.0,
-                    "measurement": "m^3/productionCycle"
-                },
-                {
-                    "name": "Modded: Crushed Caterium",
-                    "amount": 16,
-                    "measurement": "items/productionCycle"
-                }
-            ],
-            "cycleTime": 24,
-            "products": [
-                "Modded: Naphtha",
-                "Polymer Resin",
-                "Modded: Crushed Titan"
-            ]
-        },
-        {
-            "recipeName": "RePan: Distilled Naphtha",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 18.0,
-            "components": [
-                {
-                    "name": "Oil",
-                    "amount": 24.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 24,
-            "products": [
-                "Modded: Naphtha",
-                "Modded: Bottom Resid",
-                "Polymer Resin"
-            ]
-        },
-        {
-            "recipeName": "RePan: Resid Coke",
-            "producedIn": "Refinery",
-            "producesPerCycle": 22.5,
-            "components": [
-                {
-                    "name": "Modded: Bottom Resid",
-                    "amount": 15.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 60,
-            "products": [
-                "Petroleum Coke",
-                "Modded: Naphtha"
-            ]
-        }
-    ],
-    "Modded: Crushed Titan": [
-        {
-            "recipeName": "RePan: Batch: Heavy Naphtha",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 12,
-            "components": [
-                {
-                    "name": "Heavy Oil Residue",
-                    "amount": 24.0,
-                    "measurement": "m^3/productionCycle"
-                },
-                {
-                    "name": "Modded: Crushed Caterium",
-                    "amount": 16,
-                    "measurement": "items/productionCycle"
-                }
-            ],
-            "cycleTime": 24,
-            "products": [
-                "Modded: Naphtha",
-                "Polymer Resin",
-                "Modded: Crushed Titan"
-            ]
-        }
-    ],
-    "Modded: Crushed Caterium": [
-        {
-            "recipeName": "RePan: Alternate: Aluminum Caterlyts",
-            "producedIn": "Assembler",
-            "producesPerCycle": 7,
-            "components": [
-                {
-                    "name": "Aluminum Ingot",
-                    "amount": 2,
-                    "measurement": "items/productionCycle"
-                },
-                {
-                    "name": "Modded: Caterium Plates",
-                    "amount": 2,
-                    "measurement": "items/productionCycle"
-                }
-            ],
-            "cycleTime": 6,
-            "products": [
-                "Modded: Crushed Caterium"
-            ]
-        }
-    ],
-    "Modded: Caterium Plates": [
-        {
-            "recipeName": "RePan: Caterium Plate",
-            "producedIn": "Constructor",
-            "producesPerCycle": 6,
-            "components": [
-                {
-                    "name": "Caterium Ingot",
-                    "amount": 18,
-                    "measurement": "items/productionCycle"
-                }
-            ],
-            "cycleTime": 24,
-            "products": [
-                "Modded: Caterium Plates"
-            ]
-        }
-    ],
-    "Modded: Bottom Resid": [
-        {
-            "recipeName": "RePan: Distilled Kerosene",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 4.0,
-            "components": [
-                {
-                    "name": "Oil",
-                    "amount": 12.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 16,
-            "products": [
-                "Modded: Kerosene",
-                "Modded: Bottom Resid",
-                "Polymer Resin"
-            ]
-        },
-        {
-            "recipeName": "RePan: Distilled Naphtha",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 4.0,
-            "components": [
-                {
-                    "name": "Oil",
-                    "amount": 24.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 24,
-            "products": [
-                "Modded: Naphtha",
-                "Modded: Bottom Resid",
-                "Polymer Resin"
-            ]
-        }
-    ],
-    "Modded: Gear Oil": [
-        {
-            "recipeName": "RePan: Synthetic Oil",
-            "producedIn": "Modded: Chem Reactor",
-            "producesPerCycle": 6.0,
-            "components": [
-                {
-                    "name": "Modded: Kerosene",
-                    "amount": 4.0,
-                    "measurement": "m^3/productionCycle"
-                },
-                {
-                    "name": "Water",
-                    "amount": 16.0,
-                    "measurement": "m^3/productionCycle"
-                }
-            ],
-            "cycleTime": 8,
-            "products": [
-                "Modded: Gear Oil"
-            ]
-        }
-    ],
-    "Modded: Crystal Shard": [
-        {
-            "recipeName": "SyntheticShards: Synthetic PowerShards",
-            "producedIn": "Manufacturer",
-            "producesPerCycle": 1,
-            "components": [
-                {
-                    "name": "SAM Ore",
-                    "amount": 50,
-                    "measurement": "items/productionCycle"
-                },
-                {
-                    "name": "Uranium Ore",
-                    "amount": 100,
-                    "measurement": "items/productionCycle"
-                },
-                {
-                    "name": "Project Part: Adaptive Control Unit",
-                    "amount": 25,
-                    "measurement": "items/productionCycle"
-                },
-                {
-                    "name": "Project Part: Modular Engine",
-                    "amount": 20,
-                    "measurement": "items/productionCycle"
-                }
-            ],
-            "cycleTime": 1200,
-            "products": [
-                "Modded: Crystal Shard"
-            ]
-        }
-    ],
     "Wood": [
         {
             "recipeName": "VRE-Bio Extended: Pressboard",
@@ -5311,5 +4912,5 @@
             ]
         }
     ],
-    "last_generated": "2022-10-10 23:59:07UTC"
+    "last_generated": "2022-10-13 23:01:28UTC"
 }

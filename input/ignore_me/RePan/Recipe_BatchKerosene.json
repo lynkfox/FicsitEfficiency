@@ -1,0 +1,28 @@
+{
+  "$schema": "https://github.com/Nogg-aholic/ContentLib_Recipes/blob/master/FContentLib_Recipes.json",
+  "Name": "Batch: Heavy Kerosene",
+  "Category": "Batch_Process",
+  "Ingredients": [
+    {
+      "Item": "Desc_HeavyOilResidue",
+      "Amount": 20000
+    },
+    {
+      "Item": "Desc_Water",
+      "Amount": 40000
+    }
+  ],
+  "Products": [
+    {
+      "Item": "Desc_Kerosene",
+      "Amount": 40000
+    },
+    {
+      "Item": "Desc_PolymerResin",
+      "Amount": 40
+    }
+  ],
+  "ManufacturingDuration": 24,
+  "ManufacturingMenuPriority": 1,
+  "ProducedIn": [ "Build_ChemReactor" ]
+}

@@ -153,7 +153,7 @@ def get_recipe_details(buildable, name):
         if "Alternate:" in name or "Residual" in name
         else f"Standard: {name}",
         "producedIn": machine.name.value,
-        "producesPerCycle": produced_amount,
+        "producesPerCycle": produced_amount if produced_amount < 1000 else produced_amount/1000,
         "components": build_components(buildable.findall(".//Ingredients/ItemAmount")),
         "cycleTime": cycle_time,
         "products": [],

@@ -1,16 +1,4 @@
 {
-    "machines": [
-        "Modded: Chem Reactor"
-    ],
-    "items": [
-        "Modded: Crushed Caterium",
-        "Modded: Kerosene",
-        "Modded: Caterium Plates",
-        "Modded: Crushed Titan",
-        "Modded: Asphalt",
-        "Modded: Bottom Resid",
-        "Modded: Naphtha",
-        "Modded: Gear Oil",
-        "Modded: Crystal Shard"
-    ]
+    "machines": [],
+    "items": []
 }
