@@ -181,7 +181,7 @@ class ChainGraph:
             f"\n\033[4m\033[92m{self.root.name.value}\033[0m (1/min):\n"
             + f"> Initial Recipe - \033[1m{self.root.node_children[0].name}:\033[0m\n"
             + "\n"
-            + f"\t\033[95mRecipe Produces:\033[0m {self.produces_per_minute}/min\n"
+            + f"\t\033[95mRecipe Produces:\033[0m {lookup.DECIMAL_FORMAT.format(self.produces_per_minute)}/min\n"
             + str(self.total_values)
             + f"\t  (Producing \033[92m{len(all_recipes_needed)}\033[0m different items)\n"
             + f"\n\n\033[96mMaking use of:\033[0m\n"
