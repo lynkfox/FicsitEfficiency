@@ -28,7 +28,7 @@ ENDPOINTS = [
     ComponentName.HATCHER_REMAINS,
     ComponentName.PLUTONIUM_WASTE,
     ComponentName.SAM_ORE,
-    ComponentName.ALIEN_PROTEIN
+    ComponentName.ALIEN_PROTEIN,
 ]
 
 # List of Components that count as a fluid - mostly for display purposes out of Component
@@ -311,5 +311,5 @@ COMPONENT_MAPPING = {
     "liquidBiofuel": ComponentName.LIQUID_BIOFUEL,
     "biofuel": ComponentName.SOLID_BIOFUEL,
     "samOre": ComponentName.SAM_ORE,
-    "alienProtein": ComponentName.ALIEN_PROTEIN
+    "alienProtein": ComponentName.ALIEN_PROTEIN,
 }

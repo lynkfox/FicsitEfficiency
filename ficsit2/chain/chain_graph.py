@@ -19,7 +19,9 @@ class ChainGraph:
     produce: float = field(init=False, default=1.0)
     produces_per_minute: float = field(init=False, default=0.0)
     cycles_per_minute: float = field(init=False, default=0.0)
-    component_factor: float = field(init=False, default=0.0) # the multiplier for a given component to meet 100% efficiency
+    component_factor: float = field(
+        init=False, default=0.0
+    )  # the multiplier for a given component to meet 100% efficiency
     recipes_selected: Dict[int, Dict[str, str]] = field(default_factory=dict)
     use_standard: bool = field(default=False)
     mod_content: ModdedContent = field(default=None)
@@ -88,7 +90,7 @@ class ChainGraph:
         """
         Determines how much to produce/min to = 100% machine efficiency
         """
-        self.cycles_per_minute = (60 / recipe["cycleTime"])
+        self.cycles_per_minute = 60 / recipe["cycleTime"]
         self.component_factor = recipe["producesPerCycle"]
         self.produces_per_minute = (60 / recipe["cycleTime"]) * recipe[
             "producesPerCycle"
@@ -98,8 +100,7 @@ class ChainGraph:
         """
         Determines how much of a component is used per minute
         """
-        return amount*self.component_factor*self.cycles_per_minute
-
+        return amount * self.component_factor * self.cycles_per_minute
 
     def save_recipes(self) -> dict:
         """
