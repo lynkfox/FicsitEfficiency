@@ -18,6 +18,8 @@ class ChainGraph:
     all_recipes: dict
     produce: float = field(init=False, default=1.0)
     produces_per_minute: float = field(init=False, default=0.0)
+    cycles_per_minute: float = field(init=False, default=0.0)
+    component_factor: float = field(init=False, default=0.0) # the multiplier for a given component to meet 100% efficiency
     recipes_selected: Dict[int, Dict[str, str]] = field(default_factory=dict)
     use_standard: bool = field(default=False)
     mod_content: ModdedContent = field(default=None)
@@ -86,9 +88,18 @@ class ChainGraph:
         """
         Determines how much to produce/min to = 100% machine efficiency
         """
+        self.cycles_per_minute = (60 / recipe["cycleTime"])
+        self.component_factor = recipe["producesPerCycle"]
         self.produces_per_minute = (60 / recipe["cycleTime"]) * recipe[
             "producesPerCycle"
         ]
+
+    def _initial_components_amount_of_100_per_efficiency(self, amount):
+        """
+        Determines how much of a component is used per minute
+        """
+        return amount*self.component_factor*self.cycles_per_minute
+
 
     def save_recipes(self) -> dict:
         """
@@ -174,10 +185,10 @@ class ChainGraph:
             + str(self.total_values)
             + f"\t  (Producing \033[92m{len(all_recipes_needed)}\033[0m different items)\n"
             + f"\n\n\033[96mMaking use of:\033[0m\n"
-            + f"\n\tInitial Recipe needs:\n"
+            + f"\n\tInitial Recipe needs: \n"
             + f"".join(
                 [
-                    f"\t  > {component.name.value}: {lookup.DECIMAL_FORMAT.format(component.amount)}/min\n"
+                    f"\t  > {component.name.value}: {lookup.DECIMAL_FORMAT.format(component.amount)}/min [{lookup.DECIMAL_FORMAT.format(self._initial_components_amount_of_100_per_efficiency(component.amount))}/min]\n"
                     for component in primary_recipe.required_components
                 ]
             )

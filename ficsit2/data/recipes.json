@@ -108,13 +108,13 @@
             ]
         },
         {
-            "recipeName": "VRE-More Power, More Output: Electroplated Iron Plate",
+            "recipeName": "VRE-Power Overwhelming: Electroplated Iron Plate",
             "producedIn": "Blender",
             "producesPerCycle": 2,
             "components": [
                 {
                     "name": "Sulfuric Acid",
-                    "amount": 5,
+                    "amount": 2,
                     "measurement": "m^3/productionCycle"
                 },
                 {
@@ -124,13 +124,13 @@
                 },
                 {
                     "name": "Plastic",
-                    "amount": 2,
+                    "amount": 1,
                     "measurement": "items/productionCycle"
                 }
             ],
             "cycleTime": 14,
             "products": [
-                "Steel Ingot"
+                "Reinforced Iron Plate"
             ]
         }
     ],
@@ -733,7 +733,7 @@
             ]
         },
         {
-            "recipeName": "VRE-More Power, More Output: Alternate: Silk Reinforced Steel",
+            "recipeName": "VRE-Power Overwhelming: Alternate: Silk Reinforced Steel",
             "producedIn": "Manufacturer",
             "producesPerCycle": 42,
             "components": [
@@ -4101,6 +4101,33 @@
             "products": [
                 "Steel Beam"
             ]
+        },
+        {
+            "recipeName": "VRE-Power Overwhelming: Purified Steel Beam",
+            "producedIn": "Blender",
+            "producesPerCycle": 17,
+            "components": [
+                {
+                    "name": "Nitric Acid",
+                    "amount": 2,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Steel Ingot",
+                    "amount": 27,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Water",
+                    "amount": 12,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 35,
+            "products": [
+                "Reinforced Iron Plate",
+                "Sulfuric Acid"
+            ]
         }
     ],
     "Steel Pipe": [
@@ -4886,7 +4913,7 @@
             ]
         },
         {
-            "recipeName": "VRE-More Power, More Output: Alternate: 3D Printed Object Scanner",
+            "recipeName": "VRE-Power Overwhelming: Alternate: 3D Printed Object Scanner",
             "producedIn": "Manufacturer",
             "producesPerCycle": 1,
             "components": [
@@ -4912,5 +4939,5 @@
             ]
         }
     ],
-    "last_generated": "2022-10-13 23:01:28UTC"
+    "last_generated": "2022-11-13 01:59:39UTC"
 }

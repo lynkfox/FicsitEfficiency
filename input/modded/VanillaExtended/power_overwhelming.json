@@ -1,0 +1,115 @@
+{
+    "Object Scanner": [
+        {
+            "recipeName": "VRE-Power Overwhelming: Alternate: 3D Printed Object Scanner",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 1,
+            "components": [
+                {
+                    "name": "Iron Ingot",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Rubber",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Plastic",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 20,
+            "products": [
+                "Object Scanner"
+            ]
+        }
+    ],
+    "Steel Ingot": [
+        {
+            "recipeName": "VRE-Power Overwhelming: Alternate: Silk Reinforced Steel",
+            "producedIn": "Manufacturer",
+            "producesPerCycle": 42,
+            "components": [
+                {
+                    "name": "Fabric",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Iron Ore",
+                    "amount": 28,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Coal",
+                    "amount": 28,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 20,
+            "products": [
+                "Steel Ingot"
+            ]
+        }
+    ],
+    "Reinforced Iron Plate": [
+        {
+            "recipeName": "VRE-Power Overwhelming: Electroplated Iron Plate",
+            "producedIn": "Blender",
+            "producesPerCycle": 2,
+            "components": [
+                {
+                    "name": "Sulfuric Acid",
+                    "amount": 2,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Iron Plate",
+                    "amount": 5,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Plastic",
+                    "amount": 1,
+                    "measurement": "items/productionCycle"
+                }
+            ],
+            "cycleTime": 14,
+            "products": [
+                "Reinforced Iron Plate"
+            ]
+        }
+    ],
+    "Steel Beam": [
+        {
+            "recipeName": "VRE-Power Overwhelming: Purified Steel Beam",
+            "producedIn": "Blender",
+            "producesPerCycle": 17,
+            "components": [
+                {
+                    "name": "Nitric Acid",
+                    "amount": 2,
+                    "measurement": "m^3/productionCycle"
+                },
+                {
+                    "name": "Steel Ingot",
+                    "amount": 27,
+                    "measurement": "items/productionCycle"
+                },
+                {
+                    "name": "Water",
+                    "amount": 12,
+                    "measurement": "m^3/productionCycle"
+                }
+            ],
+            "cycleTime": 35,
+            "products": [
+                "Reinforced Iron Plate",
+                "Sulfuric Acid"
+            ]
+        }
+    ]
+}

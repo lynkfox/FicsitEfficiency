@@ -1,0 +1,35 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Industrial Biofuel",
+    "Ingredients": [
+        {
+            "Item": "Desc_AlienProtein",
+            "Amount": 1
+        },
+        {
+            "Item": "Desc_Wood",
+            "Amount": 4
+        },
+        {
+            "Item": "Desc_Leaves",
+            "Amount": 10
+        },
+        {
+            "Item": "Desc_FlowerPetals",
+            "Amount": 8
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_Biofuel",
+            "Amount": 65
+        }
+    ],
+    "ManufacturingDuration": 1,
+    "ProducedIn": [
+        "Build_ManufacturerMk1"
+    ],
+    "UnlockedBy": [
+        "Schematic_5-2"
+    ]
+}

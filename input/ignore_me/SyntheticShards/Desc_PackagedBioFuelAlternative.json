@@ -1,0 +1,27 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Rudimentary Biofuel Tank",
+    "Ingredients": [
+        {
+            "Item": "Desc_Biofuel",
+            "Amount": 4
+        },
+        {
+            "Item": "Desc_SteelIngot",
+            "Amount": 3
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_PackagedBiofuel",
+            "Amount": 1
+        }
+    ],
+    "ManufacturingDuration": 12,
+    "ProducedIn": [
+        "Build_FoundryMk1"
+    ],
+    "UnlockedBy": [
+        "Schematic_3-3"
+    ]
+}

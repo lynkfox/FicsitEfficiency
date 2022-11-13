@@ -4,6 +4,7 @@ from typing import List, Tuple
 def get_possible_recipes(component_name: str, all_recipes: dict) -> List[str]:
     """returns a list of the recipe names"""
 
+    
     return [recipe["recipeName"] for recipe in all_recipes[component_name]]
 
 

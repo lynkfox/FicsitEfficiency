@@ -1,0 +1,34 @@
+{    "Encased Uranium Cell": [
+    {
+        "recipeName": "Space Derg: Encased Uranium Cell",
+        "producedIn": "Manufacturer",
+        "producesPerCycle": 2,
+        "components": [
+            {
+                "name": "Uranium Ore",
+                "amount": 12,
+                "measurement": "items/productionCycle"
+            },
+            {
+                "name": "Compacted Coal",
+                "amount": 5,
+                "measurement": "items/productionCycle"
+            },
+            {
+                "name": "Encased Industrial Beam",
+                "amount": 2,
+                "measurement": "items/productionCycle"
+            },
+            {
+                "name": "Project Part: Adaptive Control Unit",
+                "amount": 1,
+                "measurement": "items/productionCycle"
+            }
+        ],
+        "cycleTime": 30,
+        "products": [
+            "Encased Uranium Cell"
+        ]
+    }
+]
+}

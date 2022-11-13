@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/budak7273/ContentLib_Documentation/main/JsonSchemas/CL_Recipe.json",
+    "Name": "Alternate: Biomass from Flowers",
+    "Ingredients": [
+        {
+            "Item": "Desc_FlowerPetals",
+            "Amount": 8
+        }
+    ],
+    "Products": [
+        {
+            "Item": "Desc_GenericBiomass",
+            "Amount": 5
+        }
+    ],
+    "ManufacturingDuration": 4,
+    "ProducedIn": [
+        "Build_ConstructorMk1"
+    ],
+    "UnlockedBy": [
+        "Schematic_2-2"
+    ]
+}
